@@ -48,6 +48,7 @@
   .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg) }
   .chip span { font-family: var(--mono); letter-spacing: 0; margin-left: 4px; opacity: .75 }
   .note { background: var(--tint); padding: 12px 14px; border-radius: 6px; max-width: 72ch; margin: 0 }
+  #donate a { font: 500 14px var(--display); padding: 9px 14px; border-radius: 6px; background: var(--accent); color: var(--bg); text-decoration: none }
   .note b { font-family: var(--display); font-weight: 500 }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
   #count { color: var(--muted); font: 13px var(--mono) }
@@ -95,6 +96,21 @@
   .gallery a { display: grid; gap: 4px; color: var(--muted); font: 11px/1.3 var(--mono); text-decoration: none }
   .gallery img { width: 120px; aspect-ratio: 1; object-fit: cover; border-radius: 6px; background: var(--tint) }
   @media (max-width: 620px) { .phead { grid-template-columns: 1fr } .phead .pic { max-width: 260px } }
+  /* Dateringsguide */
+  #dating { display: grid; gap: 14px }
+  .dtitle { font: 500 1.6rem/1.15 var(--display); margin: -4px 0 0 }
+  #dguide { display: grid; gap: 14px; max-width: 72ch }
+  #dguide p { margin: 0 }
+  #dguide details { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); padding: 12px 16px }
+  #dguide summary { font: 500 1.02rem/1.3 var(--display); cursor: pointer }
+  #dguide details[open] summary { margin-bottom: 10px }
+  #dguide ul { margin: 10px 0 0; padding-left: 18px; display: grid; gap: 6px }
+  #dguide sup a { color: var(--accent); font-size: 11px; text-decoration: none; margin-left: 2px }
+  .periods { width: 100%; border-collapse: collapse; font-size: 14px }
+  .periods th, .periods td { text-align: left; padding: 7px 8px 7px 0; border-bottom: 1px solid var(--line); vertical-align: top }
+  .periods th { font: 500 11px var(--display); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+  .periods td:nth-child(2) { font-family: var(--mono); white-space: nowrap }
+  .tablewrap { overflow-x: auto }
   /* Tidslinje: én bane pr. kildetype, verden flyttes med translateX, zoom genberegner positioner */
   .tlbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px }
   .tlbar button { font: 500 13px/1 var(--display); padding: 8px 12px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 6px; cursor: pointer; min-width: 36px }
@@ -134,7 +150,7 @@
     </svg>
     <div>
       <h1>PH-arkivet</h1>
-      <p class="lead">Officielle digitale kilder om Poul Henningsens lamper: kataloger, produktark, patenter, museumsgenstande, tidsskrifter og film. Ingen salgsopslag. Hver kilde har et link til en arkivkopi i Wayback Machine.</p>
+      <p class="lead">Officielle digitale kilder om Poul Henningsens lamper: kataloger, produktark, patenter, museumsgenstande, tidsskrifter og film. Ingen salgsopslag. Se også <a href="#dating">dateringsguiden</a>. Hver kilde har et link til en arkivkopi i Wayback Machine.</p>
     </div>
   </header>
 
@@ -171,11 +187,22 @@
 
   <ol id="list"></ol>
 
+  <section id="dating" aria-labelledby="dgh">
+    <h3 id="dgh">Dateringsguide for samlere</h3>
+    <h2 class="dtitle">Hvor gammel er min PH-lampe?</h2>
+    <div id="dguide"></div>
+  </section>
+  <section id="stoet" class="note" hidden aria-labelledby="dh">
+    <h3 id="dh">Støt arkivet</h3>
+    <p style="margin:0 0 10px">Arkivet er gratis og uden reklamer. Et bidrag betaler domænet og tiden til at finde, arkivere og tjekke nye kilder.</p>
+    <div class="row" id="donate"></div>
+  </section>
   <footer>Kilderne er fundet i oktober 2026 hos Louis Poulsen, Det Kgl. Bibliotek, Mediestream, Rigsarkivet, arkiv.dk, danske og udenlandske museer, Google Patents, Wayback Machine, Danmark på Film og lex.dk. Kilder der ikke kunne åbnes, er udeladt. Billederne er små gengivelser fra kildernes egne sider; rettighederne ligger hos de respektive udgivere.</footer>
 </main>
 
 <script src="sources.js"></script>
 <script src="models.js"></script>
+<script src="dating.js"></script>
 <script>
   // Hvad er hver type kilde, og hvad kan den fortælle
   const TYPE_NOTES = {
@@ -192,6 +219,8 @@
     bog: 'Bøger og publikationer med fokus på PH og lamperne.',
   };
 
+  // Donationslinks: udfyld for at vise "Støt arkivet". Tomme felter vises ikke.
+  const DONATE = { 'MobilePay': '', 'Ko-fi': '', 'GitHub Sponsors': '' };
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const yearOf = s => (String(s.year).match(/\d{4}/) || ['9999'])[0];
@@ -236,9 +265,9 @@
           <button class="pclose" data-close>Luk</button>
           <h2>${m.name}</h2>
           <p class="yr">${m.year}</p>
-          ${m.variants ? `<p class="how"><b>Udgaver:</b> ${esc(m.variants)}</p>` : ''}
           <p>${m.text}</p>
           ${m.how ? `<p class="how">${esc(m.how)}</p>` : ''}
+          ${m.variants ? `<p class="how"><b>Udgaver:</b> ${esc(m.variants)}</p>` : ''}
           ${m.dating && m.dating !== m.year ? `<p class="how"><b>Datering:</b> ${esc(m.dating)}</p>` : ''}
         </div>
       </div>
@@ -420,5 +449,18 @@
   $('sort').addEventListener('input', render);
   const start = location.hash.slice(1);
   if (MODELS.some(m => m.id === start)) setModel(start);
+  // Dateringsguide
+  const cite = u => `<sup><a href="${esc(u)}" target="_blank" rel="noopener" title="${esc(u)}">kilde</a></sup>`;
+  $('dguide').innerHTML = `<p>${esc(DATING.intro)}</p>
+    <details><summary>Produktionsperioder pr. model</summary><div class="tablewrap"><table class="periods">
+      <tr><th>Model</th><th>Periode</th><th>Note</th></tr>
+      ${DATING.periods.map(r => `<tr><td>${esc(r.model)}</td><td>${esc(r.from)}${r.to === r.from ? '' : '–' + esc(r.to)}</td><td>${esc(r.note)}${cite(r.url)}</td></tr>`).join('')}
+    </table></div></details>
+    ${DATING.steps.map(s => `<details><summary>${esc(s.title)}</summary><p>${esc(s.text)}</p>
+      <ul>${s.checks.map(c => `<li>${esc(c.text)}${cite(c.url)}</li>`).join('')}</ul></details>`).join('')}
+    <details><summary>Forbehold</summary><ul>${DATING.caveats.map(c => `<li>${esc(c)}</li>`).join('')}</ul></details>`;
+  const dl = Object.entries(DONATE).filter(([, u]) => u);
+  $('stoet').hidden = !dl.length;
+  $('donate').innerHTML = dl.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${n}</a>`).join('');
   renderChips(); render();
 </script>

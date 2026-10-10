@@ -3504,5 +3504,776 @@ const SOURCES = [
   "type": "tidsskrift",
   "language": "da",
   "description": "KB's digitalisering af Clarté 1926 nr. 3 med indlæg af Poul Henningsen."
+ },
+ {
+  "title": "PH Septima – Reflections",
+  "url": "https://www.louispoulsen.com/en/reflections/ph-septima",
+  "publisher": "Louis Poulsen",
+  "year": 2020,
+  "type": "hjemmeside",
+  "language": "en",
+  "description": "Louis Poulsens artikel om PH Septima, Poul Henningsens syvskærmede glaspendel fra 1927–31, og genudgivelsen i 2020.",
+  "img": "thumbs/10541daad3b7.jpg"
+ },
+ {
+  "title": "PH Septima – Designet af Poul Henningsen",
+  "url": "https://www.louispoulsen.com/da-dk/reflections/ph-septima",
+  "publisher": "Louis Poulsen",
+  "year": 2020,
+  "type": "hjemmeside",
+  "language": "da",
+  "description": "Dansk udgave af Louis Poulsens fortælling om PH Septima med syv skærme i klart glas med riller og historikken bag modellen.",
+  "img": "thumbs/8e81b0d0e703.jpg"
+ },
+ {
+  "title": "PH Septima – presse (dansk)",
+  "url": "https://www.louispoulsen.com/da-dk/presse/ph-septima",
+  "publisher": "Louis Poulsen",
+  "year": 2020,
+  "type": "hjemmeside",
+  "language": "da",
+  "description": "Louis Poulsens danske pressemeddelelse om relanceringen af PH Septima, baseret på den oprindelige PH Septima 5."
+ },
+ {
+  "title": "PH Septima – produktside",
+  "url": "https://www.louispoulsen.com/en/c/indoor-lighting/pendants/ph-septima",
+  "publisher": "Louis Poulsen",
+  "year": 2026,
+  "type": "produktark",
+  "language": "en",
+  "description": "Aktuel officiel produktside for PH Septima pendel med specifikationer, mål og designbeskrivelse.",
+  "img": "thumbs/f14daf7eab23.jpg"
+ },
+ {
+  "title": "PH Septima – featured (2020)",
+  "url": "https://web.archive.org/web/20200928153612/https://www.louispoulsen.com/en/private/featured/ph-septima",
+  "publisher": "Louis Poulsen",
+  "year": 2020,
+  "type": "hjemmeside",
+  "language": "en",
+  "description": "Wayback-arkiveret lanceringsside fra 2020, hvor Louis Poulsen præsenterede genudgivelsen af PH Septima."
+ },
+ {
+  "title": "PH Septima – katalogside (2021)",
+  "url": "https://web.archive.org/web/20210621131102/https://www.louispoulsen.com/en/catalog/private/pendants/ph-septima",
+  "publisher": "Louis Poulsen",
+  "year": 2021,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret produktkatalogside for PH Septima fra 2021 med tekniske data og varianter."
+ },
+ {
+  "title": "PH Septima – professional news",
+  "url": "https://web.archive.org/web/20211207233657/https://www.louispoulsen.com/en/professional/news/ph-septima",
+  "publisher": "Louis Poulsen",
+  "year": 2021,
+  "type": "hjemmeside",
+  "language": "en",
+  "description": "Arkiveret nyhed til fagfolk om PH Septima og dens designhistorie fra 1927–31."
+ },
+ {
+  "title": "PH Septima – guides & inspiration (US)",
+  "url": "https://web.archive.org/web/20250908064736/https://www.louispoulsen.com/en-us/guides-inspiration/ph-septima",
+  "publisher": "Louis Poulsen",
+  "year": 2025,
+  "type": "hjemmeside",
+  "language": "en",
+  "description": "Arkiveret amerikansk inspirationsartikel fra Louis Poulsen om PH Septima."
+ },
+ {
+  "title": "PH 2/2 Question Mark Limited Edition – press",
+  "url": "https://www.louispoulsen.com/en/press/ph-2-2-question-mark-limited-edition",
+  "publisher": "Louis Poulsen",
+  "year": 2021,
+  "type": "hjemmeside",
+  "language": "en",
+  "description": "Pressemeddelelse om genudgivelsen af PH 2/2 Spørgsmålstegnet (Question Mark), bordlampen med justerbar spørgsmålstegnformet stang fra 1931."
+ },
+ {
+  "title": "PH 2/2 Question Mark – presse (dansk)",
+  "url": "https://www.louispoulsen.com/da-dk/presse/ph-22-question-mark-limited-edition",
+  "publisher": "Louis Poulsen",
+  "year": 2021,
+  "type": "hjemmeside",
+  "language": "da",
+  "description": "Dansk pressemeddelelse om limited edition af PH 2/2 Spørgsmålstegnet fra Louis Poulsen."
+ },
+ {
+  "title": "PH 2/2 The Question Mark – katalogside (2021)",
+  "url": "https://web.archive.org/web/20210919101933/https://www.louispoulsen.com/en/catalog/private/table/ph-22-the-question-mark",
+  "publisher": "Louis Poulsen",
+  "year": 2021,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret produktside for PH 2/2 Spørgsmålstegnet (The Question Mark) med specifikationer fra relanceringen i 2021."
+ },
+ {
+  "title": "PH 2/2 The Question Mark – professional news (US)",
+  "url": "https://web.archive.org/web/20211208002554/https://www.louispoulsen.com/en-us/professional/news/ph-22-the-question-mark-limited-edition",
+  "publisher": "Louis Poulsen",
+  "year": 2021,
+  "type": "hjemmeside",
+  "language": "en",
+  "description": "Arkiveret nyhed til fagfolk om PH 2/2 Spørgsmålstegnet limited edition."
+ },
+ {
+  "title": "PH 2/2 Question Mark Chrome – cut sheet",
+  "url": "https://web.archive.org/web/20241114073822/https://www.louispoulsen.com/api/downloadcenter/download?type=cutsheetpdf&id=PH%202/2%20Question%20Mark%20Chrome%20Table%20Lamp-91880%20Cut%20Sheet.pdf&overridelanguage=en-US",
+  "publisher": "Louis Poulsen",
+  "year": 2024,
+  "type": "produktark",
+  "language": "en",
+  "description": "Teknisk datablad (cut sheet) for PH 2/2 Spørgsmålstegnet i krom, varenr. 91880."
+ },
+ {
+  "title": "PH 2/2 Table Q-Mark Chrome – monteringsvejledning",
+  "url": "https://web.archive.org/web/20241114074533/https://www.louispoulsen.com/api/downloadcenter/download?type=mountinginstructions&id=28002-I3_PH_2-2_Table_Q-Mark_Chrome_US.pdf&overridelanguage=en-US",
+  "publisher": "Louis Poulsen",
+  "year": 2024,
+  "type": "produktark",
+  "language": "en",
+  "description": "Officiel monteringsvejledning for PH 2/2 Spørgsmålstegnet bordlampe i krom (US-udgave)."
+ },
+ {
+  "title": "PH 2/2 Question Mark Pale Rose – produktside",
+  "url": "https://www.louispoulsen.com/en/c/indoor-lighting/table-lamps/ph-22-question-mark-pale-rose-table-lamp",
+  "publisher": "Louis Poulsen",
+  "year": 2026,
+  "type": "produktark",
+  "language": "en",
+  "description": "Aktuel produktside for PH 2/2 Spørgsmålstegnet i Pale Rose-udgaven.",
+  "img": "thumbs/66000ad427fd.jpg"
+ },
+ {
+  "title": "PH Snowball in New Colours – press",
+  "url": "https://www.louispoulsen.com/en/press/snowball-2025",
+  "publisher": "Louis Poulsen",
+  "year": 2025,
+  "type": "hjemmeside",
+  "language": "en",
+  "description": "Pressemeddelelse om PH Snebold (PH Snowball) i nye farver 2025, med historik om modellen fra 1958."
+ },
+ {
+  "title": "PH Snowball Anniversary Edition – produktside",
+  "url": "https://www.louispoulsen.com/en/c/indoor-lighting/pendants/ph-snowball-anniversary-edition",
+  "publisher": "Louis Poulsen",
+  "year": 2024,
+  "type": "produktark",
+  "language": "en",
+  "description": "Produktside for jubilæumsudgaven af PH Snebold (PH Snowball) til Louis Poulsens 150-års jubilæum i 2024.",
+  "img": "thumbs/fe13a84c5d92.jpg"
+ },
+ {
+  "title": "PH Snowball – produktside (2007)",
+  "url": "https://web.archive.org/web/20070630154652/http://www.louispoulsen.com:80/en-us/Product/Pendants/PH%20Snowball.aspx?",
+  "publisher": "Louis Poulsen",
+  "year": 2007,
+  "type": "produktark",
+  "language": "en",
+  "description": "Wayback-arkiveret amerikansk produktside fra 2007 for PH Snebold (PH Snowball) pendel."
+ },
+ {
+  "title": "PH Snowball – produktside (2008)",
+  "url": "https://web.archive.org/web/20081007101556/http://www.louispoulsen.com:80/en/Product/Pendants/PH%20Snowball.aspx",
+  "publisher": "Louis Poulsen",
+  "year": 2008,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret international produktside for PH Snebold (PH Snowball) fra 2008."
+ },
+ {
+  "title": "PH Snowball – produktside (dansk, 2012)",
+  "url": "https://web.archive.org/web/20120109034016/http://www.louispoulsen.com:80/da/Product/pendants/ph%20snowball.aspx",
+  "publisher": "Louis Poulsen",
+  "year": 2012,
+  "type": "produktark",
+  "language": "da",
+  "description": "Arkiveret dansk produktside fra 2012 for PH Snebold (PH Snowball)."
+ },
+ {
+  "title": "PH Snowball – produktside (2015)",
+  "url": "https://web.archive.org/web/20150801053700/http://www.louispoulsen.com:80/int/products/indoor/pendants/ph-snowball.aspx",
+  "publisher": "Louis Poulsen",
+  "year": 2015,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret produktside fra 2015 for PH Snebold (PH Snowball) med lysfordeling og tekniske data."
+ },
+ {
+  "title": "PH Snowball – katalogside (2019)",
+  "url": "https://web.archive.org/web/20190718150312/https://www.louispoulsen.com/en/catalog/private/pendants/ph-snowball",
+  "publisher": "Louis Poulsen",
+  "year": 2019,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret katalogside fra 2019 for PH Snebold (PH Snowball) pendel."
+ },
+ {
+  "title": "PH Snowball-90295 – produktark PDF",
+  "url": "https://web.archive.org/web/20240630021937/https://www.louispoulsen.com/api/downloadcenter/download?type=productpdf&id=PH%20Snowball-90295.pdf&overridelanguage=en-IE",
+  "publisher": "Louis Poulsen",
+  "year": 2024,
+  "type": "produktark",
+  "language": "en",
+  "description": "Officielt produktark (PDF) for PH Snebold (PH Snowball), varenr. 90295."
+ },
+ {
+  "title": "PH Snowball – cut sheet",
+  "url": "https://web.archive.org/web/20250623004528/https://www.louispoulsen.com/api/downloadcenter/download?type=cutsheetpdf&id=PH%20Snowball-90295%20Cut%20Sheet.pdf&overridelanguage=en-US",
+  "publisher": "Louis Poulsen",
+  "year": 2025,
+  "type": "produktark",
+  "language": "en",
+  "description": "Teknisk cut sheet for PH Snebold (PH Snowball) 90295."
+ },
+ {
+  "title": "PH Kuglelamel – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610192409/http://louis-poulsen.dk/products/attachments/catalogue/da/da33_90295.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH Kuglelamel – det danske navn for PH Snebold (PH Snowball) – med otte skærme og specifikationer."
+ },
+ {
+  "title": "PH Kuglelamel – monteringsvejledning (2007)",
+  "url": "https://web.archive.org/web/20070723012242/http://louis-poulsen.dk/products/attachments/mounting/da/PH-KL-P-90295-1-EU-V1.PDF",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Monteringsvejledning for PH Kuglelamel / PH Snebold (PH Snowball), varenr. 90295."
+ },
+ {
+  "title": "PH Louvre – produktside (dansk, 2007)",
+  "url": "https://web.archive.org/web/20071219163145/http://www.louispoulsen.com:80/da/Product/Pendants/PH%20Louvre.aspx",
+  "publisher": "Louis Poulsen",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Arkiveret dansk produktside fra 2007 for PH Louvre (PH Kugle) pendel fra 1957."
+ },
+ {
+  "title": "PH Louvre – produktside (2008)",
+  "url": "https://web.archive.org/web/20081007101548/http://www.louispoulsen.com:80/en/Product/Pendants/PH%20Louvre.aspx",
+  "publisher": "Louis Poulsen",
+  "year": 2008,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret international produktside fra 2008 for PH Louvre."
+ },
+ {
+  "title": "PH Louvre – produktside (2015)",
+  "url": "https://web.archive.org/web/20150801054010/http://www.louispoulsen.com:80/int/products/indoor/pendants/ph-louvre.aspx",
+  "publisher": "Louis Poulsen",
+  "year": 2015,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret produktside fra 2015 for PH Louvre med beskrivelse af de 13 lameller og lyskarakteristik."
+ },
+ {
+  "title": "PH Louvre – katalogside (2023)",
+  "url": "https://web.archive.org/web/20230930000151/https://www.louispoulsen.com/en/catalog/private/pendants/ph-louvre",
+  "publisher": "Louis Poulsen",
+  "year": 2023,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret katalogside fra 2023 for PH Louvre pendel."
+ },
+ {
+  "title": "PH Louvre-90294 – produktark PDF",
+  "url": "https://web.archive.org/web/20240702171913/https://www.louispoulsen.com/api/downloadcenter/download?type=productpdf&id=PH%20Louvre-90294.pdf&overridelanguage=en-IE",
+  "publisher": "Louis Poulsen",
+  "year": 2024,
+  "type": "produktark",
+  "language": "en",
+  "description": "Officielt produktark (PDF) for PH Louvre, varenr. 90294."
+ },
+ {
+  "title": "PH Louvre LED upgrade kit",
+  "url": "https://web.archive.org/web/20250126045609/https://www.louispoulsen.com/en/catalog/professional/led-upgrade-kit/ph-louvre-led-upgrade-kit",
+  "publisher": "Louis Poulsen",
+  "year": 2025,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret side om LED-opgraderingssæt til PH Louvre."
+ },
+ {
+  "title": "PH Kugle – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610194024/http://louis-poulsen.dk/products/attachments/catalogue/da/da33_90294.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH Kugle – det danske navn for PH Louvre – med 13 koniske skærme og specifikationer."
+ },
+ {
+  "title": "PH 80 – katalogside (2020)",
+  "url": "https://web.archive.org/web/20200418103404/https://www.louispoulsen.com/en/catalog/private/floor/ph-80",
+  "publisher": "Louis Poulsen",
+  "year": 2020,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret katalogside fra 2020 for PH 80 gulvlampe (1974) med akrylskærme."
+ },
+ {
+  "title": "PH 80 – katalogside (dansk, 2020)",
+  "url": "https://web.archive.org/web/20200418090719/https://www.louispoulsen.com/da-dk/catalog/privat/gulvlamper/ph-80",
+  "publisher": "Louis Poulsen",
+  "year": 2020,
+  "type": "produktark",
+  "language": "da",
+  "description": "Arkiveret dansk katalogside for PH 80 gulvlampe."
+ },
+ {
+  "title": "PH 80 Table Lamp – produktside",
+  "url": "https://www.louispoulsen.com/en/c/indoor-lighting/table-lamps/ph-80-table-lamp",
+  "publisher": "Louis Poulsen",
+  "year": 2026,
+  "type": "produktark",
+  "language": "en",
+  "description": "Aktuel produktside for PH 80 bordlampe, den nyere bordudgave af PH 80.",
+  "img": "thumbs/e9e9cdb759b3.jpg"
+ },
+ {
+  "title": "PH 80 Portable Lamp – produktside",
+  "url": "https://www.louispoulsen.com/en/c/indoor-lighting/table-lamps/ph-80-portable-lamp",
+  "publisher": "Louis Poulsen",
+  "year": 2026,
+  "type": "produktark",
+  "language": "en",
+  "description": "Aktuel produktside for den genopladelige PH 80 Portable.",
+  "img": "thumbs/15ac73160344.jpg"
+ },
+ {
+  "title": "PH 80 – monteringsvejledning (JP)",
+  "url": "https://web.archive.org/web/20250125083940/https://www.louispoulsen.com/api/downloadcenter/download?type=mountinginstructions&id=23632-I1_PH_80_JP.pdf&overridelanguage=ja-JP",
+  "publisher": "Louis Poulsen",
+  "year": 2025,
+  "type": "produktark",
+  "language": "ja",
+  "description": "Officiel japansk monteringsvejledning for PH 80."
+ },
+ {
+  "title": "PH 80 Gulv – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610163503/http://louis-poulsen.dk/products/attachments/catalogue/da/da32_90397.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH 80 Gulv med akrylskærme og tekniske specifikationer."
+ },
+ {
+  "title": "PH Hat – produktside (2016)",
+  "url": "https://web.archive.org/web/20160423085801/http://www.louispoulsen.com/int/products/indoor/wall/ph-hat/c-24/c-1432/p-55501",
+  "publisher": "Louis Poulsen",
+  "year": 2016,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret produktside fra 2016 for PH Hat (P-Hat) væglampe."
+ },
+ {
+  "title": "PH Hat – produktside (dansk, 2017)",
+  "url": "https://web.archive.org/web/20171209174916/http://www.louispoulsen.com:80/dk/produkter/indend%C3%B8rs/v%C3%A6g/ph-hat/c-24/c-1432/p-55501",
+  "publisher": "Louis Poulsen",
+  "year": 2017,
+  "type": "produktark",
+  "language": "da",
+  "description": "Arkiveret dansk produktside fra 2017 for PH Hat væglampe."
+ },
+ {
+  "title": "PH Hat – katalogside (2023)",
+  "url": "https://web.archive.org/web/20231128120711/https://www.louispoulsen.com/en/catalog/private/wall/ph-hat",
+  "publisher": "Louis Poulsen",
+  "year": 2023,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret katalogside fra 2023 for PH Hat væglampe."
+ },
+ {
+  "title": "PH Hat – monteringsvejledning (JP)",
+  "url": "https://web.archive.org/web/20250805134345/https://www.louispoulsen.com/api/downloadcenter/download?type=mountinginstructions&id=38012-I1_PH_Hat_JP.pdf&overridelanguage=ja-JP",
+  "publisher": "Louis Poulsen",
+  "year": 2025,
+  "type": "produktark",
+  "language": "ja",
+  "description": "Officiel japansk monteringsvejledning for PH Hat."
+ },
+ {
+  "title": "P-Hat – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070624081023/http://louis-poulsen.dk/products/attachments/catalogue/da/da31_90355.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for P-Hat / PH Hat væglampe, hvor skærmen kan vippes 0–67°."
+ },
+ {
+  "title": "PH 2/1 Table Limited Edition – press",
+  "url": "https://www.louispoulsen.com/en/press/ph-21-table-limited-edition",
+  "publisher": "Louis Poulsen",
+  "year": 2020,
+  "type": "hjemmeside",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 2/1 bordlampe i ravfarvet glas (2020) med historik om PH 2/1 fra 1927."
+ },
+ {
+  "title": "PH 2/1 Limited Edition by Esben Weile",
+  "url": "https://www.louispoulsen.com/en/reflections/ph-2-1-limited-edition-esben-weile",
+  "publisher": "Louis Poulsen",
+  "year": 2024,
+  "type": "hjemmeside",
+  "language": "en",
+  "description": "Louis Poulsen-artikel om kunstneren Esben Weiles limited edition af PH 2/1 bordlampen.",
+  "img": "thumbs/8d4ea9c61cfe.jpg"
+ },
+ {
+  "title": "PH 2/1 Pendant – produktside (2010)",
+  "url": "https://web.archive.org/web/20100112142923/http://www.louispoulsen.com:80/en/Product/Pendants/PH%202_1%20Pendant.aspx",
+  "publisher": "Louis Poulsen",
+  "year": 2010,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret produktside fra 2010 for PH 2/1 pendel."
+ },
+ {
+  "title": "PH 2/1 Stem Fitting – produktside (dansk, 2007)",
+  "url": "https://web.archive.org/web/20071114170525/http://www.louispoulsen.com:80/da/Product/Pendants/PH%202_1%20Stem%20Fitting.aspx",
+  "publisher": "Louis Poulsen",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Arkiveret produktside fra 2007 for PH 2/1 Stammekrone."
+ },
+ {
+  "title": "PH 2/1 Wall – produktside (2009)",
+  "url": "https://web.archive.org/web/20091010010645/http://www.louispoulsen.com:80/en/Product/Wall/PH%202_1%20Wall.aspx?",
+  "publisher": "Louis Poulsen",
+  "year": 2009,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret produktside fra 2009 for PH 2/1 væglampe."
+ },
+ {
+  "title": "PH 2/1 Pendant – produktside (2015)",
+  "url": "https://web.archive.org/web/20150801053638/http://www.louispoulsen.com:80/int/products/indoor/pendants/ph-21-pendant.aspx",
+  "publisher": "Louis Poulsen",
+  "year": 2015,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret produktside fra 2015 for PH 2/1 pendel."
+ },
+ {
+  "title": "PH 2/1 Table-91418 – produktark PDF",
+  "url": "https://web.archive.org/web/20240421041719/https://www.louispoulsen.com/api/downloadcenter/download?type=productpdf&id=PH%202/1%20Table-91418.pdf&overridelanguage=en-IE",
+  "publisher": "Louis Poulsen",
+  "year": 2024,
+  "type": "produktark",
+  "language": "en",
+  "description": "Officielt produktark (PDF) for PH 2/1 bordlampe, varenr. 91418."
+ },
+ {
+  "title": "PH 2/1 Pendel – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610191341/http://louis-poulsen.dk/products/attachments/catalogue/da/da33_90287.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH 2/1 Pendel i mundblæst opalglas."
+ },
+ {
+  "title": "PH 2/1 Pale Rose Brass Table Lamp – produktside",
+  "url": "https://www.louispoulsen.com/en/c/indoor-lighting/table-lamps/ph-21-pale-rose-brass-table-lamp",
+  "publisher": "Louis Poulsen",
+  "year": 2026,
+  "type": "produktark",
+  "language": "en",
+  "description": "Aktuel produktside for PH 2/1 bordlampe i Pale Rose med messing.",
+  "img": "thumbs/6a7ffafff7ac.jpg"
+ },
+ {
+  "title": "PH 3/2 Table Lamp – Limited Edition (press)",
+  "url": "https://www.louispoulsen.com/en/press/ph-32-table-lamp---limited-edition",
+  "publisher": "Louis Poulsen",
+  "year": 2018,
+  "type": "hjemmeside",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 3/2 bordlampe i ravfarvet italiensk glas (2018) med historik om PH 3/2 fra 1927 og farvede glas i 1920erne."
+ },
+ {
+  "title": "PH 3½-2½ Floor Lamp Centenary Edition",
+  "url": "https://www.louispoulsen.com/en/c/indoor-lighting/floor-lamps/ph-3-2-floor-lamp-centenary-edition",
+  "publisher": "Louis Poulsen",
+  "year": 2026,
+  "type": "produktark",
+  "language": "en",
+  "description": "Produktside for jubilæumsudgaven af PH 3½-2½ (PH 3/2) gulvlampe.",
+  "img": "thumbs/92db73fd107d.jpg"
+ },
+ {
+  "title": "PH 3/2 Pendel – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610193006/http://louis-poulsen.dk/products/attachments/catalogue/da/da33_90289.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH 3/2 Pendel med logaritmisk spiral-skærmsystem i trelags opalglas."
+ },
+ {
+  "title": "PH 3/2 Bord – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610162548/http://louis-poulsen.dk/products/attachments/catalogue/da/da32_90352.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH 3/2 Bord i opalglas."
+ },
+ {
+  "title": "PH 3/2 Akademi – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610192537/http://louis-poulsen.dk/products/attachments/catalogue/da/da33_90304.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH 3/2 Akademi pendel med tre lyskilder."
+ },
+ {
+  "title": "PH 3½-2½ Gulv – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610163052/http://louis-poulsen.dk/products/attachments/catalogue/da/da32_90771.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH 3½-2½ (PH 3/2) gulvlampe."
+ },
+ {
+  "title": "PH 3/2 (OK-1964-0101B)",
+  "url": "https://www.nasjonalmuseet.no/samlingen/objekt/OK-1964-0101B",
+  "publisher": "Nasjonalmuseet, Oslo",
+  "year": 1927,
+  "type": "museum",
+  "language": "no",
+  "description": "Museumspost for en PH 3/2-lampe fra 1927 i Nasjonalmuseets samling (Stiftelsen Kunstindustrimuseet).",
+  "img": "thumbs/5e42f0375750.jpg"
+ },
+ {
+  "title": "PH 3/2 (OK-1964-0101C)",
+  "url": "https://www.nasjonalmuseet.no/samlingen/objekt/OK-1964-0101C",
+  "publisher": "Nasjonalmuseet, Oslo",
+  "year": 1930,
+  "type": "museum",
+  "language": "no",
+  "description": "Museumspost for en PH 3/2-lampe, ca. 1930 (design 1927), i Nasjonalmuseets samling.",
+  "img": "thumbs/e07f668ba0cd.jpg"
+ },
+ {
+  "title": "PH 4/3 Pendant – produktside (2015)",
+  "url": "https://web.archive.org/web/20150905072334/http://www.louispoulsen.com:80/int/products/indoor/pendants/ph-43-pendant/c-24/c-1422/p-55474",
+  "publisher": "Louis Poulsen",
+  "year": 2015,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret produktside fra 2015 for PH 4/3 pendel."
+ },
+ {
+  "title": "PH 4/3 Table – produktside (2016)",
+  "url": "https://web.archive.org/web/20160803082850/http://www.louispoulsen.com:80/int/int/products/indoor/table/ph-4-3-table/c-24/c-1423/p-55488",
+  "publisher": "Louis Poulsen",
+  "year": 2016,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret produktside fra 2016 for PH 4/3 bordlampe."
+ },
+ {
+  "title": "PH 4/3 Glass Floor – produktside (2016)",
+  "url": "https://web.archive.org/web/20160423063401/http://www.louispoulsen.com/int/products/indoor/floor/ph-4-3-glass-floor/c-24/c-1424/p-55493",
+  "publisher": "Louis Poulsen",
+  "year": 2016,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret produktside fra 2016 for PH 4½-3½ (PH 4/3) glas gulvlampe."
+ },
+ {
+  "title": "PH 4/3 Table – katalogside (US, 2019)",
+  "url": "https://web.archive.org/web/20191206211931/https://www.louispoulsen.com/en-us/catalog/private/table/ph-43-table",
+  "publisher": "Louis Poulsen",
+  "year": 2019,
+  "type": "produktark",
+  "language": "en",
+  "description": "Arkiveret amerikansk katalogside fra 2019 for PH 4/3 bordlampe."
+ },
+ {
+  "title": "PH 4/3 Pendel – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610191931/http://louis-poulsen.dk/products/attachments/catalogue/da/da33_90290.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH 4/3 Pendel."
+ },
+ {
+  "title": "PH 4½-4 Glas Pendel – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610193351/http://louis-poulsen.dk/products/attachments/catalogue/da/da33_90291.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH 4½-4 Glas Pendel (PH 4/4-familien) i opalglas."
+ },
+ {
+  "title": "PH 4½-3½ Glas Bord – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610162800/http://louis-poulsen.dk/products/attachments/catalogue/da/da32_90411.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH 4½-3½ (PH 4/3) Glas Bord."
+ },
+ {
+  "title": "PH 4½-3½ Glas Gulv – produktblad (dansk, 2007)",
+  "url": "https://web.archive.org/web/20070610163326/http://louis-poulsen.dk/products/attachments/catalogue/da/da32_90393.pdf",
+  "publisher": "Louis Poulsen Lighting A/S",
+  "year": 2007,
+  "type": "produktark",
+  "language": "da",
+  "description": "Dansk produktblad for PH 4½-3½ (PH 4/3) Glas Gulv."
+ },
+ {
+  "title": "PH 4/3 Table Lamp, ca. 1927 (Cooper Hewitt 404536637)",
+  "url": "https://web.archive.org/web/20200930230829/https://collection.cooperhewitt.org/objects/404536637/",
+  "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+  "year": 1927,
+  "type": "museum",
+  "language": "en",
+  "description": "Arkiveret museumspost for en tidlig PH 4/3 bordlampe (ca. 1927) i støbt glas og patineret metal; nævner konkurrencen 1924 og Paris-udstillingen 1925."
+ },
+ {
+  "title": "Taklampe, elektrisk – PH (NF.1986-0354AB)",
+  "url": "https://digitaltmuseum.no/011023215149/lampe-del-av",
+  "publisher": "Norsk Folkemuseum",
+  "year": 1927,
+  "type": "museum",
+  "language": "no",
+  "description": "Museumspost for tidlig PH-pendel (PH 5/4-type med 50 cm topskærm) fra 1927–29 i glas og forkromet stål, designet af Poul Henningsen."
+ },
+ {
+  "title": "Taklampe, elektrisk – PH-skærm (NF.1986-0355)",
+  "url": "https://digitaltmuseum.no/011023215150/lampe-del-av",
+  "publisher": "Norsk Folkemuseum",
+  "year": 1927,
+  "type": "museum",
+  "language": "no",
+  "description": "Museumspost for en slebet glasskærm (Ø 48 cm) til en tidlig PH-pendel fra 1927–29."
+ },
+ {
+  "title": "Taklampe, elektrisk – PH-skærm (NF.1986-0356)",
+  "url": "https://digitaltmuseum.no/011023215151/lampe-del-av",
+  "publisher": "Norsk Folkemuseum",
+  "year": 1927,
+  "type": "museum",
+  "language": "no",
+  "description": "Museumspost for en slebet glasskærm (Ø 27 cm) til en tidlig PH-pendel fra 1927–29."
+ },
+ {
+  "title": "PH 1/1 Piano Table Lamp",
+  "url": "https://www.louispoulsen.com/en/c/indoor-lighting/table-lamps/ph-11-piano-table-lamp",
+  "publisher": "Louis Poulsen",
+  "year": 2026,
+  "type": "produktark",
+  "language": "en",
+  "description": "Produktside for PH 1/1 Piano bordlampe, Louis Poulsens nyudgave af Poul Henningsens PH klaverlampe/flygellampe fra begyndelsen af 1930erne.",
+  "img": "thumbs/f86c270c02d5.jpg"
+ },
+ {
+  "title": "Lamp PH-5 (RKM 234:1-1966)",
+  "url": "https://collection.rohsska.se/en/collection/item/244225/",
+  "publisher": "Röhsska museet, Göteborg",
+  "year": 1958,
+  "type": "museum",
+  "language": "en",
+  "description": "Museumspost for en PH 5-lampe fra 1958, indkøbt af Röhsska museet i 1966."
+ },
+ {
+  "title": "Lamp PH-5 (RKM 234:2-1966)",
+  "url": "https://collection.rohsska.se/en/collection/item/245081/",
+  "publisher": "Röhsska museet, Göteborg",
+  "year": 1958,
+  "type": "museum",
+  "language": "en",
+  "description": "Museumspost for endnu en PH 5 fra 1958 i Röhsska museets samling med litteraturhenvisninger."
+ },
+ {
+  "title": "PH 5 (OK-1978-0236C)",
+  "url": "https://www.nasjonalmuseet.no/samlingen/objekt/OK-1978-0236C",
+  "publisher": "Nasjonalmuseet, Oslo",
+  "year": 1958,
+  "type": "museum",
+  "language": "no",
+  "description": "Museumspost for en PH 5 fra 1958 i Nasjonalmuseets samling.",
+  "img": "thumbs/f2a9dda1e5e0.jpg"
+ },
+ {
+  "title": "Artichoke, pendant lamp (NGV 2015.416)",
+  "url": "https://www.ngv.vic.gov.au/explore/collection/work/114727/",
+  "publisher": "National Gallery of Victoria",
+  "year": 1958,
+  "type": "museum",
+  "language": "en",
+  "description": "Museumspost for PH Artichoke (PH Kogle) pendel i National Gallery of Victorias samling, Melbourne.",
+  "img": "thumbs/4438e5d85122.jpg"
+ },
+ {
+  "title": "PH Artichoke Hanging Lamp (Cooper Hewitt 1983-16-1)",
+  "url": "https://web.archive.org/web/20150905192011/https://collection.cooperhewitt.org/objects/18800369/",
+  "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+  "year": 1958,
+  "type": "museum",
+  "language": "en",
+  "description": "Arkiveret museumspost for PH Artichoke (PH Kogle) i kobber, erhvervet af Cooper Hewitt i 1983."
+ },
+ {
+  "title": "PH 4½-4 Glas Pendlar – katalogblad (svensk, 2003)",
+  "url": "https://web.archive.org/web/20030923235157/http://www.louispoulsen.se:80/Belysning/katalog/produkter/katalog/pdf/31100.pdf",
+  "publisher": "Louis Poulsen Sverige",
+  "year": 2003,
+  "type": "katalog",
+  "language": "sv",
+  "description": "Svensk katalogside fra 2003 for PH 4½-4 Glas pendel (PH 4/4-familien) i opalglas."
+ },
+ {
+  "title": "PH 80 Bord – katalogblad (svensk, 2004)",
+  "url": "https://web.archive.org/web/20040126100012/http://www.louispoulsen.se:80/Belysning/katalog/produkter/katalog/pdf/40500.pdf",
+  "publisher": "Louis Poulsen Sverige",
+  "year": 2004,
+  "type": "katalog",
+  "language": "sv",
+  "description": "Svensk katalogside for PH 80 Bord, bordudgaven af PH 80 med opale akrylskærme."
+ },
+ {
+  "title": "PH 4/3 Bord – katalogblad (svensk, 2003)",
+  "url": "https://web.archive.org/web/20030922042457/http://www.louispoulsen.se:80/Belysning/katalog/produkter/katalog/pdf/41000.pdf",
+  "publisher": "Louis Poulsen Sverige",
+  "year": 2003,
+  "type": "katalog",
+  "language": "sv",
+  "description": "Svensk katalogside fra 2003 for PH 4/3 Bord i metal."
+ },
+ {
+  "title": "PH 3/2 Pendlar – katalogblad (svensk, 2003)",
+  "url": "https://web.archive.org/web/20030923233617/http://www.louispoulsen.se:80/Belysning/katalog/produkter/katalog/pdf/30900.pdf",
+  "publisher": "Louis Poulsen Sverige",
+  "year": 2003,
+  "type": "katalog",
+  "language": "sv",
+  "description": "Svensk katalogside fra 2003 for PH 3/2 pendel i opalglas."
+ },
+ {
+  "title": "PH 2/1 Bord – katalogblad (svensk, 2004)",
+  "url": "https://web.archive.org/web/20040126082138/http://www.louispoulsen.se:80/Belysning/katalog/produkter/katalog/pdf/40300.pdf",
+  "publisher": "Louis Poulsen Sverige",
+  "year": 2004,
+  "type": "katalog",
+  "language": "sv",
+  "description": "Svensk katalogside for PH 2/1 Bord i opalglas."
  }
 ];
