@@ -1,0 +1,424 @@
+<meta charset="utf-8">
+<title>PH-arkivet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+  /* Layout: lampemodeller som vandret kortrække øverst, derefter arkivlisten med billede, årstal og noter */
+  :root {
+    --bg: #f3f5f4; --surface: #ffffff; --fg: #1b2024; --muted: #5d676d; --line: #d9dfdd; --tint: #e4ebef;
+    --accent: #23557e; --signal: #b8322a;
+    --display: "Jost", "Futura", "Century Gothic", sans-serif;
+    --body: "IBM Plex Sans", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --bg: #12161a; --surface: #1a2026; --fg: #e6ebee; --muted: #93a0a8; --line: #2a333a; --tint: #1f2a33;
+    --accent: #7fb0dc; --signal: #ef7a6e; color-scheme: dark } }
+  :root[data-theme="dark"] {
+    --bg: #12161a; --surface: #1a2026; --fg: #e6ebee; --muted: #93a0a8; --line: #2a333a; --tint: #1f2a33;
+    --accent: #7fb0dc; --signal: #ef7a6e; color-scheme: dark }
+
+  * { box-sizing: border-box }
+  body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body) }
+  main { max-width: 960px; margin: 0 auto; padding: 40px 16px 72px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 32px }
+  header { display: flex; gap: 20px; align-items: center }
+  header svg { flex: none; width: 76px; height: auto }
+  h1 { font: 500 2.4rem/1.05 var(--display); letter-spacing: -.01em; margin: 0 0 6px; text-wrap: balance }
+  h3 { font: 500 12px/1 var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 0 12px }
+  .lead { color: var(--muted); margin: 0; max-width: 62ch }
+
+  /* Lampemodeller */
+  .models { display: grid; grid-auto-flow: column; grid-auto-columns: 220px; gap: 12px; overflow-x: auto; padding-bottom: 8px; scroll-snap-type: x proximity }
+  .model { scroll-snap-align: start; display: grid; grid-template-rows: 120px auto; text-align: left; padding: 0; border: 1px solid var(--line);
+    background: var(--surface); color: var(--fg); border-radius: 8px; overflow: hidden; cursor: pointer; font: inherit }
+  .model[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) }
+  .model .pic { background: var(--tint) center/cover no-repeat }
+  .model .txt { padding: 10px 12px 12px; display: grid; gap: 4px; align-content: start }
+  .model b { font: 500 1rem/1.2 var(--display) }
+  .model small { font: 12px var(--mono); color: var(--muted) }
+  .model span { font-size: 13px; line-height: 1.45; color: var(--muted) }
+
+  .controls { display: grid; gap: 12px }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
+  input, select { font: inherit; padding: 8px 12px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 6px }
+  #q { flex: 1 1 260px; min-width: 0 }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px }
+  .chip { font: 500 12px/1 var(--display); letter-spacing: .06em; text-transform: uppercase; padding: 7px 10px;
+    border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 999px; cursor: pointer }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg) }
+  .chip span { font-family: var(--mono); letter-spacing: 0; margin-left: 4px; opacity: .75 }
+  .note { background: var(--tint); padding: 12px 14px; border-radius: 6px; max-width: 72ch; margin: 0 }
+  .note b { font-family: var(--display); font-weight: 500 }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+  #count { color: var(--muted); font: 13px var(--mono) }
+
+  /* Arkivliste */
+  ol { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line) }
+  li { display: grid; grid-template-columns: 112px 1fr; gap: 18px; padding: 18px 0; border-bottom: 1px solid var(--line); align-items: start }
+  .thumb { width: 112px; aspect-ratio: 1; max-width: 100%; border-radius: 6px; background: var(--tint); object-fit: cover; display: block }
+  .ph { display: grid; place-items: center; color: var(--muted) }
+  .ph svg { width: 56px }
+  .entry { min-width: 0; display: grid; gap: 5px }
+  .kicker { font: 500 11px/1.4 var(--display); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); overflow-wrap: anywhere }
+  .kicker b { color: var(--signal); font-weight: 600; margin-right: 8px }
+  .kicker i { font: 400 12px var(--mono); font-style: normal; letter-spacing: 0; margin-right: 8px; color: var(--fg) }
+  h2 { font: 500 1.08rem/1.35 var(--display); margin: 0; overflow-wrap: anywhere }
+  h2 a { color: var(--fg); text-decoration: none }
+  h2 a:hover { color: var(--accent); text-decoration: underline }
+  .entry p { margin: 0; color: var(--muted); max-width: 65ch }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px }
+  .tag { font: 12px/1 var(--mono); padding: 4px 7px; border-radius: 4px; background: var(--tint); color: var(--accent); border: 0; cursor: pointer }
+  .links { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px }
+  .links a { color: var(--accent) }
+  .links em { color: var(--muted); font-style: normal }
+  footer { color: var(--muted); font-size: 13px; max-width: 65ch }
+
+  /* Lampeprofil: vises når en model er valgt */
+  #profile { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); padding: 20px; display: grid; gap: 20px }
+  .phead { display: grid; grid-template-columns: 220px 1fr; gap: 20px; align-items: start }
+  .phead .pic { aspect-ratio: 1; border-radius: 8px; background: var(--tint) center/cover no-repeat }
+  .phead h2 { font: 500 1.9rem/1.1 var(--display); margin: 0 0 4px }
+  .phead .yr { font: 13px var(--mono); color: var(--signal); margin: 0 0 10px }
+  .phead p { margin: 0 0 8px; max-width: 62ch }
+  .phead .how { color: var(--muted) }
+  .pclose { float: right; font: 500 13px var(--display); border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 6px; padding: 6px 10px; cursor: pointer }
+  .pgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px }
+  .pbox { min-width: 0; overflow-wrap: anywhere }
+  .pbox h4 { font: 500 12px/1 var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px }
+  .pbox ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 14px }
+  .pbox li { display: block; border: 0; padding: 0 }
+  .pbox li i { font: 12px var(--mono); font-style: normal; color: var(--muted); margin-right: 8px }
+  .pbox a { color: var(--fg) } .pbox a:hover { color: var(--accent) }
+  .pbox sup a { color: var(--accent); font-size: 11px; text-decoration: none; margin-left: 2px }
+  .stat { font: 500 1.6rem/1 var(--display) } .stat small { font: 13px var(--body); color: var(--muted); margin-left: 6px }
+  .gallery { display: grid; grid-auto-flow: column; grid-auto-columns: 120px; gap: 8px; overflow-x: auto; padding-bottom: 6px }
+  .gallery a { display: grid; gap: 4px; color: var(--muted); font: 11px/1.3 var(--mono); text-decoration: none }
+  .gallery img { width: 120px; aspect-ratio: 1; object-fit: cover; border-radius: 6px; background: var(--tint) }
+  @media (max-width: 620px) { .phead { grid-template-columns: 1fr } .phead .pic { max-width: 260px } }
+  /* Tidslinje: én bane pr. kildetype, verden flyttes med translateX, zoom genberegner positioner */
+  .tlbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px }
+  .tlbar button { font: 500 13px/1 var(--display); padding: 8px 12px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 6px; cursor: pointer; min-width: 36px }
+  .tlbar .hint { color: var(--muted); font-size: 12px; margin-left: auto }
+  #tl { position: relative; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); overflow-x: hidden; overflow-y: auto;
+    max-height: 70vh; touch-action: pan-y; cursor: grab; user-select: none; -webkit-user-select: none }
+  #tl.drag { cursor: grabbing }
+  #world { position: relative; will-change: transform }
+  .tick { position: absolute; top: 0; bottom: 0; border-left: 1px solid var(--line) }
+  .tick span { position: absolute; top: 6px; left: 4px; font: 11px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums }
+  .tick.major { border-left-color: color-mix(in srgb, var(--muted) 45%, transparent) }
+  .mile { position: absolute; top: 0; bottom: 0; border-left: 2px solid var(--signal); pointer-events: none }
+  .mile span { position: absolute; top: 24px; left: 4px; font: 500 11px/1.25 var(--display); color: var(--signal); white-space: nowrap; background: var(--surface); padding: 1px 3px }
+  .lane { position: absolute; left: 0; right: 0; border-top: 1px dashed var(--line) }
+  .lanelabel { position: absolute; left: 8px; z-index: 2; font: 500 11px/1 var(--display); letter-spacing: .08em; text-transform: uppercase;
+    color: var(--muted); background: var(--surface); padding: 3px 6px; border-radius: 4px; pointer-events: none }
+  .dot { position: absolute; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--accent); border: 2px solid var(--surface); padding: 0; cursor: pointer }
+  .dot:hover, .dot.sel, .card.sel { outline: 2px solid var(--signal); outline-offset: 1px }
+  .card { position: absolute; width: 168px; height: 48px; margin-left: -84px; display: grid; grid-template-columns: 44px 1fr; gap: 6px; align-items: center;
+    padding: 2px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); cursor: pointer; text-align: left; font: inherit }
+  .card img, .card .ph { width: 44px; height: 42px; object-fit: cover; border-radius: 4px; background: var(--tint) }
+  .card .ph svg { width: 28px }
+  .card b { font: 500 11.5px/1.25 var(--display); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; min-width: 0 }
+  #detail { margin-top: 12px; border: 1px solid var(--line); border-radius: 8px; padding: 14px; background: var(--surface) }
+  #detail li { border: 0; padding: 0 }
+  #detail ol { border: 0 }
+  @media (prefers-reduced-motion: no-preference) { #world.anim { transition: transform .25s ease } }
+  @media (max-width: 520px) { li { grid-template-columns: 72px 1fr; gap: 12px } .thumb { width: 72px } h1 { font-size: 2rem } }
+</style>
+
+<main>
+  <header>
+    <!-- PH's treskærmsprincip: tre skærme, lyset kastes ned uden blænding -->
+    <svg viewBox="0 0 80 64" aria-hidden="true" fill="none" stroke="var(--fg)" stroke-width="2">
+      <path d="M40 2v8"/><path d="M26 18c6-6 22-6 28 0"/><path d="M14 34c10-10 42-10 52 0"/><path d="M4 52c14-12 58-12 72 0"/>
+      <circle cx="40" cy="30" r="3.5" fill="var(--signal)" stroke="none"/>
+    </svg>
+    <div>
+      <h1>PH-arkivet</h1>
+      <p class="lead">Officielle digitale kilder om Poul Henningsens lamper: kataloger, produktark, patenter, museumsgenstande, tidsskrifter og film. Ingen salgsopslag. Hver kilde har et link til en arkivkopi i Wayback Machine.</p>
+    </div>
+  </header>
+
+  <section aria-labelledby="mh">
+    <h3 id="mh">Lamperne – vælg en for at se kilderne</h3>
+    <div class="models" id="models"></div>
+  </section>
+  <section id="profile" hidden aria-live="polite"></section>
+
+  <section class="controls" aria-label="Filtre">
+    <div class="row">
+      <input id="q" type="search" placeholder="Søg i titel, udgiver eller beskrivelse" aria-label="Søg">
+      <select id="sort" aria-label="Sortering"><option value="year">Ældste først</option><option value="title">Titel A–Å</option></select>
+    </div>
+    <div class="chips" id="types" role="group" aria-label="Type"></div>
+    <p class="note" id="note" hidden></p>
+    <div id="count" aria-live="polite"></div>
+  </section>
+
+  <section aria-labelledby="th">
+    <h3 id="th">Tidslinje</h3>
+    <div class="tlbar">
+      <button id="zin" aria-label="Zoom ind">+</button>
+      <button id="zout" aria-label="Zoom ud">−</button>
+      <button id="zfit">Hele perioden</button>
+      <button data-span="1920,1970">PH’s tid 1920–70</button>
+      <button data-span="1955,1962">1958</button>
+      <button data-span="2000,2027">2000’erne</button>
+      <span class="hint">Træk for at flytte · knib eller ⌘/Ctrl + scroll for at zoome · piletaster virker også</span>
+    </div>
+    <div id="tl" tabindex="0" aria-label="Tidslinje over kilderne. Brug piletaster til at flytte og plus/minus til at zoome."><div id="world"></div></div>
+    <div id="detail" hidden></div>
+  </section>
+
+  <ol id="list"></ol>
+
+  <footer>Kilderne er fundet i oktober 2026 hos Louis Poulsen, Det Kgl. Bibliotek, Mediestream, Rigsarkivet, arkiv.dk, danske og udenlandske museer, Google Patents, Wayback Machine, Danmark på Film og lex.dk. Kilder der ikke kunne åbnes, er udeladt. Billederne er små gengivelser fra kildernes egne sider; rettighederne ligger hos de respektive udgivere.</footer>
+</main>
+
+<script src="sources.js"></script>
+<script src="models.js"></script>
+<script>
+  // Hvad er hver type kilde, og hvad kan den fortælle
+  const TYPE_NOTES = {
+    patent: 'Patenterne viser, hvordan PH og Louis Poulsen beskyttede skærmsystemet i Europa, USA og Australien fra 1925. Tegningerne viser skærmenes geometri, som produktfotos ikke viser.',
+    museum: 'Genstande i museumssamlinger med registreringsnummer, datering og ofte fotos. De er brugbare til at datere og sammenligne tidlige udgaver.',
+    arkiv: 'Originaltegninger, fotos og arkiverede udgaver af Louis Poulsens hjemmeside. Det Kgl. Biblioteks PH-tegninger er de vigtigste primærkilder.',
+    katalog: 'Louis Poulsens egne kataloger og brochurer fra 1930’erne til i dag. Her ses udvalg, størrelser og priser i samtiden.',
+    produktark: 'Tekniske data: mål, materialer, pærer og montering. Ældre ark findes kun som arkivkopier.',
+    tidsskrift: 'Kritisk Revy (PH’s eget tidsskrift 1926–28) og Louis Poulsens blade NYT og Reflections.',
+    artikel: 'Pressemeddelelser fra Louis Poulsen samt artikler fra museer og forskere.',
+    video: 'Film med og om PH, bl.a. "PH lys" fra 1964, hvor han selv forklarer sine principper.',
+    leksikon: 'Opslagsværker som Den Store Danske, Dansk Biografisk Leksikon og Weilbach. God til fakta og datoer.',
+    hjemmeside: 'Louis Poulsens nuværende sider om PH og virksomhedens historie.',
+    bog: 'Bøger og publikationer med fokus på PH og lamperne.',
+  };
+
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const yearOf = s => (String(s.year).match(/\d{4}/) || ['9999'])[0];
+  const isArchived = u => /web\.archive\.org|wayback/.test(u);
+  const SHADE = '<svg viewBox="0 0 80 64" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M26 18c6-6 22-6 28 0"/><path d="M14 34c10-10 42-10 52 0"/><path d="M4 52c14-12 58-12 72 0"/></svg>';
+  SOURCES.forEach(s => s.models = MODELS.filter(m => m.re.test(s.title + ' ' + s.description)).map(m => m.id));
+  let type = '', model = '';
+
+  $('models').innerHTML = MODELS.map(m => {
+    const hits = SOURCES.filter(s => s.models.includes(m.id));
+    const pic = (hits.find(s => s.img && s.type === 'museum') || hits.find(s => s.img) || {}).img;
+    return `<button class="model" data-m="${m.id}" aria-pressed="false">
+      <div class="pic"${pic ? ` style="background-image:url('${pic}')"` : ''}></div>
+      <div class="txt"><b>${m.name}</b><small>${m.year} · ${hits.length} kilder</small><span>${m.text}</span></div></button>`;
+  }).join('');
+  $('models').addEventListener('click', e => {
+    const b = e.target.closest('.model'); if (b) setModel(model === b.dataset.m ? '' : b.dataset.m);
+  });
+  function setModel(id) {
+    model = id;
+    document.querySelectorAll('.model').forEach(b => b.setAttribute('aria-pressed', b.dataset.m === id));
+    try { history.replaceState(null, '', id ? '#' + id : location.pathname + location.search) } catch {}
+    renderProfile(); render();
+  }
+
+  // Lampeprofil: kuraterede fakta (m.facts) plus det kilderne selv viser
+  function renderProfile() {
+    const m = MODELS.find(x => x.id === model), p = $('profile');
+    p.hidden = !m; if (!m) return (p.innerHTML = '');
+    const hits = SOURCES.filter(s => s.models.includes(m.id)).sort((a, b) => yearOf(a).localeCompare(yearOf(b)));
+    const dated = hits.filter(s => yearOf(s) !== '9999');
+    const pic = (hits.find(s => s.img && s.type === 'museum') || hits.find(s => s.img) || {}).img;
+    const link = s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`;
+    const box = (title, arr, fn) => arr.length ? `<div class="pbox"><h4>${title}</h4><ul>${arr.map(fn).join('')}</ul></div>` : '';
+    const dateRow = s => `<li><i>${esc(s.year) || 'u.å.'}</i>${link(s)}</li>`;
+    const of = (...t) => hits.filter(s => t.includes(s.type));
+    const types = Object.entries(hits.reduce((a, s) => (a[s.type] = (a[s.type] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]);
+    p.innerHTML = `
+      <div class="phead">
+        <div class="pic"${pic ? ` style="background-image:url('${pic}')"` : ''}></div>
+        <div>
+          <button class="pclose" data-close>Luk</button>
+          <h2>${m.name}</h2>
+          <p class="yr">${m.year}</p>
+          ${m.variants ? `<p class="how"><b>Udgaver:</b> ${esc(m.variants)}</p>` : ''}
+          <p>${m.text}</p>
+          ${m.how ? `<p class="how">${esc(m.how)}</p>` : ''}
+          ${m.dating && m.dating !== m.year ? `<p class="how"><b>Datering:</b> ${esc(m.dating)}</p>` : ''}
+        </div>
+      </div>
+      ${hits.some(s => s.img) ? `<div class="pbox"><h4>Billeder fra kilderne</h4><div class="gallery">${hits.filter(s => s.img).map(s =>
+        `<a href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title)}"><img src="${esc(s.img)}" alt="${esc(s.title)}" loading="lazy">${esc(s.year) || 'u.å.'} · ${esc(s.type)}</a>`).join('')}</div></div>` : ''}
+      <div class="pgrid">
+        ${box('Fakta', m.facts || [], f => `<li>${esc(f.text)}<sup><a href="${esc(f.url)}" target="_blank" rel="noopener" title="${esc(f.url)}">kilde</a></sup></li>`)}
+        <div class="pbox"><h4>Kilderne i tal</h4>
+          <p class="stat">${hits.length}<small>kilder${dated.length ? `, ${yearOf(dated[0])}–${yearOf(dated[dated.length - 1])}` : ''}</small></p>
+          <div class="tags">${types.map(([t, n]) => `<button class="tag" data-t="${t}">${t} ${n}</button>`).join('')}</div>
+          ${dated[0] ? `<p style="margin:10px 0 0;font-size:14px">Ældste kilde: ${link(dated[0])} (${esc(dated[0].year)})</p>` : ''}
+        </div>
+        ${box('Fra katalog til katalog', of('katalog', 'produktark'), dateRow)}
+        ${box('Her kan du se den', of('museum'), s => `<li><i>${esc(s.publisher)}</i>${link(s)}</li>`)}
+        ${box('Patenter', of('patent'), dateRow)}
+        ${box('PH og samtiden', of('tidsskrift', 'video', 'arkiv'), dateRow)}
+      </div>`;
+  }
+  $('profile').addEventListener('click', e => {
+    if (e.target.closest('[data-close]')) setModel('');
+    const t = e.target.closest('[data-t]'); if (t) { type = t.dataset.t; renderChips(); render(); $('list').scrollIntoView({ behavior: 'smooth' }) }
+  });
+
+  const counts = SOURCES.reduce((m, s) => (m[s.type] = (m[s.type] || 0) + 1, m), {});
+  const chip = (t, label, n) => `<button class="chip" data-t="${t}" aria-pressed="${t === type}">${label}<span>${n}</span></button>`;
+  function renderChips() {
+    $('types').innerHTML = chip('', 'Alle', SOURCES.length) + Object.keys(counts).sort().map(t => chip(t, t, counts[t])).join('');
+    $('note').hidden = !TYPE_NOTES[type];
+    $('note').innerHTML = TYPE_NOTES[type] ? `<b>${esc(type)}:</b> ${TYPE_NOTES[type]}` : '';
+  }
+  $('types').addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b) return;
+    type = b.dataset.t; renderChips(); render();
+  });
+  document.addEventListener('click', e => {
+    const t = e.target.closest('.tag[data-m]'); if (t) { setModel(t.dataset.m); $('models').querySelector(`[data-m="${t.dataset.m}"]`).scrollIntoView({ block: 'nearest', inline: 'center' }); }
+  });
+
+  function render() {
+    const q = $('q').value.trim().toLowerCase(), by = $('sort').value;
+    const rows = SOURCES
+      .filter(s => (!type || s.type === type) && (!model || s.models.includes(model)) &&
+        (!q || [s.title, s.publisher, s.description, s.year].join(' ').toLowerCase().includes(q)))
+      .sort((a, b) => by === 'year' ? yearOf(a).localeCompare(yearOf(b)) || a.title.localeCompare(b.title, 'da') : a.title.localeCompare(b.title, 'da'));
+    $('count').textContent = `${rows.length} af ${SOURCES.length} kilder`;
+    $('list').innerHTML = rows.map(itemHTML).join('') || '<li><div></div><div class="entry"><p>Ingen kilder matcher. Prøv et andet ord, eller vælg "Alle".</p></div></li>';
+    drawTimeline(rows);
+  }
+  const itemHTML = s => `
+      <li>
+        ${s.img ? `<img class="thumb" src="${esc(s.img)}" alt="" loading="lazy">` : `<div class="thumb ph">${SHADE}</div>`}
+        <div class="entry">
+          <div class="kicker"><b>${esc(s.type)}</b><i>${esc(s.year) || 'u.å.'}</i>${esc(s.publisher)} · ${esc(s.language)}</div>
+          <h2><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a></h2>
+          <p>${esc(s.description)}</p>
+          ${s.models.length ? `<div class="tags">${s.models.map(id => `<button class="tag" data-m="${id}">${MODELS.find(m => m.id === id).name}</button>`).join('')}</div>` : ''}
+          <div class="links">${isArchived(s.url)
+            ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">Arkivkopi</a><em>Originalen er offline</em>`
+            : `<a href="${esc(s.url)}" target="_blank" rel="noopener">Original</a><a href="https://web.archive.org/web/*/${esc(s.url)}" target="_blank" rel="noopener">Arkivkopier i Wayback</a>`}
+          </div>
+        </div>
+      </li>`;
+  // ---- Tidslinje ----
+  const Y0 = 1920, Y1 = 2027, MAXPPY = 600, CARD_PPY = 70;
+  const MILESTONES = [
+    [1924, 'Vinder Paris-konkurrencen'], [1925, 'Guldmedalje i Paris'], [1926, 'Forum-lampen og Kritisk Revy'],
+    [1927, 'Die Wohnung, Stuttgart'], [1931, 'Katalog B'],
+    [1941, 'NYT starter, PH redaktør'], [1958, 'PH 5, Koglen, Snebolden'], [1964, 'Filmen “PH lys”'],
+    [1967, 'PH dør'], [2026, '100 år med System PH'],
+  ];
+  const LANE_ORDER = ['patent', 'katalog', 'produktark', 'tidsskrift', 'arkiv', 'museum', 'video', 'artikel', 'bog', 'leksikon', 'hjemmeside'];
+  const tl = $('tl'), world = $('world');
+  let ppy = 0, off = 0, tlRows = [], sel = null;
+  const W = () => tl.clientWidth;
+  const fitPpy = () => W() / (Y1 - Y0);
+  const yr = s => { const m = String(s.year).match(/\d{4}/); return m ? +m[0] : null };
+  const xOf = y => (y - Y0) * ppy;
+
+  function clampOff() { off = Math.min(40, Math.max(W() - (Y1 - Y0) * ppy - 40, off)) }
+  let raf = 0;
+  function pan() { clampOff(); world.style.transform = `translateX(${off}px)`; if (!raf) raf = requestAnimationFrame(() => { raf = 0; layout() }) }
+
+  function drawTimeline(rows) { tlRows = rows.filter(s => yr(s)); if (!ppy) ppy = fitPpy(); clampOff(); layout() }
+
+  function layout() {
+    const cards = ppy >= CARD_PPY, w = cards ? 176 : 16, rh = cards ? 54 : 16;
+    const step = ppy >= 120 ? 1 : ppy >= 40 ? 2 : ppy >= 18 ? 5 : 10;
+    let html = '', top = 96;
+    for (let y = Math.ceil(Y0 / step) * step; y <= Y1; y += step)
+      html += `<div class="tick${y % 10 ? '' : ' major'}" style="left:${xOf(y)}px"><span>${y}</span></div>`;
+    MILESTONES.forEach(([y, t], i) => html += `<div class="mile" style="left:${xOf(y + .5)}px"><span style="top:${22 + (i % 4) * 16}px">${y} · ${t}</span></div>`);
+    const labels = [];
+    for (const lane of LANE_ORDER) {
+      // ponytail: kun synlige kilder pakkes, så banehøjden følger udsnittet; genberegnes pr. frame under træk
+      const lo = -off - w, hi = -off + W() + w;
+      const items = tlRows.filter(s => s.type === lane && xOf(yr(s) + .5) > lo && xOf(yr(s) + .5) < hi).sort((a, b) => yr(a) - yr(b) || a.title.localeCompare(b.title, 'da'));
+      if (!items.length) continue;
+      // Grådig pakning: hver kilde i første række, hvor den ikke overlapper naboen
+      const ends = [];
+      const placed = items.map((s, i) => {
+        const x = xOf(yr(s) + .5);
+        let r = ends.findIndex(e => e <= x - w / 2 - 4);
+        if (r < 0) { r = ends.length; ends.push(0) }
+        ends[r] = x + w / 2;
+        return { s, x, y: top + 26 + r * rh };
+      });
+      html += `<div class="lane" style="top:${top}px"></div>`;
+      labels.push(`<div class="lanelabel" style="top:${top + 6}px">${lane} · ${items.length}</div>`);
+      for (const { s, x, y } of placed) {
+        const i = SOURCES.indexOf(s), on = s === sel ? ' sel' : '', t = esc(s.title);
+        html += cards
+          ? `<button class="card${on}" data-i="${i}" style="left:${x}px;top:${y}px" title="${esc(s.year)} · ${t}">${s.img ? `<img src="${esc(s.img)}" alt="" loading="lazy">` : `<div class="ph" style="display:grid;place-items:center">${SHADE}</div>`}<b>${t}</b></button>`
+          : `<button class="dot${on}" data-i="${i}" style="left:${x}px;top:${y}px" aria-label="${esc(s.year)} · ${t}" title="${esc(s.year)} · ${t}"></button>`;
+      }
+      top += 26 + ends.length * rh + 10;
+    }
+    world.style.height = top + 'px';
+    world.innerHTML = html;
+    tl.querySelectorAll('.lanelabel').forEach(n => n.remove());
+    tl.insertAdjacentHTML('beforeend', labels.join(''));
+    world.style.transform = `translateX(${off}px)`;
+  }
+
+  function zoomAt(px, factor) {
+    const year = (px - off) / ppy + Y0;
+    ppy = Math.min(MAXPPY, Math.max(fitPpy(), ppy * factor));
+    off = px - (year - Y0) * ppy; clampOff();
+    layout();
+  }
+  function showSpan(a, b) {
+    ppy = Math.min(MAXPPY, Math.max(fitPpy(), W() / (b - a)));
+    off = -(a - Y0) * ppy; clampOff(); world.classList.add('anim'); layout();
+    setTimeout(() => world.classList.remove('anim'), 300);
+  }
+  $('zin').onclick = () => zoomAt(W() / 2, 1.6);
+  $('zout').onclick = () => zoomAt(W() / 2, 1 / 1.6);
+  $('zfit').onclick = () => showSpan(Y0, Y1);
+  document.querySelectorAll('[data-span]').forEach(b => b.onclick = () => showSpan(...b.dataset.span.split(',').map(Number)));
+
+  tl.addEventListener('wheel', e => {
+    if (e.ctrlKey || e.metaKey) { e.preventDefault(); zoomAt(e.clientX - tl.getBoundingClientRect().left, Math.exp(-e.deltaY / 200)) }
+    else if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) { e.preventDefault(); off -= e.deltaX; pan() }
+  }, { passive: false });
+
+  // Træk og knib med pointer events
+  const pts = new Map(); let moved = 0, pinch0 = 0;
+  tl.addEventListener('pointerdown', e => {
+    pts.set(e.pointerId, e.clientX); moved = 0;
+    if (pts.size === 2) pinch0 = Math.abs([...pts.values()].reduce((a, b) => a - b));
+  });
+  tl.addEventListener('pointermove', e => {
+    if (!pts.has(e.pointerId)) return;
+    const last = pts.get(e.pointerId); pts.set(e.pointerId, e.clientX);
+    if (pts.size === 2) {
+      const d = Math.abs([...pts.values()].reduce((a, b) => a - b)), mid = [...pts.values()].reduce((a, b) => a + b) / 2;
+      if (pinch0) zoomAt(mid - tl.getBoundingClientRect().left, d / pinch0);
+      pinch0 = d; moved = 99; return;
+    }
+    moved += Math.abs(e.clientX - last);
+    if (moved > 4) { tl.classList.add('drag'); if (!tl.hasPointerCapture(e.pointerId)) tl.setPointerCapture(e.pointerId); off += e.clientX - last; pan() }
+  });
+  const up = e => { pts.delete(e.pointerId); if (pts.size < 2) pinch0 = 0; tl.classList.remove('drag') };
+  tl.addEventListener('pointerup', up); tl.addEventListener('pointercancel', up);
+  tl.addEventListener('click', e => {
+    const b = e.target.closest('[data-i]'); if (!b || moved > 4) return;
+    sel = SOURCES[+b.dataset.i];
+    $('detail').hidden = false;
+    $('detail').innerHTML = `<ol>${itemHTML(sel)}</ol>`;
+    tl.querySelectorAll('.sel').forEach(n => n.classList.remove('sel')); b.classList.add('sel');
+  });
+  tl.addEventListener('dblclick', e => zoomAt(e.clientX - tl.getBoundingClientRect().left, 2));
+  tl.addEventListener('keydown', e => {
+    const k = { ArrowLeft: () => (off += 80, pan()), ArrowRight: () => (off -= 80, pan()), '+': () => zoomAt(W() / 2, 1.6), '=': () => zoomAt(W() / 2, 1.6), '-': () => zoomAt(W() / 2, 1 / 1.6) }[e.key];
+    if (k) { e.preventDefault(); k() }
+  });
+  let rw; addEventListener('resize', () => { clearTimeout(rw); rw = setTimeout(() => { ppy = Math.max(ppy, fitPpy()); layout() }, 150) });
+
+  $('q').addEventListener('input', render);
+  $('sort').addEventListener('input', render);
+  const start = location.hash.slice(1);
+  if (MODELS.some(m => m.id === start)) setModel(start);
+  renderChips(); render();
+</script>
