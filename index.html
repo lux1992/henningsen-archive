@@ -4,211 +4,225 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PH-arkivet</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
 <style>
-  /* Layout: lampemodeller som vandret kortrække øverst, derefter arkivlisten med billede, årstal og noter */
+  /* Layout: et teknisk ark i PH's ånd. Patenttegningen åbner siden, sektionerne skilles af tynde streger, ingen kort med runde hjørner.
+     Farverne er PH 5's to korrektionsfarver: den røde kegle (årstal og markeringer) og den blå reflektor (links og knapper). */
   :root {
-    --bg: #f3f5f4; --surface: #ffffff; --fg: #1b2024; --muted: #5d676d; --line: #d9dfdd; --tint: #e4ebef;
-    --accent: #23557e; --signal: #b8322a;
-    --display: "Jost", "Futura", "Century Gothic", sans-serif;
-    --body: "IBM Plex Sans", system-ui, sans-serif;
-    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --paper: #f6f6f3; --sheet: #ffffff; --ink: #16181b; --graphite: #585f66; --rule: #d3d6d2; --haze: #e9ebe7;
+    --blue: #24508f; --red: #c23a2c;
+    --display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+    --text: "Newsreader", Georgia, "Times New Roman", serif;
   }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-    --bg: #12161a; --surface: #1a2026; --fg: #e6ebee; --muted: #93a0a8; --line: #2a333a; --tint: #1f2a33;
-    --accent: #7fb0dc; --signal: #ef7a6e; color-scheme: dark } }
+    --paper: #141619; --sheet: #1b1e22; --ink: #eceae4; --graphite: #a2a7ab; --rule: #33373c; --haze: #22262a;
+    --blue: #8db4ea; --red: #f07a68; color-scheme: dark } }
   :root[data-theme="dark"] {
-    --bg: #12161a; --surface: #1a2026; --fg: #e6ebee; --muted: #93a0a8; --line: #2a333a; --tint: #1f2a33;
-    --accent: #7fb0dc; --signal: #ef7a6e; color-scheme: dark }
+    --paper: #141619; --sheet: #1b1e22; --ink: #eceae4; --graphite: #a2a7ab; --rule: #33373c; --haze: #22262a;
+    --blue: #8db4ea; --red: #f07a68; color-scheme: dark }
 
   * { box-sizing: border-box }
-  body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body) }
-  main { max-width: 960px; margin: 0 auto; padding: 40px 16px 72px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 32px }
-  header { display: flex; gap: 20px; align-items: center }
-  header svg { flex: none; width: 76px; height: auto }
-  h1 { font: 500 2.4rem/1.05 var(--display); letter-spacing: -.01em; margin: 0 0 6px; text-wrap: balance }
-  h3 { font: 500 12px/1 var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 0 12px }
-  .lead { color: var(--muted); margin: 0; max-width: 62ch }
+  [hidden] { display: none !important }
+  body { background: var(--paper); color: var(--ink); font: 400 17px/1.55 var(--text); margin: 0; padding-inline: 16px }
+  main { max-width: 1040px; margin: 0 auto; padding-block: 28px 80px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 56px }
+  a { color: var(--blue); text-decoration-thickness: 1px; text-underline-offset: 2px }
+  button { font: inherit; color: inherit }
+  :focus-visible { outline: 2px solid var(--blue); outline-offset: 2px }
+  .num { font-variant-numeric: tabular-nums lining-nums }
 
-  /* Lampemodeller */
-  .models { display: grid; grid-auto-flow: column; grid-auto-columns: 220px; gap: 12px; overflow-x: auto; padding-bottom: 8px; scroll-snap-type: x proximity }
-  .model { scroll-snap-align: start; display: grid; grid-template-rows: 120px auto; text-align: left; padding: 0; border: 1px solid var(--line);
-    background: var(--surface); color: var(--fg); border-radius: 8px; overflow: hidden; cursor: pointer; font: inherit }
-  .model[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) }
-  .model .pic { background: var(--tint) center/cover no-repeat }
-  .model .txt { padding: 10px 12px 12px; display: grid; gap: 4px; align-content: start }
-  .model b { font: 500 1rem/1.2 var(--display) }
-  .model small { font: 12px var(--mono); color: var(--muted) }
-  .model span { font-size: 13px; line-height: 1.45; color: var(--muted) }
+  /* Hoved */
+  .mast { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 32px; align-items: end; border-bottom: 2px solid var(--ink); padding-bottom: 20px }
+  .mast .over { font: 500 15px/1.3 var(--display); margin: 0 0 14px; color: var(--graphite) }
+  h1 { font: 700 clamp(3rem, 8vw, 5.6rem)/.9 var(--display); letter-spacing: -.035em; margin: 0 0 18px }
+  .lead { margin: 0; max-width: 46ch; font-size: 19px; line-height: 1.5 }
+  .lead + .lead { margin-top: 10px; font-size: 16px; color: var(--graphite) }
+  .mast figure { margin: 0 }
+  .fig1 { aspect-ratio: 700 / 500; width: 100%; max-width: 100%; background: var(--ink); -webkit-mask: url(fig1.png) center / contain no-repeat; mask: url(fig1.png) center / contain no-repeat }
+  figcaption { font: 400 13px/1.4 var(--display); color: var(--graphite); margin-top: 6px; max-width: 52ch }
+  .figures { display: flex; flex-wrap: wrap; gap: 6px 22px; font: 500 14px/1.3 var(--display); margin: 18px 0 }
+  .figures b { font-size: 22px; font-weight: 600; margin-right: 4px }
 
-  .controls { display: grid; gap: 12px }
-  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
-  input, select { font: inherit; padding: 8px 12px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 6px }
+  /* Sektioner */
+  .sec { font: 700 1.9rem/1.1 var(--display); letter-spacing: -.02em; margin: 0; text-wrap: balance }
+  .sechead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 20px; border-top: 1px solid var(--ink); padding-top: 10px; margin-bottom: 18px }
+  .sechead p { margin: 0; color: var(--graphite); font: 400 15px/1.4 var(--display); max-width: 60ch }
+
+  /* Lamperne som katalogtavle */
+  .models { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 28px 18px }
+  .model { min-width: 0; display: grid; gap: 6px; align-content: start; text-align: left; padding: 0; border: 0; background: none; cursor: pointer }
+  .model .pic { aspect-ratio: 1; max-width: 100%; background: var(--haze) center / cover no-repeat; border-bottom: 3px solid transparent }
+  .model[aria-pressed="true"] .pic { border-bottom-color: var(--red) }
+  .model b { font: 600 16px/1.2 var(--display) }
+  .model small { font: 400 13px/1.2 var(--display); color: var(--graphite) }
+  .model small i { font-style: normal; color: var(--red) }
+  .model .txt { display: grid; gap: 2px; min-width: 0; overflow-wrap: anywhere }
+  .model span { display: none }
+  .model:hover b { text-decoration: underline; text-underline-offset: 3px }
+
+  /* Filtre */
+  .controls { display: grid; gap: 14px }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center }
+  input, select { font: 400 16px var(--display); padding: 10px 12px; border: 1px solid var(--graphite); background: var(--sheet); color: var(--ink); border-radius: 0 }
   #q { flex: 1 1 260px; min-width: 0 }
-  .chips { display: flex; flex-wrap: wrap; gap: 6px }
-  .chip { font: 500 12px/1 var(--display); letter-spacing: .06em; text-transform: uppercase; padding: 7px 10px;
-    border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 999px; cursor: pointer }
-  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg) }
-  .chip span { font-family: var(--mono); letter-spacing: 0; margin-left: 4px; opacity: .75 }
-  .note { background: var(--tint); padding: 12px 14px; border-radius: 6px; max-width: 72ch; margin: 0 }
-  #donate a { font: 500 14px var(--display); padding: 9px 14px; border-radius: 6px; background: var(--accent); color: var(--bg); text-decoration: none }
-  .note b { font-family: var(--display); font-weight: 500 }
-  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
-  #count { color: var(--muted); font: 13px var(--mono) }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px 18px; font: 500 15px/1.6 var(--display) }
+  .chip { border: 0; background: none; padding: 0; cursor: pointer; color: var(--blue); text-transform: capitalize }
+  .chip span { color: var(--graphite); margin-left: 4px; font-weight: 400 }
+  .chip[aria-pressed="true"] { color: var(--ink); text-decoration: underline 2px var(--red); text-underline-offset: 5px }
+  .note { margin: 0; max-width: 64ch; padding-left: 14px; border-left: 2px solid var(--red) }
+  .note b { font-family: var(--display); font-weight: 600; text-transform: capitalize }
+  #count { color: var(--graphite); font: 400 14px var(--display) }
 
-  /* Arkivliste */
-  ol { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line) }
-  li { display: grid; grid-template-columns: 112px 1fr; gap: 18px; padding: 18px 0; border-bottom: 1px solid var(--line); align-items: start }
-  .thumb { width: 112px; aspect-ratio: 1; max-width: 100%; border-radius: 6px; background: var(--tint); object-fit: cover; display: block }
-  .ph { display: grid; place-items: center; color: var(--muted) }
-  .ph svg { width: 56px }
-  .entry { min-width: 0; display: grid; gap: 5px }
-  .kicker { font: 500 11px/1.4 var(--display); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); overflow-wrap: anywhere }
-  .kicker b { color: var(--signal); font-weight: 600; margin-right: 8px }
-  .kicker i { font: 400 12px var(--mono); font-style: normal; letter-spacing: 0; margin-right: 8px; color: var(--fg) }
-  h2 { font: 500 1.08rem/1.35 var(--display); margin: 0; overflow-wrap: anywhere }
-  h2 a { color: var(--fg); text-decoration: none }
-  h2 a:hover { color: var(--accent); text-decoration: underline }
-  .entry p { margin: 0; color: var(--muted); max-width: 65ch }
-  .tags { display: flex; flex-wrap: wrap; gap: 6px }
-  .tag { font: 12px/1 var(--mono); padding: 4px 7px; border-radius: 4px; background: var(--tint); color: var(--accent); border: 0; cursor: pointer }
-  .links { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px }
-  .links a { color: var(--accent) }
-  .links em { color: var(--muted); font-style: normal }
-  footer { color: var(--muted); font-size: 13px; max-width: 65ch }
+  /* Kildeliste */
+  ol#list, #detail ol { list-style: none; margin: 0; padding: 0 }
+  #list > li, #detail li { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 22px; padding: 20px 0; border-bottom: 1px solid var(--rule) }
+  #list > li:first-child { border-top: 1px solid var(--rule) }
+  .thumb { width: 120px; aspect-ratio: 1; max-width: 100%; background: var(--haze); object-fit: cover; display: block }
+  .ph { display: grid; place-items: center; color: var(--graphite) }
+  .ph svg { width: 54px }
+  .entry { min-width: 0; display: grid; gap: 6px }
+  .kicker { font: 400 14px/1.35 var(--display); color: var(--graphite); overflow-wrap: anywhere }
+  .kicker b { font-weight: 600; color: var(--ink); text-transform: capitalize }
+  .kicker i { font-style: normal; color: var(--red); font-variant-numeric: tabular-nums }
+  .entry h2 { font: 600 19px/1.3 var(--display); margin: 0; overflow-wrap: anywhere; letter-spacing: -.005em }
+  .entry h2 a { color: var(--ink); text-decoration: none }
+  .entry h2 a:hover { text-decoration: underline }
+  .entry p { margin: 0; max-width: 64ch }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 500 14px var(--display) }
+  .tag { border: 0; background: none; padding: 0; cursor: pointer; color: var(--blue); text-decoration: underline dotted; text-underline-offset: 3px }
+  .links { display: flex; flex-wrap: wrap; gap: 4px 18px; font: 400 14px var(--display) }
+  .links em { color: var(--graphite); font-style: normal }
+  sup a { font: 600 11px var(--display); text-decoration: none; margin-left: 1px }
+  footer { color: var(--graphite); font: 400 14px/1.5 var(--display); max-width: 70ch; border-top: 1px solid var(--rule); padding-top: 14px }
 
-  /* Lampeprofil: vises når en model er valgt */
-  #profile { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); padding: 20px; display: grid; gap: 20px }
-  .phead { display: grid; grid-template-columns: 220px 1fr; gap: 20px; align-items: start }
-  .phead .pic { aspect-ratio: 1; border-radius: 8px; background: var(--tint) center/cover no-repeat }
-  .phead h2 { font: 500 1.9rem/1.1 var(--display); margin: 0 0 4px }
-  .phead .yr { font: 13px var(--mono); color: var(--signal); margin: 0 0 10px }
-  .phead p { margin: 0 0 8px; max-width: 62ch }
-  .phead .how { color: var(--muted) }
-  .pclose { float: right; font: 500 13px var(--display); border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 6px; padding: 6px 10px; cursor: pointer }
-  .pgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px }
+  /* Lampeprofil */
+  #profile { display: grid; gap: 28px; border-top: 2px solid var(--ink); padding-top: 18px }
+  .phead { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 28px; align-items: start }
+  .phead .pic { aspect-ratio: 1; max-width: 100%; background: var(--haze) center / cover no-repeat }
+  .phead h2 { font: 700 clamp(2rem, 5vw, 3rem)/1 var(--display); letter-spacing: -.03em; margin: 0 0 6px }
+  .phead .yr { font: 500 18px var(--display); color: var(--red); margin: 0 0 14px }
+  .phead p { margin: 0 0 10px; max-width: 60ch }
+  .phead .how { color: var(--graphite); font-size: 16px }
+  .phead .how b { font: 600 15px var(--display); color: var(--ink) }
+  .pclose { float: right; border: 1px solid var(--graphite); background: none; padding: 6px 12px; cursor: pointer; font: 500 14px var(--display) }
+  .pgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px 36px }
   .pbox { min-width: 0; overflow-wrap: anywhere }
-  .pbox h4 { font: 500 12px/1 var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px }
-  .pbox ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 14px }
+  .pbox h4 { font: 600 15px/1.2 var(--display); margin: 0 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--rule) }
+  .pbox ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 16px }
   .pbox li { display: block; border: 0; padding: 0 }
-  .pbox li i { font: 12px var(--mono); font-style: normal; color: var(--muted); margin-right: 8px }
-  .pbox a { color: var(--fg) } .pbox a:hover { color: var(--accent) }
-  .pbox sup a { color: var(--accent); font-size: 11px; text-decoration: none; margin-left: 2px }
-  .stat { font: 500 1.6rem/1 var(--display) } .stat small { font: 13px var(--body); color: var(--muted); margin-left: 6px }
-  .gallery { display: grid; grid-auto-flow: column; grid-auto-columns: 120px; gap: 8px; overflow-x: auto; padding-bottom: 6px }
-  .gallery a { display: grid; gap: 4px; color: var(--muted); font: 11px/1.3 var(--mono); text-decoration: none }
-  .gallery img { width: 120px; aspect-ratio: 1; object-fit: cover; border-radius: 6px; background: var(--tint) }
-  @media (max-width: 620px) { .phead { grid-template-columns: 1fr } .phead .pic { max-width: 260px } }
+  .pbox li i { font: 400 14px var(--display); font-style: normal; color: var(--red); margin-right: 8px; font-variant-numeric: tabular-nums }
+  .pbox a { color: var(--ink) } .pbox a:hover { color: var(--blue) }
+  .pbox sup a { color: var(--blue) }
+  .stat { font: 700 2.6rem/1 var(--display); margin: 0 0 8px; letter-spacing: -.02em } .stat small { font: 400 15px var(--display); color: var(--graphite); margin-left: 8px; letter-spacing: 0 }
+  .gallery { display: grid; grid-auto-flow: column; grid-auto-columns: 132px; gap: 12px; overflow-x: auto; padding-bottom: 8px }
+  .gallery a { display: grid; gap: 4px; color: var(--graphite); font: 400 12px/1.3 var(--display); text-decoration: none }
+  .gallery img { width: 132px; aspect-ratio: 1; object-fit: cover; background: var(--haze) }
+  @media (max-width: 680px) { .phead { grid-template-columns: 1fr } .phead .pic { max-width: 280px } .mast { grid-template-columns: 1fr } }
+
   /* Dateringsguide */
-  #dating { display: grid; gap: 14px }
-  .dtitle { font: 500 1.6rem/1.15 var(--display); margin: -4px 0 0 }
-  #dguide { display: grid; gap: 14px; max-width: 72ch }
-  #dguide p { margin: 0 }
-  #dguide details { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); padding: 12px 16px }
-  #dguide summary { font: 500 1.02rem/1.3 var(--display); cursor: pointer }
-  #dguide details[open] summary { margin-bottom: 10px }
-  #dguide ul { margin: 10px 0 0; padding-left: 18px; display: grid; gap: 6px }
-  #dguide sup a { color: var(--accent); font-size: 11px; text-decoration: none; margin-left: 2px }
-  .periods { width: 100%; border-collapse: collapse; font-size: 14px }
-  .periods th, .periods td { text-align: left; padding: 7px 8px 7px 0; border-bottom: 1px solid var(--line); vertical-align: top }
-  .periods th { font: 500 11px var(--display); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
-  .periods td:nth-child(2) { font-family: var(--mono); white-space: nowrap }
+  #dating { display: grid; gap: 18px }
+  #dguide { max-width: 72ch }
+  #dguide p { margin: 0 0 10px }
+  #dguide details { border-top: 1px solid var(--rule); padding: 12px 0 }
+  #dguide details details:last-child { border-bottom: 1px solid var(--rule) }
+  #dguide summary { font: 600 16px/1.3 var(--display); cursor: pointer }
+  #dguide details[open] > summary { margin-bottom: 10px }
+  #dguide ul { margin: 8px 0 0; padding-left: 20px; display: grid; gap: 6px }
+  .periods { width: 100%; border-collapse: collapse; font-size: 15px }
+  .periods th, .periods td { text-align: left; padding: 7px 12px 7px 0; border-bottom: 1px solid var(--rule); vertical-align: top }
+  .periods th { font: 600 13px var(--display); color: var(--graphite) }
+  .periods td:nth-child(2) { font-family: var(--display); color: var(--red); white-space: nowrap; font-variant-numeric: tabular-nums }
   .tablewrap { overflow-x: auto }
-  /* Dateringswizard */
-  .wcard { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); padding: 20px; display: grid; gap: 14px }
-  .wtop { display: flex; justify-content: space-between; align-items: center; gap: 12px }
-  .wstep { font: 500 12px/1 var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 }
-  .wback { font: 500 13px var(--display); border: 0; background: none; color: var(--accent); cursor: pointer; padding: 4px 0 }
-  .wq { font: 500 1.35rem/1.25 var(--display); margin: 0; text-wrap: balance }
-  .whelp { color: var(--muted); margin: 0; font-size: 14px }
-  .wmodels { display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 10px }
-  .wm { display: grid; gap: 4px; align-content: start; text-align: left; padding: 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); cursor: pointer; font: inherit }
-  .wm:hover, .wo:hover { border-color: var(--accent) }
-  .wm img, .wm .ph { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 6px; background: var(--tint); font: 500 2rem var(--display) }
+
+  /* Spørgeskema: ét spørgsmål ad gangen, perioden vises som et udsnit af årene 1920 til i dag */
+  .wcard { background: var(--sheet); border: 1px solid var(--rule); padding: 22px clamp(16px, 4vw, 32px) 26px; display: grid; gap: 16px }
+  .wtop { display: flex; justify-content: space-between; align-items: baseline; gap: 12px }
+  .wstep { font: 500 14px/1.2 var(--display); color: var(--graphite); margin: 0 }
+  .wback { border: 0; background: none; color: var(--blue); cursor: pointer; padding: 0; font: 500 15px var(--display) }
+  .wq { font: 600 clamp(1.4rem, 3.4vw, 1.9rem)/1.15 var(--display); letter-spacing: -.015em; margin: 0; text-wrap: balance; max-width: 30ch }
+  .whelp { color: var(--graphite); margin: 0; font-size: 16px; max-width: 60ch }
+  .wmodels { display: grid; grid-template-columns: repeat(auto-fill, minmax(128px, 1fr)); gap: 18px 14px }
+  .wm { display: grid; gap: 4px; align-content: start; text-align: left; padding: 0; border: 0; background: none; cursor: pointer }
+  .wm img, .wm .ph { width: 100%; aspect-ratio: 1; object-fit: cover; background: var(--haze); font: 700 2.4rem var(--display) }
   .wm .ph svg { width: 50% }
-  .wm b { font: 500 14px/1.25 var(--display) } .wm small { font-size: 12px; color: var(--muted); line-height: 1.3 }
-  .wopts { display: grid; gap: 8px }
-  .wo { text-align: left; font: 500 15px/1.35 var(--display); padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); cursor: pointer }
-  .wrange { font: 500 2rem/1 var(--display); color: var(--signal); margin: 0; font-variant-numeric: tabular-nums }
-  .wbar { position: relative; height: 34px; border-bottom: 1px solid var(--line) }
-  .wfill { position: absolute; top: 4px; height: 12px; border-radius: 6px; background: var(--signal); min-width: 6px; transition: left .35s ease, width .35s ease }
-  .wbar.bad .wfill { background: repeating-linear-gradient(45deg, var(--signal) 0 6px, transparent 6px 12px) }
-  .wbar span { position: absolute; bottom: 2px; font: 11px var(--mono); color: var(--muted); transform: translateX(-50%) }
-  .wev { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px }
-  .wev li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; border: 0; padding: 0; font-size: 14px }
-  .wev li b { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--tint); color: var(--accent); font-size: 12px }
-  .wev li.hard b { background: var(--signal); color: var(--bg) } .wev li.warn b { background: #c58a00; color: #fff }
-  .wev em { font-style: normal; color: var(--muted) }
-  .wev sup a, .wcard sup a { color: var(--accent); font-size: 11px; text-decoration: none; margin-left: 2px }
+  .wm b { font: 600 15px/1.2 var(--display) } .wm small { font: 400 13px/1.3 var(--display); color: var(--graphite) }
+  .wm:hover b { text-decoration: underline; text-underline-offset: 3px }
+  .wopts { display: grid; border-top: 1px solid var(--rule); counter-reset: opt }
+  .wo { display: grid; grid-template-columns: 28px minmax(0, 1fr); text-align: left; font: 500 17px/1.35 var(--display); padding: 13px 4px; border: 0; border-bottom: 1px solid var(--rule); background: none; cursor: pointer; counter-increment: opt }
+  .wo::before { content: counter(opt, lower-alpha) ")"; color: var(--graphite); font-weight: 400 }
+  .wo:hover { background: var(--haze) }
+  .wo.plain { grid-template-columns: 1fr; color: var(--blue) } .wo.plain::before { content: none }
+  .wrange { font: 700 clamp(2.2rem, 7vw, 3.4rem)/1 var(--display); letter-spacing: -.03em; color: var(--red); margin: 0; font-variant-numeric: tabular-nums }
+  .wbar { position: relative; height: 34px; border-bottom: 1px solid var(--ink); margin-bottom: 24px }
+  .wbar span:first-of-type { transform: none } .wbar span:first-of-type::before { left: 0 }
+  .wfill { position: absolute; bottom: 10px; height: 10px; background: var(--red); min-width: 4px; transition: left .4s ease, width .4s ease }
+  .wbar.bad .wfill { background: repeating-linear-gradient(45deg, var(--red) 0 5px, transparent 5px 10px) }
+  .wbar span { position: absolute; bottom: -20px; font: 400 12px var(--display); color: var(--graphite); transform: translateX(-50%); font-variant-numeric: tabular-nums }
+  .wbar span::before { content: ""; position: absolute; left: 50%; top: -6px; height: 5px; border-left: 1px solid var(--ink) }
+  .wev { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 12px }
+  .wev li { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 12px; border: 0; padding: 0; font-size: 16px }
+  .wev li b { font: 600 13px/1.9 var(--display); color: var(--graphite) }
+  .wev li.hard b { color: var(--red) } .wev li.warn b { color: var(--red); text-decoration: underline }
+  .wev em { font-style: normal; font-family: var(--display); color: var(--graphite); font-size: 15px }
   @media (prefers-reduced-motion: reduce) { .wfill { transition: none } }
+
   /* Tidslinje: én bane pr. kildetype, verden flyttes med translateX, zoom genberegner positioner */
   .tlbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px }
-  .tlbar button { font: 500 13px/1 var(--display); padding: 8px 12px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 6px; cursor: pointer; min-width: 36px }
-  .tlbar .hint { color: var(--muted); font-size: 12px; margin-left: auto }
-  #tl { position: relative; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); overflow-x: hidden; overflow-y: auto;
+  .tlbar button { font: 500 14px/1 var(--display); padding: 8px 12px; border: 1px solid var(--graphite); background: var(--sheet); cursor: pointer; min-width: 36px }
+  .tlbar .hint { color: var(--graphite); font: 400 13px var(--display); margin-left: auto }
+  #tl { position: relative; border: 1px solid var(--ink); background: var(--sheet); overflow-x: hidden; overflow-y: auto;
     max-height: 70vh; touch-action: pan-y; cursor: grab; user-select: none; -webkit-user-select: none }
   #tl.drag { cursor: grabbing }
   #world { position: relative; will-change: transform }
-  .tick { position: absolute; top: 0; bottom: 0; border-left: 1px solid var(--line) }
-  .tick span { position: absolute; top: 6px; left: 4px; font: 11px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums }
-  .tick.major { border-left-color: color-mix(in srgb, var(--muted) 45%, transparent) }
-  .mile { position: absolute; top: 0; bottom: 0; border-left: 2px solid var(--signal); pointer-events: none }
-  .mile span { position: absolute; top: 24px; left: 4px; font: 500 11px/1.25 var(--display); color: var(--signal); white-space: nowrap; background: var(--surface); padding: 1px 3px }
-  .lane { position: absolute; left: 0; right: 0; border-top: 1px dashed var(--line) }
-  .lanelabel { position: absolute; left: 8px; z-index: 2; font: 500 11px/1 var(--display); letter-spacing: .08em; text-transform: uppercase;
-    color: var(--muted); background: var(--surface); padding: 3px 6px; border-radius: 4px; pointer-events: none }
-  .dot { position: absolute; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--accent); border: 2px solid var(--surface); padding: 0; cursor: pointer }
-  .dot:hover, .dot.sel, .card.sel { outline: 2px solid var(--signal); outline-offset: 1px }
+  .tick { position: absolute; top: 0; bottom: 0; border-left: 1px solid var(--rule) }
+  .tick span { position: absolute; top: 6px; left: 4px; font: 400 12px var(--display); color: var(--graphite); font-variant-numeric: tabular-nums }
+  .tick.major { border-left-color: color-mix(in srgb, var(--graphite) 50%, transparent) }
+  .mile { position: absolute; top: 0; bottom: 0; border-left: 1px solid var(--red); pointer-events: none }
+  .mile span { position: absolute; top: 24px; left: 4px; font: 500 12px/1.25 var(--display); color: var(--red); white-space: nowrap; background: var(--sheet); padding: 1px 3px }
+  .lane { position: absolute; left: 0; right: 0; border-top: 1px dashed var(--rule) }
+  .lanelabel { position: absolute; left: 8px; z-index: 2; font: 600 12px/1 var(--display); text-transform: capitalize;
+    color: var(--graphite); background: var(--sheet); padding: 3px 6px; pointer-events: none }
+  .dot { position: absolute; width: 11px; height: 11px; margin-left: -5.5px; border-radius: 50%; background: var(--blue); border: 2px solid var(--sheet); padding: 0; cursor: pointer }
+  .dot:hover, .dot.sel, .card.sel { outline: 2px solid var(--red); outline-offset: 1px }
   .card { position: absolute; width: 168px; height: 48px; margin-left: -84px; display: grid; grid-template-columns: 44px 1fr; gap: 6px; align-items: center;
-    padding: 2px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); cursor: pointer; text-align: left; font: inherit }
-  .card img, .card .ph { width: 44px; height: 42px; object-fit: cover; border-radius: 4px; background: var(--tint) }
+    padding: 2px; border: 1px solid var(--rule); background: var(--paper); cursor: pointer; text-align: left }
+  .card img, .card .ph { width: 44px; height: 42px; object-fit: cover; background: var(--haze) }
   .card .ph svg { width: 28px }
-  .card b { font: 500 11.5px/1.25 var(--display); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; min-width: 0 }
-  #detail { margin-top: 12px; border: 1px solid var(--line); border-radius: 8px; padding: 14px; background: var(--surface) }
-  #detail li { border: 0; padding: 0 }
-  #detail ol { border: 0 }
+  .card b { font: 500 12px/1.25 var(--display); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; min-width: 0 }
+  #detail { margin-top: 12px; border: 1px solid var(--rule); padding: 0 16px; background: var(--sheet) }
+  #detail li { border: 0 }
   @media (prefers-reduced-motion: no-preference) { #world.anim { transition: transform .25s ease } }
-  @media (max-width: 520px) { li { grid-template-columns: 72px 1fr; gap: 12px } .thumb { width: 72px } h1 { font-size: 2rem } }
+  #donate a { font: 600 15px var(--display); padding: 10px 16px; background: var(--blue); color: var(--paper); text-decoration: none }
+  @media (max-width: 520px) { #list > li, #detail li { grid-template-columns: 76px minmax(0, 1fr); gap: 14px } .thumb { width: 76px } body { font-size: 16px } }
 </style>
 
 <main>
-  <header>
-    <!-- PH's treskærmsprincip: tre skærme, lyset kastes ned uden blænding -->
-    <svg viewBox="0 0 80 64" aria-hidden="true" fill="none" stroke="var(--fg)" stroke-width="2">
-      <path d="M40 2v8"/><path d="M26 18c6-6 22-6 28 0"/><path d="M14 34c10-10 42-10 52 0"/><path d="M4 52c14-12 58-12 72 0"/>
-      <circle cx="40" cy="30" r="3.5" fill="var(--signal)" stroke="none"/>
-    </svg>
+  <header class="mast">
     <div>
+      <p class="over">Kilder til Poul Henningsens lamper, 1924 til i dag</p>
       <h1>PH-arkivet</h1>
-      <p class="lead">Officielle digitale kilder om Poul Henningsens lamper: kataloger, produktark, patenter, museumsgenstande, tidsskrifter og film. Ingen salgsopslag. Se også <a href="#dating">dateringsguiden</a>. Hver kilde har et link til en arkivkopi i Wayback Machine.</p>
+      <p class="lead">Kataloger, produktark, patenter, museumsgenstande, tidsskrifter og film om PH-lamperne. Kun officielt materiale, ingen salgsopslag.</p>
+      <p class="figures num" id="figures"></p>
+      <p class="lead">Hver kilde linker til originalen og til arkivkopier i Wayback Machine. Har du en lampe, kan <a href="#dating">dateringsguiden</a> hjælpe med at bestemme dens alder.</p>
     </div>
+    <figure>
+      <div class="fig1" role="img" aria-label="Patenttegning: lampens tre skærme med lysstråler, der kastes nedad"></div>
+      <figcaption>Fig. 1 fra PH’s amerikanske patent nr. 1.757.527 (1930). Stråle 8, 10 og 12 viser, hvordan lyset rammer skærmene og kastes ned uden at blænde.</figcaption>
+    </figure>
   </header>
 
   <section aria-labelledby="mh">
-    <h3 id="mh">Lamperne – vælg en for at se kilderne</h3>
+    <div class="sechead"><h2 class="sec" id="mh">Lamperne</h2><p>Vælg en lampe for at se dens historie, fakta og kilder.</p></div>
     <div class="models" id="models"></div>
   </section>
   <section id="profile" hidden aria-live="polite"></section>
   <section id="dating" aria-labelledby="dgh">
-    <h3 id="dgh">Dateringsguide for samlere</h3>
-    <h2 class="dtitle">Hvor gammel er min PH-lampe?</h2>
-    <p class="lead">Svar på et par spørgsmål om din lampe. For hvert svar snævres perioden ind, og du ser, hvilken kilde konklusionen bygger på.</p>
+    <div class="sechead"><h2 class="sec" id="dgh">Hvor gammel er min PH-lampe?</h2><p>Svar på nogle få spørgsmål. Perioden bliver smallere for hvert svar, og du kan se kilden bag hver konklusion.</p></div>
     <div id="wiz" aria-live="polite"></div>
     <div id="dguide"></div>
   </section>
 
-  <section class="controls" aria-label="Filtre">
-    <div class="row">
-      <input id="q" type="search" placeholder="Søg i titel, udgiver eller beskrivelse" aria-label="Søg">
-      <select id="sort" aria-label="Sortering"><option value="year">Ældste først</option><option value="title">Titel A–Å</option></select>
-    </div>
-    <div class="chips" id="types" role="group" aria-label="Type"></div>
-    <p class="note" id="note" hidden></p>
-    <div id="count" aria-live="polite"></div>
-  </section>
-
   <section aria-labelledby="th">
-    <h3 id="th">Tidslinje</h3>
+    <div class="sechead"><h2 class="sec" id="th">Tidslinje</h2><p>Træk for at flytte. Knib, eller hold ⌘/Ctrl og scroll, for at zoome.</p></div>
     <div class="tlbar">
       <button id="zin" aria-label="Zoom ind">+</button>
       <button id="zout" aria-label="Zoom ud">−</button>
@@ -216,16 +230,25 @@
       <button data-span="1920,1970">PH’s tid 1920–70</button>
       <button data-span="1955,1962">1958</button>
       <button data-span="2000,2027">2000’erne</button>
-      <span class="hint">Træk for at flytte · knib eller ⌘/Ctrl + scroll for at zoome · piletaster virker også</span>
     </div>
     <div id="tl" tabindex="0" aria-label="Tidslinje over kilderne. Brug piletaster til at flytte og plus/minus til at zoome."><div id="world"></div></div>
     <div id="detail" hidden></div>
   </section>
 
+  <section class="controls" aria-labelledby="kh">
+    <div class="sechead"><h2 class="sec" id="kh">Kilderne</h2><p id="count" aria-live="polite"></p></div>
+    <div class="row">
+      <input id="q" type="search" placeholder="Søg i titel, udgiver eller beskrivelse" aria-label="Søg">
+      <select id="sort" aria-label="Sortering"><option value="year">Ældste først</option><option value="title">Titel A–Å</option></select>
+    </div>
+    <div class="chips" id="types" role="group" aria-label="Type"></div>
+    <p class="note" id="note" hidden></p>
+  </section>
+
   <ol id="list"></ol>
 
   <section id="stoet" class="note" hidden aria-labelledby="dh">
-    <h3 id="dh">Støt arkivet</h3>
+    <h2 class="sec" id="dh">Støt arkivet</h2>
     <p style="margin:0 0 10px">Arkivet er gratis og uden reklamer. Et bidrag betaler domænet og tiden til at finde, arkivere og tjekke nye kilder.</p>
     <div class="row" id="donate"></div>
   </section>
@@ -255,6 +278,9 @@
   // Donationslinks: udfyld for at vise "Støt arkivet". Tomme felter vises ikke.
   const DONATE = { 'MobilePay': '', 'Ko-fi': '', 'GitHub Sponsors': '' };
   const $ = id => document.getElementById(id);
+  // Kildehenvisninger som fodnotetal; tælleren nulstilles for hver blok, der tegnes
+  let fn = 0;
+  const cite = u => `<sup><a href="${esc(u)}" target="_blank" rel="noopener" title="Kilde: ${esc(u)}">${++fn}</a></sup>`;
   const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const yearOf = s => (String(s.year).match(/\d{4}/) || ['9999'])[0];
   const isArchived = u => /web\.archive\.org|wayback/.test(u);
@@ -271,7 +297,7 @@
     const pic = modelPic(m.id);
     return `<button class="model" data-m="${m.id}" aria-pressed="false">
       <div class="pic"${pic ? ` style="background-image:url('${pic}')"` : ''}></div>
-      <div class="txt"><b>${m.name}</b><small>${m.year} · ${hits.length} kilder</small><span>${m.text}</span></div></button>`;
+      <div class="txt"><b>${m.name}</b><small><i>${m.year}</i> · ${hits.length} kilder</small><span>${m.text}</span></div></button>`;
   }).join('');
   $('models').addEventListener('click', e => {
     const b = e.target.closest('.model'); if (b) setModel(model === b.dataset.m ? '' : b.dataset.m);
@@ -295,6 +321,7 @@
     const dateRow = s => `<li><i>${esc(s.year) || 'u.å.'}</i>${link(s)}</li>`;
     const of = (...t) => hits.filter(s => t.includes(s.type));
     const types = Object.entries(hits.reduce((a, s) => (a[s.type] = (a[s.type] || 0) + 1, a), {})).sort((a, b) => b[1] - a[1]);
+    fn = 0;
     p.innerHTML = `
       <div class="phead">
         <div class="pic"${pic ? ` style="background-image:url('${pic}')"` : ''}></div>
@@ -311,7 +338,7 @@
       ${hits.some(s => s.img) ? `<div class="pbox"><h4>Billeder fra kilderne</h4><div class="gallery">${hits.filter(s => s.img).map(s =>
         `<a href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title)}"><img src="${esc(s.img)}" alt="${esc(s.title)}" loading="lazy">${esc(s.year) || 'u.å.'} · ${esc(s.type)}</a>`).join('')}</div></div>` : ''}
       <div class="pgrid">
-        ${box('Fakta', m.facts || [], f => `<li>${esc(f.text)}<sup><a href="${esc(f.url)}" target="_blank" rel="noopener" title="${esc(f.url)}">kilde</a></sup></li>`)}
+        ${box('Fakta', m.facts || [], f => `<li>${esc(f.text)}${cite(f.url)}</li>`)}
         <div class="pbox"><h4>Kilderne i tal</h4>
           <p class="stat">${hits.length}<small>kilder${dated.length ? `, ${yearOf(dated[0])}–${yearOf(dated[dated.length - 1])}` : ''}</small></p>
           <div class="tags">${types.map(([t, n]) => `<button class="tag" data-t="${t}">${t} ${n}</button>`).join('')}</div>
@@ -357,7 +384,7 @@
       <li>
         ${s.img ? `<img class="thumb" src="${esc(s.img)}" alt="" loading="lazy">` : `<div class="thumb ph">${SHADE}</div>`}
         <div class="entry">
-          <div class="kicker"><b>${esc(s.type)}</b><i>${esc(s.year) || 'u.å.'}</i>${esc(s.publisher)} · ${esc(s.language)}</div>
+          <div class="kicker"><b>${esc(s.type)}</b>, <i>${esc(s.year) || 'u.å.'}</i>. ${esc(s.publisher)}</div>
           <h2><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a></h2>
           <p>${esc(s.description)}</p>
           ${s.models.length ? `<div class="tags">${s.models.map(id => `<button class="tag" data-m="${id}">${MODELS.find(m => m.id === id).name}</button>`).join('')}</div>` : ''}
@@ -487,7 +514,8 @@
   const start = location.hash.slice(1);
   if (MODELS.some(m => m.id === start)) setModel(start);
   // Dateringsguide
-  const cite = u => `<sup><a href="${esc(u)}" target="_blank" rel="noopener" title="${esc(u)}">kilde</a></sup>`;
+
+  fn = 0;
   $('dguide').innerHTML = `<details><summary>Hele grundlaget for guiden</summary><p>${esc(DATING.intro)}</p>
     <details><summary>Produktionsperioder pr. model</summary><div class="tablewrap"><table class="periods">
       <tr><th>Model</th><th>Periode</th><th>Note</th></tr>
@@ -516,14 +544,14 @@
   function renderWiz() {
     const w = $('wiz');
     if (!wiz.m) {
-      w.innerHTML = `<div class="wcard"><p class="wstep">Trin 1</p><h4 class="wq">Hvilken lampe har du?</h4>
+      w.innerHTML = `<div class="wcard"><h4 class="wq">Hvilken lampe har du?</h4>
         <div class="wmodels">${WIZARD.map((m, i) => { const p = modelPic(m.img);
           return `<button class="wm" data-wm="${i}">${p ? `<img src="${p}" alt="">` : `<span class="ph">${SHADE}</span>`}<b>${esc(m.t)}</b>${m.sub ? `<small>${esc(m.sub)}</small>` : ''}</button>` }).join('')}
           <button class="wm" data-wm="-1"><span class="ph">?</span><b>Ved ikke</b><small>Se alle produktionsperioder</small></button></div></div>`;
       return;
     }
     const qs = qsOf(wiz.m), i = wiz.ans.length, [lo, hi] = span();
-    const head = `<div class="wtop"><button class="wback" data-wback>← Tilbage</button><span class="wstep">${wiz.m.t} · ${i < qs.length ? `spørgsmål ${i + 1} af ${qs.length}` : 'resultat'}</span></div>
+    const head = `<div class="wtop"><button class="wback" data-wback>← Tilbage</button><span class="wstep">${wiz.m.t}, ${i < qs.length ? `spørgsmål ${i + 1} af ${qs.length}` : 'resultat'}</span></div>
       <p class="wrange">${range(lo, hi)}</p>${bar(lo, hi)}`;
     if (i < qs.length) {
       const q = qs[i];
@@ -532,12 +560,13 @@
       return;
     }
     const ev = [{ ...wiz.m.base, from: wiz.m.from }, ...wiz.ans];
+    fn = 0;
     const pid = PROFILE[wiz.m.id] || wiz.m.id;
     w.innerHTML = `<div class="wcard">${head}
       <h4 class="wq">${lo > hi ? 'Nogle dele kan være udskiftet, eller lampen er en kopi.' : `Din ${esc(wiz.m.t)} er sandsynligvis fra ${range(lo, hi)}.`}</h4>
-      <ul class="wev">${ev.map(a => `<li class="${a.warn ? 'warn' : a.weak ? 'weak' : 'hard'}"><b>${a.warn ? '!' : a.weak ? '~' : '✓'}</b><span>${a.q ? `<em>${esc(a.q)} ${esc(a.t)}.</em> ` : ''}${esc(a.say)}${a.url ? cite(a.url) : ''}</span></li>`).join('')}</ul>
-      <p class="whelp">✓ sætter en grænse · ~ er et indicium · Louis Poulsen har ingen officiel dateringsnøgle, så resultatet er et kvalificeret bud. Udskiftede skærme, fatninger og ledninger kan snyde.</p>
-      <div class="wopts"><button class="wo" data-wnew>Start forfra</button>${MODELS.some(m => m.id === pid) ? `<button class="wo" data-wprof="${pid}">Se alt om ${esc(wiz.m.t)}</button>` : ''}</div></div>`;
+      <ul class="wev">${ev.map(a => `<li class="${a.warn ? 'warn' : a.weak ? 'weak' : 'hard'}"><b>${a.warn ? 'Advarsel' : a.weak ? 'Indicium' : 'Grænse'}</b><span>${a.q ? `<em>${esc(a.q)} ${esc(a.t)}.</em> ` : ''}${esc(a.say)}${a.url ? cite(a.url) : ''}</span></li>`).join('')}</ul>
+      <p class="whelp">En grænse flytter perioden, et indicium gør ikke. Louis Poulsen har ingen officiel dateringsnøgle, så resultatet er et kvalificeret bud, og udskiftede skærme, fatninger og ledninger kan snyde.</p>
+      <div class="wopts"><button class="wo plain" data-wnew>Start forfra med en anden lampe</button>${MODELS.some(m => m.id === pid) ? `<button class="wo plain" data-wprof="${pid}">Læs om ${esc(wiz.m.t)} og se kilderne</button>` : ''}</div></div>`;
   }
   $('wiz').addEventListener('click', e => {
     const t = e.target.closest('button'); if (!t) return;
@@ -555,5 +584,6 @@
   const dl = Object.entries(DONATE).filter(([, u]) => u);
   $('stoet').hidden = !dl.length;
   $('donate').innerHTML = dl.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${n}</a>`).join('');
+  $('figures').innerHTML = `<span><b>${SOURCES.length}</b>kilder</span><span><b>${MODELS.length - 1}</b>lampemodeller</span><span><b>${new Set(SOURCES.map(s => s.publisher)).size}</b>udgivere og samlinger</span>`;
   renderChips(); render();
 </script>
