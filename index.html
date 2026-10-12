@@ -114,6 +114,33 @@
   .periods th { font: 500 11px var(--display); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
   .periods td:nth-child(2) { font-family: var(--mono); white-space: nowrap }
   .tablewrap { overflow-x: auto }
+  /* Dateringswizard */
+  .wcard { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); padding: 20px; display: grid; gap: 14px }
+  .wtop { display: flex; justify-content: space-between; align-items: center; gap: 12px }
+  .wstep { font: 500 12px/1 var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 }
+  .wback { font: 500 13px var(--display); border: 0; background: none; color: var(--accent); cursor: pointer; padding: 4px 0 }
+  .wq { font: 500 1.35rem/1.25 var(--display); margin: 0; text-wrap: balance }
+  .whelp { color: var(--muted); margin: 0; font-size: 14px }
+  .wmodels { display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 10px }
+  .wm { display: grid; gap: 4px; align-content: start; text-align: left; padding: 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); cursor: pointer; font: inherit }
+  .wm:hover, .wo:hover { border-color: var(--accent) }
+  .wm img, .wm .ph { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 6px; background: var(--tint); font: 500 2rem var(--display) }
+  .wm .ph svg { width: 50% }
+  .wm b { font: 500 14px/1.25 var(--display) } .wm small { font-size: 12px; color: var(--muted); line-height: 1.3 }
+  .wopts { display: grid; gap: 8px }
+  .wo { text-align: left; font: 500 15px/1.35 var(--display); padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); cursor: pointer }
+  .wrange { font: 500 2rem/1 var(--display); color: var(--signal); margin: 0; font-variant-numeric: tabular-nums }
+  .wbar { position: relative; height: 34px; border-bottom: 1px solid var(--line) }
+  .wfill { position: absolute; top: 4px; height: 12px; border-radius: 6px; background: var(--signal); min-width: 6px; transition: left .35s ease, width .35s ease }
+  .wbar.bad .wfill { background: repeating-linear-gradient(45deg, var(--signal) 0 6px, transparent 6px 12px) }
+  .wbar span { position: absolute; bottom: 2px; font: 11px var(--mono); color: var(--muted); transform: translateX(-50%) }
+  .wev { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px }
+  .wev li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; border: 0; padding: 0; font-size: 14px }
+  .wev li b { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--tint); color: var(--accent); font-size: 12px }
+  .wev li.hard b { background: var(--signal); color: var(--bg) } .wev li.warn b { background: #c58a00; color: #fff }
+  .wev em { font-style: normal; color: var(--muted) }
+  .wev sup a, .wcard sup a { color: var(--accent); font-size: 11px; text-decoration: none; margin-left: 2px }
+  @media (prefers-reduced-motion: reduce) { .wfill { transition: none } }
   /* Tidslinje: én bane pr. kildetype, verden flyttes med translateX, zoom genberegner positioner */
   .tlbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px }
   .tlbar button { font: 500 13px/1 var(--display); padding: 8px 12px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 6px; cursor: pointer; min-width: 36px }
@@ -162,6 +189,13 @@
     <div class="models" id="models"></div>
   </section>
   <section id="profile" hidden aria-live="polite"></section>
+  <section id="dating" aria-labelledby="dgh">
+    <h3 id="dgh">Dateringsguide for samlere</h3>
+    <h2 class="dtitle">Hvor gammel er min PH-lampe?</h2>
+    <p class="lead">Svar på et par spørgsmål om din lampe. For hvert svar snævres perioden ind, og du ser, hvilken kilde konklusionen bygger på.</p>
+    <div id="wiz" aria-live="polite"></div>
+    <div id="dguide"></div>
+  </section>
 
   <section class="controls" aria-label="Filtre">
     <div class="row">
@@ -190,11 +224,6 @@
 
   <ol id="list"></ol>
 
-  <section id="dating" aria-labelledby="dgh">
-    <h3 id="dgh">Dateringsguide for samlere</h3>
-    <h2 class="dtitle">Hvor gammel er min PH-lampe?</h2>
-    <div id="dguide"></div>
-  </section>
   <section id="stoet" class="note" hidden aria-labelledby="dh">
     <h3 id="dh">Støt arkivet</h3>
     <p style="margin:0 0 10px">Arkivet er gratis og uden reklamer. Et bidrag betaler domænet og tiden til at finde, arkivere og tjekke nye kilder.</p>
@@ -206,6 +235,7 @@
 <script src="sources.js"></script>
 <script src="models.js"></script>
 <script src="dating.js"></script>
+<script src="wizard.js"></script>
 <script>
   // Hvad er hver type kilde, og hvad kan den fortælle
   const TYPE_NOTES = {
@@ -232,9 +262,13 @@
   SOURCES.forEach(s => s.models = MODELS.filter(m => m.re.test(s.title + ' ' + s.description)).map(m => m.id));
   let type = '', model = '';
 
+  function modelPic(id) {
+    const hits = SOURCES.filter(s => s.models.includes(id));
+    return (hits.find(s => s.img && s.type === 'museum') || hits.find(s => s.img) || {}).img;
+  }
   $('models').innerHTML = MODELS.map(m => {
     const hits = SOURCES.filter(s => s.models.includes(m.id));
-    const pic = (hits.find(s => s.img && s.type === 'museum') || hits.find(s => s.img) || {}).img;
+    const pic = modelPic(m.id);
     return `<button class="model" data-m="${m.id}" aria-pressed="false">
       <div class="pic"${pic ? ` style="background-image:url('${pic}')"` : ''}></div>
       <div class="txt"><b>${m.name}</b><small>${m.year} · ${hits.length} kilder</small><span>${m.text}</span></div></button>`;
@@ -454,14 +488,70 @@
   if (MODELS.some(m => m.id === start)) setModel(start);
   // Dateringsguide
   const cite = u => `<sup><a href="${esc(u)}" target="_blank" rel="noopener" title="${esc(u)}">kilde</a></sup>`;
-  $('dguide').innerHTML = `<p>${esc(DATING.intro)}</p>
+  $('dguide').innerHTML = `<details><summary>Hele grundlaget for guiden</summary><p>${esc(DATING.intro)}</p>
     <details><summary>Produktionsperioder pr. model</summary><div class="tablewrap"><table class="periods">
       <tr><th>Model</th><th>Periode</th><th>Note</th></tr>
       ${DATING.periods.map(r => `<tr><td>${esc(r.model)}</td><td>${esc(r.from)}${r.to === r.from ? '' : '–' + esc(r.to)}</td><td>${esc(r.note)}${cite(r.url)}</td></tr>`).join('')}
     </table></div></details>
     ${DATING.steps.map(s => `<details><summary>${esc(s.title)}</summary><p>${esc(s.text)}</p>
       <ul>${s.checks.map(c => `<li>${esc(c.text)}${cite(c.url)}</li>`).join('')}</ul></details>`).join('')}
-    <details><summary>Forbehold</summary><ul>${DATING.caveats.map(c => `<li>${esc(c)}</li>`).join('')}</ul></details>`;
+    <details><summary>Forbehold</summary><ul>${DATING.caveats.map(c => `<li>${esc(c)}</li>`).join('')}</ul></details></details>`;
+  // Dateringswizard: vælg lampe, besvar spørgsmål, perioden snævres ind
+  const NOW = new Date().getFullYear(), A0 = 1920;
+  const PROFILE = { treskaerm: 'system', lysekrone: 'bombardement' };
+  const wiz = { m: null, ans: [] };
+  const qsOf = m => m.qs.map(q => typeof q === 'string' ? Q[q] : q);
+  function span() {
+    let lo = wiz.m.from, hi = NOW;
+    wiz.ans.forEach(a => { if (a.from) lo = Math.max(lo, a.from); if (a.to) hi = Math.min(hi, a.to) });
+    return [lo, hi];
+  }
+  const pct = y => ((y - A0) / (NOW - A0) * 100).toFixed(2) + '%';
+  function bar(lo, hi) {
+    const bad = lo > hi, a = bad ? hi : lo, b = bad ? lo : hi;
+    return `<div class="wbar${bad ? ' bad' : ''}"><div class="wfill" style="left:${pct(a)};width:calc(${pct(b)} - ${pct(a)} + 6px)"></div>
+      ${[1920, 1940, 1960, 1980, 2000, 2020].map(y => `<span style="left:${pct(y)}">${y}</span>`).join('')}</div>`;
+  }
+  const range = (lo, hi) => lo > hi ? 'Svarene passer ikke sammen' : lo === hi ? `${lo}` : hi >= NOW ? `${lo} – i dag` : `${lo}–${hi}`;
+  function renderWiz() {
+    const w = $('wiz');
+    if (!wiz.m) {
+      w.innerHTML = `<div class="wcard"><p class="wstep">Trin 1</p><h4 class="wq">Hvilken lampe har du?</h4>
+        <div class="wmodels">${WIZARD.map((m, i) => { const p = modelPic(m.img);
+          return `<button class="wm" data-wm="${i}">${p ? `<img src="${p}" alt="">` : `<span class="ph">${SHADE}</span>`}<b>${esc(m.t)}</b>${m.sub ? `<small>${esc(m.sub)}</small>` : ''}</button>` }).join('')}
+          <button class="wm" data-wm="-1"><span class="ph">?</span><b>Ved ikke</b><small>Se alle produktionsperioder</small></button></div></div>`;
+      return;
+    }
+    const qs = qsOf(wiz.m), i = wiz.ans.length, [lo, hi] = span();
+    const head = `<div class="wtop"><button class="wback" data-wback>← Tilbage</button><span class="wstep">${wiz.m.t} · ${i < qs.length ? `spørgsmål ${i + 1} af ${qs.length}` : 'resultat'}</span></div>
+      <p class="wrange">${range(lo, hi)}</p>${bar(lo, hi)}`;
+    if (i < qs.length) {
+      const q = qs[i];
+      w.innerHTML = `<div class="wcard">${head}<h4 class="wq">${esc(q.q)}</h4>${q.help ? `<p class="whelp">${esc(q.help)}</p>` : ''}
+        <div class="wopts">${q.a.map((a, j) => `<button class="wo" data-wo="${j}">${esc(a.t)}</button>`).join('')}</div></div>`;
+      return;
+    }
+    const ev = [{ ...wiz.m.base, from: wiz.m.from }, ...wiz.ans];
+    const pid = PROFILE[wiz.m.id] || wiz.m.id;
+    w.innerHTML = `<div class="wcard">${head}
+      <h4 class="wq">${lo > hi ? 'Nogle dele kan være udskiftet, eller lampen er en kopi.' : `Din ${esc(wiz.m.t)} er sandsynligvis fra ${range(lo, hi)}.`}</h4>
+      <ul class="wev">${ev.map(a => `<li class="${a.warn ? 'warn' : a.weak ? 'weak' : 'hard'}"><b>${a.warn ? '!' : a.weak ? '~' : '✓'}</b><span>${a.q ? `<em>${esc(a.q)} ${esc(a.t)}.</em> ` : ''}${esc(a.say)}${a.url ? cite(a.url) : ''}</span></li>`).join('')}</ul>
+      <p class="whelp">✓ sætter en grænse · ~ er et indicium · Louis Poulsen har ingen officiel dateringsnøgle, så resultatet er et kvalificeret bud. Udskiftede skærme, fatninger og ledninger kan snyde.</p>
+      <div class="wopts"><button class="wo" data-wnew>Start forfra</button>${MODELS.some(m => m.id === pid) ? `<button class="wo" data-wprof="${pid}">Se alt om ${esc(wiz.m.t)}</button>` : ''}</div></div>`;
+  }
+  $('wiz').addEventListener('click', e => {
+    const t = e.target.closest('button'); if (!t) return;
+    const qs = wiz.m && qsOf(wiz.m), d = t.dataset;
+    if (d.wm === '-1') { const g = $('dguide').querySelector('details'); g.open = true; g.querySelector('details').open = true; g.scrollIntoView({ behavior: 'smooth' }); return }
+    if (d.wm) wiz.m = WIZARD[+d.wm], wiz.ans = [];
+    else if (d.wo) wiz.ans.push({ q: qs[wiz.ans.length].q, ...qs[wiz.ans.length].a[+d.wo] });
+    else if ('wback' in d) wiz.ans.length ? wiz.ans.pop() : (wiz.m = null);
+    else if ('wnew' in d) wiz.m = null, wiz.ans = [];
+    else if (d.wprof) { setModel(d.wprof); $('profile').scrollIntoView({ behavior: 'smooth' }); return }
+    renderWiz();
+    $('wiz').querySelector('button')?.focus({ preventScroll: true });
+  });
+  renderWiz();
   const dl = Object.entries(DONATE).filter(([, u]) => u);
   $('stoet').hidden = !dl.length;
   $('donate').innerHTML = dl.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${n}</a>`).join('');
