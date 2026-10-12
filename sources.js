@@ -8,7 +8,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "en",
   "description": "Louis Poulsens officielle side om Poul Henningsen, hans lysfilosofi og treskærmssystemet, med oversigt over PH-lamperne.",
-  "img": "thumbs/bde8a43832ad.jpg"
+  "img": "thumbs/bde8a43832ad.jpg",
+  "description_en": "Louis Poulsen's official page on Poul Henningsen, his philosophy of light and the three-shade system, with an overview of the PH lamps."
  },
  {
   "title": "Poul Henningsen – Manden bag PH-lamperne",
@@ -18,7 +19,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "da",
   "description": "Dansk version af Louis Poulsens designerside om PH og det blændfri treskærmssystem.",
-  "img": "thumbs/87f8e194b220.jpg"
+  "img": "thumbs/87f8e194b220.jpg",
+  "description_en": "Danish version of Louis Poulsen's designer page on PH and the glare-free three-shade system."
  },
  {
   "title": "Poul Henningsen: Learn about the PH Legacy (US)",
@@ -28,7 +30,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "en",
   "description": "Amerikansk version af designersiden om PH med en anden tekst end den internationale.",
-  "img": "thumbs/cdc8efae948f.jpg"
+  "img": "thumbs/cdc8efae948f.jpg",
+  "description_en": "US version of the designer page on PH, with a different text from the international one."
  },
  {
   "title": "System PH: the PH three-shade system explained",
@@ -38,7 +41,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "en",
   "description": "Officiel forklaring af PH-treskærmssystemet, designprincippet og PH-nummereringen (fx 3/2, 5-4½).",
-  "img": "thumbs/15d997b40ac0.jpg"
+  "img": "thumbs/15d997b40ac0.jpg",
+  "description_en": "Official explanation of the PH three-shade system, the design principle and the PH numbering (e.g. 3/2, 5-4½)."
  },
  {
   "title": "The Evolution of Louis Poulsen's PH Lamp Series",
@@ -48,7 +52,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "en",
   "description": "Louis Poulsens gennemgang af PH-seriens udvikling og betydningen af modelnumrene.",
-  "img": "thumbs/6f70e5a55a1e.jpg"
+  "img": "thumbs/6f70e5a55a1e.jpg",
+  "description_en": "Louis Poulsen's overview of how the PH series developed and what the model numbers mean."
  },
  {
   "title": "The Importance of Glare Free Lighting",
@@ -58,7 +63,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "en",
   "description": "Artikel om blændfrit lys med udgangspunkt i PH's principper og treskærmssystemet.",
-  "img": "thumbs/ab84189beeee.jpg"
+  "img": "thumbs/ab84189beeee.jpg",
+  "description_en": "Article on glare-free light based on PH's principles and the three-shade system."
  },
  {
   "title": "Design to Shape Light – designfilosofi",
@@ -68,7 +74,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "en",
   "description": "Louis Poulsens designfilosofi med PH-systemet som kerne og forklaring af hvordan lyset formes.",
-  "img": "thumbs/4725e0680017.jpg"
+  "img": "thumbs/4725e0680017.jpg",
+  "description_en": "Louis Poulsen's design philosophy, with the PH system at its core, and an explanation of how light is shaped."
  },
  {
   "title": "Our Heritage – over 150 års dansk belysningsdesign",
@@ -78,7 +85,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "en",
   "description": "Firmaets officielle historieside fra 1874 til i dag, herunder samarbejdet med PH fra 1925.",
-  "img": "thumbs/6561d7f929de.jpg"
+  "img": "thumbs/6561d7f929de.jpg",
+  "description_en": "The company's official history page from 1874 to the present, including the collaboration with PH from 1925."
  },
  {
   "title": "Louis Poulsen – Vores arv",
@@ -88,7 +96,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "da",
   "description": "Dansk udgave af Louis Poulsens historieside med PH-samarbejdet.",
-  "img": "thumbs/304617ac9d77.jpg"
+  "img": "thumbs/304617ac9d77.jpg",
+  "description_en": "Danish edition of Louis Poulsen's history page covering the PH collaboration."
  },
  {
   "title": "How to Spot an Original",
@@ -98,7 +107,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "en",
   "description": "Louis Poulsens guide til at kende originale PH-lamper (PH 5, PH Artichoke) fra kopier: logo, materialer, proportioner.",
-  "img": "thumbs/da8029e89d47.jpg"
+  "img": "thumbs/da8029e89d47.jpg",
+  "description_en": "Louis Poulsen's guide to telling original PH lamps (PH 5, PH Artichoke) from copies: logo, materials, proportions."
  },
  {
   "title": "PH 5 All Over The World",
@@ -108,7 +118,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "en",
   "description": "Reflections-artikel om PH 5's historie og udbredelse siden 1958.",
-  "img": "thumbs/b232edb57a42.jpg"
+  "img": "thumbs/b232edb57a42.jpg",
+  "description_en": "Reflections article on the history of the PH 5 and its spread since 1958."
  },
  {
   "title": "PH Centenary Poster",
@@ -118,7 +129,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "en",
   "description": "Side til PH-100-års jubilæet (1925-2025) med officiel jubilæumsplakat.",
-  "img": "thumbs/bf620ba50d6b.jpg"
+  "img": "thumbs/bf620ba50d6b.jpg",
+  "description_en": "Page for the PH centenary (1925-2025) with the official anniversary poster."
  },
  {
   "title": "Press: PH 60th Anniversary",
@@ -127,7 +139,8 @@ const SOURCES = [
   "year": "2018",
   "type": "artikel",
   "language": "en",
-  "description": "Officiel pressemeddelelse om PH 5's 60-års jubilæum i 2018."
+  "description": "Officiel pressemeddelelse om PH 5's 60-års jubilæum i 2018.",
+  "description_en": "Official press release on the PH 5's 60th anniversary in 2018."
  },
  {
   "title": "Press: PH 125",
@@ -136,7 +149,8 @@ const SOURCES = [
   "year": "2019",
   "type": "artikel",
   "language": "en",
-  "description": "Pressemeddelelse om jubilæumsudgaverne til 125-året for Poul Henningsens fødsel (1894-2019)."
+  "description": "Pressemeddelelse om jubilæumsudgaverne til 125-året for Poul Henningsens fødsel (1894-2019).",
+  "description_en": "Press release on the anniversary editions marking 125 years since Poul Henningsen's birth (1894-2019)."
  },
  {
   "title": "Press: PH 5",
@@ -145,7 +159,8 @@ const SOURCES = [
   "year": "",
   "type": "artikel",
   "language": "en",
-  "description": "Louis Poulsens pressemateriale om PH 5-pendlen med historik og tekniske data."
+  "description": "Louis Poulsens pressemateriale om PH 5-pendlen med historik og tekniske data.",
+  "description_en": "Louis Poulsen's press material on the PH 5 pendant, with history and technical data."
  },
  {
   "title": "Press: PH 5/5 & PH 3/3",
@@ -154,7 +169,8 @@ const SOURCES = [
   "year": "",
   "type": "artikel",
   "language": "en",
-  "description": "Pressemeddelelse om relanceringen af de historiske PH 5/5 og PH 3/3 pendler."
+  "description": "Pressemeddelelse om relanceringen af de historiske PH 5/5 og PH 3/3 pendler.",
+  "description_en": "Press release on the relaunch of the historic PH 5/5 and PH 3/3 pendants."
  },
  {
   "title": "Press: PH Septima",
@@ -163,7 +179,8 @@ const SOURCES = [
   "year": "",
   "type": "artikel",
   "language": "en",
-  "description": "Pressemeddelelse om genudgivelsen af PH Septima (oprindeligt 1928) med syv glasskærme."
+  "description": "Pressemeddelelse om genudgivelsen af PH Septima (oprindeligt 1928) med syv glasskærme.",
+  "description_en": "Press release on the re-release of the PH Septima (originally 1928) with seven glass shades."
  },
  {
   "title": "Louis Poulsen: First House of Light (bog)",
@@ -173,7 +190,8 @@ const SOURCES = [
   "type": "bog",
   "language": "en",
   "description": "Louis Poulsens side om jubilæumsbogen (Phaidon 2024) om firmaets historie og PH-arven.",
-  "img": "thumbs/84a779265bf5.jpg"
+  "img": "thumbs/84a779265bf5.jpg",
+  "description_en": "Louis Poulsen's page on the anniversary book (Phaidon 2024) about the company's history and the PH legacy."
  },
  {
   "title": "Louis Poulsen Catalogue 2022 (iPaper)",
@@ -182,7 +200,8 @@ const SOURCES = [
   "year": "2022",
   "type": "katalog",
   "language": "en",
-  "description": "Officielt helkatalog i bladre-format med hele PH-sortimentet og tekniske data."
+  "description": "Officielt helkatalog i bladre-format med hele PH-sortimentet og tekniske data.",
+  "description_en": "Official full catalogue in page-flip format with the entire PH range and technical data."
  },
  {
   "title": "Louis Poulsen Catalogue 2021 (iPaper)",
@@ -191,7 +210,8 @@ const SOURCES = [
   "year": "2021",
   "type": "katalog",
   "language": "en",
-  "description": "Officielt helkatalog 2021 med PH-familien."
+  "description": "Officielt helkatalog 2021 med PH-familien.",
+  "description_en": "Official full catalogue for 2021 featuring the PH family."
  },
  {
   "title": "Louis Poulsen Catalog 2021/2022 (US)",
@@ -200,7 +220,8 @@ const SOURCES = [
   "year": "2021",
   "type": "katalog",
   "language": "en",
-  "description": "Amerikansk officielt katalog med omfattende PH-afsnit."
+  "description": "Amerikansk officielt katalog med omfattende PH-afsnit.",
+  "description_en": "Official US catalogue with an extensive PH section."
  },
  {
   "title": "2023 LP Catalogue US",
@@ -209,7 +230,8 @@ const SOURCES = [
   "year": "2023",
   "type": "katalog",
   "language": "en",
-  "description": "Amerikansk officielt katalog 2023 med PH-lamperne."
+  "description": "Amerikansk officielt katalog 2023 med PH-lamperne.",
+  "description_en": "Official US catalogue for 2023 featuring the PH lamps."
  },
  {
   "title": "PH 3½-2½ Copper Table – limited edition brochure",
@@ -219,7 +241,8 @@ const SOURCES = [
   "type": "katalog",
   "language": "en",
   "description": "Officiel brochure om limited edition PH-bordlampe i kobber med historisk baggrund.",
-  "img": "thumbs/c8949462d402.jpg"
+  "img": "thumbs/c8949462d402.jpg",
+  "description_en": "Official brochure on the limited-edition PH table lamp in copper, with historical background."
  },
  {
   "title": "PH 3½-2½ Kobber Bord – limited edition brochure",
@@ -229,7 +252,8 @@ const SOURCES = [
   "type": "katalog",
   "language": "da",
   "description": "Dansk udgave af brochuren om PH-kobberbordlampen.",
-  "img": "thumbs/4bf2601d6a55.jpg"
+  "img": "thumbs/4bf2601d6a55.jpg",
+  "description_en": "Danish edition of the brochure on the PH copper table lamp."
  },
  {
   "title": "PH Artichoke LED brochure",
@@ -239,7 +263,8 @@ const SOURCES = [
   "type": "katalog",
   "language": "en",
   "description": "Officiel brochure om PH Artichoke med LED-lyskilde.",
-  "img": "thumbs/d9ff6862a6b5.jpg"
+  "img": "thumbs/d9ff6862a6b5.jpg",
+  "description_en": "Official brochure on the PH Artichoke with an LED light source."
  },
  {
   "title": "PH 2/2 Limited 2021 (The Question Mark) leaflet",
@@ -249,7 +274,8 @@ const SOURCES = [
   "type": "katalog",
   "language": "en",
   "description": "Folder om genudgivelsen af PH 2/2 'Spørgsmålstegnet' fra 1931.",
-  "img": "thumbs/a2ca46cd495c.jpg"
+  "img": "thumbs/a2ca46cd495c.jpg",
+  "description_en": "Leaflet on the re-release of the PH 2/2 'Spørgsmålstegnet' (the Question Mark) from 1931."
  },
  {
   "title": "PH Limited leaflet (FR)",
@@ -259,7 +285,8 @@ const SOURCES = [
   "type": "katalog",
   "language": "fr",
   "description": "Fransk folder om PH limited edition-serien.",
-  "img": "thumbs/eb808bce2d03.jpg"
+  "img": "thumbs/eb808bce2d03.jpg",
+  "description_en": "French leaflet on the PH limited edition series."
  },
  {
   "title": "Reflections No. 1 (magasin)",
@@ -269,7 +296,8 @@ const SOURCES = [
   "type": "tidsskrift",
   "language": "en",
   "description": "Første nummer af Louis Poulsens magasin Reflections med flere PH-artikler.",
-  "img": "thumbs/36d312abdaa6.jpg"
+  "img": "thumbs/36d312abdaa6.jpg",
+  "description_en": "First issue of Louis Poulsen's magazine Reflections, with several PH articles."
  },
  {
   "title": "Reflections No. 3 (magasin)",
@@ -279,7 +307,8 @@ const SOURCES = [
   "type": "tidsskrift",
   "language": "en",
   "description": "Reflections nr. 3 med artiklen 'PH Reflections'.",
-  "img": "thumbs/d6f7728f47a0.jpg"
+  "img": "thumbs/d6f7728f47a0.jpg",
+  "description_en": "Reflections no. 3 with the article 'PH Reflections'."
  },
  {
   "title": "Reflections No. 5 (magasin)",
@@ -289,7 +318,8 @@ const SOURCES = [
   "type": "tidsskrift",
   "language": "en",
   "description": "Reflections nr. 5 med temaet 'Happy Birthday, Poul Henningsen' (125 år).",
-  "img": "thumbs/d04cdd07e160.jpg"
+  "img": "thumbs/d04cdd07e160.jpg",
+  "description_en": "Reflections no. 5 on the theme 'Happy Birthday, Poul Henningsen' (125 years)."
  },
  {
   "title": "Reflections No. 9 (magasin)",
@@ -299,7 +329,8 @@ const SOURCES = [
   "type": "tidsskrift",
   "language": "en",
   "description": "Reflections nr. 9 med artiklen 'Up high with Poul Henningsen'.",
-  "img": "thumbs/bebfecadf603.jpg"
+  "img": "thumbs/bebfecadf603.jpg",
+  "description_en": "Reflections no. 9 with the article 'Up high with Poul Henningsen'."
  },
  {
   "title": "Louis Poulsen & Co 1930s Catalogue (scan)",
@@ -309,7 +340,8 @@ const SOURCES = [
   "type": "katalog",
   "language": "da",
   "description": "Fuld 17-siders scanning af et udateret Louis Poulsen-katalog fra 1920'erne-30'erne, vist i side-viewer.",
-  "img": "thumbs/aca67dd47508.jpg"
+  "img": "thumbs/aca67dd47508.jpg",
+  "description_en": "Complete 17-page scan of an undated Louis Poulsen catalogue from the 1920s-30s, shown in a page viewer."
  },
  {
   "title": "Poul Henningsen: Philosophy of light (1/3)",
@@ -319,7 +351,8 @@ const SOURCES = [
   "type": "video",
   "language": "da",
   "description": "Louis Poulsens officielle klassiske film om PH's lysfilosofi og lampedesign, del 1 af 3.",
-  "img": "thumbs/28c06ad75d1f.jpg"
+  "img": "thumbs/28c06ad75d1f.jpg",
+  "description_en": "Louis Poulsen's official classic film on PH's philosophy of light and lamp design, part 1 of 3."
  },
  {
   "title": "Poul Henningsen: Philosophy of light (2/3)",
@@ -329,7 +362,8 @@ const SOURCES = [
   "type": "video",
   "language": "da",
   "description": "Louis Poulsens officielle klassiske film om PH's lysfilosofi og lampedesign, del 2 af 3.",
-  "img": "thumbs/948b81259893.jpg"
+  "img": "thumbs/948b81259893.jpg",
+  "description_en": "Louis Poulsen's official classic film on PH's philosophy of light and lamp design, part 2 of 3."
  },
  {
   "title": "Poul Henningsen: Philosophy of light (3/3)",
@@ -339,7 +373,8 @@ const SOURCES = [
   "type": "video",
   "language": "da",
   "description": "Louis Poulsens officielle klassiske film om PH's lysfilosofi og lampedesign, del 3 af 3.",
-  "img": "thumbs/ae35f1c4aa1b.jpg"
+  "img": "thumbs/ae35f1c4aa1b.jpg",
+  "description_en": "Louis Poulsen's official classic film on PH's philosophy of light and lamp design, part 3 of 3."
  },
  {
   "title": "PH 3/3 and PH 5/5 – Designed by Poul Henningsen",
@@ -349,7 +384,8 @@ const SOURCES = [
   "type": "video",
   "language": "en",
   "description": "Officiel video om relanceringen af de historiske PH 3/3 og PH 5/5.",
-  "img": "thumbs/0e23ec54d7a8.jpg"
+  "img": "thumbs/0e23ec54d7a8.jpg",
+  "description_en": "Official video on the relaunch of the historic PH 3/3 and PH 5/5."
  },
  {
   "title": "PH 5 – 60th Anniversary – New Colours",
@@ -359,7 +395,8 @@ const SOURCES = [
   "type": "video",
   "language": "en",
   "description": "Officiel jubilæumsvideo for PH 5's 60-års dag.",
-  "img": "thumbs/e3ca93a1af71.jpg"
+  "img": "thumbs/e3ca93a1af71.jpg",
+  "description_en": "Official anniversary video for the PH 5's 60th birthday."
  },
  {
   "title": "Design to Shape Light – Louis Poulsen",
@@ -369,7 +406,8 @@ const SOURCES = [
   "type": "video",
   "language": "en",
   "description": "Officiel video om Louis Poulsens designfilosofi med udgangspunkt i PH-principperne.",
-  "img": "thumbs/a3e70939e0e7.jpg"
+  "img": "thumbs/a3e70939e0e7.jpg",
+  "description_en": "Official video on Louis Poulsen's design philosophy, based on PH's principles."
  },
  {
   "title": "PHlampen : Katalog B 1931-32",
@@ -378,7 +416,8 @@ const SOURCES = [
   "year": "1931",
   "type": "katalog",
   "language": "da",
-  "description": "Digitaliseret original Louis Poulsen-katalog over PH-lamper fra 1931-32 i Det Kgl. Biblioteks småtrykssamling."
+  "description": "Digitaliseret original Louis Poulsen-katalog over PH-lamper fra 1931-32 i Det Kgl. Biblioteks småtrykssamling.",
+  "description_en": "Digitised original Louis Poulsen catalogue of PH lamps from 1931-32 in the ephemera collection of Det Kgl. Bibliotek."
  },
  {
   "title": "Saa enkel er PHlampen",
@@ -387,7 +426,8 @@ const SOURCES = [
   "year": "1941",
   "type": "katalog",
   "language": "da",
-  "description": "Digitaliseret Louis Poulsen-tryksag/prisliste fra ca. 1941 om PH-lampen."
+  "description": "Digitaliseret Louis Poulsen-tryksag/prisliste fra ca. 1941 om PH-lampen.",
+  "description_en": "Digitised Louis Poulsen printed matter/price list from c. 1941 about the PH lamp."
  },
  {
   "title": "Louis Poulsen & Co. : Fabrikanter af moderne Belysning : Prisliste B.6 - 1936",
@@ -396,7 +436,8 @@ const SOURCES = [
   "year": "1936",
   "type": "katalog",
   "language": "da",
-  "description": "Digitaliseret Louis Poulsen-prisliste fra 1936 med PH-lamper."
+  "description": "Digitaliseret Louis Poulsen-prisliste fra 1936 med PH-lamper.",
+  "description_en": "Digitised Louis Poulsen price list from 1936 featuring PH lamps."
  },
  {
   "title": "Light at home (Louis Poulsen)",
@@ -405,7 +446,8 @@ const SOURCES = [
   "year": "2010",
   "type": "katalog",
   "language": "da",
-  "description": "Nyere Louis Poulsen-katalog (2010) med bl.a. Poul Henningsens lamper, bevaret i KB's småtrykssamling."
+  "description": "Nyere Louis Poulsen-katalog (2010) med bl.a. Poul Henningsens lamper, bevaret i KB's småtrykssamling.",
+  "description_en": "More recent Louis Poulsen catalogue (2010) including Poul Henningsen's lamps, preserved in KB's ephemera collection."
  },
  {
   "title": "Belysning – skitser bl.a. PH-lampen (arkitekturtegning ark_12985e)",
@@ -414,7 +456,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Poul Henningsens egne originale skitser til bl.a. PH-lampen, digitaliseret i høj opløsning fra Arkitektursamlingen."
+  "description": "Poul Henningsens egne originale skitser til bl.a. PH-lampen, digitaliseret i høj opløsning fra Arkitektursamlingen.",
+  "description_en": "Poul Henningsen's own original sketches for the PH lamp among other things, digitised in high resolution from the Arkitektursamlingen (Architecture Collection)."
  },
  {
   "title": "Belysning (PH-tegning ark_12998, mappe 2)",
@@ -423,7 +466,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Original belysningstegning af Poul Henningsen fra hans tegningsarkiv (DKB 183, mappe 2, med opstilling af hele serien)."
+  "description": "Original belysningstegning af Poul Henningsen fra hans tegningsarkiv (DKB 183, mappe 2, med opstilling af hele serien).",
+  "description_en": "Original lighting drawing by Poul Henningsen from his drawing archive (DKB 183, folder 2, with a layout of the whole series)."
  },
  {
   "title": "Belysning (PH-tegning ark_12982f, mappe 6)",
@@ -432,7 +476,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Endnu en original lampetegning fra Poul Henningsens arkiv i Arkitektursamlingen."
+  "description": "Endnu en original lampetegning fra Poul Henningsens arkiv i Arkitektursamlingen.",
+  "description_en": "Another original lamp drawing from Poul Henningsen's archive in the Arkitektursamlingen."
  },
  {
   "title": "Søgning: Henningsen, Poul – belysning (Digitale samlinger)",
@@ -442,7 +487,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Indgang til KB's digitaliserede PH-materiale: belysningstegninger, arkitekturtegninger og fotografier fra hans arkiv.",
-  "img": "thumbs/5d1ffb8d371f.jpg"
+  "img": "thumbs/5d1ffb8d371f.jpg",
+  "description_en": "Entry point to KB's digitised PH material: lighting drawings, architectural drawings and photographs from his archive."
  },
  {
   "title": "Forskellige PH lamper (fotografi)",
@@ -451,7 +497,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Historisk fotografi af forskellige PH-lamper fra Poul Henningsens eget fotoarkiv (DAF kasse 0774)."
+  "description": "Historisk fotografi af forskellige PH-lamper fra Poul Henningsens eget fotoarkiv (DAF kasse 0774).",
+  "description_en": "Historical photograph of various PH lamps from Poul Henningsen's own photo archive (DAF box 0774)."
  },
  {
   "title": "PH lampe set nedefra (fotografi)",
@@ -460,7 +507,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Fotografi af en PH-lampe set nedefra, der viser skærmsystemet, fra PH's fotoarkiv."
+  "description": "Fotografi af en PH-lampe set nedefra, der viser skærmsystemet, fra PH's fotoarkiv.",
+  "description_en": "Photograph of a PH lamp seen from below, showing the shade system, from PH's photo archive."
  },
  {
   "title": "Lamper, indendørs, fotografier for Louis Poulsen og Co, del 1 (Keld Helmer-Petersen)",
@@ -469,7 +517,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Keld Helmer-Petersens produktfotografier af lamper for Louis Poulsen – en del af en større digitaliseret serie."
+  "description": "Keld Helmer-Petersens produktfotografier af lamper for Louis Poulsen – en del af en større digitaliseret serie.",
+  "description_en": "Keld Helmer-Petersen's product photographs of lamps for Louis Poulsen – part of a larger digitised series."
  },
  {
   "title": "København, Tivoli, Konkylie-Kugle-bygning (arkitekturtegning)",
@@ -478,7 +527,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "PH's originale tegning til Tivoli-byggeri fra hans tid som Tivolis chefarkitekt."
+  "description": "PH's originale tegning til Tivoli-byggeri fra hans tid som Tivolis chefarkitekt.",
+  "description_en": "PH's original drawing for a Tivoli building from his time as Tivoli's chief architect."
  },
  {
   "title": "Poul Henningsen – optagelser hos Louis Poulsen i Nyhavn ifm. PH-udstilling",
@@ -487,7 +537,8 @@ const SOURCES = [
   "year": "1964",
   "type": "arkiv",
   "language": "da",
-  "description": "Pressefoto af PH med lampe ved PH-udstillingen hos Louis Poulsen i Nyhavn 1964 (fotograf Grethe Buhl)."
+  "description": "Pressefoto af PH med lampe ved PH-udstillingen hos Louis Poulsen i Nyhavn 1964 (fotograf Grethe Buhl).",
+  "description_en": "Press photo of PH with a lamp at the PH exhibition at Louis Poulsen in Nyhavn, 1964 (photographer Grethe Buhl)."
  },
  {
   "title": "Reception hos lampefirmaet Louis Poulsen & Co. i Nyhavn i anledning af PH's 70 års dag",
@@ -496,7 +547,8 @@ const SOURCES = [
   "year": "1964",
   "type": "arkiv",
   "language": "da",
-  "description": "Serie af pressefotos fra Louis Poulsens reception for PH's 70-årsdag 1964 (fotograf Janne Woldbye)."
+  "description": "Serie af pressefotos fra Louis Poulsens reception for PH's 70-årsdag 1964 (fotograf Janne Woldbye).",
+  "description_en": "Series of press photos from Louis Poulsen's reception for PH's 70th birthday in 1964 (photographer Janne Woldbye)."
  },
  {
   "title": "Satirisk tegning: PH som Diogenes med PH-lampe (Per Marquard Otzen)",
@@ -505,7 +557,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Bladtegning hvor Poul Henningsen afbildes som Diogenes med en PH-lampe i stedet for lygte."
+  "description": "Bladtegning hvor Poul Henningsen afbildes som Diogenes med en PH-lampe i stedet for lygte.",
+  "description_en": "Newspaper drawing depicting Poul Henningsen as Diogenes holding a PH lamp instead of a lantern."
  },
  {
   "title": "Poul Henningsen med PH-lampe på hovedet (Per Marquard Otzen)",
@@ -514,7 +567,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Avistegning til Information med PH iført en PH-lampe som hat."
+  "description": "Avistegning til Information med PH iført en PH-lampe som hat.",
+  "description_en": "Newspaper drawing for Information showing PH wearing a PH lamp as a hat."
  },
  {
   "title": "Europeana: Reception hos Louis Poulsen & Co. – PH's 70 års dag",
@@ -524,7 +578,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Europeana-post for KB's fotos fra Louis Poulsens PH-reception 1964; søg 'henningsen lampe' giver ca. 34 poster.",
-  "img": "thumbs/18f143ad7aa6.jpg"
+  "img": "thumbs/18f143ad7aa6.jpg",
+  "description_en": "Europeana record for KB's photos from Louis Poulsen's PH reception in 1964; searching 'henningsen lampe' returns about 34 records."
  },
  {
   "title": "PH Table Lamp, 1926 (MoMA 27.2000)",
@@ -533,7 +588,8 @@ const SOURCES = [
   "year": "1926",
   "type": "museum",
   "language": "en",
-  "description": "MoMA's samlingspost for den tidlige PH-bordlampe i bakelit, glas og messing."
+  "description": "MoMA's samlingspost for den tidlige PH-bordlampe i bakelit, glas og messing.",
+  "description_en": "MoMA's collection record for the early PH table lamp in Bakelite, glass and brass."
  },
  {
   "title": "PH Artichoke Lamp, 1958 (MoMA 294.1999)",
@@ -542,7 +598,8 @@ const SOURCES = [
   "year": "1958",
   "type": "museum",
   "language": "en",
-  "description": "MoMA's post for PH Kogle (Artichoke) i kobber og stål, gave fra Louis Poulsen."
+  "description": "MoMA's post for PH Kogle (Artichoke) i kobber og stål, gave fra Louis Poulsen.",
+  "description_en": "MoMA's record for the PH Artichoke in copper and steel, a gift from Louis Poulsen."
  },
  {
   "title": "PH 4/4 'Pulley' ceiling lamp, 1926–1928",
@@ -551,7 +608,8 @@ const SOURCES = [
   "year": "1926",
   "type": "museum",
   "language": "en",
-  "description": "MoMA's post for den tidlige PH 4/4 loftslampe med hejseværk."
+  "description": "MoMA's post for den tidlige PH 4/4 loftslampe med hejseværk.",
+  "description_en": "MoMA's record for the early PH 4/4 ceiling lamp with a pulley."
  },
  {
   "title": "PH 5 Pendant Lamp, 1958",
@@ -560,7 +618,8 @@ const SOURCES = [
   "year": "1958",
   "type": "museum",
   "language": "en",
-  "description": "MoMA's samlingspost for PH 5-pendlen."
+  "description": "MoMA's samlingspost for PH 5-pendlen.",
+  "description_en": "MoMA's collection record for the PH 5 pendant."
  },
  {
   "title": "Poul Henningsen – kunstnerside (MoMA)",
@@ -569,7 +628,8 @@ const SOURCES = [
   "year": "",
   "type": "museum",
   "language": "en",
-  "description": "Oversigt over alle Poul Henningsens værker i MoMA's samling (lamper og Slangestolen)."
+  "description": "Oversigt over alle Poul Henningsens værker i MoMA's samling (lamper og Slangestolen).",
+  "description_en": "Overview of all Poul Henningsen's works in MoMA's collection (lamps and the Snake Chair)."
  },
  {
   "title": "\"PH\" Table Lamp, 1927 (Met 2000.376a,b)",
@@ -578,7 +638,8 @@ const SOURCES = [
   "year": "1927",
   "type": "museum",
   "language": "en",
-  "description": "The Mets post for en PH-bordlampe fra 1927 i emaljeret metal og messing."
+  "description": "The Mets post for en PH-bordlampe fra 1927 i emaljeret metal og messing.",
+  "description_en": "The Met's record for a 1927 PH table lamp in enamelled metal and brass."
  },
  {
   "title": "Table lamp, 1927 (V&A O73130)",
@@ -588,7 +649,8 @@ const SOURCES = [
   "type": "museum",
   "language": "en",
   "description": "V&A's samlingspost for en PH-bordlampe fra 1927.",
-  "img": "thumbs/1412f399864c.jpg"
+  "img": "thumbs/1412f399864c.jpg",
+  "description_en": "The V&A's collection record for a 1927 PH table lamp."
  },
  {
   "title": "Artichoke Lamp pendant lamp (V&A O122466)",
@@ -598,7 +660,8 @@ const SOURCES = [
   "type": "museum",
   "language": "en",
   "description": "V&A's post for PH Kogle-pendlen (ca. 1960).",
-  "img": "thumbs/c148bb76ed12.jpg"
+  "img": "thumbs/c148bb76ed12.jpg",
+  "description_en": "The V&A's record for the PH Artichoke pendant (c. 1960)."
  },
  {
   "title": "Artichoke Lamp, 1958 (Art Institute of Chicago 229111)",
@@ -607,7 +670,8 @@ const SOURCES = [
   "year": "1958",
   "type": "museum",
   "language": "en",
-  "description": "Art Institute of Chicagos post for PH Kogle produceret af Louis Poulsen."
+  "description": "Art Institute of Chicagos post for PH Kogle produceret af Louis Poulsen.",
+  "description_en": "The Art Institute of Chicago's record for the PH Artichoke produced by Louis Poulsen."
  },
  {
   "title": "\"PH-5\" Lamp, designed 1957",
@@ -617,7 +681,8 @@ const SOURCES = [
   "type": "museum",
   "language": "en",
   "description": "Philadelphia-museets post for PH 5 med tekst om skærmprincippet og Paris-udstillingen 1925.",
-  "img": "thumbs/605f0444fcf8.jpg"
+  "img": "thumbs/605f0444fcf8.jpg",
+  "description_en": "The Philadelphia museum's record for the PH 5, with text on the shade principle and the 1925 Paris exhibition."
  },
  {
   "title": "\"PH Artichoke\" Lamp, designed 1957",
@@ -626,7 +691,8 @@ const SOURCES = [
   "year": "1957",
   "type": "museum",
   "language": "en",
-  "description": "Philadelphia-museets post for PH Kogle (acc. 1983-114-2)."
+  "description": "Philadelphia-museets post for PH Kogle (acc. 1983-114-2).",
+  "description_en": "The Philadelphia museum's record for the PH Artichoke (acc. 1983-114-2)."
  },
  {
   "title": "What Lies Beneath The Artichoke?",
@@ -636,7 +702,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "en",
   "description": "Museets 'Object of the Week'-artikel om PH Kogle og PH's kamp mod blænding.",
-  "img": "thumbs/bebdfdc2168f.jpg"
+  "img": "thumbs/bebdfdc2168f.jpg",
+  "description_en": "The museum's 'Object of the Week' article on the PH Artichoke and PH's fight against glare."
  },
  {
   "title": "A New Form for a New Technology",
@@ -646,7 +713,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "en",
   "description": "Kuratorartikel om PH 4/3, Louis Poulsens konkurrence 1924 og guldmedaljerne i Paris 1925.",
-  "img": "thumbs/2cebb9735b71.jpg"
+  "img": "thumbs/2cebb9735b71.jpg",
+  "description_en": "Curator's article on the PH 4/3, Louis Poulsen's 1924 competition and the gold medals in Paris in 1925."
  },
  {
   "title": "Ceiling lamp PH 4/4, 1927–1928 (RKM 42-2000)",
@@ -655,7 +723,8 @@ const SOURCES = [
   "year": "1927",
   "type": "museum",
   "language": "en",
-  "description": "Röhsska museets post for en tidlig PH 4/4 loftslampe i forniklet metal og glas."
+  "description": "Röhsska museets post for en tidlig PH 4/4 loftslampe i forniklet metal og glas.",
+  "description_en": "The Röhsska museum's record for an early PH 4/4 ceiling lamp in nickel-plated metal and glass."
  },
  {
   "title": "Poul Henningsen – designer (Nasjonalmuseet)",
@@ -665,7 +734,8 @@ const SOURCES = [
   "type": "museum",
   "language": "no",
   "description": "Oversigt over Poul Henningsens værker i det norske Nasjonalmuseets samling.",
-  "img": "thumbs/f1e9deada1fd.jpg"
+  "img": "thumbs/f1e9deada1fd.jpg",
+  "description_en": "Overview of Poul Henningsen's works in the collection of Norway's Nasjonalmuseet."
  },
  {
   "title": "PH-3/2 (Nasjonalmuseet OK-1964-0101A)",
@@ -675,7 +745,8 @@ const SOURCES = [
   "type": "museum",
   "language": "no",
   "description": "Nasjonalmuseets post for en PH-3/2 bordlampe fra Louis Poulsen.",
-  "img": "thumbs/f3dcf61759b9.jpg"
+  "img": "thumbs/f3dcf61759b9.jpg",
+  "description_en": "Nasjonalmuseet's record for a PH-3/2 table lamp from Louis Poulsen."
  },
  {
   "title": "PH Kongle (Nasjonalmuseet OK-1978-0234)",
@@ -685,7 +756,8 @@ const SOURCES = [
   "type": "museum",
   "language": "no",
   "description": "Nasjonalmuseets post for PH Kogle.",
-  "img": "thumbs/6a439f6f9688.jpg"
+  "img": "thumbs/6a439f6f9688.jpg",
+  "description_en": "Nasjonalmuseet's record for the PH Artichoke."
  },
  {
   "title": "PH-Kuglen (Nasjonalmuseet OK-1978-0235)",
@@ -695,7 +767,8 @@ const SOURCES = [
   "type": "museum",
   "language": "no",
   "description": "Nasjonalmuseets post for PH Kuglen.",
-  "img": "thumbs/7d5318344365.jpg"
+  "img": "thumbs/7d5318344365.jpg",
+  "description_en": "Nasjonalmuseet's record for the PH Louvre (PH Kuglen)."
  },
  {
   "title": "PH 5 (Nasjonalmuseet OK-1978-0236A)",
@@ -705,7 +778,8 @@ const SOURCES = [
   "type": "museum",
   "language": "no",
   "description": "Nasjonalmuseets post for PH 5-pendlen.",
-  "img": "thumbs/e32b2a180bad.jpg"
+  "img": "thumbs/e32b2a180bad.jpg",
+  "description_en": "Nasjonalmuseet's record for the PH 5 pendant."
  },
  {
   "title": "Kritisk Revy – Hefte 3, okt. 1927",
@@ -715,7 +789,8 @@ const SOURCES = [
   "type": "tidsskrift",
   "language": "da",
   "description": "Nummer af PH's eget tidsskrift Kritisk Revy fra 1927 i Nasjonalmuseets samling.",
-  "img": "thumbs/868b663fc29d.jpg"
+  "img": "thumbs/868b663fc29d.jpg",
+  "description_en": "Issue of PH's own magazine Kritisk Revy from 1927 in Nasjonalmuseet's collection."
  },
  {
   "title": "Taklampa PH-5, itusågad (Nordiska museet NM.0333372)",
@@ -725,7 +800,8 @@ const SOURCES = [
   "type": "museum",
   "language": "sv",
   "description": "Gennemskåret PH 5 der viser skærmenes farvede indersider og lysrefleksion.",
-  "img": "thumbs/b5af1a3a63f6.jpg"
+  "img": "thumbs/b5af1a3a63f6.jpg",
+  "description_en": "Cutaway PH 5 showing the coloured undersides of the shades and the reflection of light."
  },
  {
   "title": "Tavla – affisch med PH's collage af PH-5 (Nordiska museet NM.0333373)",
@@ -735,7 +811,8 @@ const SOURCES = [
   "type": "museum",
   "language": "sv",
   "description": "Indrammet plakat med reproduktion af Poul Henningsens collage af PH 5.",
-  "img": "thumbs/acb3149477a6.jpg"
+  "img": "thumbs/acb3149477a6.jpg",
+  "description_en": "Framed poster reproducing Poul Henningsen's collage of the PH 5."
  },
  {
   "title": "Taklampa, s.k. PH-lampa (Nordiska museet NM.0332289)",
@@ -745,7 +822,8 @@ const SOURCES = [
   "type": "museum",
   "language": "sv",
   "description": "Nordiska museets detaljerede beskrivelse af en PH-loftslampe og dens skærmsystem.",
-  "img": "thumbs/64f42e88950e.jpg"
+  "img": "thumbs/64f42e88950e.jpg",
+  "description_en": "Nordiska museet's detailed description of a PH ceiling lamp and its shade system."
  },
  {
   "title": "Taklampa \"PH-Kotte\", design Poul Henningsen",
@@ -755,7 +833,8 @@ const SOURCES = [
   "type": "museum",
   "language": "sv",
   "description": "Sörmlands museums post for PH Kogle i kobberlameller med beskrivelse af lysvirkningen.",
-  "img": "thumbs/118e41a7a213.jpg"
+  "img": "thumbs/118e41a7a213.jpg",
+  "description_en": "Sörmlands museum's record for the PH Artichoke with copper leaves, with a description of the lighting effect."
  },
  {
   "title": "PH Artichoke lamp (Israel Museum 397186)",
@@ -764,7 +843,8 @@ const SOURCES = [
   "year": "1958",
   "type": "museum",
   "language": "en",
-  "description": "Israel Museums post med tekst om PH's lysdiagrammer og beregning af skærmformerne."
+  "description": "Israel Museums post med tekst om PH's lysdiagrammer og beregning af skærmformerne.",
+  "description_en": "The Israel Museum's record, with text on PH's light diagrams and how the shade shapes were calculated."
  },
  {
   "title": "PH Louvre lamp (Israel Museum 397484)",
@@ -773,7 +853,8 @@ const SOURCES = [
   "year": "1957",
   "type": "museum",
   "language": "en",
-  "description": "Israel Museums post for PH Louvre-lampen."
+  "description": "Israel Museums post for PH Louvre-lampen.",
+  "description_en": "The Israel Museum's record for the PH Louvre lamp."
  },
  {
   "title": "Lamp (PH Kogle), 1958 – Boijmans V 2799 a-c",
@@ -782,7 +863,8 @@ const SOURCES = [
   "year": "1958",
   "type": "museum",
   "language": "en",
-  "description": "Boijmans' post for en PH-lampe fra 1958 købt med støtte fra Mondriaan Fonds."
+  "description": "Boijmans' post for en PH-lampe fra 1958 købt med støtte fra Mondriaan Fonds.",
+  "description_en": "Boijmans' record for a 1958 PH lamp purchased with support from the Mondriaan Fonds."
  },
  {
   "title": "PH 4/3, table lamp (NGV)",
@@ -792,7 +874,8 @@ const SOURCES = [
   "type": "museum",
   "language": "en",
   "description": "NGV's samlingspost for en PH 4/3 bordlampe.",
-  "img": "thumbs/a8531f8ebc79.jpg"
+  "img": "thumbs/a8531f8ebc79.jpg",
+  "description_en": "NGV's collection record for a PH 4/3 table lamp."
  },
  {
   "title": "PH Artichoke Hanging Lamp (MBAM 2001.20.1-3)",
@@ -802,7 +885,8 @@ const SOURCES = [
   "type": "museum",
   "language": "en",
   "description": "Montreal-museets post for PH Kogle.",
-  "img": "thumbs/809e57003f8d.jpg"
+  "img": "thumbs/809e57003f8d.jpg",
+  "description_en": "The Montreal museum's record for the PH Artichoke."
  },
  {
   "title": "Pendelleuchte PH Artichoke (GRASSI 2018.167)",
@@ -812,7 +896,8 @@ const SOURCES = [
   "type": "museum",
   "language": "de",
   "description": "GRASSI-museets post for PH Kogle i samlingen 'Dänisches Design von Jugendstil bis Gegenwart'.",
-  "img": "thumbs/590739e1c944.jpg"
+  "img": "thumbs/590739e1c944.jpg",
+  "description_en": "The GRASSI museum's record for the PH Artichoke in the collection 'Dänisches Design von Jugendstil bis Gegenwart'."
  },
  {
   "title": "Poul Henningsen (1894-1967) – md:term",
@@ -821,7 +906,8 @@ const SOURCES = [
   "year": "",
   "type": "museum",
   "language": "de",
-  "description": "Personpost i museum-digital der samler tyske museers objekter af Poul Henningsen."
+  "description": "Personpost i museum-digital der samler tyske museers objekter af Poul Henningsen.",
+  "description_en": "Person record in museum-digital bringing together German museums' objects by Poul Henningsen."
  },
  {
   "title": "Emils PH lampe (Mit hverdagsdesign)",
@@ -830,7 +916,8 @@ const SOURCES = [
   "year": "",
   "type": "museum",
   "language": "da",
-  "description": "Designmuseets formidlingsside om en ung mands PH Glaspendel og PH's lampeunivers."
+  "description": "Designmuseets formidlingsside om en ung mands PH Glaspendel og PH's lampeunivers.",
+  "description_en": "Designmuseum's educational page about a young man's PH Glass Pendant and PH's world of lamps."
  },
  {
   "title": "Udstilling Poul Henningsen, Frederiksdal Holte (1974)",
@@ -840,7 +927,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto fra en Poul Henningsen-udstilling i Frederiksdal 1974.",
-  "img": "thumbs/5a5ee3ff68a0.jpg"
+  "img": "thumbs/5a5ee3ff68a0.jpg",
+  "description_en": "Local archive photo from a Poul Henningsen exhibition in Frederiksdal in 1974."
  },
  {
   "title": "Sovekammermiljø, bestilt af Poul Henningsen (1921)",
@@ -850,7 +938,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Interiørfoto fra 1921 bestilt af PH, fra Aalborg Stadsarkiv.",
-  "img": "thumbs/764ff61e8a06.jpg"
+  "img": "thumbs/764ff61e8a06.jpg",
+  "description_en": "Interior photo from 1921 commissioned by PH, from Aalborg Stadsarkiv."
  },
  {
   "title": "Spisestue med PH lampe (1937)",
@@ -860,7 +949,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Samtidigt interiørfoto af en spisestue med PH-lampe fra 1937.",
-  "img": "thumbs/ff2518f31a63.jpg"
+  "img": "thumbs/ff2518f31a63.jpg",
+  "description_en": "Contemporary interior photo of a dining room with a PH lamp from 1937."
  },
  {
   "title": "Poul Henningsen i Strøybergs sommerhus (1936)",
@@ -870,7 +960,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Foto af PH i sommerhuset for Niels Strøyberg, som han også tegnede villa for.",
-  "img": "thumbs/7eb9b87a773b.jpg"
+  "img": "thumbs/7eb9b87a773b.jpg",
+  "description_en": "Photo of PH at the summer house of Niels Strøyberg, for whom he also designed a villa."
  },
  {
   "title": "PH i døren i huset på Svenstrupvej, Usserød, 1960/61",
@@ -880,7 +971,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Foto af PH ved sit hjem i Usserød fra Museum Nordsjællands arkiv.",
-  "img": "thumbs/b32f8abee136.jpg"
+  "img": "thumbs/b32f8abee136.jpg",
+  "description_en": "Photo of PH at his home in Usserød, from the archive of Museum Nordsjælland."
  },
  {
   "title": "DK38897C – Reflektoranordning for glødelamper",
@@ -889,7 +981,8 @@ const SOURCES = [
   "year": "1928",
   "type": "patent",
   "language": "da",
-  "description": "PH's grundpatent på flerskærmslampen: anmeldt 4. dec. 1925 af Louis Poulsen, meddelt 1928 – reflektor med flere koncentriske skærme over og under lyskilden."
+  "description": "PH's grundpatent på flerskærmslampen: anmeldt 4. dec. 1925 af Louis Poulsen, meddelt 1928 – reflektor med flere koncentriske skærme over og under lyskilden.",
+  "description_en": "PH's core patent on the multi-shade lamp: filed by Louis Poulsen on 4 Dec. 1925, granted 1928 – a reflector with several concentric shades above and below the light source."
  },
  {
   "title": "US1757527A – Reflector for incandescent lamps",
@@ -899,7 +992,8 @@ const SOURCES = [
   "type": "patent",
   "language": "en",
   "description": "Amerikansk patent på PH-flerskærmsreflektoren med Poul Henningsen som opfinder og Louis Poulsen som ansøger (prioritet 1925).",
-  "img": "thumbs/d943a13c382a.jpg"
+  "img": "thumbs/d943a13c382a.jpg",
+  "description_en": "US patent on the PH multi-shade reflector, with Poul Henningsen as inventor and Louis Poulsen as applicant (priority 1925)."
  },
  {
   "title": "GB280351A – Reflector for incandescent lamps",
@@ -908,7 +1002,8 @@ const SOURCES = [
   "year": "1927",
   "type": "patent",
   "language": "en",
-  "description": "Britisk patent på Louis Poulsens PH-loftslampe med flere skærme, der giver blændfrit, diffust lys."
+  "description": "Britisk patent på Louis Poulsens PH-loftslampe med flere skærme, der giver blændfrit, diffust lys.",
+  "description_en": "British patent on Louis Poulsen's PH ceiling lamp with several shades giving glare-free, diffuse light."
  },
  {
   "title": "FR623935A – Dispositif de réflecteur pour lampes à incandescence",
@@ -917,7 +1012,8 @@ const SOURCES = [
   "year": "1927",
   "type": "patent",
   "language": "fr",
-  "description": "Fransk patent på PH-reflektoranordningen, ansøgt af Louis Poulsen & Cie i 1926."
+  "description": "Fransk patent på PH-reflektoranordningen, ansøgt af Louis Poulsen & Cie i 1926.",
+  "description_en": "French patent on the PH reflector arrangement, applied for by Louis Poulsen & Cie in 1926."
  },
  {
   "title": "CH122685A – Reflektoranordnung für Glühlampen",
@@ -926,7 +1022,8 @@ const SOURCES = [
   "year": "1927",
   "type": "patent",
   "language": "de",
-  "description": "Schweizisk patent på PH-reflektorsystemet for glødelamper, ansøgt af Louis Poulsen & Co."
+  "description": "Schweizisk patent på PH-reflektorsystemet for glødelamper, ansøgt af Louis Poulsen & Co.",
+  "description_en": "Swiss patent on the PH reflector system for incandescent lamps, applied for by Louis Poulsen & Co."
  },
  {
   "title": "AT108357B – Reflektoranordnung für Glühlampen",
@@ -935,7 +1032,8 @@ const SOURCES = [
   "year": "1927",
   "type": "patent",
   "language": "de",
-  "description": "Østrigsk patent på PH-reflektoranordningen for glødelamper fra Louis Poulsen & Co."
+  "description": "Østrigsk patent på PH-reflektoranordningen for glødelamper fra Louis Poulsen & Co.",
+  "description_en": "Austrian patent on the PH reflector arrangement for incandescent lamps from Louis Poulsen & Co."
  },
  {
   "title": "DE453026C – Reflektoranordnung für indirekte Beleuchtung",
@@ -944,7 +1042,8 @@ const SOURCES = [
   "year": "1927",
   "type": "patent",
   "language": "de",
-  "description": "Tysk patent på Louis Poulsens reflektoranordning til indirekte belysning fra PH-lampens tidlige år."
+  "description": "Tysk patent på Louis Poulsens reflektoranordning til indirekte belysning fra PH-lampens tidlige år.",
+  "description_en": "German patent on Louis Poulsen's reflector arrangement for indirect lighting from the early years of the PH lamp."
  },
  {
   "title": "ES101074A1 – Dispositivo reflector para lámparas incandescentes",
@@ -953,7 +1052,8 @@ const SOURCES = [
   "year": "1927",
   "type": "patent",
   "language": "es",
-  "description": "Spansk patent på PH-reflektoranordningen for glødelamper, ansøgt af Louis Poulsen i 1927."
+  "description": "Spansk patent på PH-reflektoranordningen for glødelamper, ansøgt af Louis Poulsen i 1927.",
+  "description_en": "Spanish patent on the PH reflector arrangement for incandescent lamps, applied for by Louis Poulsen in 1927."
  },
  {
   "title": "CA274598A – Lamp reflector",
@@ -962,7 +1062,8 @@ const SOURCES = [
   "year": "1927",
   "type": "patent",
   "language": "en",
-  "description": "Canadisk patent på PH-lampereflektoren med Poul Henningsen som opfinder (navnet stavet 'Paul')."
+  "description": "Canadisk patent på PH-lampereflektoren med Poul Henningsen som opfinder (navnet stavet 'Paul').",
+  "description_en": "Canadian patent on the PH lamp reflector, with Poul Henningsen as inventor (name spelt 'Paul')."
  },
  {
   "title": "AU660427A – Reflector for incandescent lamps",
@@ -971,7 +1072,8 @@ const SOURCES = [
   "year": "1927",
   "type": "patent",
   "language": "en",
-  "description": "Australsk patentansøgning fra Louis Poulsen på PH-reflektoren for glødelamper."
+  "description": "Australsk patentansøgning fra Louis Poulsen på PH-reflektoren for glødelamper.",
+  "description_en": "Australian patent application from Louis Poulsen on the PH reflector for incandescent lamps."
  },
  {
   "title": "DK41820C – Reflektoranordning for glødelamper",
@@ -980,7 +1082,8 @@ const SOURCES = [
   "year": "1930",
   "type": "patent",
   "language": "da",
-  "description": "Dansk tillægspatent fra Louis Poulsen (anmeldt 1927) på en videreudviklet reflektoranordning til glødelamper."
+  "description": "Dansk tillægspatent fra Louis Poulsen (anmeldt 1927) på en videreudviklet reflektoranordning til glødelamper.",
+  "description_en": "Danish patent of addition from Louis Poulsen (filed 1927) on a further developed reflector arrangement for incandescent lamps."
  },
  {
   "title": "DE491081C – Reflektoranordnung für indirekte Beleuchtung",
@@ -989,7 +1092,8 @@ const SOURCES = [
   "year": "1930",
   "type": "patent",
   "language": "de",
-  "description": "Tysk patent fra Louis Poulsen (1928) på videreudviklet reflektoranordning til indirekte belysning."
+  "description": "Tysk patent fra Louis Poulsen (1928) på videreudviklet reflektoranordning til indirekte belysning.",
+  "description_en": "German patent from Louis Poulsen (1928) on a further developed reflector arrangement for indirect lighting."
  },
  {
   "title": "DK41091C – Reflektorsystem",
@@ -998,7 +1102,8 @@ const SOURCES = [
   "year": "1929",
   "type": "patent",
   "language": "da",
-  "description": "Dansk patent fra Louis Poulsen (anmeldt 1928) på et reflektorsystem til belysning."
+  "description": "Dansk patent fra Louis Poulsen (anmeldt 1928) på et reflektorsystem til belysning.",
+  "description_en": "Danish patent from Louis Poulsen (filed 1928) on a reflector system for lighting."
  },
  {
   "title": "DK42640C – Skærmholder for elektriske lamper",
@@ -1007,7 +1112,8 @@ const SOURCES = [
   "year": "1930",
   "type": "patent",
   "language": "da",
-  "description": "Dansk patent fra Louis Poulsen (1928) på skærmholderen til PH-flerskærmslamper."
+  "description": "Dansk patent fra Louis Poulsen (1928) på skærmholderen til PH-flerskærmslamper.",
+  "description_en": "Danish patent from Louis Poulsen (1928) on the shade holder for PH multi-shade lamps."
  },
  {
   "title": "US1789976A – Shade holder for electric lamps",
@@ -1017,7 +1123,8 @@ const SOURCES = [
   "type": "patent",
   "language": "en",
   "description": "Amerikansk patent på PH's skærmholder til elektriske lamper med Poul Henningsen som opfinder.",
-  "img": "thumbs/e8f55f5c2178.jpg"
+  "img": "thumbs/e8f55f5c2178.jpg",
+  "description_en": "US patent on PH's shade holder for electric lamps, with Poul Henningsen as inventor."
  },
  {
   "title": "CA299162A – Shade-holder for electric lamps",
@@ -1026,7 +1133,8 @@ const SOURCES = [
   "year": "1930",
   "type": "patent",
   "language": "en",
-  "description": "Canadisk patent på Poul Henningsens skærmholder til elektriske flerskærmslamper."
+  "description": "Canadisk patent på Poul Henningsens skærmholder til elektriske flerskærmslamper.",
+  "description_en": "Canadian patent on Poul Henningsen's shade holder for electric multi-shade lamps."
  },
  {
   "title": "AU2149829A – Improvements in shade-holder for electric lamps",
@@ -1035,7 +1143,8 @@ const SOURCES = [
   "year": "1930",
   "type": "patent",
   "language": "en",
-  "description": "Australsk patentansøgning på PH's skærmholder til elektriske lamper med Poul Henningsen som opfinder."
+  "description": "Australsk patentansøgning på PH's skærmholder til elektriske lamper med Poul Henningsen som opfinder.",
+  "description_en": "Australian patent application on PH's shade holder for electric lamps, with Poul Henningsen as inventor."
  },
  {
   "title": "DE582814C – Schirmhalter für elektrische Mehrschirmleuchten",
@@ -1044,7 +1153,8 @@ const SOURCES = [
   "year": "1933",
   "type": "patent",
   "language": "de",
-  "description": "Tysk patent fra Louis Poulsen på skærmholder med fjedrende holdebøjle til elektriske flerskærmslamper."
+  "description": "Tysk patent fra Louis Poulsen på skærmholder med fjedrende holdebøjle til elektriske flerskærmslamper.",
+  "description_en": "German patent from Louis Poulsen on a shade holder with a sprung retaining bracket for electric multi-shade lamps."
  },
  {
   "title": "AT118387B – Schirmhalter für elektrische Lampen",
@@ -1053,7 +1163,8 @@ const SOURCES = [
   "year": "1930",
   "type": "patent",
   "language": "de",
-  "description": "Østrigsk patent fra Louis Poulsen på skærmholderen til PH-lamper."
+  "description": "Østrigsk patent fra Louis Poulsen på skærmholderen til PH-lamper.",
+  "description_en": "Austrian patent from Louis Poulsen on the shade holder for PH lamps."
  },
  {
   "title": "CH141680A – Schirmhalter für Mehrschirmreflektoren",
@@ -1062,7 +1173,8 @@ const SOURCES = [
   "year": "1930",
   "type": "patent",
   "language": "de",
-  "description": "Schweizisk patent fra Louis Poulsen på skærmholder til flerskærmsreflektorer."
+  "description": "Schweizisk patent fra Louis Poulsen på skærmholder til flerskærmsreflektorer.",
+  "description_en": "Swiss patent from Louis Poulsen on a shade holder for multi-shade reflectors."
  },
  {
   "title": "FR678738A – Porte-abat-jour pour lampes à incandescence",
@@ -1071,7 +1183,8 @@ const SOURCES = [
   "year": "1930",
   "type": "patent",
   "language": "fr",
-  "description": "Fransk patent fra Louis Poulsen på skærmholder til glødelamper (PH-flerskærmslamper)."
+  "description": "Fransk patent fra Louis Poulsen på skærmholder til glødelamper (PH-flerskærmslamper).",
+  "description_en": "French patent from Louis Poulsen on a shade holder for incandescent lamps (PH multi-shade lamps)."
  },
  {
   "title": "ES114161A1 – Portapantallas para lámparas eléctricas",
@@ -1080,7 +1193,8 @@ const SOURCES = [
   "year": "1929",
   "type": "patent",
   "language": "es",
-  "description": "Spansk patent fra Louis Poulsen på skærmholder til elektriske lamper."
+  "description": "Spansk patent fra Louis Poulsen på skærmholder til elektriske lamper.",
+  "description_en": "Spanish patent from Louis Poulsen on a shade holder for electric lamps."
  },
  {
   "title": "DK44723C – Hejseanordning for elektriske belysningsarmaturer",
@@ -1089,7 +1203,8 @@ const SOURCES = [
   "year": "1931",
   "type": "patent",
   "language": "da",
-  "description": "Dansk patent med Poul Henningsen som opfinder og ansøger på en hejseanordning til elektriske lamper."
+  "description": "Dansk patent med Poul Henningsen som opfinder og ansøger på en hejseanordning til elektriske lamper.",
+  "description_en": "Danish patent with Poul Henningsen as inventor and applicant on a hoisting device for electric lamps."
  },
  {
   "title": "FI13680A – Stainless steel lamp (finsk patent)",
@@ -1098,7 +1213,8 @@ const SOURCES = [
   "year": "1931",
   "type": "patent",
   "language": "fi",
-  "description": "Finsk patent med Poul Henningsen som opfinder og Louis Poulsen som ansøger på en lampe."
+  "description": "Finsk patent med Poul Henningsen som opfinder og Louis Poulsen som ansøger på en lampe.",
+  "description_en": "Finnish patent with Poul Henningsen as inventor and Louis Poulsen as applicant on a lamp."
  },
  {
   "title": "DK49522C – Stjerneformet bøjle til fastholdelse af skærme i flerskærmsarmaturer",
@@ -1107,7 +1223,8 @@ const SOURCES = [
   "year": "1934",
   "type": "patent",
   "language": "da",
-  "description": "Dansk patent fra Louis Poulsen på en stjerneformet skærmholder til PH-flerskærmsarmaturer."
+  "description": "Dansk patent fra Louis Poulsen på en stjerneformet skærmholder til PH-flerskærmsarmaturer.",
+  "description_en": "Danish patent from Louis Poulsen on a star-shaped shade holder for PH multi-shade fittings."
  },
  {
   "title": "DK49514C – Indretning ved belysningsarmaturer til luft- og støvtæt indkapsling af reflekterende og spredende flader",
@@ -1116,7 +1233,8 @@ const SOURCES = [
   "year": "1934",
   "type": "patent",
   "language": "da",
-  "description": "Dansk patent fra Louis Poulsen på støvtæt indkapsling af reflekterende og lysspredende flader i lamper."
+  "description": "Dansk patent fra Louis Poulsen på støvtæt indkapsling af reflekterende og lysspredende flader i lamper.",
+  "description_en": "Danish patent from Louis Poulsen on dust-tight enclosure of reflecting and light-diffusing surfaces in lamps."
  },
  {
   "title": "DK50228C – Indretning til automatisk indstilling af elektriske pærer i belysningsarmaturer",
@@ -1125,7 +1243,8 @@ const SOURCES = [
   "year": "1935",
   "type": "patent",
   "language": "da",
-  "description": "Dansk patent fra Louis Poulsen på automatisk placering af glødepæren i armaturet – afgørende for PH-skærmenes lysfordeling."
+  "description": "Dansk patent fra Louis Poulsen på automatisk placering af glødepæren i armaturet – afgørende for PH-skærmenes lysfordeling.",
+  "description_en": "Danish patent from Louis Poulsen on automatic positioning of the bulb in the fitting – crucial to the light distribution of the PH shades."
  },
  {
   "title": "US2100078A – Multiple-shade holder",
@@ -1135,7 +1254,8 @@ const SOURCES = [
   "type": "patent",
   "language": "en",
   "description": "Amerikansk patent på PH's holder til flerskærmslamper med Poul Henningsen som opfinder (prioritet 1935).",
-  "img": "thumbs/19f4b8178fa9.jpg"
+  "img": "thumbs/19f4b8178fa9.jpg",
+  "description_en": "US patent on PH's holder for multi-shade lamps, with Poul Henningsen as inventor (priority 1935)."
  },
  {
   "title": "FI22212A – Veckad lampskärm av papper eller liknande och förfaringssätt för dess framställning",
@@ -1144,7 +1264,8 @@ const SOURCES = [
   "year": "1947",
   "type": "patent",
   "language": "sv",
-  "description": "Finsk patent med Poul Henningsen som opfinder på en plisseret lampeskærm af papir og metoden til at fremstille den."
+  "description": "Finsk patent med Poul Henningsen som opfinder på en plisseret lampeskærm af papir og metoden til at fremstille den.",
+  "description_en": "Finnish patent with Poul Henningsen as inventor on a pleated lampshade of paper and the method for making it."
  },
  {
   "title": "DK68882C – Lukkeanordning for plisserede lampeskærme",
@@ -1153,7 +1274,8 @@ const SOURCES = [
   "year": "1949",
   "type": "patent",
   "language": "da",
-  "description": "Dansk patent fra Louis Poulsen (anmeldt 1945) på lukkeanordning til plisserede lampeskærme, beslægtet med PH's papirskærm."
+  "description": "Dansk patent fra Louis Poulsen (anmeldt 1945) på lukkeanordning til plisserede lampeskærme, beslægtet med PH's papirskærm.",
+  "description_en": "Danish patent from Louis Poulsen (filed 1945) on a closing device for pleated lampshades, related to PH's paper shade."
  },
  {
   "title": "DK84919C – Højdeindstillelig pendel",
@@ -1162,7 +1284,8 @@ const SOURCES = [
   "year": "1958",
   "type": "patent",
   "language": "da",
-  "description": "Dansk patent fra Louis Poulsen (anmeldt 1956) på en pendel med indstillelig højde."
+  "description": "Dansk patent fra Louis Poulsen (anmeldt 1956) på en pendel med indstillelig højde.",
+  "description_en": "Danish patent from Louis Poulsen (filed 1956) on a height-adjustable pendant."
  },
  {
   "title": "DK89942C – Skærm for hænge- eller standerlamper opbygget af koaksialt samlede skærmelementer",
@@ -1171,7 +1294,8 @@ const SOURCES = [
   "year": "1960",
   "type": "patent",
   "language": "da",
-  "description": "Dansk patent fra Louis Poulsen (anmeldt 1956) på en lampeskærm af koaksialt samlede elementer – uvist om det er PH's eller en anden designers."
+  "description": "Dansk patent fra Louis Poulsen (anmeldt 1956) på en lampeskærm af koaksialt samlede elementer – uvist om det er PH's eller en anden designers.",
+  "description_en": "Danish patent from Louis Poulsen (filed 1956) on a lampshade of coaxially assembled elements – it is unclear whether it is PH's or another designer's."
  },
  {
   "title": "ES325845A3 – Mejoras en la construcción de lámparas de múltiples pantallas fijas",
@@ -1180,7 +1304,8 @@ const SOURCES = [
   "year": "1967",
   "type": "patent",
   "language": "es",
-  "description": "Spansk patent fra Louis Poulsen (1966) på en lampe med flere faste, keglestubformede skærme i PH-princippet."
+  "description": "Spansk patent fra Louis Poulsen (1966) på en lampe med flere faste, keglestubformede skærme i PH-princippet.",
+  "description_en": "Spanish patent from Louis Poulsen (1966) on a lamp with several fixed, truncated-cone shades following the PH principle."
  },
  {
   "title": "ES325846A3 – Mejoras en la construcción de lámparas de múltiples pantallas",
@@ -1189,7 +1314,8 @@ const SOURCES = [
   "year": "1967",
   "type": "patent",
   "language": "es",
-  "description": "Spansk patent fra Louis Poulsen (1966) på en lampe med flere skærme af trapezformede, skiftevis placerede elementer (muligvis relateret til PH Kogle)."
+  "description": "Spansk patent fra Louis Poulsen (1966) på en lampe med flere skærme af trapezformede, skiftevis placerede elementer (muligvis relateret til PH Kogle).",
+  "description_en": "Spanish patent from Louis Poulsen (1966) on a lamp with several shades of trapezoidal, alternately placed elements (possibly related to the PH Artichoke)."
  },
  {
   "title": "ES325908A3 – Mejoras en la construcción de lámparas de pantallas fijas y punto luminoso móvil",
@@ -1198,7 +1324,8 @@ const SOURCES = [
   "year": "1967",
   "type": "patent",
   "language": "es",
-  "description": "Spansk patent fra Louis Poulsen (1966) på en lampe med faste skærme og flytbart lyspunkt."
+  "description": "Spansk patent fra Louis Poulsen (1966) på en lampe med faste skærme og flytbart lyspunkt.",
+  "description_en": "Spanish patent from Louis Poulsen (1966) on a lamp with fixed shades and a movable light point."
  },
  {
   "title": "Kritisk Revy i digitaliseret udgave (7 hefter 1927–28)",
@@ -1208,7 +1335,8 @@ const SOURCES = [
   "type": "tidsskrift",
   "language": "da",
   "description": "Det Kgl. Biblioteks faksimile-digitalisering af PH's eget tidsskrift Kritisk Revy (1927 h.1–3, 1928 h.1–4), bevaret i KB's webarkiv.",
-  "img": "thumbs/b86216f1e338.jpg"
+  "img": "thumbs/b86216f1e338.jpg",
+  "description_en": "Det Kgl. Bibliotek's facsimile digitisation of PH's own magazine Kritisk Revy (1927 issues 1–3, 1928 issues 1–4), preserved in KB's web archive."
  },
  {
   "title": "Kritisk Revy 1927, hefte 1 – faksimile",
@@ -1217,7 +1345,8 @@ const SOURCES = [
   "year": "1927",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Side-for-side faksimile af Kritisk Revy 1927, hefte 1, redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer."
+  "description": "Side-for-side faksimile af Kritisk Revy 1927, hefte 1, redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer.",
+  "description_en": "Page-by-page facsimile of Kritisk Revy 1927, issue 1, edited by Poul Henningsen; contains his criticism of architecture, lighting and culture as well as contemporary advertisements."
  },
  {
   "title": "Kritisk Revy 1927, hefte 2 (juni) – faksimile",
@@ -1226,7 +1355,8 @@ const SOURCES = [
   "year": "1927",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Side-for-side faksimile af Kritisk Revy 1927, hefte 2 (juni), redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer."
+  "description": "Side-for-side faksimile af Kritisk Revy 1927, hefte 2 (juni), redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer.",
+  "description_en": "Page-by-page facsimile of Kritisk Revy 1927, issue 2 (June), edited by Poul Henningsen; contains his criticism of architecture, lighting and culture as well as contemporary advertisements."
  },
  {
   "title": "Kritisk Revy 1927, hefte 3 (oktober) – faksimile",
@@ -1235,7 +1365,8 @@ const SOURCES = [
   "year": "1927",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Side-for-side faksimile af Kritisk Revy 1927, hefte 3 (oktober), redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer."
+  "description": "Side-for-side faksimile af Kritisk Revy 1927, hefte 3 (oktober), redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer.",
+  "description_en": "Page-by-page facsimile of Kritisk Revy 1927, issue 3 (October), edited by Poul Henningsen; contains his criticism of architecture, lighting and culture as well as contemporary advertisements."
  },
  {
   "title": "Kritisk Revy 1928, hefte 1 – faksimile",
@@ -1244,7 +1375,8 @@ const SOURCES = [
   "year": "1928",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Side-for-side faksimile af Kritisk Revy 1928, hefte 1, redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer."
+  "description": "Side-for-side faksimile af Kritisk Revy 1928, hefte 1, redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer.",
+  "description_en": "Page-by-page facsimile of Kritisk Revy 1928, issue 1, edited by Poul Henningsen; contains his criticism of architecture, lighting and culture as well as contemporary advertisements."
  },
  {
   "title": "Kritisk Revy 1928, hefte 2 – faksimile",
@@ -1253,7 +1385,8 @@ const SOURCES = [
   "year": "1928",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Side-for-side faksimile af Kritisk Revy 1928, hefte 2, redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer."
+  "description": "Side-for-side faksimile af Kritisk Revy 1928, hefte 2, redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer.",
+  "description_en": "Page-by-page facsimile of Kritisk Revy 1928, issue 2, edited by Poul Henningsen; contains his criticism of architecture, lighting and culture as well as contemporary advertisements."
  },
  {
   "title": "Kritisk Revy 1928, hefte 3 – faksimile",
@@ -1262,7 +1395,8 @@ const SOURCES = [
   "year": "1928",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Side-for-side faksimile af Kritisk Revy 1928, hefte 3, redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer."
+  "description": "Side-for-side faksimile af Kritisk Revy 1928, hefte 3, redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer.",
+  "description_en": "Page-by-page facsimile of Kritisk Revy 1928, issue 3, edited by Poul Henningsen; contains his criticism of architecture, lighting and culture as well as contemporary advertisements."
  },
  {
   "title": "Kritisk Revy 1928, hefte 4 – faksimile",
@@ -1271,7 +1405,8 @@ const SOURCES = [
   "year": "1928",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Side-for-side faksimile af Kritisk Revy 1928, hefte 4, redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer."
+  "description": "Side-for-side faksimile af Kritisk Revy 1928, hefte 4, redigeret af Poul Henningsen; indeholder hans arkitektur-, lys- og kulturkritik samt samtidige annoncer.",
+  "description_en": "Page-by-page facsimile of Kritisk Revy 1928, issue 4, edited by Poul Henningsen; contains his criticism of architecture, lighting and culture as well as contemporary advertisements."
  },
  {
   "title": "Lex: PH-lampe",
@@ -1280,7 +1415,8 @@ const SOURCES = [
   "year": "",
   "type": "leksikon",
   "language": "da",
-  "description": "Nationalleksikonets artikel om PH-lampens idé, skærmsystem og klassiske modeller (PH Glaspendel, PH 5, PH Kogle m.fl.)."
+  "description": "Nationalleksikonets artikel om PH-lampens idé, skærmsystem og klassiske modeller (PH Glaspendel, PH 5, PH Kogle m.fl.).",
+  "description_en": "The national encyclopedia's article on the idea behind the PH lamp, its shade system and classic models (PH Glass Pendant, PH 5, PH Artichoke and others)."
  },
  {
   "title": "Lex: Poul Henningsen",
@@ -1290,7 +1426,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "da",
   "description": "Nationalleksikonets biografi om PH som arkitekt, lampedesigner, skribent og kulturkritiker.",
-  "img": "thumbs/92594b92c54e.jpg"
+  "img": "thumbs/92594b92c54e.jpg",
+  "description_en": "The national encyclopedia's biography of PH as architect, lamp designer, writer and cultural critic."
  },
  {
   "title": "Dansk Biografisk Leksikon: Poul Henningsen",
@@ -1300,7 +1437,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "da",
   "description": "Autoritativ biografi i Dansk Biografisk Leksikon med PH's lampeudvikling hos Louis Poulsen & Co.",
-  "img": "thumbs/9e7201cbadf8.jpg"
+  "img": "thumbs/9e7201cbadf8.jpg",
+  "description_en": "Authoritative biography in Dansk Biografisk Leksikon covering PH's lamp development at Louis Poulsen & Co."
  },
  {
   "title": "Weilbachs Kunstnerleksikon: Poul Henningsen",
@@ -1309,7 +1447,8 @@ const SOURCES = [
   "year": "",
   "type": "leksikon",
   "language": "da",
-  "description": "Weilbach-artikel om PH som arkitekt og designer, inkl. uddannelse, værker og lampearbejde."
+  "description": "Weilbach-artikel om PH som arkitekt og designer, inkl. uddannelse, værker og lampearbejde.",
+  "description_en": "Weilbach article on PH as architect and designer, including his training, works and lamp work."
  },
  {
   "title": "Lex: Kritisk Revy",
@@ -1319,7 +1458,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "da",
   "description": "Leksikonartikel om PH's tidsskrift Kritisk Revy 1926–28 og dets bidragydere.",
-  "img": "thumbs/b1c4199d16d0.jpg"
+  "img": "thumbs/b1c4199d16d0.jpg",
+  "description_en": "Encyclopedia article on PH's magazine Kritisk Revy 1926–28 and its contributors."
  },
  {
   "title": "Lex: Louis Poulsen – selskab",
@@ -1329,7 +1469,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "da",
   "description": "Leksikonartikel om producenten Louis Poulsen A/S og samarbejdet med Poul Henningsen.",
-  "img": "thumbs/5dafcf41691f.jpg"
+  "img": "thumbs/5dafcf41691f.jpg",
+  "description_en": "Encyclopedia article on the manufacturer Louis Poulsen A/S and the collaboration with Poul Henningsen."
  },
  {
   "title": "Lex: Danmark – kunsthåndværk og design",
@@ -1338,7 +1479,8 @@ const SOURCES = [
   "year": "",
   "type": "leksikon",
   "language": "da",
-  "description": "Oversigtsartikel om dansk design, der placerer PH-lampe-princippet (1926) som pionerarbejde for funktionalismen."
+  "description": "Oversigtsartikel om dansk design, der placerer PH-lampe-princippet (1926) som pionerarbejde for funktionalismen.",
+  "description_en": "Overview article on Danish design that places the PH lamp principle (1926) as pioneering work for functionalism."
  },
  {
   "title": "Lex: Forum – koncert- og udstillingsbygning",
@@ -1348,7 +1490,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "da",
   "description": "Artikel om Forum (1926), hvis hal oprindeligt var belyst med PH-lamper – lampens første store installation; med KB-foto.",
-  "img": "thumbs/4e02034c09fc.jpg"
+  "img": "thumbs/4e02034c09fc.jpg",
+  "description_en": "Article on Forum (1926), whose hall was originally lit by PH lamps – the lamp's first large installation; with a KB photo."
  },
  {
   "title": "Trap Danmark: Langelinie Pavillonen, København",
@@ -1357,7 +1500,8 @@ const SOURCES = [
   "year": "",
   "type": "leksikon",
   "language": "da",
-  "description": "Fredningsbeskrivelse af Langelinie Pavillonen, som PH tegnede Koglelampen og tallerkenlampen til (1958)."
+  "description": "Fredningsbeskrivelse af Langelinie Pavillonen, som PH tegnede Koglelampen og tallerkenlampen til (1958).",
+  "description_en": "Listing description of the Langelinie Pavillonen, for which PH designed the Artichoke lamp and the plate lamp (1958)."
  },
  {
   "title": "Store norske leksikon: Poul Henningsen",
@@ -1367,7 +1511,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "no",
   "description": "Norsk leksikonartikel om PH og den blændfri PH-lampe, der vandt guld i Paris 1925.",
-  "img": "thumbs/24eabd77e363.jpg"
+  "img": "thumbs/24eabd77e363.jpg",
+  "description_en": "Norwegian encyclopedia article on PH and the glare-free PH lamp, which won gold in Paris in 1925."
  },
  {
   "title": "PH lys (film)",
@@ -1377,7 +1522,8 @@ const SOURCES = [
   "type": "video",
   "language": "da",
   "description": "Streambar kortfilm af Ole Roos, hvor PH selv fortæller om sine idéer og principper for lys og belysning.",
-  "img": "thumbs/0ef2237744a5.jpg"
+  "img": "thumbs/0ef2237744a5.jpg",
+  "description_en": "Streamable short film by Ole Roos in which PH himself talks about his ideas and principles for light and lighting."
  },
  {
   "title": "PH lys – Filmdatabasen",
@@ -1387,7 +1533,8 @@ const SOURCES = [
   "type": "video",
   "language": "da",
   "description": "DFI-filmdatabasens post for PH lys med credits (Ole Roos/PH, Laterna Film, Dansk Kulturfilm).",
-  "img": "thumbs/91bfde1ca0b8.jpg"
+  "img": "thumbs/91bfde1ca0b8.jpg",
+  "description_en": "The DFI film database's record for PH lys, with credits (Ole Roos/PH, Laterna Film, Dansk Kulturfilm)."
  },
  {
   "title": "Meninger i tiden (film)",
@@ -1397,7 +1544,8 @@ const SOURCES = [
   "type": "video",
   "language": "da",
   "description": "Streambar 'diskussionsfilm' af Børge Høst om kulturkritikeren Poul Henningsen.",
-  "img": "thumbs/201388b24673.jpg"
+  "img": "thumbs/201388b24673.jpg",
+  "description_en": "Streamable 'discussion film' by Børge Høst about the cultural critic Poul Henningsen."
  },
  {
   "title": "Tænk selv – en film om Poul Henningsen",
@@ -1407,7 +1555,8 @@ const SOURCES = [
   "type": "video",
   "language": "da",
   "description": "Streambar portrætfilm af Dan Säll om PH's 50 år i dansk kulturliv, inkl. klip fra PH lys.",
-  "img": "thumbs/04b0f2fb0c57.jpg"
+  "img": "thumbs/04b0f2fb0c57.jpg",
+  "description_en": "Streamable portrait film by Dan Säll about PH's 50 years in Danish cultural life, including clips from PH lys."
  },
  {
   "title": "Poul Henningsen – Filmdatabasen (person)",
@@ -1416,7 +1565,8 @@ const SOURCES = [
   "year": "",
   "type": "video",
   "language": "da",
-  "description": "DFI's personside med alle film PH medvirkede i eller lavede, bl.a. PH lys og Danmarksfilmen."
+  "description": "DFI's personside med alle film PH medvirkede i eller lavede, bl.a. PH lys og Danmarksfilmen.",
+  "description_en": "DFI's person page listing all the films PH appeared in or made, including PH lys and the Danmark film."
  },
  {
   "title": "Lamper, lys og oplysning – om PH's 'Danmark' og Ole Roos' 'PH lys'",
@@ -1426,7 +1576,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "da",
   "description": "Fagfællebedømt artikel af C. Claire Thomson om PH's lystænkning i filmene Danmark og PH lys.",
-  "img": "thumbs/44745d220830.jpg"
+  "img": "thumbs/44745d220830.jpg",
+  "description_en": "Peer-reviewed article by C. Claire Thomson on PH's thinking about light in the films Danmark and PH lys."
  },
  {
   "title": "Lamps, Light and Enlightenment – Poul Henningsen's 'Denmark' and Ole Roos' 'PH Lights'",
@@ -1436,7 +1587,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "en",
   "description": "Engelsk version af Thomsons Kosmorama-artikel om PH, lys og film.",
-  "img": "thumbs/0912162a5070.jpg"
+  "img": "thumbs/0912162a5070.jpg",
+  "description_en": "English version of Thomson's Kosmorama article on PH, light and film."
  },
  {
   "title": "System PH — 100 Years of Glare-Free Light by Poul Henningsen",
@@ -1446,7 +1598,8 @@ const SOURCES = [
   "type": "video",
   "language": "en",
   "description": "Officiel jubilæumsfilm om 100 år med PH's blændfri trebladede skærmsystem.",
-  "img": "thumbs/88175c1788e7.jpg"
+  "img": "thumbs/88175c1788e7.jpg",
+  "description_en": "Official anniversary film on 100 years of PH's glare-free three-shade system."
  },
  {
   "title": "PH Centenary Collection — Celebrating 100 Years of System PH",
@@ -1456,7 +1609,8 @@ const SOURCES = [
   "type": "video",
   "language": "en",
   "description": "Officiel film om Louis Poulsens PH Centenary Collection til 100-året for System PH.",
-  "img": "thumbs/8e215acd91ca.jpg"
+  "img": "thumbs/8e215acd91ca.jpg",
+  "description_en": "Official film on Louis Poulsen's PH Centenary Collection marking the centenary of System PH."
  },
  {
   "title": "PHOREVER – 100 years of light, shaped to leave an impression",
@@ -1466,7 +1620,8 @@ const SOURCES = [
   "type": "video",
   "language": "en",
   "description": "Officiel kampagnefilm fra Louis Poulsen om 100 års PH-lys.",
-  "img": "thumbs/481b50a6d269.jpg"
+  "img": "thumbs/481b50a6d269.jpg",
+  "description_en": "Official campaign film from Louis Poulsen on 100 years of PH light."
  },
  {
   "title": "New PH Snowball – Designed by Poul Henningsen",
@@ -1476,7 +1631,8 @@ const SOURCES = [
   "type": "video",
   "language": "en",
   "description": "Officiel produktfilm om PH Snowball (1958) i ny udgave.",
-  "img": "thumbs/d6b2e8876595.jpg"
+  "img": "thumbs/d6b2e8876595.jpg",
+  "description_en": "Official product film on the PH Snowball (1958) in a new version."
  },
  {
   "title": "PH Septima – Designed by Poul Henningsen",
@@ -1486,7 +1642,8 @@ const SOURCES = [
   "type": "video",
   "language": "en",
   "description": "Officiel film om genudgivelsen af PH Septima med syv glasskærme.",
-  "img": "thumbs/8ce034dcb8f2.jpg"
+  "img": "thumbs/8ce034dcb8f2.jpg",
+  "description_en": "Official film on the re-release of the PH Septima with seven glass shades."
  },
  {
   "title": "Louis Poulsen – officiel YouTube-kanal",
@@ -1495,7 +1652,8 @@ const SOURCES = [
   "year": "",
   "type": "video",
   "language": "en",
-  "description": "Producentens officielle kanal med produkt-, arkiv- og jubilæumsfilm om PH-lamperne."
+  "description": "Producentens officielle kanal med produkt-, arkiv- og jubilæumsfilm om PH-lamperne.",
+  "description_en": "The manufacturer's official channel with product, archive and anniversary films about the PH lamps."
  },
  {
   "title": "Poul Henningsen (1894-1967) – DR Skole",
@@ -1505,7 +1663,8 @@ const SOURCES = [
   "type": "video",
   "language": "da",
   "description": "DR's undervisningsside med arkivklip, hvor PH bl.a. taler om sine lamper (afspilning kræver Unilogin).",
-  "img": "thumbs/02ba7a4bf4b8.jpg"
+  "img": "thumbs/02ba7a4bf4b8.jpg",
+  "description_en": "DR's educational page with archive clips in which PH talks about his lamps, among other things (playback requires Unilogin)."
  },
  {
   "title": "Domus 777 (1995): Poul Henningsen, Modern light fitting",
@@ -1515,7 +1674,8 @@ const SOURCES = [
   "type": "tidsskrift",
   "language": "en",
   "description": "Genudgivelse fra Domus' arkiv af artiklen om PH-lampens historie fra Domus nr. 777, december 1995.",
-  "img": "thumbs/1602f8e1dcb8.jpg"
+  "img": "thumbs/1602f8e1dcb8.jpg",
+  "description_en": "Reissue from the Domus archive of the article on the history of the PH lamp from Domus no. 777, December 1995."
  },
  {
   "title": "Arbejdshypotesen om en menneskehed: Tidsskriftet Kritisk Revy mellem avantgarde og populærkultur",
@@ -1525,7 +1685,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "da",
   "description": "Fri fagartikel om Kritisk Revy med præcise henvisninger til hefter og PH's artikler.",
-  "img": "thumbs/4f6e1ece4ab8.jpg"
+  "img": "thumbs/4f6e1ece4ab8.jpg",
+  "description_en": "Open-access academic article on Kritisk Revy with precise references to issues and PH's articles."
  },
  {
   "title": "De kulturradikale tidsskrifter – Kritisk Revy 1926-28",
@@ -1534,7 +1695,8 @@ const SOURCES = [
   "year": "",
   "type": "artikel",
   "language": "da",
-  "description": "Bibliografisk gennemgang af Kritisk Revy med indholdsreferencer og link til KB's digitaliserede udgave."
+  "description": "Bibliografisk gennemgang af Kritisk Revy med indholdsreferencer og link til KB's digitaliserede udgave.",
+  "description_en": "Bibliographic overview of Kritisk Revy with content references and a link to KB's digitised edition."
  },
  {
   "title": "Byen som kunstværk: Poul Henningsens arkitekturkritik i 1920erne",
@@ -1543,7 +1705,8 @@ const SOURCES = [
   "year": "2008",
   "type": "bog",
   "language": "da",
-  "description": "Forskningspost for bogkapitel om PH's arkitekturkritik i 1920'erne, bl.a. i Kritisk Revy."
+  "description": "Forskningspost for bogkapitel om PH's arkitekturkritik i 1920'erne, bl.a. i Kritisk Revy.",
+  "description_en": "Research record for a book chapter on PH's architectural criticism in the 1920s, including in Kritisk Revy."
  },
  {
   "title": "Mediestream – søgning 'PH-Lampen' i danske aviser",
@@ -1552,7 +1715,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Det Kgl. Biblioteks digitaliserede avisarkiv; aviser over 100 år (dvs. lanceringsårene 1925–26) kan læses frit online."
+  "description": "Det Kgl. Biblioteks digitaliserede avisarkiv; aviser over 100 år (dvs. lanceringsårene 1925–26) kan læses frit online.",
+  "description_en": "Det Kgl. Bibliotek's digitised newspaper archive; newspapers more than 100 years old (i.e. the launch years 1925–26) can be read freely online."
  },
  {
   "title": "Kontor med skrivebord, telefon og PH-lampe",
@@ -1562,7 +1726,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "en",
   "description": "Historisk fotografi fra Arbejdermuseet, der viser en PH-lampe i brug i et kontormiljø.",
-  "img": "thumbs/fed7a586ee79.jpg"
+  "img": "thumbs/fed7a586ee79.jpg",
+  "description_en": "Historical photograph from Arbejdermuseet showing a PH lamp in use in an office setting."
  },
  {
   "title": "Google Arts & Culture: Poul Henningsen",
@@ -1572,7 +1737,8 @@ const SOURCES = [
   "type": "museum",
   "language": "en",
   "description": "Samleside med digitaliserede PH-lamper og materiale fra internationale museumssamlinger.",
-  "img": "thumbs/7d457b4bf6d7.jpg"
+  "img": "thumbs/7d457b4bf6d7.jpg",
+  "description_en": "Collection page with digitised PH lamps and material from international museum collections."
  },
  {
   "title": "Wikimedia Commons: Category:PH lamps",
@@ -1582,7 +1748,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "en",
   "description": "Fri billedsamling af PH-lamper, mange med kildeangivelse til museer og arkiver.",
-  "img": "thumbs/7a2e57f8d864.jpg"
+  "img": "thumbs/7a2e57f8d864.jpg",
+  "description_en": "Free image collection of PH lamps, many with source credits to museums and archives."
  },
  {
   "title": "PH-lampe – Wikipedia (dansk)",
@@ -1592,7 +1759,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "da",
   "description": "Dansk opslagsartikel om PH-lampen med modeloversigt og litteraturhenvisninger.",
-  "img": "thumbs/993ab1fffa04.jpg"
+  "img": "thumbs/993ab1fffa04.jpg",
+  "description_en": "Danish reference article on the PH lamp with an overview of models and references to literature."
  },
  {
   "title": "NYT nr. 583 – Louis Poulsens belysnings- og arkitekturmagasin",
@@ -1601,7 +1769,8 @@ const SOURCES = [
   "year": "2006",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 583."
+  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 583.",
+  "description_en": "Wayback-archived PDF of LP's own magazine NYT (founded in 1941 with PH as editor), no. 583."
  },
  {
   "title": "NYT nr. 584 – Louis Poulsens belysnings- og arkitekturmagasin",
@@ -1610,7 +1779,8 @@ const SOURCES = [
   "year": "2007",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 584."
+  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 584.",
+  "description_en": "Wayback-archived PDF of LP's own magazine NYT (founded in 1941 with PH as editor), no. 584."
  },
  {
   "title": "NYT nr. 585 – Louis Poulsens belysnings- og arkitekturmagasin",
@@ -1619,7 +1789,8 @@ const SOURCES = [
   "year": "2007",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 585."
+  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 585.",
+  "description_en": "Wayback-archived PDF of LP's own magazine NYT (founded in 1941 with PH as editor), no. 585."
  },
  {
   "title": "NYT nr. 586 – Louis Poulsens belysnings- og arkitekturmagasin",
@@ -1628,7 +1799,8 @@ const SOURCES = [
   "year": "2008",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 586. Indeholder bl.a. 'Tivolilampen roterer igen' om PH's Tivoli-lampe."
+  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 586. Indeholder bl.a. 'Tivolilampen roterer igen' om PH's Tivoli-lampe.",
+  "description_en": "Wayback-archived PDF of LP's own magazine NYT (founded in 1941 with PH as editor), no. 586. Includes 'Tivolilampen roterer igen' (The Tivoli lamp rotates again) about PH's Tivoli lamp."
  },
  {
   "title": "NYT nr. 587 – Louis Poulsens belysnings- og arkitekturmagasin",
@@ -1637,7 +1809,8 @@ const SOURCES = [
   "year": "2008",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 587."
+  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 587.",
+  "description_en": "Wayback-archived PDF of LP's own magazine NYT (founded in 1941 with PH as editor), no. 587."
  },
  {
   "title": "NYT nr. 588 – Louis Poulsens belysnings- og arkitekturmagasin",
@@ -1646,7 +1819,8 @@ const SOURCES = [
   "year": "2009",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 588."
+  "description": "Wayback-arkiveret PDF af LP's eget magasin NYT (grundlagt 1941 med PH som redaktør), nr. 588.",
+  "description_en": "Wayback-archived PDF of LP's own magazine NYT (founded in 1941 with PH as editor), no. 588."
  },
  {
   "title": "NYT 584 (English edition) – The Louis Poulsen Magazine of Lighting and Architecture",
@@ -1655,7 +1829,8 @@ const SOURCES = [
   "year": "2007",
   "type": "tidsskrift",
   "language": "en",
-  "description": "Engelsk udgave af NYT nr. 584; de engelske udgaver af 585-588 findes også i samme Wayback-arkiv."
+  "description": "Engelsk udgave af NYT nr. 584; de engelske udgaver af 585-588 findes også i samme Wayback-arkiv.",
+  "description_en": "English edition of NYT no. 584; the English editions of 585-588 are also in the same Wayback archive."
  },
  {
   "title": "NYT 586 (English edition) – The Tivoli lamp rotates again",
@@ -1664,7 +1839,8 @@ const SOURCES = [
   "year": "2008",
   "type": "tidsskrift",
   "language": "en",
-  "description": "Engelsk NYT 586 med artikel om genopsætningen af PH's roterende Tivoli-lampe."
+  "description": "Engelsk NYT 586 med artikel om genopsætningen af PH's roterende Tivoli-lampe.",
+  "description_en": "English NYT 586 with an article on the reinstallation of PH's rotating Tivoli lamp."
  },
  {
   "title": "Philosophy of Light (brochure, 68 s.)",
@@ -1673,7 +1849,8 @@ const SOURCES = [
   "year": "2007",
   "type": "katalog",
   "language": "en",
-  "description": "Louis Poulsens 68-siders brochure om firmaets lysfilosofi med omfattende PH-afsnit (PH Artichoke, PH 5 m.fl.)."
+  "description": "Louis Poulsens 68-siders brochure om firmaets lysfilosofi med omfattende PH-afsnit (PH Artichoke, PH 5 m.fl.).",
+  "description_en": "Louis Poulsen's 68-page brochure on the company's philosophy of light, with extensive PH sections (PH Artichoke, PH 5 and others)."
  },
  {
   "title": "Philosophie des Lichts (brochure, tysk)",
@@ -1682,7 +1859,8 @@ const SOURCES = [
   "year": "2007",
   "type": "katalog",
   "language": "de",
-  "description": "Tysk udgave af lysfilosofi-brochuren fra 2007."
+  "description": "Tysk udgave af lysfilosofi-brochuren fra 2007.",
+  "description_en": "German edition of the 2007 philosophy-of-light brochure."
  },
  {
   "title": "The PH lamp 1926-2016 – PH 3½-2½ Copper Floor limited edition (29 s.)",
@@ -1691,7 +1869,8 @@ const SOURCES = [
   "year": "2016",
   "type": "bog",
   "language": "en",
-  "description": "Officielt 29-siders hæfte til PH-lampens 90-års jubilæum med historisk gennemgang 1926-2016."
+  "description": "Officielt 29-siders hæfte til PH-lampens 90-års jubilæum med historisk gennemgang 1926-2016.",
+  "description_en": "Official 29-page booklet for the PH lamp's 90th anniversary with a historical overview 1926-2016."
  },
  {
   "title": "PH 5 contemporary – nye farver (brochure)",
@@ -1700,7 +1879,8 @@ const SOURCES = [
   "year": "2013",
   "type": "katalog",
   "language": "en",
-  "description": "Officiel 9-siders brochure om PH 5 i nye farver."
+  "description": "Officiel 9-siders brochure om PH 5 i nye farver.",
+  "description_en": "Official 9-page brochure on the PH 5 in new colours."
  },
  {
   "title": "Poul Henningsens lysdesign 1924-2012 – invitation, Koldinghus",
@@ -1709,7 +1889,8 @@ const SOURCES = [
   "year": "2011",
   "type": "museum",
   "language": "da",
-  "description": "Louis Poulsens invitation til udstillingen om PH's lysdesign på Museet på Koldinghus 2011-2012."
+  "description": "Louis Poulsens invitation til udstillingen om PH's lysdesign på Museet på Koldinghus 2011-2012.",
+  "description_en": "Louis Poulsen's invitation to the exhibition on PH's lighting design at Museet på Koldinghus 2011-2012."
  },
  {
   "title": "PH 3-2½ Wandleuchte & Pollerleuchte (brochure)",
@@ -1718,7 +1899,8 @@ const SOURCES = [
   "year": "2005",
   "type": "katalog",
   "language": "de",
-  "description": "Tysk 8-siders brochure om PH's udendørslamper med historisk baggrund."
+  "description": "Tysk 8-siders brochure om PH's udendørslamper med historisk baggrund.",
+  "description_en": "German 8-page brochure on PH's outdoor lamps with historical background."
  },
  {
   "title": "Pressemeddelelse: PH 3½-2½ Bord (februar 2016)",
@@ -1727,7 +1909,8 @@ const SOURCES = [
   "year": "2016",
   "type": "artikel",
   "language": "da",
-  "description": "Dansk pressemeddelelse om den nye PH-bordlampeserie baseret på treskærmssystemet."
+  "description": "Dansk pressemeddelelse om den nye PH-bordlampeserie baseret på treskærmssystemet.",
+  "description_en": "Danish press release on the new PH table lamp series based on the three-shade system."
  },
  {
   "title": "Press release: PH Artichoke LED (2014)",
@@ -1736,7 +1919,8 @@ const SOURCES = [
   "year": "2014",
   "type": "artikel",
   "language": "en",
-  "description": "Pressemeddelelse om PH Artichoke med specialudviklet LED-lyskilde."
+  "description": "Pressemeddelelse om PH Artichoke med specialudviklet LED-lyskilde.",
+  "description_en": "Press release on the PH Artichoke with a specially developed LED light source."
  },
  {
   "title": "PH 5 Pendant – katalogblad (old site, ca. 2005)",
@@ -1745,7 +1929,8 @@ const SOURCES = [
   "year": "2005",
   "type": "produktark",
   "language": "en",
-  "description": "Katalogside fra det gamle louispoulsen.com med PH 5 (1958) specifikation og lysfordeling."
+  "description": "Katalogside fra det gamle louispoulsen.com med PH 5 (1958) specifikation og lysfordeling.",
+  "description_en": "Catalogue page from the old louispoulsen.com with the PH 5 (1958) specification and light distribution."
  },
  {
   "title": "PH Artichoke – katalogblad (old site, ca. 2005)",
@@ -1754,7 +1939,8 @@ const SOURCES = [
   "year": "2005",
   "type": "produktark",
   "language": "en",
-  "description": "Katalogside med PH Artichoke (1958) specifikationer fra det gamle website."
+  "description": "Katalogside med PH Artichoke (1958) specifikationer fra det gamle website.",
+  "description_en": "Catalogue page with PH Artichoke (1958) specifications from the old website."
  },
  {
   "title": "PH Artichoke Glass Ø840 – katalogblad",
@@ -1763,7 +1949,8 @@ const SOURCES = [
   "year": "2006",
   "type": "produktark",
   "language": "en",
-  "description": "Katalogblad om PH Artichoke i glas med historien om Langelinie Pavillonen."
+  "description": "Katalogblad om PH Artichoke i glas med historien om Langelinie Pavillonen.",
+  "description_en": "Catalogue sheet on the PH Artichoke in glass, with the story of the Langelinie Pavillonen."
  },
  {
   "title": "PH 2/1 Pendant – technical sheet (US)",
@@ -1772,7 +1959,8 @@ const SOURCES = [
   "year": "2002",
   "type": "produktark",
   "language": "en",
-  "description": "Teknisk datablad for den genudgivne PH 2/1 pendel i håndblæst opalglas."
+  "description": "Teknisk datablad for den genudgivne PH 2/1 pendel i håndblæst opalglas.",
+  "description_en": "Technical data sheet for the re-released PH 2/1 pendant in hand-blown opal glass."
  },
  {
   "title": "PH 5 Cut Sheet",
@@ -1781,7 +1969,8 @@ const SOURCES = [
   "year": "2024",
   "type": "produktark",
   "language": "en",
-  "description": "Officielt 5-siders produktark for PH 5 med tekniske specifikationer."
+  "description": "Officielt 5-siders produktark for PH 5 med tekniske specifikationer.",
+  "description_en": "Official 5-page product sheet for the PH 5 with technical specifications."
  },
  {
   "title": "PH 5 – monteringsvejledning (EU)",
@@ -1790,7 +1979,8 @@ const SOURCES = [
   "year": "2021",
   "type": "produktark",
   "language": "da",
-  "description": "Flersproget officiel monteringsvejledning for PH 5 pendel."
+  "description": "Flersproget officiel monteringsvejledning for PH 5 pendel.",
+  "description_en": "Multilingual official mounting instructions for the PH 5 pendant."
  },
  {
   "title": "Environmental Product Specification – PH 5",
@@ -1799,7 +1989,8 @@ const SOURCES = [
   "year": "2024",
   "type": "produktark",
   "language": "en",
-  "description": "8-siders miljøspecifikation for PH 5 med materialer og konstruktion."
+  "description": "8-siders miljøspecifikation for PH 5 med materialer og konstruktion.",
+  "description_en": "8-page environmental specification for the PH 5 covering materials and construction."
  },
  {
   "title": "PH Artichoke – product sheet",
@@ -1808,7 +1999,8 @@ const SOURCES = [
   "year": "2024",
   "type": "produktark",
   "language": "en",
-  "description": "Officielt 5-siders produktark for PH Artichoke."
+  "description": "Officielt 5-siders produktark for PH Artichoke.",
+  "description_en": "Official 5-page product sheet for the PH Artichoke."
  },
  {
   "title": "PH Glasskærme – reservedelsoversigt",
@@ -1817,7 +2009,8 @@ const SOURCES = [
   "year": "2024",
   "type": "produktark",
   "language": "da",
-  "description": "Officiel oversigt over PH-glasskærme med mål og varenumre for alle glasmodeller."
+  "description": "Officiel oversigt over PH-glasskærme med mål og varenumre for alle glasmodeller.",
+  "description_en": "Official overview of PH glass shades with dimensions and item numbers for all glass models."
  },
  {
   "title": "PH5 & PH50 (japansk produktblad)",
@@ -1826,7 +2019,8 @@ const SOURCES = [
   "year": "2015",
   "type": "produktark",
   "language": "ja",
-  "description": "Japansk produktblad der forklarer PH 5's logaritmiske spiral-skærme."
+  "description": "Japansk produktblad der forklarer PH 5's logaritmiske spiral-skærme.",
+  "description_en": "Japanese product sheet explaining the PH 5's logarithmic-spiral shades."
  },
  {
   "title": "Poul Henningsen – designerside (2015)",
@@ -1835,7 +2029,8 @@ const SOURCES = [
   "year": "2015",
   "type": "arkiv",
   "language": "en",
-  "description": "Arkiveret version af den tidligere internationale PH-designerside med længere biografi."
+  "description": "Arkiveret version af den tidligere internationale PH-designerside med længere biografi.",
+  "description_en": "Archived version of the former international PH designer page with a longer biography."
  },
  {
   "title": "History – Louis Poulsen (2015)",
@@ -1844,7 +2039,8 @@ const SOURCES = [
   "year": "2015",
   "type": "arkiv",
   "language": "en",
-  "description": "Arkiveret international historieside med firmaets tidslinje, herunder PH-samarbejdet."
+  "description": "Arkiveret international historieside med firmaets tidslinje, herunder PH-samarbejdet.",
+  "description_en": "Archived international history page with the company's timeline, including the PH collaboration."
  },
  {
   "title": "Historie – Louis Poulsen (2015, dansk)",
@@ -1853,7 +2049,8 @@ const SOURCES = [
   "year": "2015",
   "type": "arkiv",
   "language": "da",
-  "description": "Arkiveret dansk historieside med tidslinje over PH-lamperne."
+  "description": "Arkiveret dansk historieside med tidslinje over PH-lamperne.",
+  "description_en": "Archived Danish history page with a timeline of the PH lamps."
  },
  {
   "title": "PH on Louis Poulsen's lighting philosophy (2015)",
@@ -1862,7 +2059,8 @@ const SOURCES = [
   "year": "2015",
   "type": "arkiv",
   "language": "en",
-  "description": "Arkiveret side med PH's egne citater om lys og Louis Poulsens lysfilosofi."
+  "description": "Arkiveret side med PH's egne citater om lys og Louis Poulsens lysfilosofi.",
+  "description_en": "Archived page with PH's own quotations on light and Louis Poulsen's philosophy of light."
  },
  {
   "title": "PH om Louis Poulsens belysningsfilosofi (2015)",
@@ -1871,7 +2069,8 @@ const SOURCES = [
   "year": "2015",
   "type": "arkiv",
   "language": "da",
-  "description": "Dansk arkiveret side med PH's tanker om belysning."
+  "description": "Dansk arkiveret side med PH's tanker om belysning.",
+  "description_en": "Danish archived page with PH's thoughts on lighting."
  },
  {
   "title": "Poul Henningsen – designerside (2007, dansk)",
@@ -1880,7 +2079,8 @@ const SOURCES = [
   "year": "2007",
   "type": "arkiv",
   "language": "da",
-  "description": "Arkiveret dansk PH-designerside fra 2007-sitet."
+  "description": "Arkiveret dansk PH-designerside fra 2007-sitet.",
+  "description_en": "Archived Danish PH designer page from the 2007 site."
  },
  {
   "title": "History (2002, old site)",
@@ -1889,7 +2089,8 @@ const SOURCES = [
   "year": "2002",
   "type": "arkiv",
   "language": "en",
-  "description": "Den ældste arkiverede historieside fra louispoulsen.com."
+  "description": "Den ældste arkiverede historieside fra louispoulsen.com.",
+  "description_en": "The oldest archived history page from louispoulsen.com."
  },
  {
   "title": "Louis Poulsen & Co. : Fabrikanter af moderne Belysning : Prisliste B.6 – 1936",
@@ -1898,7 +2099,8 @@ const SOURCES = [
   "year": "1936",
   "type": "katalog",
   "language": "da",
-  "description": "Digitaliseret prisliste/katalog 1936 med PH-lamper fra KB's småtrykssamling."
+  "description": "Digitaliseret prisliste/katalog 1936 med PH-lamper fra KB's småtrykssamling.",
+  "description_en": "Digitised 1936 price list/catalogue with PH lamps from KB's ephemera collection."
  },
  {
   "title": "Saa enkel er PHlampen",
@@ -1907,7 +2109,8 @@ const SOURCES = [
   "year": "1941",
   "type": "katalog",
   "language": "da",
-  "description": "Digitaliseret Louis Poulsen-tryksag om PH-lampens enkle princip, ca. 1941."
+  "description": "Digitaliseret Louis Poulsen-tryksag om PH-lampens enkle princip, ca. 1941.",
+  "description_en": "Digitised Louis Poulsen printed matter on the simple principle of the PH lamp, c. 1941."
  },
  {
   "title": "Nationaltidende 29.10.1924, s. 3: PH og Louis Poulsen præmieres i konkurrencen om \"Lysgivere\" til Paris 1925",
@@ -1916,7 +2119,8 @@ const SOURCES = [
   "year": "1924",
   "type": "artikel",
   "language": "da",
-  "description": "Notits om at Censurudvalget for Kunstindustriudstillingen i Paris 1925 præmierede arbejder af arkitekt Poul Henningsen i forbindelse med Louis Poulsen & Co. i konkurrencen om lysgivere."
+  "description": "Notits om at Censurudvalget for Kunstindustriudstillingen i Paris 1925 præmierede arbejder af arkitekt Poul Henningsen i forbindelse med Louis Poulsen & Co. i konkurrencen om lysgivere.",
+  "description_en": "Notice that the selection committee for the 1925 Paris applied arts exhibition awarded prizes to work by architect Poul Henningsen in association with Louis Poulsen & Co. in the competition for light fittings."
  },
  {
   "title": "Herning Avis 29.10.1924, s. 4: \"Udstillingen af Kunstindustri i Paris\"",
@@ -1925,7 +2129,8 @@ const SOURCES = [
   "year": "1924",
   "type": "artikel",
   "language": "da",
-  "description": "Provinsavisens gengivelse af nyheden om den danske udvælgelse til Paris-udstillingen 1925, hvor Poul Henningsen nævnes."
+  "description": "Provinsavisens gengivelse af nyheden om den danske udvælgelse til Paris-udstillingen 1925, hvor Poul Henningsen nævnes.",
+  "description_en": "The provincial newspaper's report of the news of the Danish selection for the 1925 Paris exhibition, in which Poul Henningsen is mentioned."
  },
  {
   "title": "Berlingske Tidende 17.9.1924, s. 9: \"Danmarks Deltagelse i Pariserudstillingen\"",
@@ -1934,7 +2139,8 @@ const SOURCES = [
   "year": "1924",
   "type": "artikel",
   "language": "da",
-  "description": "Artikel om Danmarks forberedelser til den internationale kunstindustriudstilling i Paris 1925 med omtale af Henningsen."
+  "description": "Artikel om Danmarks forberedelser til den internationale kunstindustriudstilling i Paris 1925 med omtale af Henningsen.",
+  "description_en": "Article on Denmark's preparations for the international applied arts exhibition in Paris in 1925, mentioning Henningsen."
  },
  {
   "title": "Berlingske Tidende 13.12.1924, s. 5: \"Den danske Kunstindustri, der skal til Paris\"",
@@ -1943,7 +2149,8 @@ const SOURCES = [
   "year": "1924",
   "type": "artikel",
   "language": "da",
-  "description": "Omtale af de danske kunstindustrielle arbejder udvalgt til Paris 1925, herunder Poul Henningsens."
+  "description": "Omtale af de danske kunstindustrielle arbejder udvalgt til Paris 1925, herunder Poul Henningsens.",
+  "description_en": "Report on the Danish applied arts works selected for Paris 1925, including Poul Henningsen's."
  },
  {
   "title": "København 18.12.1924, s. 4: \"Før Pariserudstillingen\"",
@@ -1952,7 +2159,8 @@ const SOURCES = [
   "year": "1924",
   "type": "artikel",
   "language": "da",
-  "description": "Avisartikel om de danske bidrag forud for Paris-udstillingen 1925 med omtale af Henningsen."
+  "description": "Avisartikel om de danske bidrag forud for Paris-udstillingen 1925 med omtale af Henningsen.",
+  "description_en": "Newspaper article on the Danish contributions ahead of the 1925 Paris exhibition, mentioning Henningsen."
  },
  {
   "title": "Berlingske Tidende 13.11.1926, s. 3: annonce \"P.H. Lampen – Skærer ikke i Øjnene\"",
@@ -1961,7 +2169,8 @@ const SOURCES = [
   "year": "1926",
   "type": "artikel",
   "language": "da",
-  "description": "Louis Poulsen & Co.s (Nyhavn 11) annonce for P.H.-lampen: skærer ikke i øjnene, fordeler lyset rigtigt, sparer strøm, dansk fabrikat."
+  "description": "Louis Poulsen & Co.s (Nyhavn 11) annonce for P.H.-lampen: skærer ikke i øjnene, fordeler lyset rigtigt, sparer strøm, dansk fabrikat.",
+  "description_en": "Louis Poulsen & Co.'s (Nyhavn 11) advertisement for the P.H. lamp: does not hurt the eyes, distributes the light correctly, saves electricity, Danish-made."
  },
  {
   "title": "Nationaltidende 13.11.1926, s. 3: \"P. H. Lampen\"",
@@ -1970,7 +2179,8 @@ const SOURCES = [
   "year": "1926",
   "type": "artikel",
   "language": "da",
-  "description": "Avisside med Louis Poulsen-annonce/omtale af P.H.-lampen i forbindelse med lysudstillingen november 1926."
+  "description": "Avisside med Louis Poulsen-annonce/omtale af P.H.-lampen i forbindelse med lysudstillingen november 1926.",
+  "description_en": "Newspaper page with a Louis Poulsen advertisement/mention of the P.H. lamp in connection with the lighting exhibition in November 1926."
  },
  {
   "title": "Nationaltidende 17.11.1926, s. 3: \"P. H. Lampen\"",
@@ -1979,7 +2189,8 @@ const SOURCES = [
   "year": "1926",
   "type": "artikel",
   "language": "da",
-  "description": "Gentaget Louis Poulsen-annonce for P.H.-lampen i Nationaltidende."
+  "description": "Gentaget Louis Poulsen-annonce for P.H.-lampen i Nationaltidende.",
+  "description_en": "Repeat Louis Poulsen advertisement for the P.H. lamp in Nationaltidende."
  },
  {
   "title": "Berlingske Tidende 19.11.1926, s. 3: \"P. H.-LAMPEN\"",
@@ -1988,7 +2199,8 @@ const SOURCES = [
   "year": "1926",
   "type": "artikel",
   "language": "da",
-  "description": "Annonce for P.H.-lampen fra Louis Poulsen & Co. i Berlingske Tidende."
+  "description": "Annonce for P.H.-lampen fra Louis Poulsen & Co. i Berlingske Tidende.",
+  "description_en": "Advertisement for the P.H. lamp from Louis Poulsen & Co. in Berlingske Tidende."
  },
  {
   "title": "Dagbladet 15.11.1926, s. 3: \"P. H. Lampen\"",
@@ -1997,7 +2209,8 @@ const SOURCES = [
   "year": "1926",
   "type": "artikel",
   "language": "da",
-  "description": "Louis Poulsen-annonce for P.H.-lampen i Dagbladet (København)."
+  "description": "Louis Poulsen-annonce for P.H.-lampen i Dagbladet (København).",
+  "description_en": "Louis Poulsen advertisement for the P.H. lamp in Dagbladet (Copenhagen)."
  },
  {
   "title": "Dagbladet 18.11.1926, s. 5: \"P. H. Lampen\"",
@@ -2006,7 +2219,8 @@ const SOURCES = [
   "year": "1926",
   "type": "artikel",
   "language": "da",
-  "description": "Endnu en P.H.-lampe-annonce fra Louis Poulsen & Co. i Dagbladet."
+  "description": "Endnu en P.H.-lampe-annonce fra Louis Poulsen & Co. i Dagbladet.",
+  "description_en": "Another P.H. lamp advertisement from Louis Poulsen & Co. in Dagbladet."
  },
  {
   "title": "Social-Demokraten 13.11.1926, s. 3: Belysningsvæsenets Udstilling – Louis Poulsens stand med PH-lampen",
@@ -2015,7 +2229,8 @@ const SOURCES = [
   "year": "1926",
   "type": "artikel",
   "language": "da",
-  "description": "Reportage fra Københavns Belysningsvæsens udstilling i Industriforeningen, der nævner Louis Poulsen & Co.s udstilling af den elektriske P.H.-lampe (OCR: \"G. H. Lampe\")."
+  "description": "Reportage fra Københavns Belysningsvæsens udstilling i Industriforeningen, der nævner Louis Poulsen & Co.s udstilling af den elektriske P.H.-lampe (OCR: \"G. H. Lampe\").",
+  "description_en": "Report from the Copenhagen lighting authority's exhibition at Industriforeningen, mentioning Louis Poulsen & Co.'s display of the electric P.H. lamp (OCR: \"G. H. Lampe\")."
  },
  {
   "title": "Nationaltidende 15.11.1926, s. 5: \"Apropos – En Mand gaar paa Belysningsudstillingen\"",
@@ -2024,7 +2239,8 @@ const SOURCES = [
   "year": "1926",
   "type": "artikel",
   "language": "da",
-  "description": "Kåseri fra belysningsudstillingen 1926 med omtale af P.H.-lamper."
+  "description": "Kåseri fra belysningsudstillingen 1926 med omtale af P.H.-lamper.",
+  "description_en": "Light-hearted column from the 1926 lighting exhibition mentioning P.H. lamps."
  },
  {
   "title": "Social-Demokraten 22.11.1926, s. 5: P.H.-lampe-annonce",
@@ -2033,7 +2249,8 @@ const SOURCES = [
   "year": "1926",
   "type": "artikel",
   "language": "da",
-  "description": "Louis Poulsen-annonce for P.H.-lampen i Social-Demokraten (\"Fremstilles nu til alle Formaal\")."
+  "description": "Louis Poulsen-annonce for P.H.-lampen i Social-Demokraten (\"Fremstilles nu til alle Formaal\").",
+  "description_en": "Louis Poulsen advertisement for the P.H. lamp in Social-Demokraten (\"Fremstilles nu til alle Formaal\" – now made for all purposes)."
  },
  {
   "title": "København 22.8.1926, s. 3: \"Kritisk Revy\"",
@@ -2042,7 +2259,8 @@ const SOURCES = [
   "year": "1926",
   "type": "artikel",
   "language": "da",
-  "description": "Avisomtale af PH's nystartede tidsskrift Kritisk Revy, som også behandlede belysning og arkitektur."
+  "description": "Avisomtale af PH's nystartede tidsskrift Kritisk Revy, som også behandlede belysning og arkitektur.",
+  "description_en": "Newspaper notice of PH's newly launched magazine Kritisk Revy, which also dealt with lighting and architecture."
  },
  {
   "title": "Daisy: A/S Louis Poulsen & Co. (1892–1980) – arkivserier",
@@ -2051,7 +2269,8 @@ const SOURCES = [
   "year": "1892-1980",
   "type": "arkiv",
   "language": "da",
-  "description": "Rigsarkivets registrering af Louis Poulsens firmaarkiv med serierne hovedbøger, journal, statusbog, diverse og kataloger."
+  "description": "Rigsarkivets registrering af Louis Poulsens firmaarkiv med serierne hovedbøger, journal, statusbog, diverse og kataloger.",
+  "description_en": "Rigsarkivet's registration of Louis Poulsen's company archive, with the series ledgers, journal, balance book, miscellaneous and catalogues."
  },
  {
   "title": "Daisy: A/S Louis Poulsen & Co. – arkivserien \"Kataloger m.m.\" (1924–1970)",
@@ -2060,7 +2279,8 @@ const SOURCES = [
   "year": "1924-1970",
   "type": "arkiv",
   "language": "da",
-  "description": "Arkivserie med Louis Poulsens kataloger 1924–1970 i Erhvervsarkivet – den primære kilde til originale PH-kataloger."
+  "description": "Arkivserie med Louis Poulsens kataloger 1924–1970 i Erhvervsarkivet – den primære kilde til originale PH-kataloger.",
+  "description_en": "Archive series with Louis Poulsen's catalogues 1924–1970 in Erhvervsarkivet – the primary source for original PH catalogues."
  },
  {
   "title": "Kulturkanon: PH's skærmsystem (arkiveret)",
@@ -2069,7 +2289,8 @@ const SOURCES = [
   "year": "2006",
   "type": "hjemmeside",
   "language": "da",
-  "description": "Kulturministeriets officielle kanonside om PH's skærmsystem, optaget i Kulturkanonen 2006."
+  "description": "Kulturministeriets officielle kanonside om PH's skærmsystem, optaget i Kulturkanonen 2006.",
+  "description_en": "The Ministry of Culture's official canon page on PH's shade system, included in the Danish Culture Canon in 2006."
  },
  {
   "title": "2024: To lamper designet af Poul Henningsen, 1926 og 1958",
@@ -2078,7 +2299,8 @@ const SOURCES = [
   "year": "2024",
   "type": "hjemmeside",
   "language": "da",
-  "description": "Kulturværdiudvalgets erhvervelse af en original Forum-lampe fra 1926 og Koglen fra 1958 til Designmuseum Danmark."
+  "description": "Kulturværdiudvalgets erhvervelse af en original Forum-lampe fra 1926 og Koglen fra 1958 til Designmuseum Danmark.",
+  "description_en": "The Kulturværdiudvalget's acquisition of an original Forum lamp from 1926 and the Artichoke from 1958 for Designmuseum Danmark."
  },
  {
   "title": "Poul Henningsen Shed Light on More Than Our Homes",
@@ -2088,7 +2310,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "en",
   "description": "DAC-artikel om PH's lampedesign, treskærmsystemet, PH 5 og Koglen.",
-  "img": "thumbs/cbc3cbab6fb7.jpg"
+  "img": "thumbs/cbc3cbab6fb7.jpg",
+  "description_en": "DAC article on PH's lamp design, the three-shade system, the PH 5 and the Artichoke."
  },
  {
   "title": "K.B. Hallen",
@@ -2098,7 +2321,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "en",
   "description": "DAC-stedsartikel om K.B. Hallen, der indtil branden i 2011 var oplyst af specialdesignede PH-lamper.",
-  "img": "thumbs/ccd512dc287e.jpg"
+  "img": "thumbs/ccd512dc287e.jpg",
+  "description_en": "DAC place article on K.B. Hallen, which until the fire in 2011 was lit by specially designed PH lamps."
  },
  {
   "title": "Arkitekten – hvilen ligger i rytmen (DR Gensyn)",
@@ -2108,7 +2332,8 @@ const SOURCES = [
   "type": "video",
   "language": "da",
   "description": "DR-dokumentar af Allan de Waal om PH som designer, arkitekt, jazzdigter og filminstruktør.",
-  "img": "thumbs/947edf132af3.jpg"
+  "img": "thumbs/947edf132af3.jpg",
+  "description_en": "DR documentary by Allan de Waal on PH as designer, architect, jazz poet and film director."
  },
  {
   "title": "Digtere, divaer og dogmebrødre: 1918–1930 (DR Gensyn)",
@@ -2118,7 +2343,8 @@ const SOURCES = [
   "type": "video",
   "language": "da",
   "description": "DR-kulturhistorisk serieafsnit om 1920'ernes kulturradikalisme, hvor PH optræder.",
-  "img": "thumbs/95b9527c7054.jpg"
+  "img": "thumbs/95b9527c7054.jpg",
+  "description_en": "Episode of DR's cultural history series on the cultural radicalism of the 1920s, in which PH appears."
  },
  {
   "title": "Digtere, divaer og dogmebrødre: 1930–1945 (DR Gensyn)",
@@ -2128,7 +2354,8 @@ const SOURCES = [
   "type": "video",
   "language": "da",
   "description": "DR-serieafsnit om 1930'erne og besættelsen med PH som central kulturfigur.",
-  "img": "thumbs/08e914686024.jpg"
+  "img": "thumbs/08e914686024.jpg",
+  "description_en": "Episode of the DR series on the 1930s and the Occupation, with PH as a central cultural figure."
  },
  {
   "title": "Henningsen, Poul – forfatterweb",
@@ -2138,7 +2365,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "da",
   "description": "Bibliotekernes forfatterportræt af PH med biografi og værkoversigt.",
-  "img": "thumbs/966d7ca7b07d.jpg"
+  "img": "thumbs/966d7ca7b07d.jpg",
+  "description_en": "The libraries' author portrait of PH with biography and list of works."
  },
  {
   "title": "Henningsen, Poul – bibliografi",
@@ -2147,7 +2375,8 @@ const SOURCES = [
   "year": "",
   "type": "leksikon",
   "language": "da",
-  "description": "Bibliografi over PH's skrifter og litteratur om ham."
+  "description": "Bibliografi over PH's skrifter og litteratur om ham.",
+  "description_en": "Bibliography of PH's writings and literature about him."
  },
  {
   "title": "Louis Poulsen – Belysningsproducent – Historie",
@@ -2157,7 +2386,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "da",
   "description": "Leksikonartikel om Louis Poulsens historie som belysningsproducent.",
-  "img": "thumbs/0bbb57a66227.jpg"
+  "img": "thumbs/0bbb57a66227.jpg",
+  "description_en": "Encyclopedia article on the history of Louis Poulsen as a lighting manufacturer."
  },
  {
   "title": "At udgrave Poul Henningsen med teske",
@@ -2166,7 +2396,8 @@ const SOURCES = [
   "year": "2014",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Hans Hertels takketale (H.O. Lange-prisen 2013) om PH-forskningen, PH-lampen og PH-plissélampen."
+  "description": "Hans Hertels takketale (H.O. Lange-prisen 2013) om PH-forskningen, PH-lampen og PH-plissélampen.",
+  "description_en": "Hans Hertel's acceptance speech (H.O. Lange Prize 2013) on PH research, the PH lamp and the PH pleated lamp."
  },
  {
   "title": "Rigsvækkeren Poul Henningsen. Tale ved åbningen af PH-udstillingen i Rundetårn 26.9.94",
@@ -2175,7 +2406,8 @@ const SOURCES = [
   "year": "1994",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Hans Hertels tale ved PH-udstillingen 1994, nævner Kunstindustrimuseets udstilling af 120 PH-lamper fra 1925 og frem."
+  "description": "Hans Hertels tale ved PH-udstillingen 1994, nævner Kunstindustrimuseets udstilling af 120 PH-lamper fra 1925 og frem.",
+  "description_en": "Hans Hertel's speech at the 1994 PH exhibition, mentioning the Kunstindustrimuseet exhibition of 120 PH lamps from 1925 onwards."
  },
  {
   "title": "Paul Hammerich: Lysmageren. En krønike om Poul Henningsen (anmeldelse)",
@@ -2184,7 +2416,8 @@ const SOURCES = [
   "year": "1987",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Anmeldelse af Hammerichs PH-biografi Lysmageren (1986)."
+  "description": "Anmeldelse af Hammerichs PH-biografi Lysmageren (1986).",
+  "description_en": "Review of Hammerich's PH biography Lysmageren (1986)."
  },
  {
   "title": "Radikaleren mellem socialdemokrati og kommunistparti – Poul Henningsens kulturkritik",
@@ -2193,7 +2426,8 @@ const SOURCES = [
   "year": "1979",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Akademisk artikel om PH's kulturkritik og politiske position."
+  "description": "Akademisk artikel om PH's kulturkritik og politiske position.",
+  "description_en": "Academic article on PH's cultural criticism and political position."
  },
  {
   "title": "Vis mig hvordan du bor – og jeg skal sige dig, hvem du er",
@@ -2202,7 +2436,8 @@ const SOURCES = [
   "year": "1984",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Etnologisk artikel om boligen som tegnsystem, hvor PH-lamper indgår som statusmarkør."
+  "description": "Etnologisk artikel om boligen som tegnsystem, hvor PH-lamper indgår som statusmarkør.",
+  "description_en": "Ethnological article on the home as a sign system, in which PH lamps feature as status markers."
  },
  {
   "title": "Funktionalismens sociale program – et etnocentrisk selvbedrag",
@@ -2211,7 +2446,8 @@ const SOURCES = [
   "year": "1986",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Etnologisk artikel om funktionalismens boligideal med PH-lampen som eksempel."
+  "description": "Etnologisk artikel om funktionalismens boligideal med PH-lampen som eksempel.",
+  "description_en": "Ethnological article on the functionalist housing ideal, using the PH lamp as an example."
  },
  {
   "title": "Registrerings-Tidende for Varemærker 1928 nr. 9 – Louis Poulsens figurmærker (ovaler)",
@@ -2220,7 +2456,8 @@ const SOURCES = [
   "year": "1928",
   "type": "arkiv",
   "language": "da",
-  "description": "Officiel registrering af Louis Poulsen & Co.s ovale figurmærker, februar 1928."
+  "description": "Officiel registrering af Louis Poulsen & Co.s ovale figurmærker, februar 1928.",
+  "description_en": "Official registration of Louis Poulsen & Co.'s oval figurative trademarks, February 1928."
  },
  {
   "title": "Registrerings-Tidende for Varemærker 1928 nr. 33 – ordmærket \"Poulsen\" for belysningsmaterialer",
@@ -2229,7 +2466,8 @@ const SOURCES = [
   "year": "1928",
   "type": "arkiv",
   "language": "da",
-  "description": "Registrering af Louis Poulsen & Co.s ordmærke \"Poulsen\" for installations- og belysningsmaterialer, 1928."
+  "description": "Registrering af Louis Poulsen & Co.s ordmærke \"Poulsen\" for installations- og belysningsmaterialer, 1928.",
+  "description_en": "Registration of Louis Poulsen & Co.'s word mark \"Poulsen\" for installation and lighting materials, 1928."
  },
  {
   "title": "Hus og lampe, fotografier for Poul Henningsen",
@@ -2238,7 +2476,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Fotografi af hus og PH-lampe taget for Poul Henningsen."
+  "description": "Fotografi af hus og PH-lampe taget for Poul Henningsen.",
+  "description_en": "Photograph of a house and a PH lamp taken for Poul Henningsen."
  },
  {
   "title": "Lamper, fotografier for Louis Poulsen og Co, del 1 (Keld Helmer-Petersen)",
@@ -2247,7 +2486,8 @@ const SOURCES = [
   "year": "1945-2013",
   "type": "arkiv",
   "language": "da",
-  "description": "Keld Helmer-Petersens produktfotografier af lamper udført for Louis Poulsen & Co."
+  "description": "Keld Helmer-Petersens produktfotografier af lamper udført for Louis Poulsen & Co.",
+  "description_en": "Keld Helmer-Petersen's product photographs of lamps taken for Louis Poulsen & Co."
  },
  {
   "title": "Lamper, fotografier for Louis Poulsen og Co, del 2 (Keld Helmer-Petersen)",
@@ -2256,7 +2496,8 @@ const SOURCES = [
   "year": "1945-2013",
   "type": "arkiv",
   "language": "da",
-  "description": "Anden serie af Helmer-Petersens lampefotos for Louis Poulsen."
+  "description": "Anden serie af Helmer-Petersens lampefotos for Louis Poulsen.",
+  "description_en": "Second series of Helmer-Petersen's lamp photographs for Louis Poulsen."
  },
  {
   "title": "Lamper, fotografier for Louis Poulsen og Co, del 3 (Keld Helmer-Petersen)",
@@ -2265,7 +2506,8 @@ const SOURCES = [
   "year": "1945-2013",
   "type": "arkiv",
   "language": "da",
-  "description": "Tredje serie af Helmer-Petersens lampefotos for Louis Poulsen."
+  "description": "Tredje serie af Helmer-Petersens lampefotos for Louis Poulsen.",
+  "description_en": "Third series of Helmer-Petersen's lamp photographs for Louis Poulsen."
  },
  {
   "title": "Fabrik, fotografier for Louis Poulsen og Co (Keld Helmer-Petersen)",
@@ -2274,7 +2516,8 @@ const SOURCES = [
   "year": "1945-2013",
   "type": "arkiv",
   "language": "da",
-  "description": "Helmer-Petersens fotografier fra Louis Poulsens fabrik og produktion."
+  "description": "Helmer-Petersens fotografier fra Louis Poulsens fabrik og produktion.",
+  "description_en": "Helmer-Petersen's photographs of Louis Poulsen's factory and production."
  },
  {
   "title": "Gårdhave i Nyhavn 11, fotografier for Louis Poulsen og Co",
@@ -2283,7 +2526,8 @@ const SOURCES = [
   "year": "1945-2013",
   "type": "arkiv",
   "language": "da",
-  "description": "Fotos fra Louis Poulsens domicil Nyhavn 11 af Keld Helmer-Petersen."
+  "description": "Fotos fra Louis Poulsens domicil Nyhavn 11 af Keld Helmer-Petersen.",
+  "description_en": "Photographs of Louis Poulsen's headquarters at Nyhavn 11 by Keld Helmer-Petersen."
  },
  {
   "title": "Flere værker, fotografier for Louis Poulsen og Co",
@@ -2292,7 +2536,8 @@ const SOURCES = [
   "year": "1945-2013",
   "type": "arkiv",
   "language": "da",
-  "description": "Diverse Helmer-Petersen-fotografier udført for Louis Poulsen."
+  "description": "Diverse Helmer-Petersen-fotografier udført for Louis Poulsen.",
+  "description_en": "Miscellaneous Helmer-Petersen photographs taken for Louis Poulsen."
  },
  {
   "title": "København, Tivoli (PH-tegninger)",
@@ -2301,7 +2546,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "PH's arkitekttegninger til projekter i Tivoli, Danmarks Kunstbiblioteks samling."
+  "description": "PH's arkitekttegninger til projekter i Tivoli, Danmarks Kunstbiblioteks samling.",
+  "description_en": "PH's architectural drawings for projects in Tivoli, from the Danmarks Kunstbibliotek collection."
  },
  {
   "title": "Indgangshal, Thorvaldsens Museum",
@@ -2310,7 +2556,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "PH's belysningsprojekt for indgangshallen i Thorvaldsens Museum."
+  "description": "PH's belysningsprojekt for indgangshallen i Thorvaldsens Museum.",
+  "description_en": "PH's lighting scheme for the entrance hall of Thorvaldsens Museum."
  },
  {
   "title": "København, Kinopalæet, Gammel Kongevej 60",
@@ -2319,7 +2566,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "PH's tegninger til Kinopalæet, et af hans belysnings- og interiørprojekter."
+  "description": "PH's tegninger til Kinopalæet, et af hans belysnings- og interiørprojekter.",
+  "description_en": "PH's drawings for Kinopalæet, one of his lighting and interior projects."
  },
  {
   "title": "København, Lorrys etablissement, Allégade 7-9, inventar",
@@ -2328,7 +2576,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "PH's inventartegninger til Lorry på Frederiksberg."
+  "description": "PH's inventartegninger til Lorry på Frederiksberg.",
+  "description_en": "PH's furnishing drawings for Lorry in Frederiksberg."
  },
  {
   "title": "København, Vesterbrogade 3 Apolloteatret, ombygning 1941-42",
@@ -2337,7 +2586,8 @@ const SOURCES = [
   "year": "1941",
   "type": "arkiv",
   "language": "da",
-  "description": "PH's ombygning af Apolloteatret 1941–42."
+  "description": "PH's ombygning af Apolloteatret 1941–42.",
+  "description_en": "PH's conversion of the Apollo Theatre, 1941–42."
  },
  {
   "title": "København, Frederiksberg allé 102, Aveny teatret",
@@ -2346,7 +2596,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "PH's tegninger til Aveny Teatret."
+  "description": "PH's tegninger til Aveny Teatret.",
+  "description_en": "PH's drawings for Aveny Teatret."
  },
  {
   "title": "Spejlroset, Danske Studenters Roklub",
@@ -2355,7 +2606,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "PH-tegning af en spejlroset (lampeophæng) til Danske Studenters Roklub."
+  "description": "PH-tegning af en spejlroset (lampeophæng) til Danske Studenters Roklub.",
+  "description_en": "PH drawing of a mirror rosette (lamp suspension) for Danske Studenters Roklub."
  },
  {
   "title": "Forskellige PH lamper",
@@ -2364,7 +2616,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Fotografier af forskellige PH-lamper i Kunstbibliotekets PH-arkiv."
+  "description": "Fotografier af forskellige PH-lamper i Kunstbibliotekets PH-arkiv.",
+  "description_en": "Photographs of various PH lamps in the Kunstbibliotek's PH archive."
  },
  {
   "title": "Udstilling, musikrum",
@@ -2373,7 +2626,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "PH's udstillingsindretning af et musikrum."
+  "description": "PH's udstillingsindretning af et musikrum.",
+  "description_en": "PH's exhibition design for a music room."
  },
  {
   "title": "Lægeværelse på Kamillianerklinikken med PH-lampe",
@@ -2383,7 +2637,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: lægeværelse på Kamillianerklinikken med PH-lampe.",
-  "img": "thumbs/d89dece92f5c.jpg"
+  "img": "thumbs/d89dece92f5c.jpg",
+  "description_en": "Local archive photo: doctor's office at the Kamillianerklinikken with a PH lamp."
  },
  {
   "title": "Stueinteriør med PH-lampe og standur (ingeniør Holten)",
@@ -2393,7 +2648,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: stueinteriør med PH-lampe og standur (ingeniør Holten).",
-  "img": "thumbs/4e9cd6c1e766.jpg"
+  "img": "thumbs/4e9cd6c1e766.jpg",
+  "description_en": "Local archive photo: living-room interior with a PH lamp and a longcase clock (engineer Holten)."
  },
  {
   "title": "Spisestue-interiør bestilt af arkitekt Henningsen",
@@ -2402,7 +2658,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "da",
-  "description": "Lokalarkivfoto: spisestue-interiør bestilt af arkitekt Henningsen."
+  "description": "Lokalarkivfoto: spisestue-interiør bestilt af arkitekt Henningsen.",
+  "description_en": "Local archive photo: dining-room interior commissioned by architect Henningsen."
  },
  {
   "title": "Interiør fra trappeopgang bestilt af arkitekt Henningsen",
@@ -2412,7 +2669,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: interiør fra trappeopgang bestilt af arkitekt Henningsen.",
-  "img": "thumbs/720906d63733.jpg"
+  "img": "thumbs/720906d63733.jpg",
+  "description_en": "Local archive photo: stairwell interior commissioned by architect Henningsen."
  },
  {
   "title": "Sofa i stuemiljø bestilt af arkitekt Henningsen, Charlottenlund",
@@ -2422,7 +2680,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: sofa i stuemiljø bestilt af arkitekt Henningsen, Charlottenlund.",
-  "img": "thumbs/7a8b9c8e9dac.jpg"
+  "img": "thumbs/7a8b9c8e9dac.jpg",
+  "description_en": "Local archive photo: sofa in a living-room setting commissioned by architect Henningsen, Charlottenlund."
  },
  {
   "title": "Vejgård Østre Skole, gymnastiksal med PH-lamper",
@@ -2432,7 +2691,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: vejgård Østre Skole, gymnastiksal med PH-lamper.",
-  "img": "thumbs/2fea54d9a2c9.jpg"
+  "img": "thumbs/2fea54d9a2c9.jpg",
+  "description_en": "Local archive photo: Vejgård Østre Skole, gymnasium with PH lamps."
  },
  {
   "title": "Håndarbejdslokalet på Vejgård Østre Skole med PH-lamper",
@@ -2442,7 +2702,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: håndarbejdslokalet på Vejgård Østre Skole med PH-lamper.",
-  "img": "thumbs/4cef9ef0ea6d.jpg"
+  "img": "thumbs/4cef9ef0ea6d.jpg",
+  "description_en": "Local archive photo: the needlework room at Vejgård Østre Skole with PH lamps."
  },
  {
   "title": "Louis Poulsen-lamper i skole (arkitekt Teschl)",
@@ -2451,7 +2712,8 @@ const SOURCES = [
   "year": "ca. 1960",
   "type": "arkiv",
   "language": "da",
-  "description": "Lokalarkivfoto: louis Poulsen-lamper i skole (arkitekt Teschl)."
+  "description": "Lokalarkivfoto: louis Poulsen-lamper i skole (arkitekt Teschl).",
+  "description_en": "Local archive photo: Louis Poulsen lamps in a school (architect Teschl)."
  },
  {
   "title": "Louis Poulsen-lamper opsat på Limfjordsbroen",
@@ -2460,7 +2722,8 @@ const SOURCES = [
   "year": "ca. 1960",
   "type": "arkiv",
   "language": "da",
-  "description": "Lokalarkivfoto: louis Poulsen-lamper opsat på Limfjordsbroen."
+  "description": "Lokalarkivfoto: louis Poulsen-lamper opsat på Limfjordsbroen.",
+  "description_en": "Local archive photo: Louis Poulsen lamps installed on the Limfjordsbroen bridge."
  },
  {
   "title": "Gymnastiksal på Rørkjær Skole med PH-lamper",
@@ -2469,7 +2732,8 @@ const SOURCES = [
   "year": "1930-1940",
   "type": "arkiv",
   "language": "da",
-  "description": "Lokalarkivfoto: gymnastiksal på Rørkjær Skole med PH-lamper."
+  "description": "Lokalarkivfoto: gymnastiksal på Rørkjær Skole med PH-lamper.",
+  "description_en": "Local archive photo: gymnasium at Rørkjær Skole with PH lamps."
  },
  {
   "title": "Slagterforretning i Ribe med PH-opalglaslamper",
@@ -2478,7 +2742,8 @@ const SOURCES = [
   "year": "ca. 1945",
   "type": "arkiv",
   "language": "da",
-  "description": "Lokalarkivfoto: slagterforretning i Ribe med PH-opalglaslamper."
+  "description": "Lokalarkivfoto: slagterforretning i Ribe med PH-opalglaslamper.",
+  "description_en": "Local archive photo: butcher's shop in Ribe with PH opal glass lamps."
  },
  {
   "title": "Kontorpersonale ved skrivepulte under PH-lamper, Vestergade 3",
@@ -2488,7 +2753,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: kontorpersonale ved skrivepulte under PH-lamper, Vestergade 3.",
-  "img": "thumbs/c993a81bfe4a.jpg"
+  "img": "thumbs/c993a81bfe4a.jpg",
+  "description_en": "Local archive photo: office staff at writing desks under PH lamps, Vestergade 3."
  },
  {
   "title": "Loftsbelysning med PH-lamper på Rudersdals Kro, Holte",
@@ -2498,7 +2764,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: loftsbelysning med PH-lamper på Rudersdals Kro, Holte.",
-  "img": "thumbs/3913ab3ab10e.jpg"
+  "img": "thumbs/3913ab3ab10e.jpg",
+  "description_en": "Local archive photo: ceiling lighting with PH lamps at Rudersdals Kro, Holte."
  },
  {
   "title": "Elektrisk gadelampe designet af PH (København/Frederiksberg)",
@@ -2508,7 +2775,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: elektrisk gadelampe designet af PH (København/Frederiksberg).",
-  "img": "thumbs/89447813bb73.jpg"
+  "img": "thumbs/89447813bb73.jpg",
+  "description_en": "Local archive photo: electric street lamp designed by PH (Copenhagen/Frederiksberg)."
  },
  {
   "title": "Interiør med PH-lampe og mønstret tapet, februar 1931",
@@ -2518,7 +2786,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: interiør med PH-lampe og mønstret tapet, februar 1931.",
-  "img": "thumbs/4d960f368e1c.jpg"
+  "img": "thumbs/4d960f368e1c.jpg",
+  "description_en": "Local archive photo: interior with a PH lamp and patterned wallpaper, February 1931."
  },
  {
   "title": "Spisestue med Børge Mogensen-møbler og PH-lampe",
@@ -2528,7 +2797,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: spisestue med Børge Mogensen-møbler og PH-lampe.",
-  "img": "thumbs/18076642aa20.jpg"
+  "img": "thumbs/18076642aa20.jpg",
+  "description_en": "Local archive photo: dining room with Børge Mogensen furniture and a PH lamp."
  },
  {
   "title": "Sommerhusinteriør med selskab under PH-lampe, august 1965",
@@ -2538,7 +2808,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: sommerhusinteriør med selskab under PH-lampe, august 1965.",
-  "img": "thumbs/234987784a33.jpg"
+  "img": "thumbs/234987784a33.jpg",
+  "description_en": "Local archive photo: summer house interior with a party under a PH lamp, August 1965."
  },
  {
   "title": "Middag under PH-lamper ved åbningen af Magasin Cirkelhuset",
@@ -2548,7 +2819,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: middag under PH-lamper ved åbningen af Magasin Cirkelhuset.",
-  "img": "thumbs/767b9174dd75.jpg"
+  "img": "thumbs/767b9174dd75.jpg",
+  "description_en": "Local archive photo: dinner under PH lamps at the opening of Magasin Cirkelhuset."
  },
  {
   "title": "Lamper fra Louis Poulsen & Co.",
@@ -2558,7 +2830,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: lamper fra Louis Poulsen & Co..",
-  "img": "thumbs/aacfe38cee3f.jpg"
+  "img": "thumbs/aacfe38cee3f.jpg",
+  "description_en": "Local archive photo: lamps from Louis Poulsen & Co."
  },
  {
   "title": "Poul Henningsen i døren til sit hus, Svenstrupvej 3",
@@ -2568,7 +2841,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: poul Henningsen i døren til sit hus, Svenstrupvej 3.",
-  "img": "thumbs/886d06a7f483.jpg"
+  "img": "thumbs/886d06a7f483.jpg",
+  "description_en": "Local archive photo: Poul Henningsen in the doorway of his house, Svenstrupvej 3."
  },
  {
   "title": "Arkitekt Poul Henningsen ved udstilling i sportshallen i Hørsholm",
@@ -2578,7 +2852,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "da",
   "description": "Lokalarkivfoto: arkitekt Poul Henningsen ved udstilling i sportshallen i Hørsholm.",
-  "img": "thumbs/b77e2e4690d5.jpg"
+  "img": "thumbs/b77e2e4690d5.jpg",
+  "description_en": "Local archive photo: architect Poul Henningsen at an exhibition in the sports hall in Hørsholm."
  },
  {
   "title": "Samleren 2.1925, Nr. 12: Danmark paa Pariserudstillingen",
@@ -2587,7 +2862,8 @@ const SOURCES = [
   "year": "1925",
   "type": "tidsskrift",
   "language": "da",
-  "description": "Samtidig anmeldelse af Danmarks afdeling på Paris-udstillingen 1925, der nævner belysningen tegnet af Poul Henningsen og udført af Louis Poulsen (OCR + faksimile)."
+  "description": "Samtidig anmeldelse af Danmarks afdeling på Paris-udstillingen 1925, der nævner belysningen tegnet af Poul Henningsen og udført af Louis Poulsen (OCR + faksimile).",
+  "description_en": "Contemporary review of the Danish section at the 1925 Paris exhibition, mentioning the lighting designed by Poul Henningsen and made by Louis Poulsen (OCR + facsimile)."
  },
  {
   "title": "Neuzeitliche Hotels und Krankenhäuser (Hermann Gescheit), s. 312–313",
@@ -2597,7 +2873,8 @@ const SOURCES = [
   "type": "bog",
   "language": "de",
   "description": "Tysk arkitekturbog fra ca. 1929 hvor et Berlin-spædbørnshospital beskrives med 'die PH-Lampe' som lichttechnisch beregnet belysning – tidligt tysk vidnesbyrd om PH-lampen i brug.",
-  "img": "thumbs/5e4ec4d13344.jpg"
+  "img": "thumbs/5e4ec4d13344.jpg",
+  "description_en": "German architecture book from c. 1929 in which a Berlin infant hospital is described with 'die PH-Lampe' as lichttechnisch calculated lighting – early German evidence of the PH lamp in use."
  },
  {
   "title": "Illuminazione d'oggi (Roberto Aloi)",
@@ -2607,7 +2884,8 @@ const SOURCES = [
   "type": "bog",
   "language": "it",
   "description": "Italiensk standardværk om moderne belysning med PH-armaturer af Poul Henningsen/Louis Poulsen og tresproget billedtekst (it/fr/de); fuld visning.",
-  "img": "thumbs/d2a1c89ff5a5.jpg"
+  "img": "thumbs/d2a1c89ff5a5.jpg",
+  "description_en": "Italian standard work on modern lighting featuring PH fittings by Poul Henningsen/Louis Poulsen, with trilingual captions (it/fr/de); full view."
  },
  {
   "title": "Arkitekten 1958, vol. 60 nr. 11 – artikel om Poul Henningsen",
@@ -2617,7 +2895,8 @@ const SOURCES = [
   "type": "tidsskrift",
   "language": "da",
   "description": "Arkitekten-nummer med tekst om PH ('I 1925 udstillede Poul Henningsen i Paris en lampe…') og omtale af 'Den nye PH-lampe'; fuld visning hos Internet Archive.",
-  "img": "thumbs/eed873478592.jpg"
+  "img": "thumbs/eed873478592.jpg",
+  "description_en": "Issue of Arkitekten with a text on PH ('I 1925 udstillede Poul Henningsen i Paris en lampe…') and mention of 'Den nye PH-lampe'; full view at the Internet Archive."
  },
  {
   "title": "Lumières, je pense à vous",
@@ -2627,7 +2906,8 @@ const SOURCES = [
   "type": "katalog",
   "language": "fr",
   "description": "Udstillingskatalog fra Centre Pompidou om belysningsdesign, der behandler PH 5 og PH Kogle (artichaut); kan lånes digitalt.",
-  "img": "thumbs/677e0c7440c9.jpg"
+  "img": "thumbs/677e0c7440c9.jpg",
+  "description_en": "Centre Pompidou exhibition catalogue on lighting design, covering the PH 5 and PH Artichoke (artichaut); available for digital loan."
  },
  {
   "title": "Design for Life: … as seen through the collections of Cooper-Hewitt, National Design Museum",
@@ -2637,7 +2917,8 @@ const SOURCES = [
   "type": "bog",
   "language": "en",
   "description": "Smithsonian/Cooper-Hewitt-samlingsbog der fremhæver PH Kogle (1958) som nyfortolkning af lysekronen; digitalt udlån.",
-  "img": "thumbs/7408ad0f1ee6.jpg"
+  "img": "thumbs/7408ad0f1ee6.jpg",
+  "description_en": "Smithsonian/Cooper-Hewitt collection book highlighting the PH Artichoke (1958) as a reinterpretation of the chandelier; digital loan."
  },
  {
   "title": "The Modernist Home (Tim Benton)",
@@ -2647,7 +2928,8 @@ const SOURCES = [
   "type": "bog",
   "language": "en",
   "description": "V&A-publikation med PH-bordlampe (forniklet messing, bakelit) på omslag og i teksten; digitalt udlån.",
-  "img": "thumbs/77661431a2ac.jpg"
+  "img": "thumbs/77661431a2ac.jpg",
+  "description_en": "V&A publication with a PH table lamp (nickel-plated brass, Bakelite) on the cover and in the text; digital loan."
  },
  {
   "title": "Verner Panton: The Collected Works",
@@ -2657,7 +2939,8 @@ const SOURCES = [
   "type": "bog",
   "language": "en",
   "description": "Vitra Design Museums værkkatalog over Panton, der beskriver Poul Henningsen som ven og mentor og forbindelsen til Louis Poulsen; digitalt udlån.",
-  "img": "thumbs/942de6db55a7.jpg"
+  "img": "thumbs/942de6db55a7.jpg",
+  "description_en": "Vitra Design Museum catalogue raisonné of Panton, describing Poul Henningsen as friend and mentor and the connection to Louis Poulsen; digital loan."
  },
  {
   "title": "Transnational Lighting Detectives (Kaoru Mende m.fl.)",
@@ -2667,7 +2950,8 @@ const SOURCES = [
   "type": "bog",
   "language": "ja",
   "description": "Japansk/engelsk bog af lysdesignere med kapitel om 'The Enduring Legacy of Poul Henningsen' i københavnsk bybelysning; digitalt udlån.",
-  "img": "thumbs/007ee866d25d.jpg"
+  "img": "thumbs/007ee866d25d.jpg",
+  "description_en": "Japanese/English book by lighting designers with a chapter on 'The Enduring Legacy of Poul Henningsen' in Copenhagen's urban lighting; digital loan."
  },
  {
   "title": "Design: The Problem Comes First",
@@ -2677,7 +2961,8 @@ const SOURCES = [
   "type": "bog",
   "language": "en",
   "description": "Flersproget designpublikation med case om PH-lampen (1925, 1958, 1981) og Henningsens blændingsfrie princip; digitalt udlån.",
-  "img": "thumbs/80233b486c5a.jpg"
+  "img": "thumbs/80233b486c5a.jpg",
+  "description_en": "Multilingual design publication with a case study on the PH lamp (1925, 1958, 1981) and Henningsen's glare-free principle; digital loan."
  },
  {
   "title": "Louis Poulsen Lighting & Co A/S v. Spero Electric Corporation (S.D. Fla.)",
@@ -2686,7 +2971,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "en",
-  "description": "Amerikanske retsdokumenter i Louis Poulsens sag om efterligning af designbeskyttede lamper."
+  "description": "Amerikanske retsdokumenter i Louis Poulsens sag om efterligning af designbeskyttede lamper.",
+  "description_en": "US court documents in Louis Poulsen's case concerning imitations of design-protected lamps."
  },
  {
   "title": "Louis Poulsen A/S v. Zhongshan Archer Lighting Co., Ltd. (N.D. Ga.)",
@@ -2695,7 +2981,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "en",
-  "description": "Amerikansk retssag hvor Louis Poulsen håndhæver varemærke/trade dress mod kopiproducent af bl.a. PH-lamper."
+  "description": "Amerikansk retssag hvor Louis Poulsen håndhæver varemærke/trade dress mod kopiproducent af bl.a. PH-lamper.",
+  "description_en": "US lawsuit in which Louis Poulsen enforces its trademark/trade dress against a manufacturer of copies of, among others, PH lamps."
  },
  {
   "title": "KM 80924 taklampa (PH-lampe, udstillet på Werkbund 'Die Wohnung' 1927)",
@@ -2704,7 +2991,8 @@ const SOURCES = [
   "year": "1926",
   "type": "museum",
   "language": "sv",
-  "description": "PH-loftlampe i glas købt til Kulturens 'Vita huset' 1929; museumsteksten anfører at modellen blev vist på Deutscher Werkbunds udstilling 'Die Wohnung' i Stuttgart 1927."
+  "description": "PH-loftlampe i glas købt til Kulturens 'Vita huset' 1929; museumsteksten anfører at modellen blev vist på Deutscher Werkbunds udstilling 'Die Wohnung' i Stuttgart 1927.",
+  "description_en": "Glass PH ceiling lamp bought for Kulturen's 'Vita huset' in 1929; the museum text states that the model was shown at the Deutscher Werkbund exhibition 'Die Wohnung' in Stuttgart in 1927."
  },
  {
   "title": "Taklampa, Poul Henningsen / Louis Poulsen & Co (opalglas, 1926)",
@@ -2713,7 +3001,8 @@ const SOURCES = [
   "year": "1926",
   "type": "museum",
   "language": "sv",
-  "description": "Tidlig PH-loftlampe i opalglas og forkromet messing (Ø 50 cm), indkøbt til indvielsen af Vita huset 1929."
+  "description": "Tidlig PH-loftlampe i opalglas og forkromet messing (Ø 50 cm), indkøbt til indvielsen af Vita huset 1929.",
+  "description_en": "Early PH ceiling lamp in opal glass and chrome-plated brass (Ø 50 cm), bought for the inauguration of Vita huset in 1929."
  },
  {
   "title": "GhmE:6768 Jubileumsutställningen 1923 – hotelværelse ved Arkitekt P. Henningsen",
@@ -2723,7 +3012,8 @@ const SOURCES = [
   "type": "museum",
   "language": "sv",
   "description": "Fotografi fra Göteborg-jubilæumsudstillingen 1923 af et hotelværelse bestilt af Politiken og indrettet af PH, med lampe – før-PH-lampe-kontekst.",
-  "img": "thumbs/5872b0758d1e.jpg"
+  "img": "thumbs/5872b0758d1e.jpg",
+  "description_en": "Photograph from the 1923 Gothenburg Jubilee Exhibition of a hotel room commissioned by Politiken and furnished by PH, with a lamp – pre-PH-lamp context."
  },
  {
   "title": "PH-lampa (foto: Sune Sundahl)",
@@ -2733,7 +3023,8 @@ const SOURCES = [
   "type": "museum",
   "language": "sv",
   "description": "Arkitekturfotograf Sune Sundahls optagelse af en PH-lampe fra 1959 i ArkDes' fotosamling.",
-  "img": "thumbs/9b43792968b2.jpg"
+  "img": "thumbs/9b43792968b2.jpg",
+  "description_en": "Architectural photographer Sune Sundahl's photograph of a PH lamp from 1959 in ArkDes' photo collection."
  },
  {
   "title": "Lampe, del av (NF.1977-0063AF) – PH-lampe 1927",
@@ -2742,7 +3033,8 @@ const SOURCES = [
   "year": "1927",
   "type": "museum",
   "language": "no",
-  "description": "Glasskærme og base til en PH-lampe fra 1927 i Norsk Folkemuseums samling."
+  "description": "Glasskærme og base til en PH-lampe fra 1927 i Norsk Folkemuseums samling.",
+  "description_en": "Glass shades and base for a 1927 PH lamp in the Norsk Folkemuseum collection."
  },
  {
   "title": "Lampe, del av (NF.1986-0353ABC) – PH-lampe 1927",
@@ -2751,7 +3043,8 @@ const SOURCES = [
   "year": "1927",
   "type": "museum",
   "language": "no",
-  "description": "Bærende metaldel og glasskærm til PH-lampe fra 1927; del af en serie PH-lampedele NF.1986-0353–0356."
+  "description": "Bærende metaldel og glasskærm til PH-lampe fra 1927; del af en serie PH-lampedele NF.1986-0353–0356.",
+  "description_en": "Load-bearing metal part and glass shade for a 1927 PH lamp; part of a series of PH lamp parts NF.1986-0353–0356."
  },
  {
   "title": "Fikastund i Brattåsgårdens matsal ca. 1990 (hvid PH-lampe)",
@@ -2761,7 +3054,8 @@ const SOURCES = [
   "type": "museum",
   "language": "sv",
   "description": "Svensk lokalhistorisk foto af et plejehjems spisesal med en hvid PH-lampe; eksempel på PH i svensk hverdagsinteriør.",
-  "img": "thumbs/2f26db612609.jpg"
+  "img": "thumbs/2f26db612609.jpg",
+  "description_en": "Swedish local history photo of a care home dining room with a white PH lamp; an example of PH in everyday Swedish interiors."
  },
  {
   "title": "Hängelampe PH-Kontrast, Entwurf Poul Henningsen",
@@ -2771,7 +3065,8 @@ const SOURCES = [
   "type": "museum",
   "language": "de",
   "description": "Wiens Tekniske Museums eksemplar af PH Kontrast-pendlen, formidlet via Europeana (kilde: TMW online-samling objekt 253304).",
-  "img": "thumbs/48ab229d01dd.jpg"
+  "img": "thumbs/48ab229d01dd.jpg",
+  "description_en": "The Vienna Technical Museum's example of the PH Kontrast pendant, made available via Europeana (source: TMW online collection object 253304)."
  },
  {
   "title": "Langelinie Pavillonen med formgivning af Poul Henningsen m.fl. (foto Ove Kildetoft)",
@@ -2781,7 +3076,8 @@ const SOURCES = [
   "type": "museum",
   "language": "sv",
   "description": "Svensk museumsfotografi af Langelinie Pavillonen (1958) med PH-belysning, Børge Mogensen- og Panton-møbler.",
-  "img": "thumbs/fa6ad4296080.jpg"
+  "img": "thumbs/fa6ad4296080.jpg",
+  "description_en": "Swedish museum photograph of Langelinie Pavillonen (1958) with PH lighting and Børge Mogensen and Panton furniture."
  },
  {
   "title": "PH Artichoke Lamp (Mia 95.120)",
@@ -2790,7 +3086,8 @@ const SOURCES = [
   "year": "1958",
   "type": "museum",
   "language": "en",
-  "description": "PH Kogle ca. 1958 fra Louis Poulsen i Minneapolis Institute of Arts samling."
+  "description": "PH Kogle ca. 1958 fra Louis Poulsen i Minneapolis Institute of Arts samling.",
+  "description_en": "PH Artichoke, c. 1958, by Louis Poulsen in the Minneapolis Institute of Art collection."
  },
  {
   "title": "PH 3/2 bordlampe (OK-1964-0101D)",
@@ -2800,7 +3097,8 @@ const SOURCES = [
   "type": "museum",
   "language": "no",
   "description": "Separat objektside for PH 3/2-bordlampe, ca. 1930, Louis Poulsen & Co. (supplerer OK-1964-0101A).",
-  "img": "thumbs/4490513e6f4e.jpg"
+  "img": "thumbs/4490513e6f4e.jpg",
+  "description_en": "Separate object page for a PH 3/2 table lamp, c. 1930, Louis Poulsen & Co. (supplements OK-1964-0101A)."
  },
  {
   "title": "Lightopia – Programmheft",
@@ -2809,7 +3107,8 @@ const SOURCES = [
   "year": "2013",
   "type": "katalog",
   "language": "de",
-  "description": "Program for Vitra Design Museums store lysudstilling Lightopia 2013–14, hvor PH Artichoke (1958) er blandt hovedværkerne."
+  "description": "Program for Vitra Design Museums store lysudstilling Lightopia 2013–14, hvor PH Artichoke (1958) er blandt hovedværkerne.",
+  "description_en": "Programme for the Vitra Design Museum's major lighting exhibition Lightopia 2013–14, in which the PH Artichoke (1958) is among the key works."
  },
  {
   "title": "Vitra Schaudepot – Handout",
@@ -2819,7 +3118,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "de",
   "description": "Presse-handout om Vitra Schaudepot der nævner at museets lampesamling på 1.000+ objekter omfatter Poul Henningsens designs.",
-  "img": "thumbs/fc8d82041518.jpg"
+  "img": "thumbs/fc8d82041518.jpg",
+  "description_en": "Press handout on the Vitra Schaudepot, noting that the museum's lamp collection of 1,000+ objects includes Poul Henningsen's designs."
  },
  {
   "title": "Industrial Property or Artistic Property? Design, Intellectual Property Law and the PH Lamp (Stina Teilmann-Lock)",
@@ -2828,7 +3128,8 @@ const SOURCES = [
   "year": "2016",
   "type": "artikel",
   "language": "en",
-  "description": "Fagfællebedømt artikel om PH-lampens dobbelte status som patent- og ophavsretligt beskyttet værk; abstract frit, fuldtekst bag betalingsmur."
+  "description": "Fagfællebedømt artikel om PH-lampens dobbelte status som patent- og ophavsretligt beskyttet værk; abstract frit, fuldtekst bag betalingsmur.",
+  "description_en": "Peer-reviewed article on the PH lamp's dual status as a work protected by patent and copyright; abstract free, full text behind a paywall."
  },
  {
   "title": "Hygge i form av ljus: PH 5 som kulturellt uttryck för dansk design, trivsel och atmosfär (Jennica Landén)",
@@ -2837,7 +3138,8 @@ const SOURCES = [
   "year": "2025",
   "type": "artikel",
   "language": "sv",
-  "description": "Svensk bachelorafhandling med semiotisk analyse af PH 5 som udtryk for hygge og blændfrit lys; open access PDF."
+  "description": "Svensk bachelorafhandling med semiotisk analyse af PH 5 som udtryk for hygge og blændfrit lys; open access PDF.",
+  "description_en": "Swedish bachelor's thesis with a semiotic analysis of the PH 5 as an expression of hygge and glare-free light; open access PDF."
  },
  {
   "title": "Kirkko harjulla: Alvar Aallon suunnitteleman Muuramen kirkon (1926–29) alkuperäinen interiööri (Päivi Ollikainen)",
@@ -2846,7 +3148,8 @@ const SOURCES = [
   "year": "2010",
   "type": "artikel",
   "language": "fi",
-  "description": "Finsk afhandling om Aaltos Muurame-kirke, der grundigt behandler Aaltos inspiration fra Poul Henningsen og brugen af PH-lamper (50+ omtaler)."
+  "description": "Finsk afhandling om Aaltos Muurame-kirke, der grundigt behandler Aaltos inspiration fra Poul Henningsen og brugen af PH-lamper (50+ omtaler).",
+  "description_en": "Finnish thesis on Aalto's Muurame Church, discussing in detail Aalto's inspiration from Poul Henningsen and the use of PH lamps (50+ mentions)."
  },
  {
   "title": "Mapping Danish Lighting Trends: Sociocultural Aspects of Light Analysed in Bo Bedre",
@@ -2856,7 +3159,8 @@ const SOURCES = [
   "type": "artikel",
   "language": "en",
   "description": "Open access-artikel om danske belysningstraditioner, der fremhæver PH's arbejde med hygiejnisk og blændfrit lys.",
-  "img": "thumbs/1ce76e052e3b.jpg"
+  "img": "thumbs/1ce76e052e3b.jpg",
+  "description_en": "Open access article on Danish lighting traditions, highlighting PH's work on hygienic and glare-free light."
  },
  {
   "title": "Poul Henningsen – Designer (Deutsch)",
@@ -2865,7 +3169,8 @@ const SOURCES = [
   "year": "",
   "type": "hjemmeside",
   "language": "de",
-  "description": "Louis Poulsens tyske designerside om Poul Henningsen og PH-lampens historie."
+  "description": "Louis Poulsens tyske designerside om Poul Henningsen og PH-lampens historie.",
+  "description_en": "Louis Poulsen's German designer page on Poul Henningsen and the history of the PH lamp."
  },
  {
   "title": "ポール・ヘニングセン – デザイナー (Japanese)",
@@ -2874,7 +3179,8 @@ const SOURCES = [
   "year": "",
   "type": "hjemmeside",
   "language": "ja",
-  "description": "Louis Poulsens japanske designerside om Poul Henningsen og PH 5."
+  "description": "Louis Poulsens japanske designerside om Poul Henningsen og PH 5.",
+  "description_en": "Louis Poulsen's Japanese designer page on Poul Henningsen and the PH 5."
  },
  {
   "title": "Poul Henningsen – 设计师 (Chinese)",
@@ -2883,7 +3189,8 @@ const SOURCES = [
   "year": "",
   "type": "hjemmeside",
   "language": "zh",
-  "description": "Louis Poulsens kinesiske designerside om PH 5-designeren Poul Henningsen."
+  "description": "Louis Poulsens kinesiske designerside om PH 5-designeren Poul Henningsen.",
+  "description_en": "Louis Poulsen's Chinese designer page on Poul Henningsen, designer of the PH 5."
  },
  {
   "title": "Poul Henningsen – Designer (Français)",
@@ -2892,7 +3199,8 @@ const SOURCES = [
   "year": "",
   "type": "hjemmeside",
   "language": "fr",
-  "description": "Louis Poulsens franske designerside om Poul Henningsen."
+  "description": "Louis Poulsens franske designerside om Poul Henningsen.",
+  "description_en": "Louis Poulsen's French designer page on Poul Henningsen."
  },
  {
   "title": "System PH：PH三枚シェードシステムの解説",
@@ -2901,7 +3209,8 @@ const SOURCES = [
   "year": "",
   "type": "artikel",
   "language": "ja",
-  "description": "Japansk udgave af Louis Poulsens forklaring af PH-trelagsskærmsystemet."
+  "description": "Japansk udgave af Louis Poulsens forklaring af PH-trelagsskærmsystemet.",
+  "description_en": "Japanese version of Louis Poulsen's explanation of the PH three-shade system."
  },
  {
   "title": "System PH: Das PH-Drei-Schirm-System erklärt",
@@ -2910,7 +3219,8 @@ const SOURCES = [
   "year": "",
   "type": "artikel",
   "language": "de",
-  "description": "Tysk udgave af Louis Poulsens forklaring af PH-trelagsskærmsystemet."
+  "description": "Tysk udgave af Louis Poulsens forklaring af PH-trelagsskærmsystemet.",
+  "description_en": "German version of Louis Poulsen's explanation of the PH three-shade system."
  },
  {
   "title": "System PH : le système PH à trois abat-jour expliqué",
@@ -2919,7 +3229,8 @@ const SOURCES = [
   "year": "",
   "type": "artikel",
   "language": "fr",
-  "description": "Fransk udgave af Louis Poulsens forklaring af PH-trelagsskærmsystemet."
+  "description": "Fransk udgave af Louis Poulsens forklaring af PH-trelagsskærmsystemet.",
+  "description_en": "French version of Louis Poulsen's explanation of the PH three-shade system."
  },
  {
   "title": "わたしたちの歴史 (Our heritage, Japanese)",
@@ -2929,7 +3240,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "ja",
   "description": "Louis Poulsens japanske historieside med PH-samarbejdet fra 1924.",
-  "img": "thumbs/6244917ee673.jpg"
+  "img": "thumbs/6244917ee673.jpg",
+  "description_en": "Louis Poulsen's Japanese history page, covering the PH collaboration from 1924."
  },
  {
   "title": "Louis Poulsen – Erbe | Über 150 Jahre dänisches Lichtdesign",
@@ -2939,7 +3251,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "de",
   "description": "Louis Poulsens tyske historieside med PH-lampens rolle i firmaets udvikling.",
-  "img": "thumbs/17ed72e79584.jpg"
+  "img": "thumbs/17ed72e79584.jpg",
+  "description_en": "Louis Poulsen's German history page on the PH lamp's role in the company's development."
  },
  {
   "title": "PH lamp (Wikidata Q300927)",
@@ -2949,7 +3262,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "en",
   "description": "Strukturerede data for PH-lampeserien (designer, producent, links til andre leksika).",
-  "img": "thumbs/d9a7207d8b42.jpg"
+  "img": "thumbs/d9a7207d8b42.jpg",
+  "description_en": "Structured data for the PH lamp series (designer, manufacturer, links to other encyclopaedias)."
  },
  {
   "title": "Artichoke (Wikidata Q10548405)",
@@ -2959,7 +3273,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "en",
   "description": "Wikidata-element for PH Kogle (1958) designet af Poul Henningsen.",
-  "img": "thumbs/22c1822c2737.jpg"
+  "img": "thumbs/22c1822c2737.jpg",
+  "description_en": "Wikidata item for the PH Artichoke (1958) designed by Poul Henningsen."
  },
  {
   "title": "Bordlampe (Wikidata Q109655581)",
@@ -2969,7 +3284,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "en",
   "description": "Wikidata-element for et specifikt museumsobjekt: PH-bordlampe i Nasjonalmuseet, Oslo (OK-1964-0101D).",
-  "img": "thumbs/a946472e4104.jpg"
+  "img": "thumbs/a946472e4104.jpg",
+  "description_en": "Wikidata item for a specific museum object: a PH table lamp in the Nasjonalmuseet, Oslo (OK-1964-0101D)."
  },
  {
   "title": "File:Poul Henningsen visningsrum för Louis Poulsen 1939.jpg",
@@ -2979,7 +3295,8 @@ const SOURCES = [
   "type": "arkiv",
   "language": "sv",
   "description": "CC0-foto fra 1939 af Louis Poulsens udstillingslokale i Nyhavn, indrettet af PH, med Henningsen siddende til højre.",
-  "img": "thumbs/057ba08c238b.jpg"
+  "img": "thumbs/057ba08c238b.jpg",
+  "description_en": "CC0 photo from 1939 of Louis Poulsen's showroom in Nyhavn, designed by PH, with Henningsen seated on the right."
  },
  {
   "title": "Category:Lamps by Louis Poulsen",
@@ -2988,7 +3305,8 @@ const SOURCES = [
   "year": "",
   "type": "arkiv",
   "language": "en",
-  "description": "Commons-kategori med frie billeder af Louis Poulsen-lamper, herunder PH-modeller in situ."
+  "description": "Commons-kategori med frie billeder af Louis Poulsen-lamper, herunder PH-modeller in situ.",
+  "description_en": "Commons category with free images of Louis Poulsen lamps, including PH models in situ."
  },
  {
   "title": "PH-Lampe (Wikipedia, deutsch)",
@@ -2998,7 +3316,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "de",
   "description": "Tysk Wikipedia-artikel om PH-lampen og dens historie.",
-  "img": "thumbs/a40cd64d3e67.jpg"
+  "img": "thumbs/a40cd64d3e67.jpg",
+  "description_en": "German Wikipedia article on the PH lamp and its history."
  },
  {
   "title": "PH-lamp (Wikipedia, English)",
@@ -3008,7 +3327,8 @@ const SOURCES = [
   "type": "leksikon",
   "language": "en",
   "description": "Engelsk Wikipedia-artikel om PH-lampeserien.",
-  "img": "thumbs/61dd9fcac303.jpg"
+  "img": "thumbs/61dd9fcac303.jpg",
+  "description_en": "English Wikipedia article on the PH lamp series."
  },
  {
   "title": "PH Kogle – custom design (produktark)",
@@ -3017,7 +3337,8 @@ const SOURCES = [
   "year": "2005",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk custom design-ark for PH Kogle i glas, kobber, hvid og rustfrit stål med alle specialstørrelser."
+  "description": "Dansk custom design-ark for PH Kogle i glas, kobber, hvid og rustfrit stål med alle specialstørrelser.",
+  "description_en": "Danish custom design sheet for the PH Artichoke in glass, copper, white and stainless steel, with all special sizes."
  },
  {
   "title": "Poul Henningsen – biografi (pressemateriale)",
@@ -3026,7 +3347,8 @@ const SOURCES = [
   "year": "2007",
   "type": "artikel",
   "language": "da",
-  "description": "Louis Poulsens officielle presse-biografi over Poul Henningsen med uddannelse, virke og hovedværker."
+  "description": "Louis Poulsens officielle presse-biografi over Poul Henningsen med uddannelse, virke og hovedværker.",
+  "description_en": "Louis Poulsen's official press biography of Poul Henningsen, covering his education, career and major works."
  },
  {
   "title": "PH Væg 3-2½ og pullert udendørs – pressetekst",
@@ -3035,7 +3357,8 @@ const SOURCES = [
   "year": "2007",
   "type": "artikel",
   "language": "da",
-  "description": "Pressetekst om PH 3-2½ udendørs væglampe og pullert med historien om PH-samarbejdets begyndelse."
+  "description": "Pressetekst om PH 3-2½ udendørs væglampe og pullert med historien om PH-samarbejdets begyndelse.",
+  "description_en": "Press text on the PH 3-2½ outdoor wall lamp and bollard, with the story of how the PH collaboration began."
  },
  {
   "title": "Lys & inspiration (forbrugerbrochure 2002)",
@@ -3044,7 +3367,8 @@ const SOURCES = [
   "year": "2002",
   "type": "katalog",
   "language": "da",
-  "description": "24-siders forbrugerbrochure fra 2002 med PH-lamperne og øvrige Louis Poulsen-klassikere i boligmiljøer."
+  "description": "24-siders forbrugerbrochure fra 2002 med PH-lamperne og øvrige Louis Poulsen-klassikere i boligmiljøer.",
+  "description_en": "24-page consumer brochure from 2002 showing the PH lamps and other Louis Poulsen classics in home settings."
  },
  {
   "title": "Lys & inspiration 2 (brochure 11.2004)",
@@ -3053,7 +3377,8 @@ const SOURCES = [
   "year": "2004",
   "type": "katalog",
   "language": "da",
-  "description": "40-siders inspirationsbrochure fra 2004 med PH-lamper i hjem fotograferet af Thomas Loof."
+  "description": "40-siders inspirationsbrochure fra 2004 med PH-lamper i hjem fotograferet af Thomas Loof.",
+  "description_en": "40-page inspiration brochure from 2004 with PH lamps in homes photographed by Thomas Loof."
  },
  {
   "title": "Lys er ikke bare lys",
@@ -3062,7 +3387,8 @@ const SOURCES = [
   "year": "2002",
   "type": "katalog",
   "language": "da",
-  "description": "Kort brochure om Louis Poulsens lys med bl.a. PH 4½-4 Glas og andre PH-modeller."
+  "description": "Kort brochure om Louis Poulsens lys med bl.a. PH 4½-4 Glas og andre PH-modeller.",
+  "description_en": "Short brochure on Louis Poulsen lighting featuring, among others, the PH 4½-4 Glass and other PH models."
  },
  {
   "title": "PH 3/2 Akademi Pendel – katalogblad 2003",
@@ -3071,7 +3397,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk katalogblad fra Louis Poulsens online-katalog for den sjældne PH 3/2 Akademi pendel."
+  "description": "Dansk katalogblad fra Louis Poulsens online-katalog for den sjældne PH 3/2 Akademi pendel.",
+  "description_en": "Danish catalogue sheet from Louis Poulsen's online catalogue for the rare PH 3/2 Akademi pendant."
  },
  {
   "title": "PH 3/2 Pendel – katalogblad 2003",
@@ -3080,7 +3407,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk katalogblad for PH 3/2 pendel med materialer, mål og lyskilder."
+  "description": "Dansk katalogblad for PH 3/2 pendel med materialer, mål og lyskilder.",
+  "description_en": "Danish catalogue sheet for the PH 3/2 pendant with materials, dimensions and light sources."
  },
  {
   "title": "PH 2/1 Pendel – katalogblad 2003",
@@ -3089,7 +3417,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk katalogblad for PH 2/1 pendel fra Louis Poulsens katalog 2003."
+  "description": "Dansk katalogblad for PH 2/1 pendel fra Louis Poulsens katalog 2003.",
+  "description_en": "Danish catalogue sheet for the PH 2/1 pendant from Louis Poulsen's 2003 catalogue."
  },
  {
   "title": "PH 3/2 Bord – katalogblad 2003",
@@ -3098,7 +3427,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk katalogblad for PH 3/2 bordlampe."
+  "description": "Dansk katalogblad for PH 3/2 bordlampe.",
+  "description_en": "Danish catalogue sheet for the PH 3/2 table lamp."
  },
  {
   "title": "PH 80 Bord – katalogblad 2003",
@@ -3107,7 +3437,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk katalogblad for PH 80 bord-/gulvlampe i opal akryl."
+  "description": "Dansk katalogblad for PH 80 bord-/gulvlampe i opal akryl.",
+  "description_en": "Danish catalogue sheet for the PH 80 table/floor lamp in opal acrylic."
  },
  {
   "title": "PH 3½-2½ Gulv – katalogblad 2003",
@@ -3116,7 +3447,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk katalogblad for PH 3½-2½ gulvlampe."
+  "description": "Dansk katalogblad for PH 3½-2½ gulvlampe.",
+  "description_en": "Danish catalogue sheet for the PH 3½-2½ floor lamp."
  },
  {
   "title": "PH 2/1 Væg – katalogblad 2003",
@@ -3125,7 +3457,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk katalogblad for PH 2/1 væglampe."
+  "description": "Dansk katalogblad for PH 2/1 væglampe.",
+  "description_en": "Danish catalogue sheet for the PH 2/1 wall lamp."
  },
  {
   "title": "PH 3/2 Væg – katalogblad 2003",
@@ -3134,7 +3467,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk katalogblad for PH 3/2 væglampe."
+  "description": "Dansk katalogblad for PH 3/2 væglampe.",
+  "description_en": "Danish catalogue sheet for the PH 3/2 wall lamp."
  },
  {
   "title": "PH-Hat Væg – katalogblad 2003",
@@ -3143,7 +3477,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk katalogblad for PH-Hat væglampe med rosa inderside."
+  "description": "Dansk katalogblad for PH-Hat væglampe med rosa inderside.",
+  "description_en": "Danish catalogue sheet for the PH-Hat wall lamp with pink interior."
  },
  {
   "title": "PH Kotte (PH Kogle) – katalogblad 2003",
@@ -3152,7 +3487,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "sv",
-  "description": "Svensk katalogblad for PH Kogle/PH Kotte i hvid og kobber."
+  "description": "Svensk katalogblad for PH Kogle/PH Kotte i hvid og kobber.",
+  "description_en": "Swedish catalogue sheet for the PH Artichoke (PH Kotte) in white and copper."
  },
  {
   "title": "PH 5 Pendlar – katalogblad 2003",
@@ -3161,7 +3497,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "sv",
-  "description": "Svensk katalogblad for PH 5 pendel i hvid, blå og grå."
+  "description": "Svensk katalogblad for PH 5 pendel i hvid, blå og grå.",
+  "description_en": "Swedish catalogue sheet for the PH 5 pendant in white, blue and grey."
  },
  {
   "title": "PH 4½-4 Metall Pendlar – katalogblad 2003",
@@ -3170,7 +3507,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "sv",
-  "description": "Svensk katalogblad for PH 4½-4 metalpendel."
+  "description": "Svensk katalogblad for PH 4½-4 metalpendel.",
+  "description_en": "Swedish catalogue sheet for the PH 4½-4 metal pendant."
  },
  {
   "title": "PH 4½-3½ Bord – katalogblad 2003",
@@ -3179,7 +3517,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "sv",
-  "description": "Svensk katalogblad for PH 4½-3½ glasbordlampe."
+  "description": "Svensk katalogblad for PH 4½-3½ glasbordlampe.",
+  "description_en": "Swedish catalogue sheet for the PH 4½-3½ glass table lamp."
  },
  {
   "title": "PH Vägg (kobber) – katalogblad 2003",
@@ -3188,7 +3527,8 @@ const SOURCES = [
   "year": "2003",
   "type": "produktark",
   "language": "sv",
-  "description": "Svensk katalogblad for PH væglampe i poleret kobber med arm."
+  "description": "Svensk katalogblad for PH væglampe i poleret kobber med arm.",
+  "description_en": "Swedish catalogue sheet for the PH wall lamp in polished copper with arm."
  },
  {
   "title": "PH 2/1 Bord – specifikationsblad 2005",
@@ -3197,7 +3537,8 @@ const SOURCES = [
   "year": "2005",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk specifikationsblad for PH 2/1 bordlampe."
+  "description": "Dansk specifikationsblad for PH 2/1 bordlampe.",
+  "description_en": "Danish specification sheet for the PH 2/1 table lamp."
  },
  {
   "title": "PH 4/3 Bord – specifikationsblad 2005",
@@ -3206,7 +3547,8 @@ const SOURCES = [
   "year": "2005",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk specifikationsblad for PH 4/3 bordlampe."
+  "description": "Dansk specifikationsblad for PH 4/3 bordlampe.",
+  "description_en": "Danish specification sheet for the PH 4/3 table lamp."
  },
  {
   "title": "PH 2/1 Stammekrone – specifikationsblad 2005",
@@ -3215,7 +3557,8 @@ const SOURCES = [
   "year": "2005",
   "type": "produktark",
   "language": "da",
-  "description": "Dansk specifikationsblad for PH 2/1 Stammekrone (lysekrone)."
+  "description": "Dansk specifikationsblad for PH 2/1 Stammekrone (lysekrone).",
+  "description_en": "Danish specification sheet for the PH 2/1 Stem Fitting (chandelier)."
  },
  {
   "title": "PH 6 Mini / Maxi – specification sheet 2006",
@@ -3224,7 +3567,8 @@ const SOURCES = [
   "year": "2006",
   "type": "produktark",
   "language": "en",
-  "description": "Engelsk specifikationsblad for PH 6 Mini/Maxi (videreudvikling af PH-design ved Ebbe Christensen & Sophus Frandsen)."
+  "description": "Engelsk specifikationsblad for PH 6 Mini/Maxi (videreudvikling af PH-design ved Ebbe Christensen & Sophus Frandsen).",
+  "description_en": "English specification sheet for the PH 6 Mini/Maxi (a further development of PH design by Ebbe Christensen & Sophus Frandsen)."
  },
  {
   "title": "PH 4/3 Pendant – specification sheet 2006",
@@ -3233,7 +3577,8 @@ const SOURCES = [
   "year": "2006",
   "type": "produktark",
   "language": "en",
-  "description": "Engelsk specifikationsblad for PH 4/3 pendel."
+  "description": "Engelsk specifikationsblad for PH 4/3 pendel.",
+  "description_en": "English specification sheet for the PH 4/3 pendant."
  },
  {
   "title": "PH 4½-4 Glass Pendant – specification sheet 2006",
@@ -3242,7 +3587,8 @@ const SOURCES = [
   "year": "2006",
   "type": "produktark",
   "language": "en",
-  "description": "Engelsk specifikationsblad for PH 4½-4 glaspendel."
+  "description": "Engelsk specifikationsblad for PH 4½-4 glaspendel.",
+  "description_en": "English specification sheet for the PH 4½-4 glass pendant."
  },
  {
   "title": "PH Louvre – specification sheet 2006",
@@ -3251,7 +3597,8 @@ const SOURCES = [
   "year": "2006",
   "type": "produktark",
   "language": "en",
-  "description": "Engelsk specifikationsblad for PH Louvre (1957)."
+  "description": "Engelsk specifikationsblad for PH Louvre (1957).",
+  "description_en": "English specification sheet for the PH Louvre (1957)."
  },
  {
   "title": "PH Snowball – specification sheet 2006",
@@ -3260,7 +3607,8 @@ const SOURCES = [
   "year": "2006",
   "type": "produktark",
   "language": "en",
-  "description": "Engelsk specifikationsblad for PH Snowball med designhistorik."
+  "description": "Engelsk specifikationsblad for PH Snowball med designhistorik.",
+  "description_en": "English specification sheet for the PH Snowball with design history."
  },
  {
   "title": "PH 4½-3½ Glass Floor – specification sheet 2005",
@@ -3269,7 +3617,8 @@ const SOURCES = [
   "year": "2005",
   "type": "produktark",
   "language": "en",
-  "description": "Engelsk specifikationsblad for PH 4½-3½ glasgulvlampe."
+  "description": "Engelsk specifikationsblad for PH 4½-3½ glasgulvlampe.",
+  "description_en": "English specification sheet for the PH 4½-3½ glass floor lamp."
  },
  {
   "title": "LP Centrum (Kurt Nørregaard, Poul Henningsen) – specification sheet 2006",
@@ -3278,7 +3627,8 @@ const SOURCES = [
   "year": "2006",
   "type": "produktark",
   "language": "en",
-  "description": "Specifikationsblad for LP Centrum-pendlen krediteret Kurt Nørregaard og Poul Henningsen."
+  "description": "Specifikationsblad for LP Centrum-pendlen krediteret Kurt Nørregaard og Poul Henningsen.",
+  "description_en": "Specification sheet for the LP Centrum pendant, credited to Kurt Nørregaard and Poul Henningsen."
  },
  {
   "title": "PH Artichoke HID Copper – technical sheet (USA)",
@@ -3287,7 +3637,8 @@ const SOURCES = [
   "year": "2005",
   "type": "produktark",
   "language": "en",
-  "description": "Amerikansk teknisk datablad for PH Kogle i kobber med højtryks-udladningslampe (HID)."
+  "description": "Amerikansk teknisk datablad for PH Kogle i kobber med højtryks-udladningslampe (HID).",
+  "description_en": "US technical data sheet for the PH Artichoke in copper with a high-intensity discharge (HID) lamp."
  },
  {
   "title": "PH 2/1 Stammkrone – Broschüre",
@@ -3296,7 +3647,8 @@ const SOURCES = [
   "year": "2005",
   "type": "katalog",
   "language": "de",
-  "description": "Tysk 8-siders brochure om PH 2/1 Stammkrone."
+  "description": "Tysk 8-siders brochure om PH 2/1 Stammkrone.",
+  "description_en": "German 8-page brochure on the PH 2/1 Stammkrone."
  },
  {
   "title": "Louis Home 2011",
@@ -3305,7 +3657,8 @@ const SOURCES = [
   "year": "2011",
   "type": "katalog",
   "language": "en",
-  "description": "Louis Poulsens boligkatalog 2011 med omfattende præsentation af PH-lamperne."
+  "description": "Louis Poulsens boligkatalog 2011 med omfattende præsentation af PH-lamperne.",
+  "description_en": "Louis Poulsen's 2011 home catalogue with an extensive presentation of the PH lamps."
  },
  {
   "title": "Louis Home 2012",
@@ -3314,7 +3667,8 @@ const SOURCES = [
   "year": "2012",
   "type": "katalog",
   "language": "en",
-  "description": "84-siders boligmagasin/katalog 2012 med PH-lamper, reportager og produktoversigt."
+  "description": "84-siders boligmagasin/katalog 2012 med PH-lamper, reportager og produktoversigt.",
+  "description_en": "84-page home magazine/catalogue from 2012 with PH lamps, features and a product overview."
  },
  {
   "title": "Light at home 2010",
@@ -3323,7 +3677,8 @@ const SOURCES = [
   "year": "2010",
   "type": "katalog",
   "language": "en",
-  "description": "76-siders boligkatalog 2010 med PH-lamperne i private hjem."
+  "description": "76-siders boligkatalog 2010 med PH-lamperne i private hjem.",
+  "description_en": "76-page home catalogue from 2010 showing the PH lamps in private homes."
  },
  {
   "title": "Create atmosphere with pendants (US)",
@@ -3332,7 +3687,8 @@ const SOURCES = [
   "year": "2007",
   "type": "katalog",
   "language": "en",
-  "description": "Amerikansk brochure om store pendler til store rum, herunder PH Kogle og PH-pendler."
+  "description": "Amerikansk brochure om store pendler til store rum, herunder PH Kogle og PH-pendler.",
+  "description_en": "US brochure on large pendants for large spaces, including the PH Artichoke and PH pendants."
  },
  {
   "title": "Lighting Statements – PH Artichoke celebrates its 50th anniversary (US)",
@@ -3341,7 +3697,8 @@ const SOURCES = [
   "year": "2008",
   "type": "katalog",
   "language": "en",
-  "description": "Amerikansk magasin-brochure 2008 med tema om PH Kogle's 50-års jubilæum."
+  "description": "Amerikansk magasin-brochure 2008 med tema om PH Kogle's 50-års jubilæum.",
+  "description_en": "US magazine-style brochure from 2008 themed on the PH Artichoke's 50th anniversary."
  },
  {
   "title": "NYT 582 – The Louis Poulsen Magazine of Lighting and Architecture (US/AIA CES)",
@@ -3350,7 +3707,8 @@ const SOURCES = [
   "year": "2006",
   "type": "tidsskrift",
   "language": "en",
-  "description": "Amerikansk udgave af Louis Poulsens magasin NYT nr. 582 (2006), ellers ikke arkiveret."
+  "description": "Amerikansk udgave af Louis Poulsens magasin NYT nr. 582 (2006), ellers ikke arkiveret.",
+  "description_en": "US edition of Louis Poulsen's magazine NYT no. 582 (2006), not otherwise archived."
  },
  {
   "title": "Louis Poulsen revamps the PH glass lamp with new metal base – press release",
@@ -3359,7 +3717,8 @@ const SOURCES = [
   "year": "2017",
   "type": "artikel",
   "language": "en",
-  "description": "Pressemeddelelse 2017 om PH-glaslamper (PH 2/1, PH 3/2 m.fl.) med nye krom- og sortmetalstel."
+  "description": "Pressemeddelelse 2017 om PH-glaslamper (PH 2/1, PH 3/2 m.fl.) med nye krom- og sortmetalstel.",
+  "description_en": "2017 press release on PH glass lamps (PH 2/1, PH 3/2 and others) with new chrome and black metal frames."
  },
  {
   "title": "light 2014 – Louis Poulsen Japan produktkatalog",
@@ -3368,7 +3727,8 @@ const SOURCES = [
   "year": "2014",
   "type": "katalog",
   "language": "ja",
-  "description": "Japansk 136-siders produktkatalog 2014 med hele PH-programmet."
+  "description": "Japansk 136-siders produktkatalog 2014 med hele PH-programmet.",
+  "description_en": "Japanese 136-page product catalogue from 2014 with the full PH range."
  },
  {
   "title": "light 2015–2016 – Louis Poulsen Japan produktkatalog",
@@ -3377,7 +3737,8 @@ const SOURCES = [
   "year": "2015",
   "type": "katalog",
   "language": "ja",
-  "description": "Japansk 108-siders produktkatalog 2015-16 med PH-lamperne."
+  "description": "Japansk 108-siders produktkatalog 2015-16 med PH-lamperne.",
+  "description_en": "Japanese 108-page product catalogue from 2015–16 with the PH lamps."
  },
  {
   "title": "LIGHT 2017 – Louis Poulsen Japan produktkatalog",
@@ -3386,7 +3747,8 @@ const SOURCES = [
   "year": "2017",
   "type": "katalog",
   "language": "ja",
-  "description": "Japansk 106-siders produktkatalog 2017 med PH-lamperne."
+  "description": "Japansk 106-siders produktkatalog 2017 med PH-lamperne.",
+  "description_en": "Japanese 106-page product catalogue from 2017 with the PH lamps."
  },
  {
   "title": "PH Artichoke Gold – 50th anniversary (news)",
@@ -3395,7 +3757,8 @@ const SOURCES = [
   "year": "2008",
   "type": "hjemmeside",
   "language": "en",
-  "description": "Nyhed om PH Kogle's 50-års jubilæum med 50 eksemplarer med blade i 24 karat guld."
+  "description": "Nyhed om PH Kogle's 50-års jubilæum med 50 eksemplarer med blade i 24 karat guld.",
+  "description_en": "News item on the PH Artichoke's 50th anniversary, with 50 examples with leaves in 24-carat gold."
  },
  {
   "title": "Louis Poulsen Holding – Koncernen – Historie",
@@ -3404,7 +3767,8 @@ const SOURCES = [
   "year": "2001",
   "type": "hjemmeside",
   "language": "da",
-  "description": "Koncernens danske historietidslinje fra 2001 inkl. PH-samarbejdet fra 1924."
+  "description": "Koncernens danske historietidslinje fra 2001 inkl. PH-samarbejdet fra 1924.",
+  "description_en": "The group's Danish history timeline from 2001, including the PH collaboration from 1924."
  },
  {
   "title": "Louis Poulsen – Historie (2009-websitet)",
@@ -3413,7 +3777,8 @@ const SOURCES = [
   "year": "2009",
   "type": "hjemmeside",
   "language": "da",
-  "description": "Dansk historieside fra 2009 med tidslinje om Paris 1925, Forum 1926 og PH-lamperne."
+  "description": "Dansk historieside fra 2009 med tidslinje om Paris 1925, Forum 1926 og PH-lamperne.",
+  "description_en": "Danish history page from 2009 with a timeline covering Paris 1925, Forum 1926 and the PH lamps."
  },
  {
   "title": "Louis Poulsens belysningsfilosofi",
@@ -3422,7 +3787,8 @@ const SOURCES = [
   "year": "2015",
   "type": "hjemmeside",
   "language": "da",
-  "description": "Dansk side om Louis Poulsens belysningsfilosofi, der bygger på PH's principper."
+  "description": "Dansk side om Louis Poulsens belysningsfilosofi, der bygger på PH's principper.",
+  "description_en": "Danish page on Louis Poulsen's lighting philosophy, which builds on PH's principles."
  },
  {
   "title": "FCA-modellen (Funktion, Komfort, Atmosfære)",
@@ -3431,7 +3797,8 @@ const SOURCES = [
   "year": "2015",
   "type": "hjemmeside",
   "language": "da",
-  "description": "Dansk forklaring af Louis Poulsens FCA-model for godt lys, afledt af PH's lysteori."
+  "description": "Dansk forklaring af Louis Poulsens FCA-model for godt lys, afledt af PH's lysteori.",
+  "description_en": "Danish explanation of Louis Poulsen's FCA model for good light, derived from PH's theory of light."
  },
  {
   "title": "Design and Light Philosophy",
@@ -3440,7 +3807,8 @@ const SOURCES = [
   "year": "2019",
   "type": "hjemmeside",
   "language": "en",
-  "description": "Side om Louis Poulsens design- og lysfilosofi med udgangspunkt i PH's treskærmssystem."
+  "description": "Side om Louis Poulsens design- og lysfilosofi med udgangspunkt i PH's treskærmssystem.",
+  "description_en": "Page on Louis Poulsen's design and lighting philosophy, based on PH's three-shade system."
  },
  {
   "title": "PH Artichoke at Philadelphia Museum of Art – press release",
@@ -3449,7 +3817,8 @@ const SOURCES = [
   "year": "2015",
   "type": "artikel",
   "language": "en",
-  "description": "Pressemeddelelse om PH Kogle i Philadelphia Museum of Arts samling/udstilling."
+  "description": "Pressemeddelelse om PH Kogle i Philadelphia Museum of Arts samling/udstilling.",
+  "description_en": "Press release on the PH Artichoke in the Philadelphia Museum of Art's collection/exhibition."
  },
  {
   "title": "PH 3½-2½ Copper Floor – Limited edition (90 år for treskærmssystemet)",
@@ -3458,7 +3827,8 @@ const SOURCES = [
   "year": "2016",
   "type": "artikel",
   "language": "en",
-  "description": "Pressemeddelelse 2016 om kobber-gulvlampe lanceret til 90-året for PH's treskærmssystem."
+  "description": "Pressemeddelelse 2016 om kobber-gulvlampe lanceret til 90-året for PH's treskærmssystem.",
+  "description_en": "2016 press release on a copper floor lamp launched for the 90th anniversary of PH's three-shade system."
  },
  {
   "title": "PH 3½-3 Amber-coloured Pendant – Limited edition",
@@ -3467,7 +3837,8 @@ const SOURCES = [
   "year": "2017",
   "type": "artikel",
   "language": "en",
-  "description": "Pressemeddelelse 2017 om limited edition PH 3½-3 i ravfarvet glas (design fra 1926)."
+  "description": "Pressemeddelelse 2017 om limited edition PH 3½-3 i ravfarvet glas (design fra 1926).",
+  "description_en": "2017 press release on the limited edition PH 3½-3 in amber-coloured glass (design from 1926)."
  },
  {
   "title": "PH 3½-3 Pendant – PH's 120th birthday",
@@ -3476,7 +3847,8 @@ const SOURCES = [
   "year": "2014",
   "type": "artikel",
   "language": "en",
-  "description": "Pressemeddelelse om PH 3½-3 pendlen, lanceret til PH's 120-års fødselsdag på grundlag af originaltegninger."
+  "description": "Pressemeddelelse om PH 3½-3 pendlen, lanceret til PH's 120-års fødselsdag på grundlag af originaltegninger.",
+  "description_en": "Press release on the PH 3½-3 pendant, launched for PH's 120th birthday on the basis of the original drawings."
  },
  {
   "title": "Poul Henningsen – Official Website (poulhenningsen.dk)",
@@ -3485,7 +3857,8 @@ const SOURCES = [
   "year": "2005",
   "type": "hjemmeside",
   "language": "en",
-  "description": "Forside for Poul Henningsen A/S' officielle website (familieejet PH-møbelvirksomhed)."
+  "description": "Forside for Poul Henningsen A/S' officielle website (familieejet PH-møbelvirksomhed).",
+  "description_en": "Home page of Poul Henningsen A/S's official website (family-owned PH furniture company)."
  },
  {
   "title": "PH – Story of Life (poulhenningsen.dk)",
@@ -3494,7 +3867,8 @@ const SOURCES = [
   "year": "2007",
   "type": "artikel",
   "language": "en",
-  "description": "Livshistorie om Poul Henningsen fra Poul Henningsen A/S' officielle website."
+  "description": "Livshistorie om Poul Henningsen fra Poul Henningsen A/S' officielle website.",
+  "description_en": "Life story of Poul Henningsen from Poul Henningsen A/S's official website."
  },
  {
   "title": "Clarté 1926 nr. 3 – Poul Henningsen: Diskussion om Pristallet",
@@ -3503,7 +3877,8 @@ const SOURCES = [
   "year": "1926",
   "type": "tidsskrift",
   "language": "da",
-  "description": "KB's digitalisering af Clarté 1926 nr. 3 med indlæg af Poul Henningsen."
+  "description": "KB's digitalisering af Clarté 1926 nr. 3 med indlæg af Poul Henningsen.",
+  "description_en": "Det Kgl. Bibliotek's digitisation of Clarté 1926 no. 3 with a contribution by Poul Henningsen."
  },
  {
   "title": "PH Septima – Reflections",
@@ -3513,7 +3888,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "en",
   "description": "Louis Poulsens artikel om PH Septima, Poul Henningsens syvskærmede glaspendel fra 1927–31, og genudgivelsen i 2020.",
-  "img": "thumbs/10541daad3b7.jpg"
+  "img": "thumbs/10541daad3b7.jpg",
+  "description_en": "Louis Poulsen's article on the PH Septima, Poul Henningsen's seven-shade glass pendant from 1927–31, and its re-release in 2020."
  },
  {
   "title": "PH Septima – Designet af Poul Henningsen",
@@ -3523,7 +3899,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "da",
   "description": "Dansk udgave af Louis Poulsens fortælling om PH Septima med syv skærme i klart glas med riller og historikken bag modellen.",
-  "img": "thumbs/8e81b0d0e703.jpg"
+  "img": "thumbs/8e81b0d0e703.jpg",
+  "description_en": "Danish version of Louis Poulsen's story of the PH Septima, with seven shades in clear ribbed glass and the history behind the model."
  },
  {
   "title": "PH Septima – presse (dansk)",
@@ -3532,7 +3909,8 @@ const SOURCES = [
   "year": 2020,
   "type": "hjemmeside",
   "language": "da",
-  "description": "Louis Poulsens danske pressemeddelelse om relanceringen af PH Septima, baseret på den oprindelige PH Septima 5."
+  "description": "Louis Poulsens danske pressemeddelelse om relanceringen af PH Septima, baseret på den oprindelige PH Septima 5.",
+  "description_en": "Louis Poulsen's Danish press release on the relaunch of the PH Septima, based on the original PH Septima 5."
  },
  {
   "title": "PH Septima – produktside",
@@ -3542,7 +3920,8 @@ const SOURCES = [
   "type": "produktark",
   "language": "en",
   "description": "Aktuel officiel produktside for PH Septima pendel med specifikationer, mål og designbeskrivelse.",
-  "img": "thumbs/f14daf7eab23.jpg"
+  "img": "thumbs/f14daf7eab23.jpg",
+  "description_en": "Current official product page for the PH Septima pendant with specifications, dimensions and design description."
  },
  {
   "title": "PH Septima – featured (2020)",
@@ -3551,7 +3930,8 @@ const SOURCES = [
   "year": 2020,
   "type": "hjemmeside",
   "language": "en",
-  "description": "Wayback-arkiveret lanceringsside fra 2020, hvor Louis Poulsen præsenterede genudgivelsen af PH Septima."
+  "description": "Wayback-arkiveret lanceringsside fra 2020, hvor Louis Poulsen præsenterede genudgivelsen af PH Septima.",
+  "description_en": "Wayback-archived launch page from 2020, in which Louis Poulsen presented the re-release of the PH Septima."
  },
  {
   "title": "PH Septima – katalogside (2021)",
@@ -3560,7 +3940,8 @@ const SOURCES = [
   "year": 2021,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret produktkatalogside for PH Septima fra 2021 med tekniske data og varianter."
+  "description": "Arkiveret produktkatalogside for PH Septima fra 2021 med tekniske data og varianter.",
+  "description_en": "Archived product catalogue page for the PH Septima from 2021 with technical data and variants."
  },
  {
   "title": "PH Septima – professional news",
@@ -3569,7 +3950,8 @@ const SOURCES = [
   "year": 2021,
   "type": "hjemmeside",
   "language": "en",
-  "description": "Arkiveret nyhed til fagfolk om PH Septima og dens designhistorie fra 1927–31."
+  "description": "Arkiveret nyhed til fagfolk om PH Septima og dens designhistorie fra 1927–31.",
+  "description_en": "Archived trade news item on the PH Septima and its design history from 1927–31."
  },
  {
   "title": "PH Septima – guides & inspiration (US)",
@@ -3578,7 +3960,8 @@ const SOURCES = [
   "year": 2025,
   "type": "hjemmeside",
   "language": "en",
-  "description": "Arkiveret amerikansk inspirationsartikel fra Louis Poulsen om PH Septima."
+  "description": "Arkiveret amerikansk inspirationsartikel fra Louis Poulsen om PH Septima.",
+  "description_en": "Archived US inspiration article from Louis Poulsen on the PH Septima."
  },
  {
   "title": "PH 2/2 Question Mark Limited Edition – press",
@@ -3587,7 +3970,8 @@ const SOURCES = [
   "year": 2021,
   "type": "hjemmeside",
   "language": "en",
-  "description": "Pressemeddelelse om genudgivelsen af PH 2/2 Spørgsmålstegnet (Question Mark), bordlampen med justerbar spørgsmålstegnformet stang fra 1931."
+  "description": "Pressemeddelelse om genudgivelsen af PH 2/2 Spørgsmålstegnet (Question Mark), bordlampen med justerbar spørgsmålstegnformet stang fra 1931.",
+  "description_en": "Press release on the re-release of the PH 2/2 The Question Mark, the table lamp from 1931 with an adjustable question-mark-shaped stem."
  },
  {
   "title": "PH 2/2 Question Mark – presse (dansk)",
@@ -3596,7 +3980,8 @@ const SOURCES = [
   "year": 2021,
   "type": "hjemmeside",
   "language": "da",
-  "description": "Dansk pressemeddelelse om limited edition af PH 2/2 Spørgsmålstegnet fra Louis Poulsen."
+  "description": "Dansk pressemeddelelse om limited edition af PH 2/2 Spørgsmålstegnet fra Louis Poulsen.",
+  "description_en": "Danish press release on Louis Poulsen's limited edition of the PH 2/2 The Question Mark."
  },
  {
   "title": "PH 2/2 The Question Mark – katalogside (2021)",
@@ -3605,7 +3990,8 @@ const SOURCES = [
   "year": 2021,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret produktside for PH 2/2 Spørgsmålstegnet (The Question Mark) med specifikationer fra relanceringen i 2021."
+  "description": "Arkiveret produktside for PH 2/2 Spørgsmålstegnet (The Question Mark) med specifikationer fra relanceringen i 2021.",
+  "description_en": "Archived product page for the PH 2/2 The Question Mark with specifications from the 2021 relaunch."
  },
  {
   "title": "PH 2/2 The Question Mark – professional news (US)",
@@ -3614,7 +4000,8 @@ const SOURCES = [
   "year": 2021,
   "type": "hjemmeside",
   "language": "en",
-  "description": "Arkiveret nyhed til fagfolk om PH 2/2 Spørgsmålstegnet limited edition."
+  "description": "Arkiveret nyhed til fagfolk om PH 2/2 Spørgsmålstegnet limited edition.",
+  "description_en": "Archived trade news item on the PH 2/2 The Question Mark limited edition."
  },
  {
   "title": "PH 2/2 Question Mark Chrome – cut sheet",
@@ -3623,7 +4010,8 @@ const SOURCES = [
   "year": 2024,
   "type": "produktark",
   "language": "en",
-  "description": "Teknisk datablad (cut sheet) for PH 2/2 Spørgsmålstegnet i krom, varenr. 91880."
+  "description": "Teknisk datablad (cut sheet) for PH 2/2 Spørgsmålstegnet i krom, varenr. 91880.",
+  "description_en": "Technical data sheet (cut sheet) for the PH 2/2 The Question Mark in chrome, item no. 91880."
  },
  {
   "title": "PH 2/2 Table Q-Mark Chrome – monteringsvejledning",
@@ -3632,7 +4020,8 @@ const SOURCES = [
   "year": 2024,
   "type": "produktark",
   "language": "en",
-  "description": "Officiel monteringsvejledning for PH 2/2 Spørgsmålstegnet bordlampe i krom (US-udgave)."
+  "description": "Officiel monteringsvejledning for PH 2/2 Spørgsmålstegnet bordlampe i krom (US-udgave).",
+  "description_en": "Official mounting instructions for the PH 2/2 The Question Mark table lamp in chrome (US edition)."
  },
  {
   "title": "PH 2/2 Question Mark Pale Rose – produktside",
@@ -3642,7 +4031,8 @@ const SOURCES = [
   "type": "produktark",
   "language": "en",
   "description": "Aktuel produktside for PH 2/2 Spørgsmålstegnet i Pale Rose-udgaven.",
-  "img": "thumbs/66000ad427fd.jpg"
+  "img": "thumbs/66000ad427fd.jpg",
+  "description_en": "Current product page for the PH 2/2 The Question Mark in the Pale Rose edition."
  },
  {
   "title": "PH Snowball in New Colours – press",
@@ -3651,7 +4041,8 @@ const SOURCES = [
   "year": 2025,
   "type": "hjemmeside",
   "language": "en",
-  "description": "Pressemeddelelse om PH Snebold (PH Snowball) i nye farver 2025, med historik om modellen fra 1958."
+  "description": "Pressemeddelelse om PH Snebold (PH Snowball) i nye farver 2025, med historik om modellen fra 1958.",
+  "description_en": "Press release on the PH Snowball in new colours (2025), with the history of the model from 1958."
  },
  {
   "title": "PH Snowball Anniversary Edition – produktside",
@@ -3661,7 +4052,8 @@ const SOURCES = [
   "type": "produktark",
   "language": "en",
   "description": "Produktside for jubilæumsudgaven af PH Snebold (PH Snowball) til Louis Poulsens 150-års jubilæum i 2024.",
-  "img": "thumbs/fe13a84c5d92.jpg"
+  "img": "thumbs/fe13a84c5d92.jpg",
+  "description_en": "Product page for the anniversary edition of the PH Snowball for Louis Poulsen's 150th anniversary in 2024."
  },
  {
   "title": "PH Snowball – produktside (2007)",
@@ -3670,7 +4062,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "en",
-  "description": "Wayback-arkiveret amerikansk produktside fra 2007 for PH Snebold (PH Snowball) pendel."
+  "description": "Wayback-arkiveret amerikansk produktside fra 2007 for PH Snebold (PH Snowball) pendel.",
+  "description_en": "Wayback-archived US product page from 2007 for the PH Snowball pendant."
  },
  {
   "title": "PH Snowball – produktside (2008)",
@@ -3679,7 +4072,8 @@ const SOURCES = [
   "year": 2008,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret international produktside for PH Snebold (PH Snowball) fra 2008."
+  "description": "Arkiveret international produktside for PH Snebold (PH Snowball) fra 2008.",
+  "description_en": "Archived international product page for the PH Snowball from 2008."
  },
  {
   "title": "PH Snowball – produktside (dansk, 2012)",
@@ -3688,7 +4082,8 @@ const SOURCES = [
   "year": 2012,
   "type": "produktark",
   "language": "da",
-  "description": "Arkiveret dansk produktside fra 2012 for PH Snebold (PH Snowball)."
+  "description": "Arkiveret dansk produktside fra 2012 for PH Snebold (PH Snowball).",
+  "description_en": "Archived Danish product page from 2012 for the PH Snowball."
  },
  {
   "title": "PH Snowball – produktside (2015)",
@@ -3697,7 +4092,8 @@ const SOURCES = [
   "year": 2015,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret produktside fra 2015 for PH Snebold (PH Snowball) med lysfordeling og tekniske data."
+  "description": "Arkiveret produktside fra 2015 for PH Snebold (PH Snowball) med lysfordeling og tekniske data.",
+  "description_en": "Archived product page from 2015 for the PH Snowball with light distribution and technical data."
  },
  {
   "title": "PH Snowball – katalogside (2019)",
@@ -3706,7 +4102,8 @@ const SOURCES = [
   "year": 2019,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret katalogside fra 2019 for PH Snebold (PH Snowball) pendel."
+  "description": "Arkiveret katalogside fra 2019 for PH Snebold (PH Snowball) pendel.",
+  "description_en": "Archived catalogue page from 2019 for the PH Snowball pendant."
  },
  {
   "title": "PH Snowball-90295 – produktark PDF",
@@ -3715,7 +4112,8 @@ const SOURCES = [
   "year": 2024,
   "type": "produktark",
   "language": "en",
-  "description": "Officielt produktark (PDF) for PH Snebold (PH Snowball), varenr. 90295."
+  "description": "Officielt produktark (PDF) for PH Snebold (PH Snowball), varenr. 90295.",
+  "description_en": "Official product sheet (PDF) for the PH Snowball, item no. 90295."
  },
  {
   "title": "PH Snowball – cut sheet",
@@ -3724,7 +4122,8 @@ const SOURCES = [
   "year": 2025,
   "type": "produktark",
   "language": "en",
-  "description": "Teknisk cut sheet for PH Snebold (PH Snowball) 90295."
+  "description": "Teknisk cut sheet for PH Snebold (PH Snowball) 90295.",
+  "description_en": "Technical cut sheet for the PH Snowball 90295."
  },
  {
   "title": "PH Kuglelamel – produktblad (dansk, 2007)",
@@ -3733,7 +4132,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH Kuglelamel – det danske navn for PH Snebold (PH Snowball) – med otte skærme og specifikationer."
+  "description": "Dansk produktblad for PH Kuglelamel – det danske navn for PH Snebold (PH Snowball) – med otte skærme og specifikationer.",
+  "description_en": "Danish product sheet for PH Kuglelamel – the Danish name for the PH Snowball – with eight shades and specifications."
  },
  {
   "title": "PH Kuglelamel – monteringsvejledning (2007)",
@@ -3742,7 +4142,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Monteringsvejledning for PH Kuglelamel / PH Snebold (PH Snowball), varenr. 90295."
+  "description": "Monteringsvejledning for PH Kuglelamel / PH Snebold (PH Snowball), varenr. 90295.",
+  "description_en": "Mounting instructions for the PH Kuglelamel / PH Snowball, item no. 90295."
  },
  {
   "title": "PH Louvre – produktside (dansk, 2007)",
@@ -3751,7 +4152,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Arkiveret dansk produktside fra 2007 for PH Louvre (PH Kugle) pendel fra 1957."
+  "description": "Arkiveret dansk produktside fra 2007 for PH Louvre (PH Kugle) pendel fra 1957.",
+  "description_en": "Archived Danish product page from 2007 for the PH Louvre (sold in Denmark as PH Kugle) pendant from 1957."
  },
  {
   "title": "PH Louvre – produktside (2008)",
@@ -3760,7 +4162,8 @@ const SOURCES = [
   "year": 2008,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret international produktside fra 2008 for PH Louvre."
+  "description": "Arkiveret international produktside fra 2008 for PH Louvre.",
+  "description_en": "Archived international product page from 2008 for the PH Louvre."
  },
  {
   "title": "PH Louvre – produktside (2015)",
@@ -3769,7 +4172,8 @@ const SOURCES = [
   "year": 2015,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret produktside fra 2015 for PH Louvre med beskrivelse af de 13 lameller og lyskarakteristik."
+  "description": "Arkiveret produktside fra 2015 for PH Louvre med beskrivelse af de 13 lameller og lyskarakteristik.",
+  "description_en": "Archived product page from 2015 for the PH Louvre, describing the 13 louvres and the light characteristics."
  },
  {
   "title": "PH Louvre – katalogside (2023)",
@@ -3778,7 +4182,8 @@ const SOURCES = [
   "year": 2023,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret katalogside fra 2023 for PH Louvre pendel."
+  "description": "Arkiveret katalogside fra 2023 for PH Louvre pendel.",
+  "description_en": "Archived catalogue page from 2023 for the PH Louvre pendant."
  },
  {
   "title": "PH Louvre-90294 – produktark PDF",
@@ -3787,7 +4192,8 @@ const SOURCES = [
   "year": 2024,
   "type": "produktark",
   "language": "en",
-  "description": "Officielt produktark (PDF) for PH Louvre, varenr. 90294."
+  "description": "Officielt produktark (PDF) for PH Louvre, varenr. 90294.",
+  "description_en": "Official product sheet (PDF) for the PH Louvre, item no. 90294."
  },
  {
   "title": "PH Louvre LED upgrade kit",
@@ -3796,7 +4202,8 @@ const SOURCES = [
   "year": 2025,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret side om LED-opgraderingssæt til PH Louvre."
+  "description": "Arkiveret side om LED-opgraderingssæt til PH Louvre.",
+  "description_en": "Archived page on the LED upgrade kit for the PH Louvre."
  },
  {
   "title": "PH Kugle – produktblad (dansk, 2007)",
@@ -3805,7 +4212,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH Kugle – det danske navn for PH Louvre – med 13 koniske skærme og specifikationer."
+  "description": "Dansk produktblad for PH Kugle – det danske navn for PH Louvre – med 13 koniske skærme og specifikationer.",
+  "description_en": "Danish product sheet for the PH Louvre (sold in Denmark as PH Kugle), with 13 conical shades and specifications."
  },
  {
   "title": "PH 80 – katalogside (2020)",
@@ -3814,7 +4222,8 @@ const SOURCES = [
   "year": 2020,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret katalogside fra 2020 for PH 80 gulvlampe (1974) med akrylskærme."
+  "description": "Arkiveret katalogside fra 2020 for PH 80 gulvlampe (1974) med akrylskærme.",
+  "description_en": "Archived catalogue page from 2020 for the PH 80 floor lamp (1974) with acrylic shades."
  },
  {
   "title": "PH 80 – katalogside (dansk, 2020)",
@@ -3823,7 +4232,8 @@ const SOURCES = [
   "year": 2020,
   "type": "produktark",
   "language": "da",
-  "description": "Arkiveret dansk katalogside for PH 80 gulvlampe."
+  "description": "Arkiveret dansk katalogside for PH 80 gulvlampe.",
+  "description_en": "Archived Danish catalogue page for the PH 80 floor lamp."
  },
  {
   "title": "PH 80 Table Lamp – produktside",
@@ -3833,7 +4243,8 @@ const SOURCES = [
   "type": "produktark",
   "language": "en",
   "description": "Aktuel produktside for PH 80 bordlampe, den nyere bordudgave af PH 80.",
-  "img": "thumbs/e9e9cdb759b3.jpg"
+  "img": "thumbs/e9e9cdb759b3.jpg",
+  "description_en": "Current product page for the PH 80 table lamp, the newer table version of the PH 80."
  },
  {
   "title": "PH 80 Portable Lamp – produktside",
@@ -3843,7 +4254,8 @@ const SOURCES = [
   "type": "produktark",
   "language": "en",
   "description": "Aktuel produktside for den genopladelige PH 80 Portable.",
-  "img": "thumbs/15ac73160344.jpg"
+  "img": "thumbs/15ac73160344.jpg",
+  "description_en": "Current product page for the rechargeable PH 80 Portable."
  },
  {
   "title": "PH 80 – monteringsvejledning (JP)",
@@ -3852,7 +4264,8 @@ const SOURCES = [
   "year": 2025,
   "type": "produktark",
   "language": "ja",
-  "description": "Officiel japansk monteringsvejledning for PH 80."
+  "description": "Officiel japansk monteringsvejledning for PH 80.",
+  "description_en": "Official Japanese mounting instructions for the PH 80."
  },
  {
   "title": "PH 80 Gulv – produktblad (dansk, 2007)",
@@ -3861,7 +4274,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH 80 Gulv med akrylskærme og tekniske specifikationer."
+  "description": "Dansk produktblad for PH 80 Gulv med akrylskærme og tekniske specifikationer.",
+  "description_en": "Danish product sheet for the PH 80 Floor with acrylic shades and technical specifications."
  },
  {
   "title": "PH Hat – produktside (2016)",
@@ -3870,7 +4284,8 @@ const SOURCES = [
   "year": 2016,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret produktside fra 2016 for PH Hat (P-Hat) væglampe."
+  "description": "Arkiveret produktside fra 2016 for PH Hat (P-Hat) væglampe.",
+  "description_en": "Archived product page from 2016 for the PH Hat (P-Hat) wall lamp."
  },
  {
   "title": "PH Hat – produktside (dansk, 2017)",
@@ -3879,7 +4294,8 @@ const SOURCES = [
   "year": 2017,
   "type": "produktark",
   "language": "da",
-  "description": "Arkiveret dansk produktside fra 2017 for PH Hat væglampe."
+  "description": "Arkiveret dansk produktside fra 2017 for PH Hat væglampe.",
+  "description_en": "Archived Danish product page from 2017 for the PH Hat wall lamp."
  },
  {
   "title": "PH Hat – katalogside (2023)",
@@ -3888,7 +4304,8 @@ const SOURCES = [
   "year": 2023,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret katalogside fra 2023 for PH Hat væglampe."
+  "description": "Arkiveret katalogside fra 2023 for PH Hat væglampe.",
+  "description_en": "Archived catalogue page from 2023 for the PH Hat wall lamp."
  },
  {
   "title": "PH Hat – monteringsvejledning (JP)",
@@ -3897,7 +4314,8 @@ const SOURCES = [
   "year": 2025,
   "type": "produktark",
   "language": "ja",
-  "description": "Officiel japansk monteringsvejledning for PH Hat."
+  "description": "Officiel japansk monteringsvejledning for PH Hat.",
+  "description_en": "Official Japanese mounting instructions for the PH Hat."
  },
  {
   "title": "P-Hat – produktblad (dansk, 2007)",
@@ -3906,7 +4324,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for P-Hat / PH Hat væglampe, hvor skærmen kan vippes 0–67°."
+  "description": "Dansk produktblad for P-Hat / PH Hat væglampe, hvor skærmen kan vippes 0–67°.",
+  "description_en": "Danish product sheet for the P-Hat / PH Hat wall lamp, whose shade can be tilted 0–67°."
  },
  {
   "title": "PH 2/1 Table Limited Edition – press",
@@ -3915,7 +4334,8 @@ const SOURCES = [
   "year": 2020,
   "type": "hjemmeside",
   "language": "en",
-  "description": "Pressemeddelelse om PH 2/1 bordlampe i ravfarvet glas (2020) med historik om PH 2/1 fra 1927."
+  "description": "Pressemeddelelse om PH 2/1 bordlampe i ravfarvet glas (2020) med historik om PH 2/1 fra 1927.",
+  "description_en": "Press release on the PH 2/1 table lamp in amber-coloured glass (2020), with the history of the PH 2/1 from 1927."
  },
  {
   "title": "PH 2/1 Limited Edition by Esben Weile",
@@ -3925,7 +4345,8 @@ const SOURCES = [
   "type": "hjemmeside",
   "language": "en",
   "description": "Louis Poulsen-artikel om kunstneren Esben Weiles limited edition af PH 2/1 bordlampen.",
-  "img": "thumbs/8d4ea9c61cfe.jpg"
+  "img": "thumbs/8d4ea9c61cfe.jpg",
+  "description_en": "Louis Poulsen article on artist Esben Weile's limited edition of the PH 2/1 table lamp."
  },
  {
   "title": "PH 2/1 Pendant – produktside (2010)",
@@ -3934,7 +4355,8 @@ const SOURCES = [
   "year": 2010,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret produktside fra 2010 for PH 2/1 pendel."
+  "description": "Arkiveret produktside fra 2010 for PH 2/1 pendel.",
+  "description_en": "Archived product page from 2010 for the PH 2/1 pendant."
  },
  {
   "title": "PH 2/1 Stem Fitting – produktside (dansk, 2007)",
@@ -3943,7 +4365,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Arkiveret produktside fra 2007 for PH 2/1 Stammekrone."
+  "description": "Arkiveret produktside fra 2007 for PH 2/1 Stammekrone.",
+  "description_en": "Archived product page from 2007 for the PH 2/1 Stem Fitting."
  },
  {
   "title": "PH 2/1 Wall – produktside (2009)",
@@ -3952,7 +4375,8 @@ const SOURCES = [
   "year": 2009,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret produktside fra 2009 for PH 2/1 væglampe."
+  "description": "Arkiveret produktside fra 2009 for PH 2/1 væglampe.",
+  "description_en": "Archived product page from 2009 for the PH 2/1 wall lamp."
  },
  {
   "title": "PH 2/1 Pendant – produktside (2015)",
@@ -3961,7 +4385,8 @@ const SOURCES = [
   "year": 2015,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret produktside fra 2015 for PH 2/1 pendel."
+  "description": "Arkiveret produktside fra 2015 for PH 2/1 pendel.",
+  "description_en": "Archived product page from 2015 for the PH 2/1 pendant."
  },
  {
   "title": "PH 2/1 Table-91418 – produktark PDF",
@@ -3970,7 +4395,8 @@ const SOURCES = [
   "year": 2024,
   "type": "produktark",
   "language": "en",
-  "description": "Officielt produktark (PDF) for PH 2/1 bordlampe, varenr. 91418."
+  "description": "Officielt produktark (PDF) for PH 2/1 bordlampe, varenr. 91418.",
+  "description_en": "Official product sheet (PDF) for the PH 2/1 table lamp, item no. 91418."
  },
  {
   "title": "PH 2/1 Pendel – produktblad (dansk, 2007)",
@@ -3979,7 +4405,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH 2/1 Pendel i mundblæst opalglas."
+  "description": "Dansk produktblad for PH 2/1 Pendel i mundblæst opalglas.",
+  "description_en": "Danish product sheet for the PH 2/1 Pendant in mouth-blown opal glass."
  },
  {
   "title": "PH 2/1 Pale Rose Brass Table Lamp – produktside",
@@ -3989,7 +4416,8 @@ const SOURCES = [
   "type": "produktark",
   "language": "en",
   "description": "Aktuel produktside for PH 2/1 bordlampe i Pale Rose med messing.",
-  "img": "thumbs/6a7ffafff7ac.jpg"
+  "img": "thumbs/6a7ffafff7ac.jpg",
+  "description_en": "Current product page for the PH 2/1 table lamp in Pale Rose with brass."
  },
  {
   "title": "PH 3/2 Table Lamp – Limited Edition (press)",
@@ -3998,7 +4426,8 @@ const SOURCES = [
   "year": 2018,
   "type": "hjemmeside",
   "language": "en",
-  "description": "Pressemeddelelse om PH 3/2 bordlampe i ravfarvet italiensk glas (2018) med historik om PH 3/2 fra 1927 og farvede glas i 1920erne."
+  "description": "Pressemeddelelse om PH 3/2 bordlampe i ravfarvet italiensk glas (2018) med historik om PH 3/2 fra 1927 og farvede glas i 1920erne.",
+  "description_en": "Press release on the PH 3/2 table lamp in amber-coloured Italian glass (2018), with the history of the PH 3/2 from 1927 and coloured glass in the 1920s."
  },
  {
   "title": "PH 3½-2½ Floor Lamp Centenary Edition",
@@ -4008,7 +4437,8 @@ const SOURCES = [
   "type": "produktark",
   "language": "en",
   "description": "Produktside for jubilæumsudgaven af PH 3½-2½ (PH 3/2) gulvlampe.",
-  "img": "thumbs/92db73fd107d.jpg"
+  "img": "thumbs/92db73fd107d.jpg",
+  "description_en": "Product page for the anniversary edition of the PH 3½-2½ (PH 3/2) floor lamp."
  },
  {
   "title": "PH 3/2 Pendel – produktblad (dansk, 2007)",
@@ -4017,7 +4447,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH 3/2 Pendel med logaritmisk spiral-skærmsystem i trelags opalglas."
+  "description": "Dansk produktblad for PH 3/2 Pendel med logaritmisk spiral-skærmsystem i trelags opalglas.",
+  "description_en": "Danish product sheet for the PH 3/2 Pendant with its logarithmic-spiral shade system in three-layer opal glass."
  },
  {
   "title": "PH 3/2 Bord – produktblad (dansk, 2007)",
@@ -4026,7 +4457,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH 3/2 Bord i opalglas."
+  "description": "Dansk produktblad for PH 3/2 Bord i opalglas.",
+  "description_en": "Danish product sheet for the PH 3/2 Table in opal glass."
  },
  {
   "title": "PH 3/2 Akademi – produktblad (dansk, 2007)",
@@ -4035,7 +4467,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH 3/2 Akademi pendel med tre lyskilder."
+  "description": "Dansk produktblad for PH 3/2 Akademi pendel med tre lyskilder.",
+  "description_en": "Danish product sheet for the PH 3/2 Akademi pendant with three light sources."
  },
  {
   "title": "PH 3½-2½ Gulv – produktblad (dansk, 2007)",
@@ -4044,7 +4477,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH 3½-2½ (PH 3/2) gulvlampe."
+  "description": "Dansk produktblad for PH 3½-2½ (PH 3/2) gulvlampe.",
+  "description_en": "Danish product sheet for the PH 3½-2½ (PH 3/2) floor lamp."
  },
  {
   "title": "PH 3/2 (OK-1964-0101B)",
@@ -4054,7 +4488,8 @@ const SOURCES = [
   "type": "museum",
   "language": "no",
   "description": "Museumspost for en PH 3/2-lampe fra 1927 i Nasjonalmuseets samling (Stiftelsen Kunstindustrimuseet).",
-  "img": "thumbs/5e42f0375750.jpg"
+  "img": "thumbs/5e42f0375750.jpg",
+  "description_en": "Museum record for a PH 3/2 lamp from 1927 in the Nasjonalmuseet collection (Stiftelsen Kunstindustrimuseet)."
  },
  {
   "title": "PH 3/2 (OK-1964-0101C)",
@@ -4064,7 +4499,8 @@ const SOURCES = [
   "type": "museum",
   "language": "no",
   "description": "Museumspost for en PH 3/2-lampe, ca. 1930 (design 1927), i Nasjonalmuseets samling.",
-  "img": "thumbs/e07f668ba0cd.jpg"
+  "img": "thumbs/e07f668ba0cd.jpg",
+  "description_en": "Museum record for a PH 3/2 lamp, c. 1930 (design 1927), in the Nasjonalmuseet collection."
  },
  {
   "title": "PH 4/3 Pendant – produktside (2015)",
@@ -4073,7 +4509,8 @@ const SOURCES = [
   "year": 2015,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret produktside fra 2015 for PH 4/3 pendel."
+  "description": "Arkiveret produktside fra 2015 for PH 4/3 pendel.",
+  "description_en": "Archived product page from 2015 for the PH 4/3 pendant."
  },
  {
   "title": "PH 4/3 Table – produktside (2016)",
@@ -4082,7 +4519,8 @@ const SOURCES = [
   "year": 2016,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret produktside fra 2016 for PH 4/3 bordlampe."
+  "description": "Arkiveret produktside fra 2016 for PH 4/3 bordlampe.",
+  "description_en": "Archived product page from 2016 for the PH 4/3 table lamp."
  },
  {
   "title": "PH 4/3 Glass Floor – produktside (2016)",
@@ -4091,7 +4529,8 @@ const SOURCES = [
   "year": 2016,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret produktside fra 2016 for PH 4½-3½ (PH 4/3) glas gulvlampe."
+  "description": "Arkiveret produktside fra 2016 for PH 4½-3½ (PH 4/3) glas gulvlampe.",
+  "description_en": "Archived product page from 2016 for the PH 4½-3½ (PH 4/3) glass floor lamp."
  },
  {
   "title": "PH 4/3 Table – katalogside (US, 2019)",
@@ -4100,7 +4539,8 @@ const SOURCES = [
   "year": 2019,
   "type": "produktark",
   "language": "en",
-  "description": "Arkiveret amerikansk katalogside fra 2019 for PH 4/3 bordlampe."
+  "description": "Arkiveret amerikansk katalogside fra 2019 for PH 4/3 bordlampe.",
+  "description_en": "Archived US catalogue page from 2019 for the PH 4/3 table lamp."
  },
  {
   "title": "PH 4/3 Pendel – produktblad (dansk, 2007)",
@@ -4109,7 +4549,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH 4/3 Pendel."
+  "description": "Dansk produktblad for PH 4/3 Pendel.",
+  "description_en": "Danish product sheet for the PH 4/3 Pendant."
  },
  {
   "title": "PH 4½-4 Glas Pendel – produktblad (dansk, 2007)",
@@ -4118,7 +4559,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH 4½-4 Glas Pendel (PH 4/4-familien) i opalglas."
+  "description": "Dansk produktblad for PH 4½-4 Glas Pendel (PH 4/4-familien) i opalglas.",
+  "description_en": "Danish product sheet for the PH 4½-4 Glass Pendant (PH 4/4 family) in opal glass."
  },
  {
   "title": "PH 4½-3½ Glas Bord – produktblad (dansk, 2007)",
@@ -4127,7 +4569,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH 4½-3½ (PH 4/3) Glas Bord."
+  "description": "Dansk produktblad for PH 4½-3½ (PH 4/3) Glas Bord.",
+  "description_en": "Danish product sheet for the PH 4½-3½ (PH 4/3) Glass Table."
  },
  {
   "title": "PH 4½-3½ Glas Gulv – produktblad (dansk, 2007)",
@@ -4136,7 +4579,8 @@ const SOURCES = [
   "year": 2007,
   "type": "produktark",
   "language": "da",
-  "description": "Dansk produktblad for PH 4½-3½ (PH 4/3) Glas Gulv."
+  "description": "Dansk produktblad for PH 4½-3½ (PH 4/3) Glas Gulv.",
+  "description_en": "Danish product sheet for the PH 4½-3½ (PH 4/3) Glass Floor."
  },
  {
   "title": "PH 4/3 Table Lamp, ca. 1927 (Cooper Hewitt 404536637)",
@@ -4145,7 +4589,8 @@ const SOURCES = [
   "year": 1927,
   "type": "museum",
   "language": "en",
-  "description": "Arkiveret museumspost for en tidlig PH 4/3 bordlampe (ca. 1927) i støbt glas og patineret metal; nævner konkurrencen 1924 og Paris-udstillingen 1925."
+  "description": "Arkiveret museumspost for en tidlig PH 4/3 bordlampe (ca. 1927) i støbt glas og patineret metal; nævner konkurrencen 1924 og Paris-udstillingen 1925.",
+  "description_en": "Archived museum record for an early PH 4/3 table lamp (c. 1927) in cast glass and patinated metal; mentions the 1924 competition and the 1925 Paris exhibition."
  },
  {
   "title": "Taklampe, elektrisk – PH (NF.1986-0354AB)",
@@ -4154,7 +4599,8 @@ const SOURCES = [
   "year": 1927,
   "type": "museum",
   "language": "no",
-  "description": "Museumspost for tidlig PH-pendel (PH 5/4-type med 50 cm topskærm) fra 1927–29 i glas og forkromet stål, designet af Poul Henningsen."
+  "description": "Museumspost for tidlig PH-pendel (PH 5/4-type med 50 cm topskærm) fra 1927–29 i glas og forkromet stål, designet af Poul Henningsen.",
+  "description_en": "Museum record for an early PH pendant (PH 5/4 type with 50 cm top shade) from 1927–29 in glass and chrome-plated steel, designed by Poul Henningsen."
  },
  {
   "title": "Taklampe, elektrisk – PH-skærm (NF.1986-0355)",
@@ -4163,7 +4609,8 @@ const SOURCES = [
   "year": 1927,
   "type": "museum",
   "language": "no",
-  "description": "Museumspost for en slebet glasskærm (Ø 48 cm) til en tidlig PH-pendel fra 1927–29."
+  "description": "Museumspost for en slebet glasskærm (Ø 48 cm) til en tidlig PH-pendel fra 1927–29.",
+  "description_en": "Museum record for a ground glass shade (Ø 48 cm) for an early PH pendant from 1927–29."
  },
  {
   "title": "Taklampe, elektrisk – PH-skærm (NF.1986-0356)",
@@ -4172,7 +4619,8 @@ const SOURCES = [
   "year": 1927,
   "type": "museum",
   "language": "no",
-  "description": "Museumspost for en slebet glasskærm (Ø 27 cm) til en tidlig PH-pendel fra 1927–29."
+  "description": "Museumspost for en slebet glasskærm (Ø 27 cm) til en tidlig PH-pendel fra 1927–29.",
+  "description_en": "Museum record for a ground glass shade (Ø 27 cm) for an early PH pendant from 1927–29."
  },
  {
   "title": "PH 1/1 Piano Table Lamp",
@@ -4182,7 +4630,8 @@ const SOURCES = [
   "type": "produktark",
   "language": "en",
   "description": "Produktside for PH 1/1 Piano bordlampe, Louis Poulsens nyudgave af Poul Henningsens PH klaverlampe/flygellampe fra begyndelsen af 1930erne.",
-  "img": "thumbs/f86c270c02d5.jpg"
+  "img": "thumbs/f86c270c02d5.jpg",
+  "description_en": "Product page for the PH 1/1 Piano table lamp, Louis Poulsen's new edition of Poul Henningsen's PH piano/grand piano lamp from the early 1930s."
  },
  {
   "title": "Lamp PH-5 (RKM 234:1-1966)",
@@ -4191,7 +4640,8 @@ const SOURCES = [
   "year": 1958,
   "type": "museum",
   "language": "en",
-  "description": "Museumspost for en PH 5-lampe fra 1958, indkøbt af Röhsska museet i 1966."
+  "description": "Museumspost for en PH 5-lampe fra 1958, indkøbt af Röhsska museet i 1966.",
+  "description_en": "Museum record for a PH 5 lamp from 1958, acquired by the Röhsska museet in 1966."
  },
  {
   "title": "Lamp PH-5 (RKM 234:2-1966)",
@@ -4200,7 +4650,8 @@ const SOURCES = [
   "year": 1958,
   "type": "museum",
   "language": "en",
-  "description": "Museumspost for endnu en PH 5 fra 1958 i Röhsska museets samling med litteraturhenvisninger."
+  "description": "Museumspost for endnu en PH 5 fra 1958 i Röhsska museets samling med litteraturhenvisninger.",
+  "description_en": "Museum record for another PH 5 from 1958 in the Röhsska museet collection, with literature references."
  },
  {
   "title": "PH 5 (OK-1978-0236C)",
@@ -4210,7 +4661,8 @@ const SOURCES = [
   "type": "museum",
   "language": "no",
   "description": "Museumspost for en PH 5 fra 1958 i Nasjonalmuseets samling.",
-  "img": "thumbs/f2a9dda1e5e0.jpg"
+  "img": "thumbs/f2a9dda1e5e0.jpg",
+  "description_en": "Museum record for a PH 5 from 1958 in the Nasjonalmuseet collection."
  },
  {
   "title": "Artichoke, pendant lamp (NGV 2015.416)",
@@ -4220,7 +4672,8 @@ const SOURCES = [
   "type": "museum",
   "language": "en",
   "description": "Museumspost for PH Artichoke (PH Kogle) pendel i National Gallery of Victorias samling, Melbourne.",
-  "img": "thumbs/4438e5d85122.jpg"
+  "img": "thumbs/4438e5d85122.jpg",
+  "description_en": "Museum record for the PH Artichoke pendant in the National Gallery of Victoria collection, Melbourne."
  },
  {
   "title": "PH Artichoke Hanging Lamp (Cooper Hewitt 1983-16-1)",
@@ -4229,7 +4682,8 @@ const SOURCES = [
   "year": 1958,
   "type": "museum",
   "language": "en",
-  "description": "Arkiveret museumspost for PH Artichoke (PH Kogle) i kobber, erhvervet af Cooper Hewitt i 1983."
+  "description": "Arkiveret museumspost for PH Artichoke (PH Kogle) i kobber, erhvervet af Cooper Hewitt i 1983.",
+  "description_en": "Archived museum record for the PH Artichoke in copper, acquired by Cooper Hewitt in 1983."
  },
  {
   "title": "PH 4½-4 Glas Pendlar – katalogblad (svensk, 2003)",
@@ -4238,7 +4692,8 @@ const SOURCES = [
   "year": 2003,
   "type": "katalog",
   "language": "sv",
-  "description": "Svensk katalogside fra 2003 for PH 4½-4 Glas pendel (PH 4/4-familien) i opalglas."
+  "description": "Svensk katalogside fra 2003 for PH 4½-4 Glas pendel (PH 4/4-familien) i opalglas.",
+  "description_en": "Swedish catalogue page from 2003 for the PH 4½-4 Glass pendant (PH 4/4 family) in opal glass."
  },
  {
   "title": "PH 80 Bord – katalogblad (svensk, 2004)",
@@ -4247,7 +4702,8 @@ const SOURCES = [
   "year": 2004,
   "type": "katalog",
   "language": "sv",
-  "description": "Svensk katalogside for PH 80 Bord, bordudgaven af PH 80 med opale akrylskærme."
+  "description": "Svensk katalogside for PH 80 Bord, bordudgaven af PH 80 med opale akrylskærme.",
+  "description_en": "Swedish catalogue page for the PH 80 Table, the table version of the PH 80 with opal acrylic shades."
  },
  {
   "title": "PH 4/3 Bord – katalogblad (svensk, 2003)",
@@ -4256,7 +4712,8 @@ const SOURCES = [
   "year": 2003,
   "type": "katalog",
   "language": "sv",
-  "description": "Svensk katalogside fra 2003 for PH 4/3 Bord i metal."
+  "description": "Svensk katalogside fra 2003 for PH 4/3 Bord i metal.",
+  "description_en": "Swedish catalogue page from 2003 for the PH 4/3 Table in metal."
  },
  {
   "title": "PH 3/2 Pendlar – katalogblad (svensk, 2003)",
@@ -4265,7 +4722,8 @@ const SOURCES = [
   "year": 2003,
   "type": "katalog",
   "language": "sv",
-  "description": "Svensk katalogside fra 2003 for PH 3/2 pendel i opalglas."
+  "description": "Svensk katalogside fra 2003 for PH 3/2 pendel i opalglas.",
+  "description_en": "Swedish catalogue page from 2003 for the PH 3/2 pendant in opal glass."
  },
  {
   "title": "PH 2/1 Bord – katalogblad (svensk, 2004)",
@@ -4274,6 +4732,7 @@ const SOURCES = [
   "year": 2004,
   "type": "katalog",
   "language": "sv",
-  "description": "Svensk katalogside for PH 2/1 Bord i opalglas."
+  "description": "Svensk katalogside for PH 2/1 Bord i opalglas.",
+  "description_en": "Swedish catalogue page for the PH 2/1 Table in opal glass."
  }
 ];
