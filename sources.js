@@ -183,6 +183,126 @@ const SOURCES = [
   "description_en": "Press release on the re-release of the PH Septima (originally 1928) with seven glass shades."
  },
  {
+  "title": "Press: PH 3½-3 Amber Coloured Pendant – Limited Edition",
+  "url": "https://www.louispoulsen.com/en/press/ph-3-3-amber-coloured-pendant---limited-edition",
+  "publisher": "Louis Poulsen",
+  "year": "2017",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 3½-3 i ravfarvet glas med messingophæng, årets limited edition i november-december 2017. Nævner at PH og Louis Poulsen indførte farvet glas i slutningen af 1920’erne.",
+  "description_en": "Press release on the PH 3½-3 in amber-coloured glass with brass suspension, the limited edition for November-December 2017. Notes that PH and Louis Poulsen introduced coloured glass in the late 1920s."
+ },
+ {
+  "title": "Press: PH 5 Mini",
+  "url": "https://www.louispoulsen.com/en/press/ph-5-mini",
+  "publisher": "Louis Poulsen",
+  "year": "2017",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 5 Mini, den første nedskalerede udgave af PH 5, i butikkerne fra oktober 2017.",
+  "description_en": "Press release on the PH 5 Mini, the first scaled-down version of the PH 5, in stores from October 2017."
+ },
+ {
+  "title": "Press: PH with new metal frames",
+  "url": "https://www.louispoulsen.com/en/press/ph-med-nye-metalstel",
+  "publisher": "Louis Poulsen",
+  "year": "2017",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om syv nye PH 2/1- og PH 3½-2½-lamper med opalglas og stel i krom eller sort metal fra februar 2017, med en kort forklaring af modelnumrene.",
+  "description_en": "Press release on seven new PH 2/1 and PH 3½-2½ lamps with opal glass and chrome or black metallised frames from February 2017, with a short explanation of the model numbers."
+ },
+ {
+  "title": "Press: PH Limited 2019 – The Water Pump",
+  "url": "https://www.louispoulsen.com/en/press/ph-limited-2019",
+  "publisher": "Louis Poulsen",
+  "year": "2019",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 3/2-gulvlampen Vandpumpen i ravfarvet glas og messing som limited edition 2019, med lidt historik om læselampen fra 1950’erne.",
+  "description_en": "Press release on the PH 3/2 floor lamp The Water Pump in amber-coloured glass and brass as the 2019 limited edition, with some history of the reading lamp from the 1950s."
+ },
+ {
+  "title": "Press: PH 5 Monochrome",
+  "url": "https://www.louispoulsen.com/en/press/ph-5-monochrome",
+  "publisher": "Louis Poulsen",
+  "year": "2020",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 5 og PH 5 Mini i ensfarvet sort, hvid og blå fra efteråret 2020, med PH’s eget citat fra lanceringen af PH 5.",
+  "description_en": "Press release on the PH 5 and PH 5 Mini in monochrome black, white and blue from autumn 2020, quoting PH on the launch of the PH 5."
+ },
+ {
+  "title": "Press: PH Artichoke Black",
+  "url": "https://www.louispoulsen.com/en/press/ph-artichoke-black",
+  "publisher": "Louis Poulsen",
+  "year": "2020",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH Kogle i mat sort fra februar 2020, med kort historik om lampen til Langeliniepavillonen.",
+  "description_en": "Press release on the PH Artichoke in matt black from February 2020, with a short history of the lamp made for the Langelinie Pavilion."
+ },
+ {
+  "title": "Press: PH 5 Retake",
+  "url": "https://www.louispoulsen.com/en/press/ph-5-retake",
+  "publisher": "Louis Poulsen",
+  "year": "",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 5 Retake: PH 5’ere med fejl eller buler, hvor lakken fjernes, så lampen står i rå aluminium og stål.",
+  "description_en": "Press release on the PH 5 Retake: flawed or dented PH 5s stripped of their paint so the lamp shows raw aluminium and steel."
+ },
+ {
+  "title": "Press: PH 5 – New Colours",
+  "url": "https://www.louispoulsen.com/en/press/ph-52",
+  "publisher": "Louis Poulsen",
+  "year": "2022",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 5 i nye ensfarvede udgaver og pastelkombinationer fra efteråret 2022.",
+  "description_en": "Press release on the PH 5 in new monochrome versions and pastel combinations from autumn 2022."
+ },
+ {
+  "title": "Press: PH Limited 2022",
+  "url": "https://www.louispoulsen.com/en/press/ph-limited-22",
+  "publisher": "Louis Poulsen",
+  "year": "2022",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om limited edition 2022: PH 3/3-pendlen og PH 3/2-bordlampen med overskærm i messing og opalglas.",
+  "description_en": "Press release on the 2022 limited editions: the PH 3/3 pendant and the PH 3/2 table lamp with a brass top shade and opal glass."
+ },
+ {
+  "title": "Press: PH 5 + PH 5 Mini new colours",
+  "url": "https://www.louispoulsen.com/en/press/ph-5--ph-mini-new-colors",
+  "publisher": "Louis Poulsen",
+  "year": "2024",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 5 og PH 5 Mini i fire nye ensfarvede farver fra efteråret 2024.",
+  "description_en": "Press release on the PH 5 and PH 5 Mini in four new monochrome colours from autumn 2024."
+ },
+ {
+  "title": "Press: PH Aged Brass 2025",
+  "url": "https://www.louispoulsen.com/en/press/ph-aged-brass-2025",
+  "publisher": "Louis Poulsen",
+  "year": "2025",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH Aged Brass-kollektionen fra 2025 med PH 2/2 Luna, PH 3/3 og PH 3/2 i opalglas og mørk, ældet messing.",
+  "description_en": "Press release on the 2025 PH Aged Brass collection with the PH 2/2 Luna, PH 3/3 and PH 3/2 in opal glass and dark aged brass."
+ },
+ {
+  "title": "PH Limited Edition: ten years of limited editions",
+  "url": "https://www.louispoulsen.com/en/reflections/ph-limited-edition",
+  "publisher": "Louis Poulsen",
+  "year": "2025",
+  "type": "artikel",
+  "language": "en",
+  "description": "Louis Poulsens oversigt over de årlige PH limited editions fra 2014 til 2025, fra PH 3½-3 i kobber til PH 3/2 i terrakottafarvet glas.",
+  "description_en": "Louis Poulsen’s overview of the yearly PH limited editions from 2014 to 2025, from the PH 3½-3 in copper to the PH 3/2 in terracotta-coloured glass."
+ },
+ {
   "title": "Louis Poulsen: First House of Light (bog)",
   "url": "https://www.louispoulsen.com/en/first-house-of-light-book",
   "publisher": "Louis Poulsen",
