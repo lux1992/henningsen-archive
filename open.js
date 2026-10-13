@@ -997,6 +997,23 @@ const OPEN = {
  },
  "general": [
   {
+   "q": "Hvordan så det første PH-katalog ud, og hvilke modeller var med?",
+   "q_en": "What did the first PH catalogue look like, and which models were in it?",
+   "why": "Det ældste katalog vi har online er Katalog B fra 1931-32. Navnet tyder på, at der fandtes et Katalog A før det, men vi har ikke fundet det. Bogen Tænd! (1994) viser en del af de tidlige modeller, men er ikke digitaliseret.",
+   "why_en": "The oldest catalogue we have online is Catalogue B from 1931-32. The name suggests there was a Catalogue A before it, but we have not found it. The book Tænd! (1994) shows many of the early models, but it is not digitised.",
+   "urls": [
+    "https://digitalesamlinger.kb.dk/pamphlets/dasmaa/2012/jul/smaatryk/object65498/da/",
+    "https://bibliotek.dk/da/work/870970-basis:20708220"
+   ]
+  },
+  {
+   "q": "Hvilke lamper blev lavet på bestilling og kom aldrig i katalog?",
+   "q_en": "Which lamps were made to order and never appeared in a catalogue?",
+   "why": "Mange af PH’s lamper blev tegnet til en bestemt bygning eller kunde og findes derfor ikke i Louis Poulsens kataloger. Dem kender vi kun fra enkelte omtaler og auktioner.",
+   "why_en": "Many of PH’s lamps were designed for a particular building or client and are therefore not in Louis Poulsen’s catalogues. We know them only from scattered mentions and auctions.",
+   "urls": []
+  },
+  {
    "q": "Hvilke Louis Poulsen-kataloger og prislister mellem 1941 og 1967 findes, og hvor?",
    "q_en": "Which Louis Poulsen catalogues and price lists between 1941 and 1967 exist, and where?",
    "why": "Det Kgl. Bibliotek har digitaliseret 1931-32, 1936 og ca. 1941, og Phaidon viser et katalogomslag fra 1953, men resten af PH's levetid er et hul.",

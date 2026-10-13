@@ -4734,5 +4734,15 @@ const SOURCES = [
   "language": "sv",
   "description": "Svensk katalogside for PH 2/1 Bord i opalglas.",
   "description_en": "Swedish catalogue page for the PH 2/1 Table in opal glass."
+ },
+ {
+  "title": "Tænd! PH-lampens historie",
+  "url": "https://bibliotek.dk/da/work/870970-basis:20708220",
+  "publisher": "Tina Jørstian og Poul Erik Munk Nielsen (red.), Gyldendal / Louis Poulsen",
+  "year": "1994",
+  "type": "bog",
+  "language": "da",
+  "description": "Standardværket om PH-lamperne, ca. 300 sider med omkring 500 billeder af lamper, interiører og skitser, med vægt på mellemkrigstiden. Ikke digitaliseret; kan lånes på biblioteket. Udkom på engelsk som Light Years Ahead og i ny udgave i 2004.",
+  "description_en": "The standard work on the PH lamps, about 300 pages with some 500 pictures of lamps, interiors and sketches, focused on the interwar years. Not digitised; available from libraries. Published in English as Light Years Ahead, and in a new edition in 2004."
  }
 ];
