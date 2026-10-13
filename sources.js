@@ -4744,5 +4744,35 @@ const SOURCES = [
   "language": "da",
   "description": "Standardværket om PH-lamperne, ca. 300 sider med omkring 500 billeder af lamper, interiører og skitser, med vægt på mellemkrigstiden. Ikke digitaliseret; kan lånes på biblioteket. Udkom på engelsk som Light Years Ahead og i ny udgave i 2004.",
   "description_en": "The standard work on the PH lamps, about 300 pages with some 500 pictures of lamps, interiors and sketches, focused on the interwar years. Not digitised; available from libraries. Published in English as Light Years Ahead, and in a new edition in 2004."
+ },
+ {
+  "title": "Tænd! PH lampens historie – Google Books",
+  "url": "https://books.google.com/books/about/T%C3%A6nd.html?id=dkb_SgAACAAJ",
+  "publisher": "Google Books",
+  "year": "1994",
+  "type": "bog",
+  "language": "da",
+  "description": "Bibliografisk post for Tina Jørstian og Poul Erik Munk Nielsen: Tænd! PH-lampens historie (Gyldendal 1994). Ingen digital læsning.",
+  "description_en": "Bibliographic record for Tina Jørstian and Poul Erik Munk Nielsen: Tænd! PH-lampens historie (Gyldendal 1994). Not readable online."
+ },
+ {
+  "title": "Tænd! : PH-Lampens historie – WorldCat",
+  "url": "https://search.worldcat.org/title/tnd-ph-lampens-historie/oclc/906729328",
+  "publisher": "WorldCat",
+  "year": "1994",
+  "type": "bog",
+  "language": "da",
+  "description": "Viser hvilke biblioteker i verden der har Tina Jørstian og Poul Erik Munk Nielsen: Tænd! PH-lampens historie (Gyldendal 1994).",
+  "description_en": "Shows which libraries worldwide hold Tina Jørstian and Poul Erik Munk Nielsen: Tænd! PH-lampens historie (Gyldendal 1994)."
+ },
+ {
+  "title": "Poul Henningsen: ‘4-shade’ ceiling light, type 4 4½/4 shades (Nordic Design, lot 19)",
+  "url": "https://phillips.com/detail/poul-henningsen/UK050414/19",
+  "publisher": "Phillips",
+  "year": "1926",
+  "type": "arkiv",
+  "language": "en",
+  "description": "Auktionskatalogets beskrivelse af en loftslampe med fireskærmssystemet og PH 4½/4-skærme i opalglas og patineret messing, Ø 43 cm, Louis Poulsen. Designet 1926, fremstillet ca. 1929–31.",
+  "description_en": "The auction catalogue’s description of a ceiling light with the four-shade system and PH 4½/4 shades in opal glass and patinated brass, 43 cm in diameter, Louis Poulsen. Designed 1926, made c. 1929–31."
  }
 ];
