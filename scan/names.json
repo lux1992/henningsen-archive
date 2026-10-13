@@ -17,13 +17,6 @@
    "www.ambientedirect.com"
   ]
  },
- "PH 3/3": {
-  "first": "2026-10-13",
-  "seen": [
-   "www.louispoulsen.com",
-   "www.ambientedirect.com"
-  ]
- },
  "PH 3/5": {
   "first": "2026-10-13",
   "seen": [
@@ -36,22 +29,10 @@
    "www.1stdibs.com"
   ]
  },
- "PH 3½ / 3": {
-  "first": "2026-10-13",
-  "seen": [
-   "www.pamono.eu"
-  ]
- },
  "PH 3½/2": {
   "first": "2026-10-13",
   "seen": [
    "www.1stdibs.com"
-  ]
- },
- "PH 3½/3": {
-  "first": "2026-10-13",
-  "seen": [
-   "www.dba.dk"
   ]
  },
  "PH 4": {
@@ -62,12 +43,6 @@
   ]
  },
  "PH 4.5": {
-  "first": "2026-10-13",
-  "seen": [
-   "www.1stdibs.com"
-  ]
- },
- "PH 4.5/4": {
   "first": "2026-10-13",
   "seen": [
    "www.1stdibs.com"
@@ -91,13 +66,6 @@
    "www.1stdibs.com"
   ]
  },
- "PH 4½/4": {
-  "first": "2026-10-13",
-  "seen": [
-   "www.pamono.eu",
-   "www.dba.dk"
-  ]
- },
  "PH 506": {
   "first": "2026-10-13",
   "seen": [
@@ -116,12 +84,6 @@
    "www.pamono.eu"
   ]
  },
- "PH Charlottenborg": {
-  "first": "2026-10-13",
-  "seen": [
-   "www.pamono.eu"
-  ]
- },
  "PH Mirror": {
   "first": "2026-10-13",
   "seen": [
@@ -132,12 +94,6 @@
   "first": "2026-10-13",
   "seen": [
    "www.pamono.eu"
-  ]
- },
- "PH Tallerken": {
-  "first": "2026-10-13",
-  "seen": [
-   "www.1stdibs.com"
   ]
  }
 }
