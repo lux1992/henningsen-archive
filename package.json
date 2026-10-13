@@ -1,0 +1,14 @@
+{
+  "name": "ph-arkivet",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8794 -H 127.0.0.1",
+    "build": "next build && node scripts/static.mjs",
+    "scan": "node scan/scan.js"
+  },
+  "dependencies": {
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}
