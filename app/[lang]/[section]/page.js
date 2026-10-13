@@ -7,7 +7,7 @@ import OpenList from '../../../components/OpenList';
 import Contribute from '../../../components/Contribute';
 import Search from '../../../components/Search';
 import { Head } from '../../../components/Bits';
-import { SEC, label, secOf, slug, tr } from '../../../lib/i18n';
+import { L, SEC, label, secOf, slug, tr } from '../../../lib/i18n';
 import { LAMPS, OQ, SOURCES, evLabel, picOf, sourcesOf } from '../../../lib/data';
 
 export const dynamicParams = false;
@@ -43,7 +43,7 @@ export default async function Section({ params }) {
     sources: () => <Sources lang={lang} sources={SOURCES} names={names} />,
     open: () => <OpenList lang={lang} />,
     contribute: () => <Contribute lang={lang} lamps={LAMPS.map(m => [m.id, (lang === 'en' && m.name_en) || m.name])}
-      questions={Object.fromEntries([...OQ.general.map((q, i) => ['general:' + i, q.q]), ...Object.entries(OQ.models).flatMap(([id, qs]) => qs.map((q, i) => [`${id}:${i}`, q.q]))])} />,
+      questions={Object.fromEntries([...OQ.general.map((q, i) => ['general:' + i, L(lang, q, 'q')]), ...Object.entries(OQ.models).flatMap(([id, qs]) => qs.map((q, i) => [`${id}:${i}`, L(lang, q, 'q')]))])} />,
     search: () => <Search lang={lang} sources={SOURCES} names={names}
       lamps={LAMPS.map(m => ({ id: m.id, name: m.name, name_en: m.name_en, year: m.year, year_en: m.year_en, text: m.text, text_en: m.text_en, pic: picOf(m.id)?.img, n: sourcesOf(m.id).length, ev: evLabel(t, m) }))} />,
   }[sec];
