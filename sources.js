@@ -148,6 +148,7 @@ const SOURCES = [
   "publisher": "Louis Poulsen",
   "year": "2019",
   "type": "artikel",
+  "models": ["kogle","ph5"],
   "language": "en",
   "description": "Pressemeddelelse om jubilæumsudgaverne til 125-året for Poul Henningsens fødsel (1894-2019).",
   "description_en": "Press release on the anniversary editions marking 125 years since Poul Henningsen's birth (1894-2019)."
@@ -1362,6 +1363,7 @@ const SOURCES = [
   "publisher": "DPTO (Danmark) via Google Patents",
   "year": "1935",
   "type": "patent",
+  "models": ["system"],
   "language": "da",
   "description": "Dansk patent fra Louis Poulsen på automatisk placering af glødepæren i armaturet – afgørende for PH-skærmenes lysfordeling.",
   "description_en": "Danish patent from Louis Poulsen on automatic positioning of the bulb in the fitting – crucial to the light distribution of the PH shades."
@@ -1705,6 +1707,7 @@ const SOURCES = [
   "publisher": "Kosmorama #249 / Det Danske Filminstitut",
   "year": "2013",
   "type": "artikel",
+  "models": ["tekst"],
   "language": "en",
   "description": "Engelsk version af Thomsons Kosmorama-artikel om PH, lys og film.",
   "img": "thumbs/0912162a5070.jpg",
@@ -2238,6 +2241,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1924",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Notits om at Censurudvalget for Kunstindustriudstillingen i Paris 1925 præmierede arbejder af arkitekt Poul Henningsen i forbindelse med Louis Poulsen & Co. i konkurrencen om lysgivere.",
   "description_en": "Notice that the selection committee for the 1925 Paris applied arts exhibition awarded prizes to work by architect Poul Henningsen in association with Louis Poulsen & Co. in the competition for light fittings."
@@ -2248,6 +2252,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1924",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Provinsavisens gengivelse af nyheden om den danske udvælgelse til Paris-udstillingen 1925, hvor Poul Henningsen nævnes.",
   "description_en": "The provincial newspaper's report of the news of the Danish selection for the 1925 Paris exhibition, in which Poul Henningsen is mentioned."
@@ -2258,6 +2263,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1924",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Artikel om Danmarks forberedelser til den internationale kunstindustriudstilling i Paris 1925 med omtale af Henningsen.",
   "description_en": "Article on Denmark's preparations for the international applied arts exhibition in Paris in 1925, mentioning Henningsen."
@@ -2268,6 +2274,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1924",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Omtale af de danske kunstindustrielle arbejder udvalgt til Paris 1925, herunder Poul Henningsens.",
   "description_en": "Report on the Danish applied arts works selected for Paris 1925, including Poul Henningsen's."
@@ -2278,6 +2285,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1924",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Avisartikel om de danske bidrag forud for Paris-udstillingen 1925 med omtale af Henningsen.",
   "description_en": "Newspaper article on the Danish contributions ahead of the 1925 Paris exhibition, mentioning Henningsen."
@@ -2288,6 +2296,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Louis Poulsen & Co.s (Nyhavn 11) annonce for P.H.-lampen: skærer ikke i øjnene, fordeler lyset rigtigt, sparer strøm, dansk fabrikat.",
   "description_en": "Louis Poulsen & Co.'s (Nyhavn 11) advertisement for the P.H. lamp: does not hurt the eyes, distributes the light correctly, saves electricity, Danish-made."
@@ -2298,6 +2307,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Avisside med Louis Poulsen-annonce/omtale af P.H.-lampen i forbindelse med lysudstillingen november 1926.",
   "description_en": "Newspaper page with a Louis Poulsen advertisement/mention of the P.H. lamp in connection with the lighting exhibition in November 1926."
@@ -2308,6 +2318,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Gentaget Louis Poulsen-annonce for P.H.-lampen i Nationaltidende.",
   "description_en": "Repeat Louis Poulsen advertisement for the P.H. lamp in Nationaltidende."
@@ -2318,6 +2329,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Annonce for P.H.-lampen fra Louis Poulsen & Co. i Berlingske Tidende.",
   "description_en": "Advertisement for the P.H. lamp from Louis Poulsen & Co. in Berlingske Tidende."
@@ -2328,6 +2340,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Louis Poulsen-annonce for P.H.-lampen i Dagbladet (København).",
   "description_en": "Louis Poulsen advertisement for the P.H. lamp in Dagbladet (Copenhagen)."
@@ -2338,6 +2351,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Endnu en P.H.-lampe-annonce fra Louis Poulsen & Co. i Dagbladet.",
   "description_en": "Another P.H. lamp advertisement from Louis Poulsen & Co. in Dagbladet."
@@ -2358,6 +2372,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Kåseri fra belysningsudstillingen 1926 med omtale af P.H.-lamper.",
   "description_en": "Light-hearted column from the 1926 lighting exhibition mentioning P.H. lamps."
@@ -2368,6 +2383,7 @@ const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Louis Poulsen-annonce for P.H.-lampen i Social-Demokraten (\"Fremstilles nu til alle Formaal\").",
   "description_en": "Louis Poulsen advertisement for the P.H. lamp in Social-Demokraten (\"Fremstilles nu til alle Formaal\" – now made for all purposes)."
@@ -2981,6 +2997,7 @@ const SOURCES = [
   "publisher": "Universitätsbibliothek Heidelberg (digitalisering af Samleren)",
   "year": "1925",
   "type": "tidsskrift",
+  "models": ["system"],
   "language": "da",
   "description": "Samtidig anmeldelse af Danmarks afdeling på Paris-udstillingen 1925, der nævner belysningen tegnet af Poul Henningsen og udført af Louis Poulsen (OCR + faksimile).",
   "description_en": "Contemporary review of the Danish section at the 1925 Paris exhibition, mentioning the lighting designed by Poul Henningsen and made by Louis Poulsen (OCR + facsimile)."
@@ -3110,6 +3127,7 @@ const SOURCES = [
   "publisher": "Kulturen i Lund (Carlotta)",
   "year": "1926",
   "type": "museum",
+  "models": ["ph44"],
   "language": "sv",
   "description": "PH-loftlampe i glas købt til Kulturens 'Vita huset' 1929; museumsteksten anfører at modellen blev vist på Deutscher Werkbunds udstilling 'Die Wohnung' i Stuttgart 1927.",
   "description_en": "Glass PH ceiling lamp bought for Kulturen's 'Vita huset' in 1929; the museum text states that the model was shown at the Deutscher Werkbund exhibition 'Die Wohnung' in Stuttgart in 1927."
@@ -3120,6 +3138,7 @@ const SOURCES = [
   "publisher": "Kulturen i Lund (Carlotta)",
   "year": "1926",
   "type": "museum",
+  "models": ["ph44"],
   "language": "sv",
   "description": "Tidlig PH-loftlampe i opalglas og forkromet messing (Ø 50 cm), indkøbt til indvielsen af Vita huset 1929.",
   "description_en": "Early PH ceiling lamp in opal glass and chrome-plated brass (Ø 50 cm), bought for the inauguration of Vita huset in 1929."
@@ -3162,6 +3181,7 @@ const SOURCES = [
   "publisher": "Norsk Folkemuseum (DigitaltMuseum)",
   "year": "1927",
   "type": "museum",
+  "models": ["ph44"],
   "language": "no",
   "description": "Bærende metaldel og glasskærm til PH-lampe fra 1927; del af en serie PH-lampedele NF.1986-0353–0356.",
   "description_en": "Load-bearing metal part and glass shade for a 1927 PH lamp; part of a series of PH lamp parts NF.1986-0353–0356."
@@ -3194,6 +3214,7 @@ const SOURCES = [
   "publisher": "Malmö Museer (via Europeana)",
   "year": "1958",
   "type": "museum",
+  "models": ["kogle"],
   "language": "sv",
   "description": "Svensk museumsfotografi af Langelinie Pavillonen (1958) med PH-belysning, Børge Mogensen- og Panton-møbler.",
   "img": "thumbs/fa6ad4296080.jpg",
@@ -4718,6 +4739,7 @@ const SOURCES = [
   "publisher": "Norsk Folkemuseum",
   "year": 1927,
   "type": "museum",
+  "models": ["ph44"],
   "language": "no",
   "description": "Museumspost for tidlig PH-pendel (PH 5/4-type med 50 cm topskærm) fra 1927–29 i glas og forkromet stål, designet af Poul Henningsen.",
   "description_en": "Museum record for an early PH pendant (PH 5/4 type with 50 cm top shade) from 1927–29 in glass and chrome-plated steel, designed by Poul Henningsen."
@@ -4728,6 +4750,7 @@ const SOURCES = [
   "publisher": "Norsk Folkemuseum",
   "year": 1927,
   "type": "museum",
+  "models": ["ph44"],
   "language": "no",
   "description": "Museumspost for en slebet glasskærm (Ø 48 cm) til en tidlig PH-pendel fra 1927–29.",
   "description_en": "Museum record for a ground glass shade (Ø 48 cm) for an early PH pendant from 1927–29."
@@ -4738,6 +4761,7 @@ const SOURCES = [
   "publisher": "Norsk Folkemuseum",
   "year": 1927,
   "type": "museum",
+  "models": ["ph44"],
   "language": "no",
   "description": "Museumspost for en slebet glasskærm (Ø 27 cm) til en tidlig PH-pendel fra 1927–29.",
   "description_en": "Museum record for a ground glass shade (Ø 27 cm) for an early PH pendant from 1927–29."
