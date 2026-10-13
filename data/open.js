@@ -942,6 +942,16 @@ export const OPEN = {
    {
     "q": "Hvornår blev de oprindelige lygter taget ned?",
     "q_en": "When were the original lamps taken down?"
+   },
+   {
+    "q": "Blev Slotsholmens lygter lavet i 1917 eller i 1920–21?",
+    "q_en": "Were the Slotsholmen lamps made in 1917 or in 1920–21?",
+    "why": "En artikel i Berlingske Tidende 19.11.1926 skriver, at PH's lygter ved Slotsholmen blev udført i 1917. Wikipedia og bogen Tænd! siger 1920–21.",
+    "why_en": "An article in Berlingske Tidende on 19.11.1926 says PH's lamps at Slotsholmen were made in 1917. Wikipedia and the book Tænd! say 1920–21.",
+    "urls": [
+     "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page%3Auuid%3Af335b75c-590f-41b3-8277-3c47bc5380f6/query/%22P.%20H.%20Lampen%22",
+     "https://en.wikipedia.org/wiki/Poul_Henningsen"
+    ]
    }
   ],
   "ringkrone": [
@@ -992,6 +1002,78 @@ export const OPEN = {
    {
     "q": "Er det en begrænset udgave eller fast sortiment?",
     "q_en": "Is it a limited edition or a permanent product?"
+   }
+  ],
+  "plisse": [
+   {
+    "q": "Hvornår tegnede PH plissélampen, og kom den i handlen?",
+    "q_en": "When did PH design the pleated lamp, and was it ever sold?",
+    "why": "Vi har et foto fra Stockholm 1944 og et finsk patent med prioritet i maj 1945, men ingen katalogside, annonce eller prisliste, der viser lampen til salg.",
+    "why_en": "We have a photo from Stockholm in 1944 and a Finnish patent with priority in May 1945, but no catalogue page, advert or price list showing the lamp for sale.",
+    "urls": [
+     "https://tidsskrift.dk/magasin/article/view/66782",
+     "https://patents.google.com/patent/FI22212A/en"
+    ]
+   },
+   {
+    "q": "Hvem fremstillede plissélampen, og hvor mange blev lavet?",
+    "q_en": "Who made the pleated lamp, and how many were made?",
+    "why": "Louis Poulsen står som ansøger på både det finske og det danske patent, men det kan være lavet i Sverige under krigen. Vi kender ingen produktionstal.",
+    "why_en": "Louis Poulsen is the applicant on both the Finnish and the Danish patent, but it may have been made in Sweden during the war. We know of no production figures.",
+    "urls": [
+     "https://patents.google.com/patent/FI22212A/en",
+     "https://patents.google.com/patent/DK68882C/en"
+    ]
+   }
+  ],
+  "gadelampe": [
+   {
+    "q": "Er 1952 året for gadelampen eller kun for fotoet?",
+    "q_en": "Is 1952 the year of the street lamp or only of the photo?",
+    "why": "Lokalarkivet angiver 1952 uden at sige, hvad årstallet gælder. Tegningen, der ifølge arkivet ligger ved fotoet, kan måske afgøre det.",
+    "why_en": "The local archive gives 1952 without saying what the year refers to. The drawing that the archive says is kept with the photo may settle it.",
+    "urls": [
+     "https://arkiv.dk/vis/7258598"
+    ]
+   },
+   {
+    "q": "Hvor mange af lamperne blev sat op i København og på Frederiksberg, og hvor?",
+    "q_en": "How many of the lamps were put up in Copenhagen and Frederiksberg, and where?",
+    "why": "Arkivet skriver kun, at lampen hang i København og Frederiksberg. Vi har ingen kilde fra kommunerne eller Københavns Belysningsvæsen.",
+    "why_en": "The archive only says the lamp hung in Copenhagen and Frederiksberg. We have no source from the municipalities or the Copenhagen lighting authority.",
+    "urls": [
+     "https://arkiv.dk/vis/7258598"
+    ]
+   },
+   {
+    "q": "Hvem var Herman Bodholt, og lavede han lampen på licens?",
+    "q_en": "Who was Herman Bodholt, and did he make the lamp under licence?",
+    "why": "Titlen nævner Herman Bodholt, mens arkivet knytter fotoet til blikkenslagermester Emil Jungdahl Bodholdt (1889–1958). Det er uklart, om Louis Poulsen var involveret.",
+    "why_en": "The title names Herman Bodholt, while the archive links the photo to the master tinsmith Emil Jungdahl Bodholdt (1889–1958). It is unclear whether Louis Poulsen was involved.",
+    "urls": [
+     "https://arkiv.dk/vis/7258598"
+    ]
+   }
+  ],
+  "kbhallen": [
+   {
+    "q": "Hvordan så K.B. Hallens PH-lamper ud, og hvornår blev de tegnet?",
+    "q_en": "What did the K.B. Hallen PH lamps look like, and when were they designed?",
+    "why": "DAC og Wikipedia skriver kun, at hallen var oplyst af specialtegnede PH-lamper. Vi har hverken foto, tegning eller årstal for selve lamperne.",
+    "why_en": "DAC and Wikipedia only say the hall was lit by custom-designed PH lamps. We have no photo, drawing or date for the lamps themselves.",
+    "urls": [
+     "https://dac.dk/en/magazine/places/kb-hallen-47",
+     "https://da.wikipedia.org/wiki/K.B._Hallen"
+    ]
+   },
+   {
+    "q": "Hvem lavede lamperne, hvor mange var der, og overlevede nogen branden i 2011?",
+    "q_en": "Who made the lamps, how many were there, and did any survive the 2011 fire?",
+    "why": "Ingen af vores kilder nævner producent, antal eller hvad der skete med lamperne efter branden.",
+    "why_en": "None of our sources mention the maker, the number, or what happened to the lamps after the fire.",
+    "urls": [
+     "https://dac.dk/en/magazine/places/kb-hallen-47"
+    ]
    }
   ]
  },
@@ -1100,6 +1182,18 @@ export const OPEN = {
    "why_en": "Auction houses constantly cite Jørstian and Munk Nielsen's book, but we have not had it in hand ourselves.",
    "urls": [
     "https://phillips.com/detail/poul-henningsen/UK050312/204"
+   ]
+  },
+  {
+   "q": "Hvilke lamper dækker Louis Poulsens patenter fra 1956 og 1966?",
+   "q_en": "Which lamps do Louis Poulsen's patents from 1956 and 1966 cover?",
+   "why": "DK84919C (højdeindstillelig pendel, 1956), DK89942C (skærm af koaksialt samlede elementer, 1956), ES325845A3 og ES325908A3 (lamper med faste skærme, 1966) nævner hverken opfinder eller model, og vi har kun titler og korte resuméer. Tidspunkterne passer med PH 5 (1958) og PH 4/3 (1966), men det er ikke bevist.",
+   "why_en": "DK84919C (height-adjustable pendant, 1956), DK89942C (shade of coaxially assembled elements, 1956), ES325845A3 and ES325908A3 (lamps with fixed shades, 1966) name neither inventor nor model, and we only have titles and short abstracts. The dates fit PH 5 (1958) and PH 4/3 (1966), but this is not proven.",
+   "urls": [
+    "https://patents.google.com/patent/DK84919C/en",
+    "https://patents.google.com/patent/DK89942C/en",
+    "https://patents.google.com/patent/ES325845A3/en",
+    "https://patents.google.com/patent/ES325908A3/en"
    ]
   }
  ]
