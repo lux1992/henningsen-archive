@@ -799,6 +799,200 @@ const OPEN = {
      "https://web.archive.org/web/20091016144816/http://erez.louispoulsen.com:80/erez4/erez?cmd=get&src=lplbilleder/PDF%20for%20Web/DA/NYT/Nyt%20586%20DK.pdf&width=2000&height=2000&tmp=None&quality=85&redirect=0&format=pdf"
     ]
    }
+  ],
+  "vintergaek": [
+   {
+    "q": "Hvornår blev Vintergækken tegnet og sat i produktion?",
+    "q_en": "When was the Snowdrop designed and put into production?"
+   },
+   {
+    "q": "Er navnet Vintergækken samtidigt, eller er det et senere samlernavn?",
+    "q_en": "Is the name Vintergækken contemporary, or a later collectors' name?"
+   },
+   {
+    "q": "Hvordan adskiller den sig fra PH 2/2 Spørgsmålstegnet?",
+    "q_en": "How does it differ from the PH 2/2 Question Mark?"
+   }
+  ],
+  "kaskade": [
+   {
+    "q": "Er 'Kaskade' det oprindelige navn hos Louis Poulsen?",
+    "q_en": "Is 'Cascade' the original Louis Poulsen name?"
+   },
+   {
+    "q": "Hvor mange arme og skærmtyper fandtes i det oprindelige program?",
+    "q_en": "How many arm counts and shade types existed in the original range?"
+   },
+   {
+    "q": "Hvornår kom jubilæumsudgaven, og hvor mange blev lavet?",
+    "q_en": "When did the anniversary version appear, and how many were made?"
+   }
+  ],
+  "scala": [
+   {
+    "q": "Var der 24 eller 26 lamper i Scala?",
+    "q_en": "Were there 24 or 26 lamps in the Scala?"
+   },
+   {
+    "q": "Hænger nogle af lamperne stadig i Aarhus?",
+    "q_en": "Do any of the lamps still hang in Aarhus?"
+   }
+  ],
+  "globen": [
+   {
+    "q": "Hvordan så Globen ud, og findes der fotos?",
+    "q_en": "What did the Globe look like, and do photos exist?"
+   },
+   {
+    "q": "Blev den sat i serieproduktion?",
+    "q_en": "Was it put into series production?"
+   },
+   {
+    "q": "Er 1960’ernes 'Globe Light' samme lampe?",
+    "q_en": "Is the 1960s 'Globe Light' the same lamp?"
+   }
+  ],
+  "spejl": [
+   {
+    "q": "Hvornår startede og sluttede Louis Poulsens produktion?",
+    "q_en": "When did Louis Poulsen's production start and end?"
+   },
+   {
+    "q": "Hvilke størrelser fandtes oprindeligt?",
+    "q_en": "What sizes existed originally?"
+   }
+  ],
+  "krajewski": [
+   {
+    "q": "Hvem fremstillede lampen, og var det en serie?",
+    "q_en": "Who made the lamp, and was it a series?"
+   },
+   {
+    "q": "Hvad var PH's andel i designet?",
+    "q_en": "What was PH's share in the design?"
+   },
+   {
+    "q": "Hvornår præcis blev den lavet?",
+    "q_en": "When exactly was it made?"
+   }
+  ],
+  "morklaegning": [
+   {
+    "q": "Hvordan så lampen ud, og findes der fotos?",
+    "q_en": "What did the lamp look like, and do photos exist?"
+   },
+   {
+    "q": "Hvor mange blev sat op i Tivoli, og hvornår blev de fjernet?",
+    "q_en": "How many were put up in Tivoli, and when were they removed?"
+   }
+  ],
+  "glassal": [
+   {
+    "q": "Hvordan adskilte lamperne sig fra almindelige PH-bordlamper?",
+    "q_en": "How did the lamps differ from ordinary PH table lamps?"
+   },
+   {
+    "q": "Var ombygningen i 1942–43 eller 1946?",
+    "q_en": "Was the rebuilding in 1942–43 or 1946?"
+   },
+   {
+    "q": "Findes der bevarede eksemplarer?",
+    "q_en": "Do any examples survive?"
+   }
+  ],
+  "medlys": [
+   {
+    "q": "Blev Medlys produceret og sat op nogen steder?",
+    "q_en": "Was Medlys produced and installed anywhere?"
+   },
+   {
+    "q": "Hvem fremstillede armaturet?",
+    "q_en": "Who made the fitting?"
+   }
+  ],
+  "tandlaege": [
+   {
+    "q": "Hvordan så lampen ud, og hvordan virkede den?",
+    "q_en": "What did the lamp look like, and how did it work?"
+   },
+   {
+    "q": "Blev den produceret, og af hvem?",
+    "q_en": "Was it produced, and by whom?"
+   }
+  ],
+  "prismekrone": [
+   {
+    "q": "Hvor hang lysekronerne hos Carlsberg, og findes de endnu?",
+    "q_en": "Where did the chandeliers hang at Carlsberg, and do they still exist?"
+   },
+   {
+    "q": "Hvem fremstillede dem?",
+    "q_en": "Who made them?"
+   },
+   {
+    "q": "Hvilke andre bygninger fik dem?",
+    "q_en": "Which other buildings got them?"
+   }
+  ],
+  "slotsholm": [
+   {
+    "q": "Blev 1964-udgaven sat op?",
+    "q_en": "Was the 1964 version installed?"
+   },
+   {
+    "q": "Hvornår blev de oprindelige lygter taget ned?",
+    "q_en": "When were the original lamps taken down?"
+   }
+  ],
+  "ringkrone": [
+   {
+    "q": "Hvornår blev Ringkronen introduceret?",
+    "q_en": "When was the Ring Crown introduced?"
+   },
+   {
+    "q": "Hvor mange lamper og ringe fandtes den med?",
+    "q_en": "With how many lamps and hoops did it exist?"
+   }
+  ],
+  "ankerkrone": [
+   {
+    "q": "Hvornår blev Ankerkronen lavet?",
+    "q_en": "When was the Anchor Crown made?"
+   },
+   {
+    "q": "Findes der fotos eller bevarede eksemplarer?",
+    "q_en": "Do photos or surviving examples exist?"
+   }
+  ],
+  "stjernekrone": [
+   {
+    "q": "Hvornår blev Stjernekronen lavet?",
+    "q_en": "When was the Star Crown made?"
+   },
+   {
+    "q": "Findes der fotos eller bevarede eksemplarer?",
+    "q_en": "Do photos or surviving examples exist?"
+   }
+  ],
+  "syvtallet": [
+   {
+    "q": "Er Syvtallet det samme som den ombyggede 'Spørgsmålstegn'-standerlampe fra 1933?",
+    "q_en": "Is the Seven the same as the redesigned 1933 'Question Mark' floor lamp?"
+   },
+   {
+    "q": "Hvad hed lampen i Louis Poulsens kataloger?",
+    "q_en": "What was the lamp called in Louis Poulsen's catalogues?"
+   }
+  ],
+  "ph22vaeg": [
+   {
+    "q": "Har der tidligere fandtes en PH 2/2 væglampe, fx i 1930’erne?",
+    "q_en": "Did a PH 2/2 wall lamp exist earlier, e.g. in the 1930s?"
+   },
+   {
+    "q": "Er det en begrænset udgave eller fast sortiment?",
+    "q_en": "Is it a limited edition or a permanent product?"
+   }
   ]
  },
  "general": [
