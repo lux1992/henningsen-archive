@@ -18,7 +18,7 @@ jobs:
         run: |
           git config user.name 'ph-scan'
           git config user.email 'ph-scan@users.noreply.github.com'
-          git add found.js scan/names.json scan/seen.txt scan/report.md
+          git add data/found.js scan/names.json scan/seen.txt scan/report.md
           git diff --cached --quiet || { git commit -m "Scanning $(date -u +%F)"; git push; }
       - name: Issue med nye fund
         if: steps.scan.outputs.new != '0'

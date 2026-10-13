@@ -1,7 +1,7 @@
 // Dateringsguide som spørgsmål. Hvert svar kan sætte en tidligste (from) og seneste (to) årstal.
 // weak: true betyder et indicium, ikke en grænse. Alle kilder er officielle (Louis Poulsen, museer, patenter).
 const LP = 'https://www.louispoulsen.com/en/', WB = 'https://web.archive.org/web/2025/https://www.louispoulsen.com/da-dk/catalog/privat/';
-const Q = {
+export const Q = {
   id: { q: 'Har lampen et Louis Poulsen-ID?', q_en: 'Does the lamp have a Louis Poulsen ID?', help: 'To ens mærkater med et sekscifret nummer (det ene sidder på lampen), eller et indgraveret 14-cifret nummer.', help_en: 'Two identical labels with a six-digit number (one of them is on the lamp), or an engraved 14-digit number.', a: [
     { t: 'Ja', t_en: 'Yes', from: 2009, say: 'Louis Poulsen har sat ID-mærkater på alle lamper pakket efter december 2009.', say_en: 'Louis Poulsen has put ID labels on all lamps packed after December 2009.', url: LP + 'reflections/how-to-spot-an-original' },
     { t: 'Nej eller ved ikke', t_en: 'No or don\'t know', say: 'Det udelukker ikke noget. Tidlige originaler kan være helt umærkede: V&A’s bordlampe fra 1928 har ingen mærker.', say_en: 'That rules nothing out. Early originals can be completely unmarked: the V&A\'s table lamp from 1928 has no marks.', url: 'https://collections.vam.ac.uk/item/O73130/table-lamp-hennigsen-poul/', weak: true } ] },
@@ -12,7 +12,7 @@ const Q = {
     { t: 'Ja', t_en: 'Yes', from: 2008, say: 'Certifikater følger med Louis Poulsens limited editions. Den første nummererede jubilæumsudgave er fra 2008, den årlige PH Limited-serie fra 2014.', say_en: 'Certificates come with Louis Poulsen\'s limited editions. The first numbered anniversary edition is from 2008, the annual PH Limited series from 2014.', url: LP + 'customer-service/faq' },
     { t: 'Nej eller ved ikke', t_en: 'No or don\'t know', say: 'Ingen konklusion: de fleste PH-lamper er ikke limited editions.', say_en: 'No conclusion: most PH lamps are not limited editions.', weak: true } ] },
 };
-const WIZARD = [
+export const WIZARD = [
   { id: 'ph5', t: 'PH 5', img: 'ph5', from: 1958, base: { say: 'PH 5 blev lanceret i 1958.', say_en: 'PH 5 was launched in 1958.', url: LP + 'press/ph-5' }, qs: [
     { q: 'Hvor stor er skærmen?', q_en: 'How big is the shade?', a: [
       { t: 'Ca. 50 cm', t_en: 'About 50 cm', say: 'Standardstørrelsen siden 1958.', say_en: 'The standard size since 1958.', weak: true, url: LP + 'press/ph-5' },

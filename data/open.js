@@ -1,5 +1,5 @@
 // Åbne spørgsmål: det arkivet ikke ved endnu. models: pr. lampe-id, general: om arkivet som helhed.
-const OPEN = {
+export const OPEN = {
  "models": {
   "system": [
    {

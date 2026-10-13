@@ -3,9 +3,9 @@
 // Nye fund skrives til found.js og vises på siden som "ikke gennemgået". Butikker bruges kun til at opdage modelnavne, aldrig som kilder.
 const fs = require('fs'), path = require('path');
 const ROOT = path.join(__dirname, '..');
-const load = (f, name) => new Function(fs.readFileSync(path.join(ROOT, f), 'utf8') + `;return ${name}`)();
+const load = (f, name) => new Function(fs.readFileSync(path.join(ROOT, 'data', f), 'utf8').replace(/^export /m, '') + `;return ${name}`)();
 const SOURCES = load('sources.js', 'SOURCES'), MODELS = load('models.js', 'MODELS');
-const FOUND = fs.existsSync(path.join(ROOT, 'found.js')) ? load('found.js', 'FOUND') : [];
+const FOUND = fs.existsSync(path.join(ROOT, 'data/found.js')) ? load('found.js', 'FOUND') : [];
 const NAMES_F = path.join(__dirname, 'names.json');
 const NAMES = fs.existsSync(NAMES_F) ? JSON.parse(fs.readFileSync(NAMES_F, 'utf8')) : {};
 // Alle URL'er scanningen har tilføjet. Slettede fund kommer derfor ikke igen.
@@ -126,7 +126,7 @@ async function main() {
   }
   await scanNames(report);
   FOUND.sort((a, b) => a.found.localeCompare(b.found) || a.url.localeCompare(b.url));
-  fs.writeFileSync(path.join(ROOT, 'found.js'), '// Automatisk fundne kilder fra scan/scan.js. Ikke gennemgået. Flyt en kilde til sources.js, når den er tjekket, eller slet den her.\nconst FOUND = [\n' + FOUND.map(s => ' ' + JSON.stringify(s)).join(',\n') + '\n];\n');
+  fs.writeFileSync(path.join(ROOT, 'data/found.js'), '// Automatisk fundne kilder fra scan/scan.js. Ikke gennemgået. Flyt en kilde til sources.js, når den er tjekket, eller slet den her.\nexport const FOUND = [\n' + FOUND.map(s => ' ' + JSON.stringify(s)).join(',\n') + '\n];\n');
   fs.writeFileSync(SEEN_F, [...new Set(SEEN.concat(FOUND.map(s => norm(s.url))))].sort().join('\n') + '\n');
   fs.writeFileSync(NAMES_F, JSON.stringify(Object.fromEntries(Object.entries(NAMES).sort()), null, 1) + '\n');
   const md = [];

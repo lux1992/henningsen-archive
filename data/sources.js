@@ -1,5 +1,5 @@
 // Kilder om PH-lamper. Tilføj nye objekter her.
-const SOURCES = [
+export const SOURCES = [
  {
   "title": "Poul Henningsen – designerside",
   "url": "https://www.louispoulsen.com/en/about-us/designers/poul-henningsen",
