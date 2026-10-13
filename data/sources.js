@@ -148,6 +148,7 @@ export const SOURCES = [
   "publisher": "Louis Poulsen",
   "year": "2019",
   "type": "artikel",
+  "models": ["kogle","ph5"],
   "language": "en",
   "description": "Pressemeddelelse om jubilæumsudgaverne til 125-året for Poul Henningsens fødsel (1894-2019).",
   "description_en": "Press release on the anniversary editions marking 125 years since Poul Henningsen's birth (1894-2019)."
@@ -181,6 +182,126 @@ export const SOURCES = [
   "language": "en",
   "description": "Pressemeddelelse om genudgivelsen af PH Septima (oprindeligt 1928) med syv glasskærme.",
   "description_en": "Press release on the re-release of the PH Septima (originally 1928) with seven glass shades."
+ },
+ {
+  "title": "Press: PH 3½-3 Amber Coloured Pendant – Limited Edition",
+  "url": "https://www.louispoulsen.com/en/press/ph-3-3-amber-coloured-pendant---limited-edition",
+  "publisher": "Louis Poulsen",
+  "year": "2017",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 3½-3 i ravfarvet glas med messingophæng, årets limited edition i november-december 2017. Nævner at PH og Louis Poulsen indførte farvet glas i slutningen af 1920’erne.",
+  "description_en": "Press release on the PH 3½-3 in amber-coloured glass with brass suspension, the limited edition for November-December 2017. Notes that PH and Louis Poulsen introduced coloured glass in the late 1920s."
+ },
+ {
+  "title": "Press: PH 5 Mini",
+  "url": "https://www.louispoulsen.com/en/press/ph-5-mini",
+  "publisher": "Louis Poulsen",
+  "year": "2017",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 5 Mini, den første nedskalerede udgave af PH 5, i butikkerne fra oktober 2017.",
+  "description_en": "Press release on the PH 5 Mini, the first scaled-down version of the PH 5, in stores from October 2017."
+ },
+ {
+  "title": "Press: PH with new metal frames",
+  "url": "https://www.louispoulsen.com/en/press/ph-med-nye-metalstel",
+  "publisher": "Louis Poulsen",
+  "year": "2017",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om syv nye PH 2/1- og PH 3½-2½-lamper med opalglas og stel i krom eller sort metal fra februar 2017, med en kort forklaring af modelnumrene.",
+  "description_en": "Press release on seven new PH 2/1 and PH 3½-2½ lamps with opal glass and chrome or black metallised frames from February 2017, with a short explanation of the model numbers."
+ },
+ {
+  "title": "Press: PH Limited 2019 – The Water Pump",
+  "url": "https://www.louispoulsen.com/en/press/ph-limited-2019",
+  "publisher": "Louis Poulsen",
+  "year": "2019",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 3/2-gulvlampen Vandpumpen i ravfarvet glas og messing som limited edition 2019, med lidt historik om læselampen fra 1950’erne.",
+  "description_en": "Press release on the PH 3/2 floor lamp The Water Pump in amber-coloured glass and brass as the 2019 limited edition, with some history of the reading lamp from the 1950s."
+ },
+ {
+  "title": "Press: PH 5 Monochrome",
+  "url": "https://www.louispoulsen.com/en/press/ph-5-monochrome",
+  "publisher": "Louis Poulsen",
+  "year": "2020",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 5 og PH 5 Mini i ensfarvet sort, hvid og blå fra efteråret 2020, med PH’s eget citat fra lanceringen af PH 5.",
+  "description_en": "Press release on the PH 5 and PH 5 Mini in monochrome black, white and blue from autumn 2020, quoting PH on the launch of the PH 5."
+ },
+ {
+  "title": "Press: PH Artichoke Black",
+  "url": "https://www.louispoulsen.com/en/press/ph-artichoke-black",
+  "publisher": "Louis Poulsen",
+  "year": "2020",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH Kogle i mat sort fra februar 2020, med kort historik om lampen til Langeliniepavillonen.",
+  "description_en": "Press release on the PH Artichoke in matt black from February 2020, with a short history of the lamp made for the Langelinie Pavilion."
+ },
+ {
+  "title": "Press: PH 5 Retake",
+  "url": "https://www.louispoulsen.com/en/press/ph-5-retake",
+  "publisher": "Louis Poulsen",
+  "year": "",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 5 Retake: PH 5’ere med fejl eller buler, hvor lakken fjernes, så lampen står i rå aluminium og stål.",
+  "description_en": "Press release on the PH 5 Retake: flawed or dented PH 5s stripped of their paint so the lamp shows raw aluminium and steel."
+ },
+ {
+  "title": "Press: PH 5 – New Colours",
+  "url": "https://www.louispoulsen.com/en/press/ph-52",
+  "publisher": "Louis Poulsen",
+  "year": "2022",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 5 i nye ensfarvede udgaver og pastelkombinationer fra efteråret 2022.",
+  "description_en": "Press release on the PH 5 in new monochrome versions and pastel combinations from autumn 2022."
+ },
+ {
+  "title": "Press: PH Limited 2022",
+  "url": "https://www.louispoulsen.com/en/press/ph-limited-22",
+  "publisher": "Louis Poulsen",
+  "year": "2022",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om limited edition 2022: PH 3/3-pendlen og PH 3/2-bordlampen med overskærm i messing og opalglas.",
+  "description_en": "Press release on the 2022 limited editions: the PH 3/3 pendant and the PH 3/2 table lamp with a brass top shade and opal glass."
+ },
+ {
+  "title": "Press: PH 5 + PH 5 Mini new colours",
+  "url": "https://www.louispoulsen.com/en/press/ph-5--ph-mini-new-colors",
+  "publisher": "Louis Poulsen",
+  "year": "2024",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH 5 og PH 5 Mini i fire nye ensfarvede farver fra efteråret 2024.",
+  "description_en": "Press release on the PH 5 and PH 5 Mini in four new monochrome colours from autumn 2024."
+ },
+ {
+  "title": "Press: PH Aged Brass 2025",
+  "url": "https://www.louispoulsen.com/en/press/ph-aged-brass-2025",
+  "publisher": "Louis Poulsen",
+  "year": "2025",
+  "type": "artikel",
+  "language": "en",
+  "description": "Pressemeddelelse om PH Aged Brass-kollektionen fra 2025 med PH 2/2 Luna, PH 3/3 og PH 3/2 i opalglas og mørk, ældet messing.",
+  "description_en": "Press release on the 2025 PH Aged Brass collection with the PH 2/2 Luna, PH 3/3 and PH 3/2 in opal glass and dark aged brass."
+ },
+ {
+  "title": "PH Limited Edition: ten years of limited editions",
+  "url": "https://www.louispoulsen.com/en/reflections/ph-limited-edition",
+  "publisher": "Louis Poulsen",
+  "year": "2025",
+  "type": "artikel",
+  "language": "en",
+  "description": "Louis Poulsens oversigt over de årlige PH limited editions fra 2014 til 2025, fra PH 3½-3 i kobber til PH 3/2 i terrakottafarvet glas.",
+  "description_en": "Louis Poulsen’s overview of the yearly PH limited editions from 2014 to 2025, from the PH 3½-3 in copper to the PH 3/2 in terracotta-coloured glass."
  },
  {
   "title": "Louis Poulsen: First House of Light (bog)",
@@ -1242,6 +1363,7 @@ export const SOURCES = [
   "publisher": "DPTO (Danmark) via Google Patents",
   "year": "1935",
   "type": "patent",
+  "models": ["system"],
   "language": "da",
   "description": "Dansk patent fra Louis Poulsen på automatisk placering af glødepæren i armaturet – afgørende for PH-skærmenes lysfordeling.",
   "description_en": "Danish patent from Louis Poulsen on automatic positioning of the bulb in the fitting – crucial to the light distribution of the PH shades."
@@ -1585,6 +1707,7 @@ export const SOURCES = [
   "publisher": "Kosmorama #249 / Det Danske Filminstitut",
   "year": "2013",
   "type": "artikel",
+  "models": ["tekst"],
   "language": "en",
   "description": "Engelsk version af Thomsons Kosmorama-artikel om PH, lys og film.",
   "img": "thumbs/0912162a5070.jpg",
@@ -2118,6 +2241,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1924",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Notits om at Censurudvalget for Kunstindustriudstillingen i Paris 1925 præmierede arbejder af arkitekt Poul Henningsen i forbindelse med Louis Poulsen & Co. i konkurrencen om lysgivere.",
   "description_en": "Notice that the selection committee for the 1925 Paris applied arts exhibition awarded prizes to work by architect Poul Henningsen in association with Louis Poulsen & Co. in the competition for light fittings."
@@ -2128,6 +2252,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1924",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Provinsavisens gengivelse af nyheden om den danske udvælgelse til Paris-udstillingen 1925, hvor Poul Henningsen nævnes.",
   "description_en": "The provincial newspaper's report of the news of the Danish selection for the 1925 Paris exhibition, in which Poul Henningsen is mentioned."
@@ -2138,6 +2263,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1924",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Artikel om Danmarks forberedelser til den internationale kunstindustriudstilling i Paris 1925 med omtale af Henningsen.",
   "description_en": "Article on Denmark's preparations for the international applied arts exhibition in Paris in 1925, mentioning Henningsen."
@@ -2148,6 +2274,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1924",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Omtale af de danske kunstindustrielle arbejder udvalgt til Paris 1925, herunder Poul Henningsens.",
   "description_en": "Report on the Danish applied arts works selected for Paris 1925, including Poul Henningsen's."
@@ -2158,6 +2285,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1924",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Avisartikel om de danske bidrag forud for Paris-udstillingen 1925 med omtale af Henningsen.",
   "description_en": "Newspaper article on the Danish contributions ahead of the 1925 Paris exhibition, mentioning Henningsen."
@@ -2168,6 +2296,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Louis Poulsen & Co.s (Nyhavn 11) annonce for P.H.-lampen: skærer ikke i øjnene, fordeler lyset rigtigt, sparer strøm, dansk fabrikat.",
   "description_en": "Louis Poulsen & Co.'s (Nyhavn 11) advertisement for the P.H. lamp: does not hurt the eyes, distributes the light correctly, saves electricity, Danish-made."
@@ -2178,6 +2307,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Avisside med Louis Poulsen-annonce/omtale af P.H.-lampen i forbindelse med lysudstillingen november 1926.",
   "description_en": "Newspaper page with a Louis Poulsen advertisement/mention of the P.H. lamp in connection with the lighting exhibition in November 1926."
@@ -2188,6 +2318,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Gentaget Louis Poulsen-annonce for P.H.-lampen i Nationaltidende.",
   "description_en": "Repeat Louis Poulsen advertisement for the P.H. lamp in Nationaltidende."
@@ -2198,6 +2329,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Annonce for P.H.-lampen fra Louis Poulsen & Co. i Berlingske Tidende.",
   "description_en": "Advertisement for the P.H. lamp from Louis Poulsen & Co. in Berlingske Tidende."
@@ -2208,6 +2340,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Louis Poulsen-annonce for P.H.-lampen i Dagbladet (København).",
   "description_en": "Louis Poulsen advertisement for the P.H. lamp in Dagbladet (Copenhagen)."
@@ -2218,6 +2351,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Endnu en P.H.-lampe-annonce fra Louis Poulsen & Co. i Dagbladet.",
   "description_en": "Another P.H. lamp advertisement from Louis Poulsen & Co. in Dagbladet."
@@ -2238,6 +2372,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Kåseri fra belysningsudstillingen 1926 med omtale af P.H.-lamper.",
   "description_en": "Light-hearted column from the 1926 lighting exhibition mentioning P.H. lamps."
@@ -2248,6 +2383,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
+  "models": ["system"],
   "language": "da",
   "description": "Louis Poulsen-annonce for P.H.-lampen i Social-Demokraten (\"Fremstilles nu til alle Formaal\").",
   "description_en": "Louis Poulsen advertisement for the P.H. lamp in Social-Demokraten (\"Fremstilles nu til alle Formaal\" – now made for all purposes)."
@@ -2861,6 +2997,7 @@ export const SOURCES = [
   "publisher": "Universitätsbibliothek Heidelberg (digitalisering af Samleren)",
   "year": "1925",
   "type": "tidsskrift",
+  "models": ["system"],
   "language": "da",
   "description": "Samtidig anmeldelse af Danmarks afdeling på Paris-udstillingen 1925, der nævner belysningen tegnet af Poul Henningsen og udført af Louis Poulsen (OCR + faksimile).",
   "description_en": "Contemporary review of the Danish section at the 1925 Paris exhibition, mentioning the lighting designed by Poul Henningsen and made by Louis Poulsen (OCR + facsimile)."
@@ -2990,6 +3127,7 @@ export const SOURCES = [
   "publisher": "Kulturen i Lund (Carlotta)",
   "year": "1926",
   "type": "museum",
+  "models": ["ph44"],
   "language": "sv",
   "description": "PH-loftlampe i glas købt til Kulturens 'Vita huset' 1929; museumsteksten anfører at modellen blev vist på Deutscher Werkbunds udstilling 'Die Wohnung' i Stuttgart 1927.",
   "description_en": "Glass PH ceiling lamp bought for Kulturen's 'Vita huset' in 1929; the museum text states that the model was shown at the Deutscher Werkbund exhibition 'Die Wohnung' in Stuttgart in 1927."
@@ -3000,6 +3138,7 @@ export const SOURCES = [
   "publisher": "Kulturen i Lund (Carlotta)",
   "year": "1926",
   "type": "museum",
+  "models": ["ph44"],
   "language": "sv",
   "description": "Tidlig PH-loftlampe i opalglas og forkromet messing (Ø 50 cm), indkøbt til indvielsen af Vita huset 1929.",
   "description_en": "Early PH ceiling lamp in opal glass and chrome-plated brass (Ø 50 cm), bought for the inauguration of Vita huset in 1929."
@@ -3042,6 +3181,7 @@ export const SOURCES = [
   "publisher": "Norsk Folkemuseum (DigitaltMuseum)",
   "year": "1927",
   "type": "museum",
+  "models": ["ph44"],
   "language": "no",
   "description": "Bærende metaldel og glasskærm til PH-lampe fra 1927; del af en serie PH-lampedele NF.1986-0353–0356.",
   "description_en": "Load-bearing metal part and glass shade for a 1927 PH lamp; part of a series of PH lamp parts NF.1986-0353–0356."
@@ -3074,6 +3214,7 @@ export const SOURCES = [
   "publisher": "Malmö Museer (via Europeana)",
   "year": "1958",
   "type": "museum",
+  "models": ["kogle"],
   "language": "sv",
   "description": "Svensk museumsfotografi af Langelinie Pavillonen (1958) med PH-belysning, Børge Mogensen- og Panton-møbler.",
   "img": "thumbs/fa6ad4296080.jpg",
@@ -4598,6 +4739,7 @@ export const SOURCES = [
   "publisher": "Norsk Folkemuseum",
   "year": 1927,
   "type": "museum",
+  "models": ["ph44"],
   "language": "no",
   "description": "Museumspost for tidlig PH-pendel (PH 5/4-type med 50 cm topskærm) fra 1927–29 i glas og forkromet stål, designet af Poul Henningsen.",
   "description_en": "Museum record for an early PH pendant (PH 5/4 type with 50 cm top shade) from 1927–29 in glass and chrome-plated steel, designed by Poul Henningsen."
@@ -4608,6 +4750,7 @@ export const SOURCES = [
   "publisher": "Norsk Folkemuseum",
   "year": 1927,
   "type": "museum",
+  "models": ["ph44"],
   "language": "no",
   "description": "Museumspost for en slebet glasskærm (Ø 48 cm) til en tidlig PH-pendel fra 1927–29.",
   "description_en": "Museum record for a ground glass shade (Ø 48 cm) for an early PH pendant from 1927–29."
@@ -4618,6 +4761,7 @@ export const SOURCES = [
   "publisher": "Norsk Folkemuseum",
   "year": 1927,
   "type": "museum",
+  "models": ["ph44"],
   "language": "no",
   "description": "Museumspost for en slebet glasskærm (Ø 27 cm) til en tidlig PH-pendel fra 1927–29.",
   "description_en": "Museum record for a ground glass shade (Ø 27 cm) for an early PH pendant from 1927–29."
