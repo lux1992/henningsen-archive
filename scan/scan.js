@@ -111,8 +111,51 @@ async function wayback(urls) {
   }
 }
 
+// Døde links: 404/410 eller ukendt domæne to kørsler i træk. 403/429/5xx/timeout er "usikker" (mange museer blokerer bots) og ignoreres.
+// Bekræftet døde kilder peges om til nærmeste Wayback-kopi i sources.js, med den gamle adresse i "original".
+const DEAD_F = path.join(__dirname, 'dead.json');
+const DEAD = fs.existsSync(DEAD_F) ? JSON.parse(fs.readFileSync(DEAD_F, 'utf8')) : {};
+// Ikke norm(): den fjerner ?v= og slår alle YouTube-film sammen
+const linkKey = u => u.replace(/^https?:\/\/(www\.)?/i, '').replace(/#.*$/, '').replace(/\/+$/, '');
+async function linkStatus(url) {
+  try {
+    let r;
+    for (const method of ['HEAD', 'GET']) {
+      r = await fetch(url, { method, headers: { 'user-agent': UA, accept: '*/*' }, redirect: 'follow', signal: AbortSignal.timeout(15000) });
+      r.body?.cancel().catch(() => {});
+      if (r.ok) return 'ok';
+    }
+    return [404, 410].includes(r.status) ? 'dead' : 'unsure';
+  } catch (e) { return e.cause?.code === 'ENOTFOUND' ? 'dead' : 'unsure' }
+}
+
+async function checkLinks(report) {
+  const todo = SOURCES.filter(s => !/^https?:\/\/web\.archive\.org\//.test(s.url)), res = {};
+  const worker = async () => { for (let s; (s = todo.pop());) res[s.url] = await linkStatus(s.url) };
+  await Promise.all(Array.from({ length: 8 }, worker));
+  let src = fs.readFileSync(path.join(ROOT, 'data/sources.js'), 'utf8');
+  for (const [url, st] of Object.entries(res)) {
+    const k = linkKey(url);
+    report.checked++; if (st === 'unsure') report.unsure++;
+    if (st !== 'dead') { delete DEAD[k]; continue }
+    if (!DEAD[k] || DEAD[k] >= TODAY) { DEAD[k] ||= TODAY; report.pending.push(url); continue }
+    let snap;
+    // Uden timestamp: med den svarer API'et ofte tomt. Nyeste kopi med status 200 er god nok.
+    try { snap = (await json(`https://archive.org/wayback/available?url=${encodeURIComponent(url)}`)).archived_snapshots?.closest } catch {}
+    const old = `"url": ${JSON.stringify(url)},`, i = src.indexOf(old);
+    if (snap?.available && snap.status === '200' && i > -1) {
+      const indent = src.slice(src.lastIndexOf('\n', i) + 1, i), to = snap.url.replace(/^http:/, 'https:');
+      src = src.slice(0, i) + `"url": ${JSON.stringify(to)},\n${indent}"original": ${JSON.stringify(url)},` + src.slice(i + old.length);
+      delete DEAD[k];
+      report.dead.push(`- ${url} → [Wayback-kopi](${to}). Rettet i sources.js.`);
+    } else report.dead.push(`- ${url} (død siden ${DEAD[k]}) – ingen Wayback-kopi${i > -1 ? '' : ' eller ikke fundet i sources.js'}. Ikke rettet.`);
+  }
+  fs.writeFileSync(path.join(ROOT, 'data/sources.js'), src);
+  fs.writeFileSync(DEAD_F, JSON.stringify(Object.fromEntries(Object.entries(DEAD).sort()), null, 1) + '\n');
+}
+
 async function main() {
-  const report = { added: [], names: [], errors: [] };
+  const report = { added: [], names: [], errors: [], dead: [], pending: [], checked: 0, unsure: 0 };
   const have = new Set([...SOURCES, ...FOUND].map(s => norm(s.url)).concat(SEEN));
   for (const [name, fn] of Object.entries(COLLECTORS)) {
     let rows;
@@ -125,6 +168,7 @@ async function main() {
     }
   }
   await scanNames(report);
+  if (process.env.LINKS !== '0') await checkLinks(report);
   FOUND.sort((a, b) => a.found.localeCompare(b.found) || a.url.localeCompare(b.url));
   fs.writeFileSync(path.join(ROOT, 'data/found.js'), '// Automatisk fundne kilder fra scan/scan.js. Ikke gennemgået. Flyt en kilde til sources.js, når den er tjekket, eller slet den her.\nexport const FOUND = [\n' + FOUND.map(s => ' ' + JSON.stringify(s)).join(',\n') + '\n];\n');
   fs.writeFileSync(SEEN_F, [...new Set(SEEN.concat(FOUND.map(s => norm(s.url))))].sort().join('\n') + '\n');
@@ -132,11 +176,12 @@ async function main() {
   const md = [];
   if (report.added.length) md.push(`## ${report.added.length} nye kilder\n`, ...report.added.map(s => `- [${s.title}](${s.url}) – ${s.publisher}, ${s.year || 'u.å.'} (${s.via})`));
   if (report.names.length) md.push(`\n## Ukendte modelnavne\nNavne, der ikke matcher en lampe i models.js. Kan være en ny model, en variant eller støj.\n`, ...report.names.map(n => `- ${n} (${NAMES[n].seen.join(', ')})`));
+  if (report.dead.length || report.pending.length) md.push(`\n## Døde links\nSvarede 404/410 eller havde ukendt domæne to uger i træk.\n`, ...report.dead, ...report.pending.map(u => `- ${u} – død for første gang, tjekkes igen næste uge.`));
   if (report.errors.length) md.push(`\n## Fejl\n`, ...report.errors.map(e => `- ${e}`));
   fs.writeFileSync(path.join(__dirname, 'report.md'), md.join('\n') + '\n');
-  console.log(`nye kilder: ${report.added.length}, nye navne: ${report.names.length}, fejl: ${report.errors.length}`);
+  console.log(`nye kilder: ${report.added.length}, nye navne: ${report.names.length}, links: ${report.checked} tjekket, ${report.dead.length} døde, ${report.pending.length} måske døde, ${report.unsure} usikre, fejl: ${report.errors.length}`);
   if (process.env.WAYBACK) await wayback(report.added.map(s => s.url));
   // Til workflowet: om der er noget at åbne et issue om
-  if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `new=${report.added.length + report.names.length}\n`);
+  if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `new=${report.added.length + report.names.length}\ndead=${report.dead.length}\n`);
 }
 main();

@@ -13,14 +13,14 @@ jobs:
         with: { node-version: 22 }
       - id: scan
         run: node scan/scan.js
-        env: { WAYBACK: '1' }
+        env: { WAYBACK: '1' } # LINKS: '0' springer tjekket af døde links over
       - name: Commit
         run: |
           git config user.name 'ph-scan'
           git config user.email 'ph-scan@users.noreply.github.com'
-          git add data/found.js scan/names.json scan/seen.txt scan/report.md
+          git add data/found.js data/sources.js scan/dead.json scan/names.json scan/seen.txt scan/report.md
           git diff --cached --quiet || { git commit -m "Scanning $(date -u +%F)"; git push; }
       - name: Issue med nye fund
-        if: steps.scan.outputs.new != '0'
+        if: steps.scan.outputs.new != '0' || steps.scan.outputs.dead != '0'
         run: gh issue create --title "Nye fund $(date -u +%F)" --body-file scan/report.md
         env: { GH_TOKEN: '${{ github.token }}' }
