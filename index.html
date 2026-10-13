@@ -51,6 +51,8 @@
   .sechead p { margin: 0; color: var(--graphite); font: 400 15px/1.4 var(--display); max-width: 60ch }
 
   /* Lamperne som katalogtavle */
+  .nopic { margin-top: 36px; padding: 16px 18px 22px; border: 1px solid var(--rule); background: var(--sheet) }
+  .nopic h3 { font: 600 17px/1.3 var(--display); margin: 0 0 4px } .nopic > p { margin: 0 0 18px; font-size: 15px; color: var(--graphite) }
   .models { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 28px 18px }
   .model { min-width: 0; display: grid; gap: 6px; align-content: start; text-align: left; padding: 0; border: 0; background: none; cursor: pointer }
   .model .pic { aspect-ratio: 1; max-width: 100%; background: var(--haze) center / cover no-repeat; border-bottom: 3px solid transparent }
@@ -59,7 +61,6 @@
   .model small { font: 400 13px/1.2 var(--display); color: var(--graphite) }
   .model small i { font-style: normal; color: var(--red) }
   .model .txt { display: grid; gap: 2px; min-width: 0; overflow-wrap: anywhere }
-  .model span { display: none }
   .model:hover b { text-decoration: underline; text-underline-offset: 3px }
 
   /* Filtre */
@@ -226,7 +227,7 @@
 
   <section aria-labelledby="mh">
     <div class="sechead"><h2 class="sec" id="mh" data-i="mh">Lamperne</h2><p data-i="mhp">Vælg en lampe for at se dens historie, fakta og kilder.</p></div>
-    <div class="models" id="models"></div>
+    <div id="models"></div>
   </section>
   <section id="profile" hidden aria-live="polite"></section>
   <section id="dating" aria-labelledby="dgh">
@@ -393,17 +394,22 @@
     return (hits.find(s => s.img && s.type === 'museum') || hits.find(s => s.img) || {}).img;
   }
   function renderModels() {
-  $('models').innerHTML = MODELS.map(m => {
+  // Lamper uden billede samles i en boks for sig, med patenttegningen som pladsholder
+  const card = m => {
     const hits = SOURCES.filter(s => s.models.includes(m.id));
     const pic = modelPic(m.id);
     return `<button class="model" data-m="${m.id}" aria-pressed="false">
       <div class="pic"${pic ? ` style="background-image:url('${pic}')"` : ''}>${pic ? '' : SHADE}</div>
       <div class="txt"><b>${L(m, 'name')}</b><small><i>${L(m, 'year')}</i> · ${hits.length} ${T('kilder', 'sources')}</small>${evLabel(m) ? `<span class="ev">${evLabel(m)}</span>` : ''}</div></button>`;
-  }).join('');
+  };
+  const [withPic, noPic] = [MODELS.filter(m => modelPic(m.id)), MODELS.filter(m => !modelPic(m.id))];
+  $('models').innerHTML = `<div class="models">${withPic.map(card).join('')}</div>` + (noPic.length ? `<div class="nopic"><h3>${T('Uden billede endnu', 'No picture yet')} (${noPic.length})</h3><p>${T('Vi har ingen billeder af disse lamper fra en kilde. Har du et foto eller en scanning, så <a href="#bidrag">send det</a>.', 'We have no pictures of these lamps from a source. If you have a photo or a scan, please <a href="#bidrag">send it</a>.')}</p><div class="models">${noPic.map(card).join('')}</div></div>` : '');
   document.querySelectorAll('.model').forEach(b => b.setAttribute('aria-pressed', b.dataset.m === model));
   }
   $('models').addEventListener('click', e => {
-    const b = e.target.closest('.model'); if (b) setModel(model === b.dataset.m ? '' : b.dataset.m);
+    const b = e.target.closest('.model'); if (!b) return;
+    setModel(model === b.dataset.m ? '' : b.dataset.m);
+    if (model) $('profile').scrollIntoView({ block: 'start' });
   });
   function setModel(id) {
     model = id;
@@ -456,7 +462,7 @@
       ${(OQ.models[m.id] || []).length ? `<div class="pbox"><h4>${T('Åbne spørgsmål', 'Open questions')}</h4>${OQ.models[m.id].map((q, i) => qHTML(q, m.id + ':' + i)).join('')}</div>` : ''}`;
   }
   $('profile').addEventListener('click', e => {
-    if (e.target.closest('[data-close]')) setModel('');
+    if (e.target.closest('[data-close]')) { const id = model; setModel(''); document.querySelector(`.model[data-m="${id}"]`)?.scrollIntoView({ block: 'center' }) }
     const t = e.target.closest('[data-t]'); if (t) { type = t.dataset.t; renderChips(); render(); $('list').scrollIntoView({ behavior: 'smooth' }) }
   });
 
@@ -715,7 +721,7 @@
     const key = b.dataset.ask, id = key.split(':')[0], q = qOf(key);
     $('f-lamp').value = MODELS.some(m => m.id === id) ? id : '';
     $('f-q').value = q ? q.q : ''; $('f-qwrap').hidden = !q;
-    $('bidrag').scrollIntoView({ behavior: 'smooth' }); $('f-text').focus({ preventScroll: true });
+    $('bidrag').scrollIntoView(); $('f-text').focus({ preventScroll: true });
   });
   $('cform').addEventListener('submit', e => {
     e.preventDefault();
