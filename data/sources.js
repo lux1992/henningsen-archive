@@ -2307,7 +2307,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
-  "models": ["system"],
+  "models": ["system","ph44"],
   "language": "da",
   "description": "Avisside med Louis Poulsen-annonce/omtale af P.H.-lampen i forbindelse med lysudstillingen november 1926.",
   "description_en": "Newspaper page with a Louis Poulsen advertisement/mention of the P.H. lamp in connection with the lighting exhibition in November 1926."
@@ -2318,7 +2318,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
-  "models": ["system"],
+  "models": ["system","ph44"],
   "language": "da",
   "description": "Gentaget Louis Poulsen-annonce for P.H.-lampen i Nationaltidende.",
   "description_en": "Repeat Louis Poulsen advertisement for the P.H. lamp in Nationaltidende."
@@ -2329,10 +2329,10 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
-  "models": ["system"],
+  "models": ["system","slotsholm"],
   "language": "da",
-  "description": "Annonce for P.H.-lampen fra Louis Poulsen & Co. i Berlingske Tidende.",
-  "description_en": "Advertisement for the P.H. lamp from Louis Poulsen & Co. in Berlingske Tidende."
+  "description": "Redaktionel artikel om P.H.-lampens historie: Slotsholmens gadelygter (1917), lampekonkurrencen i 1924, Paris 1925 og Forum-opgaven 1925–26.",
+  "description_en": "Editorial article on the history of the P.H. lamp: the Slotsholmen street lamps (1917), the 1924 lamp competition, Paris 1925 and the Forum commission of 1925–26."
  },
  {
   "title": "Dagbladet 15.11.1926, s. 3: \"P. H. Lampen\"",
@@ -2340,7 +2340,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
-  "models": ["system"],
+  "models": ["system","ph44"],
   "language": "da",
   "description": "Louis Poulsen-annonce for P.H.-lampen i Dagbladet (København).",
   "description_en": "Louis Poulsen advertisement for the P.H. lamp in Dagbladet (Copenhagen)."
@@ -2351,7 +2351,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
-  "models": ["system"],
+  "models": ["system","ph44"],
   "language": "da",
   "description": "Endnu en P.H.-lampe-annonce fra Louis Poulsen & Co. i Dagbladet.",
   "description_en": "Another P.H. lamp advertisement from Louis Poulsen & Co. in Dagbladet."
@@ -2383,7 +2383,7 @@ export const SOURCES = [
   "publisher": "Det Kgl. Bibliotek – Mediestream",
   "year": "1926",
   "type": "artikel",
-  "models": ["system"],
+  "models": ["system","ph44"],
   "language": "da",
   "description": "Louis Poulsen-annonce for P.H.-lampen i Social-Demokraten (\"Fremstilles nu til alle Formaal\").",
   "description_en": "Louis Poulsen advertisement for the P.H. lamp in Social-Demokraten (\"Fremstilles nu til alle Formaal\" – now made for all purposes)."
@@ -2907,12 +2907,12 @@ export const SOURCES = [
   "title": "Elektrisk gadelampe designet af PH (København/Frederiksberg)",
   "url": "https://arkiv.dk/vis/7258598",
   "publisher": "Præstø Lokalhistoriske Arkiv (arkiv.dk)",
-  "year": "",
+  "year": "1952",
   "type": "arkiv",
   "language": "da",
-  "description": "Lokalarkivfoto: elektrisk gadelampe designet af PH (København/Frederiksberg).",
+  "description": "Lokalarkivfoto fra 1952: elektrisk gadelampe, 'design PH', som hang i København og Frederiksberg, produceret af blikkenslager Bodholdt i Præstø. En tegning af lampen ligger ved originalen.",
   "img": "thumbs/89447813bb73.jpg",
-  "description_en": "Local archive photo: electric street lamp designed by PH (Copenhagen/Frederiksberg)."
+  "description_en": "Local archive photo from 1952: electric street lamp, 'design PH', which hung in Copenhagen and Frederiksberg, made by the tinsmith Bodholdt in Præstø. A drawing of the lamp is kept with the original."
  },
  {
   "title": "Interiør med PH-lampe og mønstret tapet, februar 1931",
@@ -3030,6 +3030,7 @@ export const SOURCES = [
   "publisher": "Internet Archive (pub_arkitekten)",
   "year": "1958",
   "type": "tidsskrift",
+  "models": ["ph5","kogle","tallerken"],
   "language": "da",
   "description": "Arkitekten-nummer med tekst om PH ('I 1925 udstillede Poul Henningsen i Paris en lampe…') og omtale af 'Den nye PH-lampe'; fuld visning hos Internet Archive.",
   "img": "thumbs/eed873478592.jpg",
@@ -3171,9 +3172,10 @@ export const SOURCES = [
   "publisher": "Norsk Folkemuseum (DigitaltMuseum)",
   "year": "1927",
   "type": "museum",
+  "models": ["ph44"],
   "language": "no",
-  "description": "Glasskærme og base til en PH-lampe fra 1927 i Norsk Folkemuseums samling.",
-  "description_en": "Glass shades and base for a 1927 PH lamp in the Norsk Folkemuseum collection."
+  "description": "Dele af en PH-loftslampe i glas (Ø 50 cm), fremstillet 1927–29: fem løse glasskærme og en øvre del med to faste skærme, i Norsk Folkemuseums samling.",
+  "description_en": "Parts of a PH glass ceiling lamp (Ø 50 cm), made 1927–29: five loose glass shades and an upper part with two fixed shades, in the Norsk Folkemuseum collection."
  },
  {
   "title": "Lampe, del av (NF.1986-0353ABC) – PH-lampe 1927",
