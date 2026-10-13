@@ -326,10 +326,9 @@
   };
   const typeNote = t => (lang === 'en' ? TYPE_NOTES_EN : TYPE_NOTES)[t];
   // Donationslinks: udfyld for at vise "Støt arkivet". Tomme felter vises ikke.
-  // E-mail til bidrag uden GitHub-konto. Tom = vises ikke.
+  // E-mail til bidrag. Tom = vises ikke.
   const CONTACT_EMAIL = ['lukasbarbagallo', 'gmail.com'].join('@'); // samlet i JS, så adressen ikke står som tekst i kildekoden
-  const REPO = 'https://github.com/lux1992/henningsen-archive';
-  const DONATE = { 'MobilePay': '', 'Ko-fi': '', 'GitHub Sponsors': '' };
+  const DONATE = { 'MobilePay': '', 'Ko-fi': '' };
   const $ = id => document.getElementById(id);
   // Sprog: dansk er grundteksten; engelsk ligger som *_en ved siden af. Kildernes titler oversættes ikke.
   let lang = 'da';
@@ -713,7 +712,7 @@
     $('f-lamp').innerHTML = `<option value="">${T('Ingen bestemt / ved ikke', 'None in particular / not sure')}</option>` + MODELS.filter(m => m.id !== 'tekst').map(m => `<option value="${m.id}">${L(m, 'name')}</option>`).join('');
     $('f-lamp').value = keep;
     $('f-mail').hidden = !CONTACT_EMAIL;
-    if (CONTACT_EMAIL) $('f-mail').innerHTML = T(`Åbner der ikke noget? Skriv direkte til <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>. Har du en GitHub-konto, kan du også <a href="${REPO}/issues/new?template=bidrag.yml" target="_blank" rel="noopener">oprette et issue</a>.`, `Nothing opens? Write directly to <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>. If you have a GitHub account, you can also <a href="${REPO}/issues/new?template=bidrag.yml" target="_blank" rel="noopener">open an issue</a>.`);
+    if (CONTACT_EMAIL) $('f-mail').innerHTML = T(`Åbner der ikke noget? Skriv direkte til <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.`, `Nothing opens? Write directly to <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.`);
   }
   // "Jeg ved noget": udfyld formularen med lampen og spørgsmålet
   document.addEventListener('click', e => {
