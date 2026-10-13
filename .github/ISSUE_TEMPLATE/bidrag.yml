@@ -1,0 +1,25 @@
+name: Bidrag til arkivet / Contribute
+description: Et link, en tekst, et billede eller en scanning om en PH-lampe. / A link, text, photo or scan about a PH lamp.
+title: "Bidrag: "
+labels: [bidrag]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tak! Alt om PH-lamperne er velkomment: links til kilder, der allerede ligger på nettet, egne fotos af stempler og mærker, scanninger af kataloger, eller hvad du ved om en lampe. Filer kan du trække ind i tekstfeltet nedenfor.
+        Thanks! Anything about the PH lamps is welcome: links to sources already online, your own photos of stamps and labels, catalogue scans, or what you know about a lamp. Drag files into the text field below.
+  - type: input
+    id: lamp
+    attributes: { label: Lampe / Lamp, placeholder: "PH 5, PH 2/1, ukendt …" }
+  - type: input
+    id: question
+    attributes: { label: "Åbent spørgsmål (hvis du svarer på et) / Open question (if answering one)" }
+  - type: textarea
+    id: link
+    attributes: { label: "Links til kilder / Links to sources", description: "Én pr. linje. Kataloger, museer, artikler, arkiver. / One per line." }
+  - type: textarea
+    id: text
+    attributes: { label: "Hvad ved du? / What do you know?", description: "Skriv, og træk billeder, PDF'er eller andre filer ind her. / Write, and drag images, PDFs or other files in here." }
+  - type: input
+    id: name
+    attributes: { label: "Navn til kreditering (valgfrit) / Name for credit (optional)" }

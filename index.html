@@ -65,12 +65,21 @@
   /* Filtre */
   .controls { display: grid; gap: 14px }
   .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center }
-  input, select { font: 400 16px var(--display); padding: 10px 12px; border: 1px solid var(--graphite); background: var(--sheet); color: var(--ink); border-radius: 0 }
+  input, select, textarea { font: 400 16px var(--display); padding: 10px 12px; border: 1px solid var(--graphite); background: var(--sheet); color: var(--ink); border-radius: 0 }
   #q { flex: 1 1 260px; min-width: 0 }
   .chips { display: flex; flex-wrap: wrap; gap: 4px 18px; font: 500 15px/1.6 var(--display) }
   .chip { border: 0; background: none; padding: 0; cursor: pointer; color: var(--blue); text-transform: capitalize }
   .chip span { color: var(--graphite); margin-left: 4px; font-weight: 400 }
   .chip[aria-pressed="true"] { color: var(--ink); text-decoration: underline 2px var(--red); text-underline-offset: 5px }
+  .ev { font: 500 12px/1.3 var(--display); color: var(--red) }
+  .oq { display: grid; gap: 4px; padding: 12px 0; border-bottom: 1px solid var(--rule) }
+  .oq b { font: 600 17px/1.35 var(--display) } .oq p { margin: 0; font-size: 15px; color: var(--graphite) }
+  .oq button, .askbtn { justify-self: start; border: 0; background: none; padding: 0; cursor: pointer; color: var(--blue); font: 500 14px var(--display); text-decoration: underline; text-underline-offset: 3px }
+  #openlist details { border-bottom: 1px solid var(--rule) } #openlist summary { cursor: pointer; padding: 10px 0; font: 600 17px var(--display) }
+  #openlist summary small { font-weight: 400; color: var(--graphite); margin-left: 8px }
+  #cform { display: grid; gap: 12px; max-width: 640px } #cform label { display: grid; gap: 4px; font: 500 14px var(--display) }
+  #cform textarea { min-height: 120px; resize: vertical } #cform .hint { margin: 0; font-size: 14px; color: var(--graphite) }
+  #cform button[type=submit] { justify-self: start; font: 600 16px var(--display); padding: 11px 18px; border: 0; background: var(--ink); color: var(--paper); cursor: pointer }
   .note { margin: 0; max-width: 64ch; padding-left: 14px; border-left: 2px solid var(--red) }
   .note b { font-family: var(--display); font-weight: 600; text-transform: capitalize }
   #count { color: var(--graphite); font: 400 14px var(--display) }
@@ -225,6 +234,11 @@
     <div id="dguide"></div>
   </section>
 
+  <section id="open" aria-labelledby="oh">
+    <div class="sechead"><h2 class="sec" id="oh" data-i="oh">Åbne spørgsmål</h2><p data-i="ohp">Det ved vi ikke endnu. Kender du svaret, eller har du et katalog, et foto eller et link, så skriv.</p></div>
+    <div id="openlist"></div>
+  </section>
+
   <section aria-labelledby="th">
     <div class="sechead"><h2 class="sec" id="th" data-i="th">Tidslinje</h2><p data-i="thp">Træk for at flytte. Knib, eller hold ⌘/Ctrl og scroll, for at zoome.</p></div>
     <div class="tlbar">
@@ -251,6 +265,20 @@
 
   <ol id="list"></ol>
 
+  <section id="bidrag" aria-labelledby="bh">
+    <div class="sechead"><h2 class="sec" id="bh" data-i="bh">Bidrag til arkivet</h2><p data-i="bhp">Links til kilder på nettet, egne fotos af mærker og stempler, scanninger af kataloger, eller hvad du ved om en lampe.</p></div>
+    <form id="cform">
+      <label><span data-i="fl">Lampe</span><select id="f-lamp"></select></label>
+      <label id="f-qwrap" hidden><span data-i="fq">Spørgsmål</span><input id="f-q" readonly></label>
+      <label><span data-i="flink">Links til kilder (én pr. linje)</span><textarea id="f-link" style="min-height:70px" placeholder="https://"></textarea></label>
+      <label><span data-i="ftext">Hvad ved du?</span><textarea id="f-text"></textarea></label>
+      <label><span data-i="fname">Navn til kreditering (valgfrit)</span><input id="f-name" autocomplete="name"></label>
+      <p class="hint" data-i="fhint">Du fortsætter på GitHub, hvor bidraget bliver offentligt. Der kan du også trække billeder, PDF'er og andre filer ind. Det kræver en gratis GitHub-konto.</p>
+      <button type="submit" data-i="fsend">Fortsæt på GitHub</button>
+      <p class="hint" id="f-mail" hidden></p>
+    </form>
+  </section>
+
   <section id="stoet" class="note" hidden aria-labelledby="dh">
     <h2 class="sec" id="dh" data-i="dh">Støt arkivet</h2>
     <p style="margin:0 0 10px" data-i="donatetxt">Arkivet er gratis og uden reklamer. Et bidrag betaler domænet og tiden til at finde, arkivere og tjekke nye kilder.</p>
@@ -264,6 +292,7 @@
 <script src="models.js?v=2026-10-13"></script>
 <script src="dating.js?v=2026-10-12"></script>
 <script src="wizard.js?v=2026-10-12"></script>
+<script src="open.js?v=2026-10-13"></script>
 <script>
   // Hvad er hver type kilde, og hvad kan den fortælle
   const TYPE_NOTES = {
@@ -295,6 +324,9 @@
   };
   const typeNote = t => (lang === 'en' ? TYPE_NOTES_EN : TYPE_NOTES)[t];
   // Donationslinks: udfyld for at vise "Støt arkivet". Tomme felter vises ikke.
+  // E-mail til bidrag uden GitHub-konto. Tom = vises ikke.
+  const CONTACT_EMAIL = '';
+  const REPO = 'https://github.com/lux1992/henningsen-archive';
   const DONATE = { 'MobilePay': '', 'Ko-fi': '', 'GitHub Sponsors': '' };
   const $ = id => document.getElementById(id);
   // Sprog: dansk er grundteksten; engelsk ligger som *_en ved siden af. Kildernes titler oversættes ikke.
@@ -313,7 +345,12 @@
     dgh: ['Hvor gammel er min PH-lampe?', 'How old is my PH lamp?'], dghp: ['Svar på nogle få spørgsmål. Perioden bliver smallere for hvert svar, og du kan se kilden bag hver konklusion.', 'Answer a few questions. The period narrows with each answer, and you can see the source behind every conclusion.'],
     th: ['Tidslinje', 'Timeline'], thp: ['Træk for at flytte. Knib, eller hold ⌘/Ctrl og scroll, for at zoome.', 'Drag to move. Pinch, or hold ⌘/Ctrl and scroll, to zoom.'],
     zfit: ['Hele perioden', 'Whole period'], phtid: ['PH’s tid 1920–70', 'PH’s lifetime 1920–70'], y2000: ['2000’erne', '2000s'],
-    kh: ['Kilderne', 'The sources'], dh: ['Støt arkivet', 'Support the archive'],
+    kh: ['Kilderne', 'The sources'],
+    oh: ['Åbne spørgsmål', 'Open questions'], ohp: ['Det ved vi ikke endnu. Kender du svaret, eller har du et katalog, et foto eller et link, så skriv.', 'What we don’t know yet. If you know the answer, or have a catalogue, a photo or a link, please get in touch.'],
+    bh: ['Bidrag til arkivet', 'Contribute to the archive'], bhp: ['Links til kilder på nettet, egne fotos af mærker og stempler, scanninger af kataloger, eller hvad du ved om en lampe.', 'Links to sources online, your own photos of labels and stamps, catalogue scans, or what you know about a lamp.'],
+    fl: ['Lampe', 'Lamp'], fq: ['Spørgsmål', 'Question'], flink: ['Links til kilder (én pr. linje)', 'Links to sources (one per line)'], ftext: ['Hvad ved du?', 'What do you know?'], fname: ['Navn til kreditering (valgfrit)', 'Name for credit (optional)'],
+    fhint: ['Du fortsætter på GitHub, hvor bidraget bliver offentligt. Der kan du også trække billeder, PDF’er og andre filer ind. Det kræver en gratis GitHub-konto.', 'You continue on GitHub, where your contribution will be public. There you can also drag in images, PDFs and other files. A free GitHub account is needed.'],
+    fsend: ['Fortsæt på GitHub', 'Continue on GitHub'], dh: ['Støt arkivet', 'Support the archive'],
     donatetxt: ['Arkivet er gratis og uden reklamer. Et bidrag betaler domænet og tiden til at finde, arkivere og tjekke nye kilder.', 'The archive is free and has no ads. A contribution pays for the domain and the time spent finding, archiving and checking new sources.'],
     footer: ['Kilderne er fundet i oktober 2026 hos Louis Poulsen, Det Kgl. Bibliotek, Mediestream, Rigsarkivet, arkiv.dk, danske og udenlandske museer, Google Patents, Wayback Machine, Danmark på Film og lex.dk. Kilder der ikke kunne åbnes, er udeladt. Billederne er små gengivelser fra kildernes egne sider; rettighederne ligger hos de respektive udgivere.', 'The sources were collected in October 2026 from Louis Poulsen, the Royal Danish Library, Mediestream, the Danish National Archives, arkiv.dk, Danish and international museums, Google Patents, the Wayback Machine, Danmark på Film and lex.dk. Sources that could not be opened were left out. Titles are given in the original language. The images are small reproductions from the sources’ own pages, and the rights belong to their publishers.'],
   };
@@ -338,6 +375,13 @@
   const isArchived = u => /web\.archive\.org|wayback/.test(u);
   // Pladsholder uden eget billede: PH's patenttegning (fig1.png), farvet via CSS-maske
   const SHADE = '<span class="figph" aria-hidden="true"></span>';
+  // Evidens: angivet i models.js (m.evidence), ellers talt fra fakta med andre kilder end Wikipedia og butikker
+  const WEAK_URL = /wikipedia|1stdibs|pamono|lauritz|dba\.dk|catawiki|bruun-rasmussen/;
+  const evidence = m => m.evidence || (n => n >= 2 ? 'good' : n ? 'limited' : 'weak')((m.facts || []).filter(f => !WEAK_URL.test(f.url)).length);
+  const evLabel = m => m.id === 'tekst' ? '' : ({ limited: T('Sparsomt dokumenteret', 'Sparsely documented'), weak: T('Dårligt dokumenteret', 'Poorly documented') })[evidence(m)] || '';
+  const OQ = typeof OPEN === 'undefined' ? { models: {}, general: [] } : OPEN;
+  const qOf = key => { const [id, i] = key.split(':'); return (id === 'general' ? OQ.general : OQ.models[id] || [])[+i] };
+  const qHTML = (q, key) => `<div class="oq"><b>${esc(L(q, 'q'))}</b>${q.why ? `<p>${esc(L(q, 'why'))}${(q.urls || []).map(cite).join('')}</p>` : ''}<button data-ask="${key}">${T('Jeg ved noget om det', 'I know something about this')}</button></div>`;
   // Automatisk fundne kilder (scan/scan.js) vises med mærkat, indtil de er gennemgået
   if (typeof FOUND !== 'undefined') SOURCES.push(...FOUND.map(s => ({ ...s, auto: true })));
   SOURCES.forEach(s => s.models = MODELS.filter(m => m.re.test(s.title + ' ' + s.description)).map(m => m.id));
@@ -353,7 +397,7 @@
     const pic = modelPic(m.id);
     return `<button class="model" data-m="${m.id}" aria-pressed="false">
       <div class="pic"${pic ? ` style="background-image:url('${pic}')"` : ''}>${pic ? '' : SHADE}</div>
-      <div class="txt"><b>${L(m, 'name')}</b><small><i>${L(m, 'year')}</i> · ${hits.length} ${T('kilder', 'sources')}</small></div></button>`;
+      <div class="txt"><b>${L(m, 'name')}</b><small><i>${L(m, 'year')}</i> · ${hits.length} ${T('kilder', 'sources')}</small>${evLabel(m) ? `<span class="ev">${evLabel(m)}</span>` : ''}</div></button>`;
   }).join('');
   document.querySelectorAll('.model').forEach(b => b.setAttribute('aria-pressed', b.dataset.m === model));
   }
@@ -387,6 +431,7 @@
           <button class="pclose" data-close>${T('Luk', 'Close')}</button>
           <h2>${L(m, 'name')}</h2>
           <p class="yr">${L(m, 'year')}</p>
+          ${evLabel(m) ? `<p class="ev">${evLabel(m)}${m.evidence_note ? ': ' + esc(L(m, 'evidence_note')) : ''} <button class="askbtn" data-ask="${m.id}:x">${T('Ved du mere?', 'Know more?')}</button></p>` : ''}
           <p>${L(m, 'text')}</p>
           ${m.how ? `<p class="how">${esc(L(m, 'how'))}</p>` : ''}
           ${m.variants ? `<p class="how"><b>${T('Udgaver', 'Versions')}:</b> ${esc(L(m, 'variants'))}</p>` : ''}
@@ -406,7 +451,8 @@
         ${box(T('Her kan du se den', 'Where to see it'), of('museum'), s => `<li><i>${esc(s.publisher)}</i>${link(s)}</li>`)}
         ${box(T('Patenter', 'Patents'), of('patent'), dateRow)}
         ${box(T('PH og samtiden', 'PH and his time'), of('tidsskrift', 'video', 'arkiv'), dateRow)}
-      </div>`;
+      </div>
+      ${(OQ.models[m.id] || []).length ? `<div class="pbox"><h4>${T('Åbne spørgsmål', 'Open questions')}</h4>${OQ.models[m.id].map((q, i) => qHTML(q, m.id + ':' + i)).join('')}</div>` : ''}`;
   }
   $('profile').addEventListener('click', e => {
     if (e.target.closest('[data-close]')) setModel('');
@@ -647,7 +693,36 @@
   function renderFigures() {
     $('figures').innerHTML = `<span><b>${SOURCES.length}</b>${T('kilder', 'sources')}</span><span><b>${MODELS.length - 1}</b>${T('lampemodeller', 'lamp models')}</span><span><b>${new Set(SOURCES.map(s => s.publisher)).size}</b>${T('udgivere og samlinger', 'publishers and collections')}</span>`;
   }
-  function renderAll() { renderStatic(); renderFigures(); renderModels(); renderChips(); renderProfile(); renderGuide(); renderWiz(); render() }
+  // ---- Dokumentation, åbne spørgsmål og bidrag ----
+  function renderOpen() {
+    fn = 0;
+    const groups = MODELS.filter(m => (OQ.models[m.id] || []).length);
+    $('openlist').innerHTML = OQ.general.map((q, i) => qHTML(q, 'general:' + i)).join('') + groups.map(m =>
+      `<details><summary>${L(m, 'name')}<small>${OQ.models[m.id].length} ${T('spørgsmål', OQ.models[m.id].length > 1 ? 'questions' : 'question')}${evLabel(m) ? ' · ' + evLabel(m) : ''}</small></summary>${OQ.models[m.id].map((q, i) => qHTML(q, m.id + ':' + i)).join('')}</details>`).join('');
+    $('open').hidden = !$('openlist').innerHTML;
+  }
+  function renderForm() {
+    const keep = $('f-lamp').value;
+    $('f-lamp').innerHTML = `<option value="">${T('Ingen bestemt / ved ikke', 'None in particular / not sure')}</option>` + MODELS.filter(m => m.id !== 'tekst').map(m => `<option value="${m.id}">${L(m, 'name')}</option>`).join('');
+    $('f-lamp').value = keep;
+    $('f-mail').hidden = !CONTACT_EMAIL;
+    if (CONTACT_EMAIL) $('f-mail').innerHTML = T(`Ingen GitHub-konto? Skriv til <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a> og vedhæft filerne.`, `No GitHub account? Write to <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a> and attach your files.`);
+  }
+  // "Jeg ved noget": udfyld formularen med lampen og spørgsmålet
+  document.addEventListener('click', e => {
+    const b = e.target.closest('[data-ask]'); if (!b) return;
+    const key = b.dataset.ask, id = key.split(':')[0], q = qOf(key);
+    $('f-lamp').value = MODELS.some(m => m.id === id) ? id : '';
+    $('f-q').value = q ? q.q : ''; $('f-qwrap').hidden = !q;
+    $('bidrag').scrollIntoView({ behavior: 'smooth' }); $('f-text').focus({ preventScroll: true });
+  });
+  $('cform').addEventListener('submit', e => {
+    e.preventDefault();
+    const m = MODELS.find(x => x.id === $('f-lamp').value), lamp = m ? m.name : '';
+    const p = new URLSearchParams({ template: 'bidrag.yml', title: 'Bidrag: ' + (lamp || $('f-q').value || 'PH-lamper').slice(0, 80), lamp, question: $('f-q').value, link: $('f-link').value, text: $('f-text').value, name: $('f-name').value });
+    window.open(`${REPO}/issues/new?${p}`, '_blank', 'noopener');
+  });
+  function renderAll() { renderStatic(); renderFigures(); renderModels(); renderChips(); renderProfile(); renderGuide(); renderWiz(); renderOpen(); renderForm(); render() }
   document.querySelector('.langs').addEventListener('click', e => {
     const b = e.target.closest('[data-lang]'); if (!b || b.dataset.lang === lang) return;
     lang = b.dataset.lang; try { localStorage.setItem('lang', lang) } catch {}
