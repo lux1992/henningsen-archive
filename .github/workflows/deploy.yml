@@ -1,0 +1,20 @@
+# Bygger sitet og lægger det på GitHub Pages, indtil det flytter til eget domæne.
+name: deploy
+on:
+  push: { branches: [main] }
+  workflow_dispatch:
+permissions: { contents: read, pages: write, id-token: write }
+concurrency: { group: pages, cancel-in-progress: true }
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: { name: github-pages }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci && npm run build
+        env: { BASE_PATH: /henningsen-archive, SITE_URL: 'https://lux1992.github.io' }
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: out }
+      - uses: actions/deploy-pages@v4
